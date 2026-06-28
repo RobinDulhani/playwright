@@ -1,0 +1,4 @@
+[2026-03-08 18:09:46] [STEP] [PlaywrightDocsPage] ▶ Setting up search API interception
+[2026-03-08 18:09:46] [INFO] [PlaywrightDocsPage] Search API interception configured.
+[2026-03-08 18:09:46] [STEP] [PlaywrightDocsPage] ▶ Navigating to Playwright docs homepage
+[2026-03-08 18:09:46] [INFO] [PlaywrightDocsPage] Navigating to: https://playwright.dev/

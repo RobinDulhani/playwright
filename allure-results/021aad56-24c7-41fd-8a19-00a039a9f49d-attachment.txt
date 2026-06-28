@@ -1,0 +1,2 @@
+[2026-03-08 09:11:20] [STEP] [LoginPage] ▶ Navigating to SauceDemo login page
+[2026-03-08 09:11:20] [INFO] [LoginPage] Navigating to: https://www.saucedemo.com/

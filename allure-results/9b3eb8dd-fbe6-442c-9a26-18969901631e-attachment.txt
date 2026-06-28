@@ -1,0 +1,10 @@
+[2026-03-08 08:50:19] [INFO] [ApiClient] ApiClient initialized with base URL: https://jsonplaceholder.typicode.com
+[2026-03-08 08:50:19] [INFO] [ApiClient] → PUT https://jsonplaceholder.typicode.com/posts/1
+[2026-03-08 08:50:19] [DEBUG] [ApiClient] Request body:
+  └─ Data: {
+  "id": 1,
+  "title": "Updated Post Title",
+  "body": "Updated content.",
+  "userId": 1
+}
+[2026-03-08 08:50:20] [INFO] [ApiClient] ← 200 OK (493ms)

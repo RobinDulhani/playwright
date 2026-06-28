@@ -1,0 +1,10 @@
+[2026-03-08 09:17:23] [INFO] [ApiClient] ApiClient initialized with base URL: https://jsonplaceholder.typicode.com
+[2026-03-08 09:17:23] [INFO] [ApiClient] → POST https://jsonplaceholder.typicode.com/posts
+[2026-03-08 09:17:23] [DEBUG] [ApiClient] Request body:
+  └─ Data: {
+  "title": "My New Post",
+  "body": "This is the content of the post.",
+  "userId": 1
+}
+[2026-03-08 09:17:23] [INFO] [MetricsCollector] MetricsCollector initialized — tracking test execution metrics
+[2026-03-08 09:17:23] [INFO] [ApiClient] ← 201 Created (597ms)

@@ -1,0 +1,1390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🚀 Test Execution Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    /* ═══════════════════════════════════════════════════════════════
+       CSS Styles for the Dashboard
+       ═══════════════════════════════════════════════════════════════ */
+    :root {
+      --bg-primary: #0f172a;
+      --bg-secondary: #1e293b;
+      --bg-card: #334155;
+      --text-primary: #f8fafc;
+      --text-secondary: #94a3b8;
+      --accent-green: #10b981;
+      --accent-red: #ef4444;
+      --accent-yellow: #f59e0b;
+      --accent-blue: #3b82f6;
+      --accent-purple: #8b5cf6;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.6;
+    }
+    .container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+    
+    /* Header */
+    .header {
+      text-align: center;
+      margin-bottom: 2rem;
+      padding: 2rem;
+      background: linear-gradient(135deg, var(--bg-secondary), var(--bg-card));
+      border-radius: 16px;
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+    .header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+    .header .subtitle { color: var(--text-secondary); font-size: 1rem; }
+    .header .timestamp { color: var(--text-secondary); font-size: 0.85rem; margin-top: 0.5rem; }
+
+    /* Summary Cards */
+    .summary-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+    .summary-card {
+      background: var(--bg-secondary);
+      border-radius: 12px;
+      padding: 1.5rem;
+      text-align: center;
+      border: 1px solid rgba(255,255,255,0.05);
+      transition: transform 0.2s;
+    }
+    .summary-card:hover { transform: translateY(-2px); }
+    .summary-card .number {
+      font-size: 2.5rem;
+      font-weight: 700;
+      display: block;
+      margin-bottom: 0.25rem;
+    }
+    .summary-card .label {
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .summary-card.success .number { color: var(--accent-green); }
+    .summary-card.danger .number { color: var(--accent-red); }
+    .summary-card.warning .number { color: var(--accent-yellow); }
+    .summary-card.info .number { color: var(--accent-blue); }
+    .summary-card.purple .number { color: var(--accent-purple); }
+
+    /* Charts Section */
+    .charts-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .chart-card {
+      background: var(--bg-secondary);
+      border-radius: 12px;
+      padding: 1.5rem;
+      border: 1px solid rgba(255,255,255,0.05);
+    }
+    .chart-card h3 {
+      margin-bottom: 1rem;
+      font-size: 1.1rem;
+      color: var(--text-primary);
+    }
+    .chart-container { position: relative; height: 300px; }
+
+    /* Section Headers */
+    .section-header {
+      font-size: 1.5rem;
+      margin: 2rem 0 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid var(--bg-card);
+    }
+
+    /* Tables */
+    .table-container {
+      background: var(--bg-secondary);
+      border-radius: 12px;
+      padding: 1.5rem;
+      overflow-x: auto;
+      margin-bottom: 2rem;
+      border: 1px solid rgba(255,255,255,0.05);
+    }
+    table { width: 100%; border-collapse: collapse; }
+    th {
+      text-align: left;
+      padding: 0.75rem;
+      background: var(--bg-card);
+      color: var(--text-secondary);
+      font-weight: 600;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    td {
+      padding: 0.75rem;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      font-size: 0.9rem;
+    }
+    tr:hover td { background: rgba(255,255,255,0.03); }
+
+    /* Badges */
+    .badge {
+      display: inline-block;
+      padding: 0.2rem 0.6rem;
+      border-radius: 4px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+    .badge-success { background: rgba(16,185,129,0.2); color: var(--accent-green); }
+    .badge-danger { background: rgba(239,68,68,0.2); color: var(--accent-red); }
+    .badge-warning { background: rgba(245,158,11,0.2); color: var(--accent-yellow); }
+
+    /* Text Colors */
+    .text-success { color: var(--accent-green); }
+    .text-danger { color: var(--accent-red); }
+    .text-warning { color: var(--accent-yellow); }
+    .text-muted { color: var(--text-secondary); }
+
+    /* Error & Flaky Cards */
+    .failed-test-card, .flaky-test-card {
+      background: var(--bg-card);
+      border-radius: 8px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-left: 4px solid var(--accent-red);
+    }
+    .flaky-test-card { border-left-color: var(--accent-yellow); }
+    .failed-test-card h4, .flaky-test-card h4 { margin-bottom: 0.5rem; }
+    .error-block {
+      background: rgba(0,0,0,0.3);
+      padding: 1rem;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      overflow-x: auto;
+      white-space: pre-wrap;
+      word-break: break-word;
+      max-height: 200px;
+      overflow-y: auto;
+      color: var(--accent-red);
+    }
+    .error-msg {
+      color: var(--accent-red);
+      font-size: 0.8rem;
+      cursor: help;
+    }
+
+    /* Progress Bar */
+    .progress-bar {
+      width: 100%;
+      height: 8px;
+      background: var(--bg-card);
+      border-radius: 4px;
+      overflow: hidden;
+      margin: 1rem 0;
+    }
+    .progress-fill {
+      height: 100%;
+      border-radius: 4px;
+      transition: width 1s ease;
+    }
+
+    /* Footer */
+    .footer {
+      text-align: center;
+      padding: 2rem;
+      color: var(--text-secondary);
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- ═══════════════════════════════════════════════════════════════
+         Header
+         ═══════════════════════════════════════════════════════════════ -->
+    <div class="header">
+      <h1>🚀 Test Execution Dashboard</h1>
+      <p class="subtitle">Playwright BDD Automation Framework</p>
+      <p class="timestamp">
+        Run: 6/13/2026, 3:09:28 PM — 
+        Duration: 6m 42s
+      </p>
+      <!-- Overall Pass Rate Progress Bar -->
+      <div class="progress-bar">
+        <div class="progress-fill" style="width: 10%; background: var(--accent-red)"></div>
+      </div>
+      <p style="font-size: 1.2rem; font-weight: 600;">
+        Pass Rate: <span style="color: var(--accent-red)">10%</span>
+      </p>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════════════════
+         Summary Cards
+         ═══════════════════════════════════════════════════════════════ -->
+    <div class="summary-grid">
+      <div class="summary-card info">
+        <span class="number">40</span>
+        <span class="label">Total Tests</span>
+      </div>
+      <div class="summary-card success">
+        <span class="number">4</span>
+        <span class="label">Passed</span>
+      </div>
+      <div class="summary-card danger">
+        <span class="number">36</span>
+        <span class="label">Failed</span>
+      </div>
+      <div class="summary-card warning">
+        <span class="number">0</span>
+        <span class="label">Skipped / Timed Out</span>
+      </div>
+      <div class="summary-card purple">
+        <span class="number">0</span>
+        <span class="label">Flaky Tests</span>
+      </div>
+      <div class="summary-card info">
+        <span class="number">28.8s</span>
+        <span class="label">Avg Duration</span>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════════════════
+         Charts
+         ═══════════════════════════════════════════════════════════════ -->
+    <div class="charts-grid">
+      <!-- Pie Chart: Pass/Fail/Skip Distribution -->
+      <div class="chart-card">
+        <h3>📊 Test Results Distribution</h3>
+        <div class="chart-container">
+          <canvas id="statusChart"></canvas>
+        </div>
+      </div>
+
+      <!-- Bar Chart: Test Duration -->
+      <div class="chart-card">
+        <h3>⏱️ Test Duration (Top 20)</h3>
+        <div class="chart-container">
+          <canvas id="durationChart"></canvas>
+        </div>
+      </div>
+
+      <!-- Bar Chart: Results by Browser/Project -->
+      <div class="chart-card">
+        <h3>🌐 Results by Project / Browser</h3>
+        <div class="chart-container">
+          <canvas id="projectChart"></canvas>
+        </div>
+      </div>
+
+      <!-- Gauge Chart: Pass Rate -->
+      <div class="chart-card">
+        <h3>🎯 Pass Rate Gauge</h3>
+        <div class="chart-container">
+          <canvas id="gaugeChart"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════════════════
+         Project/Browser Breakdown Table
+         ═══════════════════════════════════════════════════════════════ -->
+    <h2 class="section-header">🌐 Results by Project / Browser</h2>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Project</th>
+            <th>Total</th>
+            <th>Passed</th>
+            <th>Failed</th>
+            <th>Skipped</th>
+            <th>Pass Rate</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+        <tr>
+          <td>chromium</td>
+          <td>40</td>
+          <td class="text-success">4</td>
+          <td class="text-danger">36</td>
+          <td class="text-muted">0</td>
+          <td>10.0%</td>
+        </tr>
+      
+        </tbody>
+      </table>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════════════════
+         Failed Tests Detail
+         ═══════════════════════════════════════════════════════════════ -->
+    <h2 class="section-header">❌ Failed Tests</h2>
+    <div class="table-container">
+      
+          <div class="failed-test-card">
+            <h4>❌ Sort products by name</h4>
+            <p><strong>File:</strong> /Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/inventory.feature.spec.js</p>
+            <p><strong>Project:</strong> chromium</p>
+            <pre class="error-block">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+</pre>
+          </div>
+        
+          <div class="failed-test-card">
+            <h4>❌ Add a product to the cart</h4>
+            <p><strong>File:</strong> /Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/inventory.feature.spec.js</p>
+            <p><strong>Project:</strong> chromium</p>
+            <pre class="error-block">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+</pre>
+          </div>
+        
+          <div class="failed-test-card">
+            <h4>❌ Remove a product from the cart</h4>
+            <p><strong>File:</strong> /Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/inventory.feature.spec.js</p>
+            <p><strong>Project:</strong> chromium</p>
+            <pre class="error-block">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+</pre>
+          </div>
+        
+          <div class="failed-test-card">
+            <h4>❌ Products are displayed after login</h4>
+            <p><strong>File:</strong> /Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/inventory.feature.spec.js</p>
+            <p><strong>Project:</strong> chromium</p>
+            <pre class="error-block">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+</pre>
+          </div>
+        
+          <div class="failed-test-card">
+            <h4>❌ Add a product to the cart</h4>
+            <p><strong>File:</strong> /Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/inventory.feature.spec.js</p>
+            <p><strong>Project:</strong> chromium</p>
+            <pre class="error-block">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+</pre>
+          </div>
+        
+          <div class="failed-test-card">
+            <h4>❌ Sort products by name</h4>
+            <p><strong>File:</strong> /Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/inventory.feature.spec.js</p>
+            <p><strong>Project:</strong> chromium</p>
+            <pre class="error-block">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+</pre>
+          </div>
+        
+          <div class="failed-test-card">
+            <h4>❌ Products are displayed after login</h4>
+            <p><strong>File:</strong> /Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/inventory.feature.spec.js</p>
+            <p><strong>Project:</strong> chromium</p>
+            <pre class="error-block">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+</pre>
+          </div>
+        
+          <div class="failed-test-card">
+            <h4>❌ Remove a product from the cart</h4>
+            <p><strong>File:</strong> /Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/inventory.feature.spec.js</p>
+            <p><strong>Project:</strong> chromium</p>
+            <pre class="error-block">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+</pre>
+          </div>
+        
+          <div class="failed-test-card">
+            <h4>❌ Remove a product from the cart</h4>
+            <p><strong>File:</strong> /Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/inventory.feature.spec.js</p>
+            <p><strong>Project:</strong> chromium</p>
+            <pre class="error-block">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+</pre>
+          </div>
+        
+          <div class="failed-test-card">
+            <h4>❌ Add a product to the cart</h4>
+            <p><strong>File:</strong> /Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/inventory.feature.spec.js</p>
+            <p><strong>Project:</strong> chromium</p>
+            <pre class="error-block">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+</pre>
+          </div>
+        
+          <div class="failed-test-card">
+            <h4>❌ Sort products by name</h4>
+            <p><strong>File:</strong> /Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/inventory.feature.spec.js</p>
+            <p><strong>Project:</strong> chromium</p>
+            <pre class="error-block">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+</pre>
+          </div>
+        
+          <div class="failed-test-card">
+            <h4>❌ Products are displayed after login</h4>
+            <p><strong>File:</strong> /Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/inventory.feature.spec.js</p>
+            <p><strong>Project:</strong> chromium</p>
+            <pre class="error-block">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+</pre>
+          </div>
+        
+          <div class="failed-test-card">
+            <h4>❌ Add a product to the cart</h4>
+            <p><strong>File:</strong> /Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/inventory.feature.spec.js</p>
+            <p><strong>Project:</strong> chromium</p>
+            <pre class="error-block">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+</pre>
+          </div>
+        
+          <div class="failed-test-card">
+            <h4>❌ Remove a product from the cart</h4>
+            <p><strong>File:</strong> /Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/inventory.feature.spec.js</p>
+            <p><strong>Project:</strong> chromium</p>
+            <pre class="error-block">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+</pre>
+          </div>
+        
+          <div class="failed-test-card">
+            <h4>❌ Sort products by name</h4>
+            <p><strong>File:</strong> /Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/inventory.feature.spec.js</p>
+            <p><strong>Project:</strong> chromium</p>
+            <pre class="error-block">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+</pre>
+          </div>
+        
+          <div class="failed-test-card">
+            <h4>❌ Products are displayed after login</h4>
+            <p><strong>File:</strong> /Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/inventory.feature.spec.js</p>
+            <p><strong>Project:</strong> chromium</p>
+            <pre class="error-block">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+</pre>
+          </div>
+        
+          <div class="failed-test-card">
+            <h4>❌ Example #2</h4>
+            <p><strong>File:</strong> /Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/login.feature.spec.js</p>
+            <p><strong>Project:</strong> chromium</p>
+            <pre class="error-block">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+</pre>
+          </div>
+        
+          <div class="failed-test-card">
+            <h4>❌ Example #1</h4>
+            <p><strong>File:</strong> /Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/login.feature.spec.js</p>
+            <p><strong>Project:</strong> chromium</p>
+            <pre class="error-block">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+</pre>
+          </div>
+        
+          <div class="failed-test-card">
+            <h4>❌ Example #3</h4>
+            <p><strong>File:</strong> /Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/login.feature.spec.js</p>
+            <p><strong>Project:</strong> chromium</p>
+            <pre class="error-block">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+</pre>
+          </div>
+        
+          <div class="failed-test-card">
+            <h4>❌ Successful login with standard user</h4>
+            <p><strong>File:</strong> /Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/login.feature.spec.js</p>
+            <p><strong>Project:</strong> chromium</p>
+            <pre class="error-block">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+</pre>
+          </div>
+        
+          <div class="failed-test-card">
+            <h4>❌ Example #3</h4>
+            <p><strong>File:</strong> /Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/login.feature.spec.js</p>
+            <p><strong>Project:</strong> chromium</p>
+            <pre class="error-block">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+</pre>
+          </div>
+        
+          <div class="failed-test-card">
+            <h4>❌ Example #2</h4>
+            <p><strong>File:</strong> /Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/login.feature.spec.js</p>
+            <p><strong>Project:</strong> chromium</p>
+            <pre class="error-block">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+</pre>
+          </div>
+        
+          <div class="failed-test-card">
+            <h4>❌ Example #1</h4>
+            <p><strong>File:</strong> /Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/login.feature.spec.js</p>
+            <p><strong>Project:</strong> chromium</p>
+            <pre class="error-block">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+</pre>
+          </div>
+        
+          <div class="failed-test-card">
+            <h4>❌ Successful login with standard user</h4>
+            <p><strong>File:</strong> /Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/login.feature.spec.js</p>
+            <p><strong>Project:</strong> chromium</p>
+            <pre class="error-block">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+</pre>
+          </div>
+        
+          <div class="failed-test-card">
+            <h4>❌ Example #2</h4>
+            <p><strong>File:</strong> /Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/login.feature.spec.js</p>
+            <p><strong>Project:</strong> chromium</p>
+            <pre class="error-block">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+</pre>
+          </div>
+        
+          <div class="failed-test-card">
+            <h4>❌ Successful login with standard user</h4>
+            <p><strong>File:</strong> /Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/login.feature.spec.js</p>
+            <p><strong>Project:</strong> chromium</p>
+            <pre class="error-block">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+</pre>
+          </div>
+        
+          <div class="failed-test-card">
+            <h4>❌ Example #1</h4>
+            <p><strong>File:</strong> /Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/login.feature.spec.js</p>
+            <p><strong>Project:</strong> chromium</p>
+            <pre class="error-block">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+</pre>
+          </div>
+        
+          <div class="failed-test-card">
+            <h4>❌ Example #3</h4>
+            <p><strong>File:</strong> /Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/login.feature.spec.js</p>
+            <p><strong>Project:</strong> chromium</p>
+            <pre class="error-block">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+</pre>
+          </div>
+        
+          <div class="failed-test-card">
+            <h4>❌ Successful login with standard user</h4>
+            <p><strong>File:</strong> /Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/login.feature.spec.js</p>
+            <p><strong>Project:</strong> chromium</p>
+            <pre class="error-block">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+</pre>
+          </div>
+        
+          <div class="failed-test-card">
+            <h4>❌ Example #1</h4>
+            <p><strong>File:</strong> /Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/login.feature.spec.js</p>
+            <p><strong>Project:</strong> chromium</p>
+            <pre class="error-block">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+</pre>
+          </div>
+        
+          <div class="failed-test-card">
+            <h4>❌ Example #3</h4>
+            <p><strong>File:</strong> /Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/login.feature.spec.js</p>
+            <p><strong>Project:</strong> chromium</p>
+            <pre class="error-block">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+</pre>
+          </div>
+        
+          <div class="failed-test-card">
+            <h4>❌ Example #2</h4>
+            <p><strong>File:</strong> /Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/login.feature.spec.js</p>
+            <p><strong>Project:</strong> chromium</p>
+            <pre class="error-block">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+</pre>
+          </div>
+        
+          <div class="failed-test-card">
+            <h4>❌ Example #4</h4>
+            <p><strong>File:</strong> /Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/login.feature.spec.js</p>
+            <p><strong>Project:</strong> chromium</p>
+            <pre class="error-block">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+</pre>
+          </div>
+        
+          <div class="failed-test-card">
+            <h4>❌ Example #4</h4>
+            <p><strong>File:</strong> /Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/login.feature.spec.js</p>
+            <p><strong>Project:</strong> chromium</p>
+            <pre class="error-block">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+</pre>
+          </div>
+        
+          <div class="failed-test-card">
+            <h4>❌ Example #4</h4>
+            <p><strong>File:</strong> /Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/login.feature.spec.js</p>
+            <p><strong>Project:</strong> chromium</p>
+            <pre class="error-block">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+</pre>
+          </div>
+        
+          <div class="failed-test-card">
+            <h4>❌ Example #4</h4>
+            <p><strong>File:</strong> /Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/login.feature.spec.js</p>
+            <p><strong>Project:</strong> chromium</p>
+            <pre class="error-block">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+</pre>
+          </div>
+        
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════════════════
+         Flaky Tests Detail
+         ═══════════════════════════════════════════════════════════════ -->
+    <h2 class="section-header">🔄 Flaky Tests (Passed on Retry)</h2>
+    <div class="table-container">
+      <p class="text-success">🎉 No flaky tests detected!</p>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════════════════
+         All Tests Table
+         ═══════════════════════════════════════════════════════════════ -->
+    <h2 class="section-header">📋 All Test Results</h2>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Status</th>
+            <th>Test Name</th>
+            <th>Project</th>
+            <th>Duration</th>
+            <th>Retries</th>
+            <th>Error</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+          <tr>
+            <td>❌ <span class="badge badge-danger">failed</span></td>
+            <td title=" > chromium > .features-gen/chromium/features/ui/inventory.feature.spec.js > Product Inventory > Sort products by name">Sort products by name</td>
+            <td>chromium</td>
+            <td>31870ms</td>
+            <td>—</td>
+            <td><span class="error-msg" title="TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting ...</span></td>
+          </tr>
+        
+          <tr>
+            <td>❌ <span class="badge badge-danger">failed</span></td>
+            <td title=" > chromium > .features-gen/chromium/features/ui/inventory.feature.spec.js > Product Inventory > Add a product to the cart">Add a product to the cart</td>
+            <td>chromium</td>
+            <td>31891ms</td>
+            <td>—</td>
+            <td><span class="error-msg" title="TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting ...</span></td>
+          </tr>
+        
+          <tr>
+            <td>❌ <span class="badge badge-danger">failed</span></td>
+            <td title=" > chromium > .features-gen/chromium/features/ui/inventory.feature.spec.js > Product Inventory > Remove a product from the cart">Remove a product from the cart</td>
+            <td>chromium</td>
+            <td>32006ms</td>
+            <td>—</td>
+            <td><span class="error-msg" title="TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting ...</span></td>
+          </tr>
+        
+          <tr>
+            <td>❌ <span class="badge badge-danger">failed</span></td>
+            <td title=" > chromium > .features-gen/chromium/features/ui/inventory.feature.spec.js > Product Inventory > Products are displayed after login">Products are displayed after login</td>
+            <td>chromium</td>
+            <td>31976ms</td>
+            <td>—</td>
+            <td><span class="error-msg" title="TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting ...</span></td>
+          </tr>
+        
+          <tr>
+            <td>❌ <span class="badge badge-danger">failed</span></td>
+            <td title=" > chromium > .features-gen/chromium/features/ui/inventory.feature.spec.js > Product Inventory > Add a product to the cart">Add a product to the cart</td>
+            <td>chromium</td>
+            <td>31706ms</td>
+            <td>🔄 1</td>
+            <td><span class="error-msg" title="TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting ...</span></td>
+          </tr>
+        
+          <tr>
+            <td>❌ <span class="badge badge-danger">failed</span></td>
+            <td title=" > chromium > .features-gen/chromium/features/ui/inventory.feature.spec.js > Product Inventory > Sort products by name">Sort products by name</td>
+            <td>chromium</td>
+            <td>31730ms</td>
+            <td>🔄 1</td>
+            <td><span class="error-msg" title="TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting ...</span></td>
+          </tr>
+        
+          <tr>
+            <td>❌ <span class="badge badge-danger">failed</span></td>
+            <td title=" > chromium > .features-gen/chromium/features/ui/inventory.feature.spec.js > Product Inventory > Products are displayed after login">Products are displayed after login</td>
+            <td>chromium</td>
+            <td>31752ms</td>
+            <td>🔄 1</td>
+            <td><span class="error-msg" title="TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting ...</span></td>
+          </tr>
+        
+          <tr>
+            <td>❌ <span class="badge badge-danger">failed</span></td>
+            <td title=" > chromium > .features-gen/chromium/features/ui/inventory.feature.spec.js > Product Inventory > Remove a product from the cart">Remove a product from the cart</td>
+            <td>chromium</td>
+            <td>31750ms</td>
+            <td>🔄 1</td>
+            <td><span class="error-msg" title="TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting ...</span></td>
+          </tr>
+        
+          <tr>
+            <td>❌ <span class="badge badge-danger">failed</span></td>
+            <td title=" > chromium > .features-gen/chromium/features/ui/inventory.feature.spec.js > Product Inventory > Remove a product from the cart">Remove a product from the cart</td>
+            <td>chromium</td>
+            <td>32162ms</td>
+            <td>🔄 2</td>
+            <td><span class="error-msg" title="TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting ...</span></td>
+          </tr>
+        
+          <tr>
+            <td>❌ <span class="badge badge-danger">failed</span></td>
+            <td title=" > chromium > .features-gen/chromium/features/ui/inventory.feature.spec.js > Product Inventory > Add a product to the cart">Add a product to the cart</td>
+            <td>chromium</td>
+            <td>32146ms</td>
+            <td>🔄 2</td>
+            <td><span class="error-msg" title="TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting ...</span></td>
+          </tr>
+        
+          <tr>
+            <td>❌ <span class="badge badge-danger">failed</span></td>
+            <td title=" > chromium > .features-gen/chromium/features/ui/inventory.feature.spec.js > Product Inventory > Sort products by name">Sort products by name</td>
+            <td>chromium</td>
+            <td>32144ms</td>
+            <td>🔄 2</td>
+            <td><span class="error-msg" title="TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting ...</span></td>
+          </tr>
+        
+          <tr>
+            <td>❌ <span class="badge badge-danger">failed</span></td>
+            <td title=" > chromium > .features-gen/chromium/features/ui/inventory.feature.spec.js > Product Inventory > Products are displayed after login">Products are displayed after login</td>
+            <td>chromium</td>
+            <td>32253ms</td>
+            <td>🔄 2</td>
+            <td><span class="error-msg" title="TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting ...</span></td>
+          </tr>
+        
+          <tr>
+            <td>❌ <span class="badge badge-danger">failed</span></td>
+            <td title=" > chromium > .features-gen/chromium/features/ui/inventory.feature.spec.js > Product Inventory > Add a product to the cart">Add a product to the cart</td>
+            <td>chromium</td>
+            <td>32053ms</td>
+            <td>🔄 3</td>
+            <td><span class="error-msg" title="TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting ...</span></td>
+          </tr>
+        
+          <tr>
+            <td>❌ <span class="badge badge-danger">failed</span></td>
+            <td title=" > chromium > .features-gen/chromium/features/ui/inventory.feature.spec.js > Product Inventory > Remove a product from the cart">Remove a product from the cart</td>
+            <td>chromium</td>
+            <td>32085ms</td>
+            <td>🔄 3</td>
+            <td><span class="error-msg" title="TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting ...</span></td>
+          </tr>
+        
+          <tr>
+            <td>❌ <span class="badge badge-danger">failed</span></td>
+            <td title=" > chromium > .features-gen/chromium/features/ui/inventory.feature.spec.js > Product Inventory > Sort products by name">Sort products by name</td>
+            <td>chromium</td>
+            <td>32166ms</td>
+            <td>🔄 3</td>
+            <td><span class="error-msg" title="TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting ...</span></td>
+          </tr>
+        
+          <tr>
+            <td>❌ <span class="badge badge-danger">failed</span></td>
+            <td title=" > chromium > .features-gen/chromium/features/ui/inventory.feature.spec.js > Product Inventory > Products are displayed after login">Products are displayed after login</td>
+            <td>chromium</td>
+            <td>32162ms</td>
+            <td>🔄 3</td>
+            <td><span class="error-msg" title="TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting ...</span></td>
+          </tr>
+        
+          <tr>
+            <td>❌ <span class="badge badge-danger">failed</span></td>
+            <td title=" > chromium > .features-gen/chromium/features/ui/login.feature.spec.js > Login Functionality > Failed login with invalid credentials > Example #2">Example #2</td>
+            <td>chromium</td>
+            <td>31751ms</td>
+            <td>—</td>
+            <td><span class="error-msg" title="TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting ...</span></td>
+          </tr>
+        
+          <tr>
+            <td>❌ <span class="badge badge-danger">failed</span></td>
+            <td title=" > chromium > .features-gen/chromium/features/ui/login.feature.spec.js > Login Functionality > Failed login with invalid credentials > Example #1">Example #1</td>
+            <td>chromium</td>
+            <td>31855ms</td>
+            <td>—</td>
+            <td><span class="error-msg" title="TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting ...</span></td>
+          </tr>
+        
+          <tr>
+            <td>❌ <span class="badge badge-danger">failed</span></td>
+            <td title=" > chromium > .features-gen/chromium/features/ui/login.feature.spec.js > Login Functionality > Failed login with invalid credentials > Example #3">Example #3</td>
+            <td>chromium</td>
+            <td>31780ms</td>
+            <td>—</td>
+            <td><span class="error-msg" title="TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting ...</span></td>
+          </tr>
+        
+          <tr>
+            <td>❌ <span class="badge badge-danger">failed</span></td>
+            <td title=" > chromium > .features-gen/chromium/features/ui/login.feature.spec.js > Login Functionality > Successful login with standard user">Successful login with standard user</td>
+            <td>chromium</td>
+            <td>31864ms</td>
+            <td>—</td>
+            <td><span class="error-msg" title="TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting ...</span></td>
+          </tr>
+        
+          <tr>
+            <td>❌ <span class="badge badge-danger">failed</span></td>
+            <td title=" > chromium > .features-gen/chromium/features/ui/login.feature.spec.js > Login Functionality > Failed login with invalid credentials > Example #3">Example #3</td>
+            <td>chromium</td>
+            <td>31933ms</td>
+            <td>🔄 1</td>
+            <td><span class="error-msg" title="TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting ...</span></td>
+          </tr>
+        
+          <tr>
+            <td>❌ <span class="badge badge-danger">failed</span></td>
+            <td title=" > chromium > .features-gen/chromium/features/ui/login.feature.spec.js > Login Functionality > Failed login with invalid credentials > Example #2">Example #2</td>
+            <td>chromium</td>
+            <td>31923ms</td>
+            <td>🔄 1</td>
+            <td><span class="error-msg" title="TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting ...</span></td>
+          </tr>
+        
+          <tr>
+            <td>❌ <span class="badge badge-danger">failed</span></td>
+            <td title=" > chromium > .features-gen/chromium/features/ui/login.feature.spec.js > Login Functionality > Failed login with invalid credentials > Example #1">Example #1</td>
+            <td>chromium</td>
+            <td>31953ms</td>
+            <td>🔄 1</td>
+            <td><span class="error-msg" title="TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting ...</span></td>
+          </tr>
+        
+          <tr>
+            <td>❌ <span class="badge badge-danger">failed</span></td>
+            <td title=" > chromium > .features-gen/chromium/features/ui/login.feature.spec.js > Login Functionality > Successful login with standard user">Successful login with standard user</td>
+            <td>chromium</td>
+            <td>31939ms</td>
+            <td>🔄 1</td>
+            <td><span class="error-msg" title="TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting ...</span></td>
+          </tr>
+        
+          <tr>
+            <td>❌ <span class="badge badge-danger">failed</span></td>
+            <td title=" > chromium > .features-gen/chromium/features/ui/login.feature.spec.js > Login Functionality > Failed login with invalid credentials > Example #2">Example #2</td>
+            <td>chromium</td>
+            <td>31818ms</td>
+            <td>🔄 2</td>
+            <td><span class="error-msg" title="TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting ...</span></td>
+          </tr>
+        
+          <tr>
+            <td>❌ <span class="badge badge-danger">failed</span></td>
+            <td title=" > chromium > .features-gen/chromium/features/ui/login.feature.spec.js > Login Functionality > Successful login with standard user">Successful login with standard user</td>
+            <td>chromium</td>
+            <td>31827ms</td>
+            <td>🔄 2</td>
+            <td><span class="error-msg" title="TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting ...</span></td>
+          </tr>
+        
+          <tr>
+            <td>❌ <span class="badge badge-danger">failed</span></td>
+            <td title=" > chromium > .features-gen/chromium/features/ui/login.feature.spec.js > Login Functionality > Failed login with invalid credentials > Example #1">Example #1</td>
+            <td>chromium</td>
+            <td>31846ms</td>
+            <td>🔄 2</td>
+            <td><span class="error-msg" title="TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting ...</span></td>
+          </tr>
+        
+          <tr>
+            <td>❌ <span class="badge badge-danger">failed</span></td>
+            <td title=" > chromium > .features-gen/chromium/features/ui/login.feature.spec.js > Login Functionality > Failed login with invalid credentials > Example #3">Example #3</td>
+            <td>chromium</td>
+            <td>31826ms</td>
+            <td>🔄 2</td>
+            <td><span class="error-msg" title="TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting ...</span></td>
+          </tr>
+        
+          <tr>
+            <td>❌ <span class="badge badge-danger">failed</span></td>
+            <td title=" > chromium > .features-gen/chromium/features/ui/login.feature.spec.js > Login Functionality > Successful login with standard user">Successful login with standard user</td>
+            <td>chromium</td>
+            <td>31738ms</td>
+            <td>🔄 3</td>
+            <td><span class="error-msg" title="TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting ...</span></td>
+          </tr>
+        
+          <tr>
+            <td>❌ <span class="badge badge-danger">failed</span></td>
+            <td title=" > chromium > .features-gen/chromium/features/ui/login.feature.spec.js > Login Functionality > Failed login with invalid credentials > Example #1">Example #1</td>
+            <td>chromium</td>
+            <td>31744ms</td>
+            <td>🔄 3</td>
+            <td><span class="error-msg" title="TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting ...</span></td>
+          </tr>
+        
+          <tr>
+            <td>❌ <span class="badge badge-danger">failed</span></td>
+            <td title=" > chromium > .features-gen/chromium/features/ui/login.feature.spec.js > Login Functionality > Failed login with invalid credentials > Example #3">Example #3</td>
+            <td>chromium</td>
+            <td>31759ms</td>
+            <td>🔄 3</td>
+            <td><span class="error-msg" title="TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting ...</span></td>
+          </tr>
+        
+          <tr>
+            <td>❌ <span class="badge badge-danger">failed</span></td>
+            <td title=" > chromium > .features-gen/chromium/features/ui/login.feature.spec.js > Login Functionality > Failed login with invalid credentials > Example #2">Example #2</td>
+            <td>chromium</td>
+            <td>31731ms</td>
+            <td>🔄 3</td>
+            <td><span class="error-msg" title="TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting ...</span></td>
+          </tr>
+        
+          <tr>
+            <td>✅ <span class="badge badge-success">passed</span></td>
+            <td title=" > chromium > .features-gen/chromium/features/ui/network_intercept.feature.spec.js > Network Interception and Mocking > Mock search API responses">Mock search API responses</td>
+            <td>chromium</td>
+            <td>1207ms</td>
+            <td>—</td>
+            <td>—</td>
+          </tr>
+        
+          <tr>
+            <td>✅ <span class="badge badge-success">passed</span></td>
+            <td title=" > chromium > .features-gen/chromium/features/ui/playwright_docs.feature.spec.js > Playwright Documentation Site > Navigate to Get Started page">Navigate to Get Started page</td>
+            <td>chromium</td>
+            <td>1220ms</td>
+            <td>—</td>
+            <td>—</td>
+          </tr>
+        
+          <tr>
+            <td>✅ <span class="badge badge-success">passed</span></td>
+            <td title=" > chromium > .features-gen/chromium/features/ui/network_intercept.feature.spec.js > Network Interception and Mocking > Verify page responds with correct status">Verify page responds with correct status</td>
+            <td>chromium</td>
+            <td>1229ms</td>
+            <td>—</td>
+            <td>—</td>
+          </tr>
+        
+          <tr>
+            <td>✅ <span class="badge badge-success">passed</span></td>
+            <td title=" > chromium > .features-gen/chromium/features/ui/playwright_docs.feature.spec.js > Playwright Documentation Site > Search for documentation">Search for documentation</td>
+            <td>chromium</td>
+            <td>2987ms</td>
+            <td>—</td>
+            <td>—</td>
+          </tr>
+        
+          <tr>
+            <td>❌ <span class="badge badge-danger">failed</span></td>
+            <td title=" > chromium > .features-gen/chromium/features/ui/login.feature.spec.js > Login Functionality > Failed login with invalid credentials > Example #4">Example #4</td>
+            <td>chromium</td>
+            <td>31938ms</td>
+            <td>—</td>
+            <td><span class="error-msg" title="TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting ...</span></td>
+          </tr>
+        
+          <tr>
+            <td>❌ <span class="badge badge-danger">failed</span></td>
+            <td title=" > chromium > .features-gen/chromium/features/ui/login.feature.spec.js > Login Functionality > Failed login with invalid credentials > Example #4">Example #4</td>
+            <td>chromium</td>
+            <td>31251ms</td>
+            <td>🔄 1</td>
+            <td><span class="error-msg" title="TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting ...</span></td>
+          </tr>
+        
+          <tr>
+            <td>❌ <span class="badge badge-danger">failed</span></td>
+            <td title=" > chromium > .features-gen/chromium/features/ui/login.feature.spec.js > Login Functionality > Failed login with invalid credentials > Example #4">Example #4</td>
+            <td>chromium</td>
+            <td>31227ms</td>
+            <td>🔄 2</td>
+            <td><span class="error-msg" title="TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting ...</span></td>
+          </tr>
+        
+          <tr>
+            <td>❌ <span class="badge badge-danger">failed</span></td>
+            <td title=" > chromium > .features-gen/chromium/features/ui/login.feature.spec.js > Login Functionality > Failed login with invalid credentials > Example #4">Example #4</td>
+            <td>chromium</td>
+            <td>31255ms</td>
+            <td>🔄 3</td>
+            <td><span class="error-msg" title="TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator(&#039;input[placeholder=&quot;Email&quot;]&#039;)[22m
+">TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting ...</span></td>
+          </tr>
+        
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <p>Generated by <strong>PlaywrightBDD Framework</strong></p>
+      <p>Report generated at: 6/13/2026, 3:16:11 PM</p>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       Chart.js Script — Creates the interactive charts
+       ═══════════════════════════════════════════════════════════════ -->
+  <script>
+    // ── Pie Chart: Test Results Distribution ──────────────────────────
+    new Chart(document.getElementById('statusChart'), {
+      type: 'doughnut',
+      data: {
+        labels: ['Passed', 'Failed', 'Skipped/TimedOut'],
+        datasets: [{
+          data: [4, 36, 0],
+          backgroundColor: ['#10b981', '#ef4444', '#f59e0b'],
+          borderWidth: 0,
+          hoverOffset: 10,
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: {
+            position: 'bottom',
+            labels: { color: '#94a3b8', padding: 20, font: { size: 13 } }
+          }
+        }
+      }
+    });
+
+    // ── Bar Chart: Test Duration ──────────────────────────────────────
+    new Chart(document.getElementById('durationChart'), {
+      type: 'bar',
+      data: {
+        labels: ["Sort products by name","Add a product to the cart","Remove a product from the cart","Products are displayed afte...","Add a product to the cart","Sort products by name","Products are displayed afte...","Remove a product from the cart","Remove a product from the cart","Add a product to the cart","Sort products by name","Products are displayed afte...","Add a product to the cart","Remove a product from the cart","Sort products by name","Products are displayed afte...","Example #2","Example #1","Example #3","Successful login with stand..."],
+        datasets: [{
+          label: 'Duration (ms)',
+          data: [31870,31891,32006,31976,31706,31730,31752,31750,32162,32146,32144,32253,32053,32085,32166,32162,31751,31855,31780,31864],
+          backgroundColor: ["#ef4444","#ef4444","#ef4444","#ef4444","#ef4444","#ef4444","#ef4444","#ef4444","#ef4444","#ef4444","#ef4444","#ef4444","#ef4444","#ef4444","#ef4444","#ef4444","#ef4444","#ef4444","#ef4444","#ef4444"],
+          borderRadius: 4,
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        indexAxis: 'y',
+        plugins: {
+          legend: { display: false }
+        },
+        scales: {
+          x: { ticks: { color: '#94a3b8' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#94a3b8', font: { size: 10 } }, grid: { display: false } }
+        }
+      }
+    });
+
+    // ── Stacked Bar Chart: Results by Project ─────────────────────────
+    new Chart(document.getElementById('projectChart'), {
+      type: 'bar',
+      data: {
+        labels: ["chromium"],
+        datasets: [
+          { label: 'Passed', data: [4], backgroundColor: '#10b981', borderRadius: 4 },
+          { label: 'Failed', data: [36], backgroundColor: '#ef4444', borderRadius: 4 },
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { position: 'bottom', labels: { color: '#94a3b8' } }
+        },
+        scales: {
+          x: { stacked: true, ticks: { color: '#94a3b8' }, grid: { display: false } },
+          y: { stacked: true, ticks: { color: '#94a3b8' }, grid: { color: 'rgba(255,255,255,0.05)' } }
+        }
+      }
+    });
+
+    // ── Gauge Chart: Pass Rate ────────────────────────────────────────
+    new Chart(document.getElementById('gaugeChart'), {
+      type: 'doughnut',
+      data: {
+        labels: ['Pass Rate', 'Remaining'],
+        datasets: [{
+          data: [10, 90],
+          backgroundColor: [
+            '#ef4444',
+            'rgba(255,255,255,0.1)'
+          ],
+          borderWidth: 0,
+          circumference: 180,
+          rotation: 270,
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        cutout: '75%',
+        plugins: {
+          legend: { display: false },
+          tooltip: { enabled: false },
+        }
+      },
+      plugins: [{
+        id: 'gaugeText',
+        afterDraw: function(chart) {
+          const { ctx, chartArea } = chart;
+          ctx.save();
+          ctx.textAlign = 'center';
+          ctx.fillStyle = '#f8fafc';
+          ctx.font = 'bold 48px system-ui';
+          ctx.fillText('10%', chartArea.width / 2 + chartArea.left, chartArea.height * 0.75 + chartArea.top);
+          ctx.font = '16px system-ui';
+          ctx.fillStyle = '#94a3b8';
+          ctx.fillText('Pass Rate', chartArea.width / 2 + chartArea.left, chartArea.height * 0.85 + chartArea.top);
+          ctx.restore();
+        }
+      }]
+    });
+  </script>
+</body>
+</html>

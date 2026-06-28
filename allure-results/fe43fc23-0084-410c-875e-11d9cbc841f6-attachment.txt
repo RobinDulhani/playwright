@@ -1,0 +1,12 @@
+[2026-03-08 09:11:37] [STEP] [LoginPage] ▶ Navigating to SauceDemo login page
+[2026-03-08 09:11:37] [INFO] [LoginPage] Navigating to: https://www.saucedemo.com/
+[2026-03-08 09:11:37] [INFO] [LoginPage] Navigation complete.
+[2026-03-08 09:11:37] [STEP] [LoginPage] ▶ Logging in as: 
+[2026-03-08 09:11:37] [INFO] [LoginPage] Filling "Username" with: ""
+[2026-03-08 09:11:37] [INFO] [LoginPage] Filling "Password" with: "secret_sauce"
+[2026-03-08 09:11:37] [INFO] [LoginPage] Clicking: Login Button
+[2026-03-08 09:11:37] [INFO] [LoginPage] Login form submitted.
+[2026-03-08 09:11:37] [STEP] [LoginPage] ▶ Verifying error message: "Epic sadface: Username is required"
+[2026-03-08 09:11:37] [INFO] [LoginPage] Asserting "Error Message" contains text: "Epic sadface: Username is required"
+[2026-03-08 09:11:37] [INFO] [LoginPage] ✅ Assertion passed.
+[2026-03-08 09:11:37] [INFO] [LoginPage] ✅ Error message verified.

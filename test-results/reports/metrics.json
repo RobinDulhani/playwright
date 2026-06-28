@@ -1,0 +1,585 @@
+{
+  "summary": {
+    "total": 40,
+    "passed": 4,
+    "failed": 36,
+    "skipped": 0,
+    "timedOut": 0,
+    "passRate": 10,
+    "flaky": 0,
+    "totalDuration": 402493,
+    "avgDuration": 28836,
+    "maxDuration": 32253,
+    "minDuration": 0,
+    "startTime": "2026-06-13T09:39:28.602Z",
+    "endTime": "2026-06-13T09:46:11.095Z"
+  },
+  "byProject": {
+    "chromium": {
+      "passed": 4,
+      "failed": 36,
+      "skipped": 0,
+      "total": 40
+    }
+  },
+  "tests": [
+    {
+      "title": "Sort products by name",
+      "fullTitle": " > chromium > .features-gen/chromium/features/ui/inventory.feature.spec.js > Product Inventory > Sort products by name",
+      "status": "failed",
+      "duration": 31870,
+      "error": "TimeoutError: locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder=\"Email\"]')\u001b[22m\n",
+      "retries": 0,
+      "projectName": "chromium",
+      "tags": [
+        "@ui",
+        "@regression"
+      ],
+      "file": "/Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/inventory.feature.spec.js"
+    },
+    {
+      "title": "Add a product to the cart",
+      "fullTitle": " > chromium > .features-gen/chromium/features/ui/inventory.feature.spec.js > Product Inventory > Add a product to the cart",
+      "status": "failed",
+      "duration": 31891,
+      "error": "TimeoutError: locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder=\"Email\"]')\u001b[22m\n",
+      "retries": 0,
+      "projectName": "chromium",
+      "tags": [
+        "@ui",
+        "@regression"
+      ],
+      "file": "/Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/inventory.feature.spec.js"
+    },
+    {
+      "title": "Remove a product from the cart",
+      "fullTitle": " > chromium > .features-gen/chromium/features/ui/inventory.feature.spec.js > Product Inventory > Remove a product from the cart",
+      "status": "failed",
+      "duration": 32006,
+      "error": "TimeoutError: locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder=\"Email\"]')\u001b[22m\n",
+      "retries": 0,
+      "projectName": "chromium",
+      "tags": [
+        "@ui",
+        "@regression"
+      ],
+      "file": "/Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/inventory.feature.spec.js"
+    },
+    {
+      "title": "Products are displayed after login",
+      "fullTitle": " > chromium > .features-gen/chromium/features/ui/inventory.feature.spec.js > Product Inventory > Products are displayed after login",
+      "status": "failed",
+      "duration": 31976,
+      "error": "TimeoutError: locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder=\"Email\"]')\u001b[22m\n",
+      "retries": 0,
+      "projectName": "chromium",
+      "tags": [
+        "@ui",
+        "@smoke"
+      ],
+      "file": "/Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/inventory.feature.spec.js"
+    },
+    {
+      "title": "Add a product to the cart",
+      "fullTitle": " > chromium > .features-gen/chromium/features/ui/inventory.feature.spec.js > Product Inventory > Add a product to the cart",
+      "status": "failed",
+      "duration": 31706,
+      "error": "TimeoutError: locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder=\"Email\"]')\u001b[22m\n",
+      "retries": 1,
+      "projectName": "chromium",
+      "tags": [
+        "@ui",
+        "@regression"
+      ],
+      "file": "/Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/inventory.feature.spec.js"
+    },
+    {
+      "title": "Sort products by name",
+      "fullTitle": " > chromium > .features-gen/chromium/features/ui/inventory.feature.spec.js > Product Inventory > Sort products by name",
+      "status": "failed",
+      "duration": 31730,
+      "error": "TimeoutError: locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder=\"Email\"]')\u001b[22m\n",
+      "retries": 1,
+      "projectName": "chromium",
+      "tags": [
+        "@ui",
+        "@regression"
+      ],
+      "file": "/Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/inventory.feature.spec.js"
+    },
+    {
+      "title": "Products are displayed after login",
+      "fullTitle": " > chromium > .features-gen/chromium/features/ui/inventory.feature.spec.js > Product Inventory > Products are displayed after login",
+      "status": "failed",
+      "duration": 31752,
+      "error": "TimeoutError: locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder=\"Email\"]')\u001b[22m\n",
+      "retries": 1,
+      "projectName": "chromium",
+      "tags": [
+        "@ui",
+        "@smoke"
+      ],
+      "file": "/Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/inventory.feature.spec.js"
+    },
+    {
+      "title": "Remove a product from the cart",
+      "fullTitle": " > chromium > .features-gen/chromium/features/ui/inventory.feature.spec.js > Product Inventory > Remove a product from the cart",
+      "status": "failed",
+      "duration": 31750,
+      "error": "TimeoutError: locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder=\"Email\"]')\u001b[22m\n",
+      "retries": 1,
+      "projectName": "chromium",
+      "tags": [
+        "@ui",
+        "@regression"
+      ],
+      "file": "/Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/inventory.feature.spec.js"
+    },
+    {
+      "title": "Remove a product from the cart",
+      "fullTitle": " > chromium > .features-gen/chromium/features/ui/inventory.feature.spec.js > Product Inventory > Remove a product from the cart",
+      "status": "failed",
+      "duration": 32162,
+      "error": "TimeoutError: locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder=\"Email\"]')\u001b[22m\n",
+      "retries": 2,
+      "projectName": "chromium",
+      "tags": [
+        "@ui",
+        "@regression"
+      ],
+      "file": "/Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/inventory.feature.spec.js"
+    },
+    {
+      "title": "Add a product to the cart",
+      "fullTitle": " > chromium > .features-gen/chromium/features/ui/inventory.feature.spec.js > Product Inventory > Add a product to the cart",
+      "status": "failed",
+      "duration": 32146,
+      "error": "TimeoutError: locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder=\"Email\"]')\u001b[22m\n",
+      "retries": 2,
+      "projectName": "chromium",
+      "tags": [
+        "@ui",
+        "@regression"
+      ],
+      "file": "/Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/inventory.feature.spec.js"
+    },
+    {
+      "title": "Sort products by name",
+      "fullTitle": " > chromium > .features-gen/chromium/features/ui/inventory.feature.spec.js > Product Inventory > Sort products by name",
+      "status": "failed",
+      "duration": 32144,
+      "error": "TimeoutError: locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder=\"Email\"]')\u001b[22m\n",
+      "retries": 2,
+      "projectName": "chromium",
+      "tags": [
+        "@ui",
+        "@regression"
+      ],
+      "file": "/Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/inventory.feature.spec.js"
+    },
+    {
+      "title": "Products are displayed after login",
+      "fullTitle": " > chromium > .features-gen/chromium/features/ui/inventory.feature.spec.js > Product Inventory > Products are displayed after login",
+      "status": "failed",
+      "duration": 32253,
+      "error": "TimeoutError: locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder=\"Email\"]')\u001b[22m\n",
+      "retries": 2,
+      "projectName": "chromium",
+      "tags": [
+        "@ui",
+        "@smoke"
+      ],
+      "file": "/Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/inventory.feature.spec.js"
+    },
+    {
+      "title": "Add a product to the cart",
+      "fullTitle": " > chromium > .features-gen/chromium/features/ui/inventory.feature.spec.js > Product Inventory > Add a product to the cart",
+      "status": "failed",
+      "duration": 32053,
+      "error": "TimeoutError: locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder=\"Email\"]')\u001b[22m\n",
+      "retries": 3,
+      "projectName": "chromium",
+      "tags": [
+        "@ui",
+        "@regression"
+      ],
+      "file": "/Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/inventory.feature.spec.js"
+    },
+    {
+      "title": "Remove a product from the cart",
+      "fullTitle": " > chromium > .features-gen/chromium/features/ui/inventory.feature.spec.js > Product Inventory > Remove a product from the cart",
+      "status": "failed",
+      "duration": 32085,
+      "error": "TimeoutError: locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder=\"Email\"]')\u001b[22m\n",
+      "retries": 3,
+      "projectName": "chromium",
+      "tags": [
+        "@ui",
+        "@regression"
+      ],
+      "file": "/Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/inventory.feature.spec.js"
+    },
+    {
+      "title": "Sort products by name",
+      "fullTitle": " > chromium > .features-gen/chromium/features/ui/inventory.feature.spec.js > Product Inventory > Sort products by name",
+      "status": "failed",
+      "duration": 32166,
+      "error": "TimeoutError: locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder=\"Email\"]')\u001b[22m\n",
+      "retries": 3,
+      "projectName": "chromium",
+      "tags": [
+        "@ui",
+        "@regression"
+      ],
+      "file": "/Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/inventory.feature.spec.js"
+    },
+    {
+      "title": "Products are displayed after login",
+      "fullTitle": " > chromium > .features-gen/chromium/features/ui/inventory.feature.spec.js > Product Inventory > Products are displayed after login",
+      "status": "failed",
+      "duration": 32162,
+      "error": "TimeoutError: locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder=\"Email\"]')\u001b[22m\n",
+      "retries": 3,
+      "projectName": "chromium",
+      "tags": [
+        "@ui",
+        "@smoke"
+      ],
+      "file": "/Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/inventory.feature.spec.js"
+    },
+    {
+      "title": "Example #2",
+      "fullTitle": " > chromium > .features-gen/chromium/features/ui/login.feature.spec.js > Login Functionality > Failed login with invalid credentials > Example #2",
+      "status": "failed",
+      "duration": 31751,
+      "error": "TimeoutError: locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder=\"Email\"]')\u001b[22m\n",
+      "retries": 0,
+      "projectName": "chromium",
+      "tags": [
+        "@ui",
+        "@regression"
+      ],
+      "file": "/Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/login.feature.spec.js"
+    },
+    {
+      "title": "Example #1",
+      "fullTitle": " > chromium > .features-gen/chromium/features/ui/login.feature.spec.js > Login Functionality > Failed login with invalid credentials > Example #1",
+      "status": "failed",
+      "duration": 31855,
+      "error": "TimeoutError: locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder=\"Email\"]')\u001b[22m\n",
+      "retries": 0,
+      "projectName": "chromium",
+      "tags": [
+        "@ui",
+        "@regression"
+      ],
+      "file": "/Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/login.feature.spec.js"
+    },
+    {
+      "title": "Example #3",
+      "fullTitle": " > chromium > .features-gen/chromium/features/ui/login.feature.spec.js > Login Functionality > Failed login with invalid credentials > Example #3",
+      "status": "failed",
+      "duration": 31780,
+      "error": "TimeoutError: locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder=\"Email\"]')\u001b[22m\n",
+      "retries": 0,
+      "projectName": "chromium",
+      "tags": [
+        "@ui",
+        "@regression"
+      ],
+      "file": "/Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/login.feature.spec.js"
+    },
+    {
+      "title": "Successful login with standard user",
+      "fullTitle": " > chromium > .features-gen/chromium/features/ui/login.feature.spec.js > Login Functionality > Successful login with standard user",
+      "status": "failed",
+      "duration": 31864,
+      "error": "TimeoutError: locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder=\"Email\"]')\u001b[22m\n",
+      "retries": 0,
+      "projectName": "chromium",
+      "tags": [
+        "@ui",
+        "@smoke"
+      ],
+      "file": "/Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/login.feature.spec.js"
+    },
+    {
+      "title": "Example #3",
+      "fullTitle": " > chromium > .features-gen/chromium/features/ui/login.feature.spec.js > Login Functionality > Failed login with invalid credentials > Example #3",
+      "status": "failed",
+      "duration": 31933,
+      "error": "TimeoutError: locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder=\"Email\"]')\u001b[22m\n",
+      "retries": 1,
+      "projectName": "chromium",
+      "tags": [
+        "@ui",
+        "@regression"
+      ],
+      "file": "/Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/login.feature.spec.js"
+    },
+    {
+      "title": "Example #2",
+      "fullTitle": " > chromium > .features-gen/chromium/features/ui/login.feature.spec.js > Login Functionality > Failed login with invalid credentials > Example #2",
+      "status": "failed",
+      "duration": 31923,
+      "error": "TimeoutError: locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder=\"Email\"]')\u001b[22m\n",
+      "retries": 1,
+      "projectName": "chromium",
+      "tags": [
+        "@ui",
+        "@regression"
+      ],
+      "file": "/Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/login.feature.spec.js"
+    },
+    {
+      "title": "Example #1",
+      "fullTitle": " > chromium > .features-gen/chromium/features/ui/login.feature.spec.js > Login Functionality > Failed login with invalid credentials > Example #1",
+      "status": "failed",
+      "duration": 31953,
+      "error": "TimeoutError: locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder=\"Email\"]')\u001b[22m\n",
+      "retries": 1,
+      "projectName": "chromium",
+      "tags": [
+        "@ui",
+        "@regression"
+      ],
+      "file": "/Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/login.feature.spec.js"
+    },
+    {
+      "title": "Successful login with standard user",
+      "fullTitle": " > chromium > .features-gen/chromium/features/ui/login.feature.spec.js > Login Functionality > Successful login with standard user",
+      "status": "failed",
+      "duration": 31939,
+      "error": "TimeoutError: locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder=\"Email\"]')\u001b[22m\n",
+      "retries": 1,
+      "projectName": "chromium",
+      "tags": [
+        "@ui",
+        "@smoke"
+      ],
+      "file": "/Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/login.feature.spec.js"
+    },
+    {
+      "title": "Example #2",
+      "fullTitle": " > chromium > .features-gen/chromium/features/ui/login.feature.spec.js > Login Functionality > Failed login with invalid credentials > Example #2",
+      "status": "failed",
+      "duration": 31818,
+      "error": "TimeoutError: locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder=\"Email\"]')\u001b[22m\n",
+      "retries": 2,
+      "projectName": "chromium",
+      "tags": [
+        "@ui",
+        "@regression"
+      ],
+      "file": "/Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/login.feature.spec.js"
+    },
+    {
+      "title": "Successful login with standard user",
+      "fullTitle": " > chromium > .features-gen/chromium/features/ui/login.feature.spec.js > Login Functionality > Successful login with standard user",
+      "status": "failed",
+      "duration": 31827,
+      "error": "TimeoutError: locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder=\"Email\"]')\u001b[22m\n",
+      "retries": 2,
+      "projectName": "chromium",
+      "tags": [
+        "@ui",
+        "@smoke"
+      ],
+      "file": "/Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/login.feature.spec.js"
+    },
+    {
+      "title": "Example #1",
+      "fullTitle": " > chromium > .features-gen/chromium/features/ui/login.feature.spec.js > Login Functionality > Failed login with invalid credentials > Example #1",
+      "status": "failed",
+      "duration": 31846,
+      "error": "TimeoutError: locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder=\"Email\"]')\u001b[22m\n",
+      "retries": 2,
+      "projectName": "chromium",
+      "tags": [
+        "@ui",
+        "@regression"
+      ],
+      "file": "/Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/login.feature.spec.js"
+    },
+    {
+      "title": "Example #3",
+      "fullTitle": " > chromium > .features-gen/chromium/features/ui/login.feature.spec.js > Login Functionality > Failed login with invalid credentials > Example #3",
+      "status": "failed",
+      "duration": 31826,
+      "error": "TimeoutError: locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder=\"Email\"]')\u001b[22m\n",
+      "retries": 2,
+      "projectName": "chromium",
+      "tags": [
+        "@ui",
+        "@regression"
+      ],
+      "file": "/Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/login.feature.spec.js"
+    },
+    {
+      "title": "Successful login with standard user",
+      "fullTitle": " > chromium > .features-gen/chromium/features/ui/login.feature.spec.js > Login Functionality > Successful login with standard user",
+      "status": "failed",
+      "duration": 31738,
+      "error": "TimeoutError: locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder=\"Email\"]')\u001b[22m\n",
+      "retries": 3,
+      "projectName": "chromium",
+      "tags": [
+        "@ui",
+        "@smoke"
+      ],
+      "file": "/Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/login.feature.spec.js"
+    },
+    {
+      "title": "Example #1",
+      "fullTitle": " > chromium > .features-gen/chromium/features/ui/login.feature.spec.js > Login Functionality > Failed login with invalid credentials > Example #1",
+      "status": "failed",
+      "duration": 31744,
+      "error": "TimeoutError: locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder=\"Email\"]')\u001b[22m\n",
+      "retries": 3,
+      "projectName": "chromium",
+      "tags": [
+        "@ui",
+        "@regression"
+      ],
+      "file": "/Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/login.feature.spec.js"
+    },
+    {
+      "title": "Example #3",
+      "fullTitle": " > chromium > .features-gen/chromium/features/ui/login.feature.spec.js > Login Functionality > Failed login with invalid credentials > Example #3",
+      "status": "failed",
+      "duration": 31759,
+      "error": "TimeoutError: locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder=\"Email\"]')\u001b[22m\n",
+      "retries": 3,
+      "projectName": "chromium",
+      "tags": [
+        "@ui",
+        "@regression"
+      ],
+      "file": "/Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/login.feature.spec.js"
+    },
+    {
+      "title": "Example #2",
+      "fullTitle": " > chromium > .features-gen/chromium/features/ui/login.feature.spec.js > Login Functionality > Failed login with invalid credentials > Example #2",
+      "status": "failed",
+      "duration": 31731,
+      "error": "TimeoutError: locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder=\"Email\"]')\u001b[22m\n",
+      "retries": 3,
+      "projectName": "chromium",
+      "tags": [
+        "@ui",
+        "@regression"
+      ],
+      "file": "/Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/login.feature.spec.js"
+    },
+    {
+      "title": "Mock search API responses",
+      "fullTitle": " > chromium > .features-gen/chromium/features/ui/network_intercept.feature.spec.js > Network Interception and Mocking > Mock search API responses",
+      "status": "passed",
+      "duration": 1207,
+      "retries": 0,
+      "projectName": "chromium",
+      "tags": [
+        "@ui",
+        "@mock",
+        "@regression"
+      ],
+      "file": "/Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/network_intercept.feature.spec.js"
+    },
+    {
+      "title": "Navigate to Get Started page",
+      "fullTitle": " > chromium > .features-gen/chromium/features/ui/playwright_docs.feature.spec.js > Playwright Documentation Site > Navigate to Get Started page",
+      "status": "passed",
+      "duration": 1220,
+      "retries": 0,
+      "projectName": "chromium",
+      "tags": [
+        "@ui",
+        "@smoke"
+      ],
+      "file": "/Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/playwright_docs.feature.spec.js"
+    },
+    {
+      "title": "Verify page responds with correct status",
+      "fullTitle": " > chromium > .features-gen/chromium/features/ui/network_intercept.feature.spec.js > Network Interception and Mocking > Verify page responds with correct status",
+      "status": "passed",
+      "duration": 1229,
+      "retries": 0,
+      "projectName": "chromium",
+      "tags": [
+        "@ui",
+        "@mock",
+        "@smoke"
+      ],
+      "file": "/Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/network_intercept.feature.spec.js"
+    },
+    {
+      "title": "Search for documentation",
+      "fullTitle": " > chromium > .features-gen/chromium/features/ui/playwright_docs.feature.spec.js > Playwright Documentation Site > Search for documentation",
+      "status": "passed",
+      "duration": 2987,
+      "retries": 0,
+      "projectName": "chromium",
+      "tags": [
+        "@ui",
+        "@regression"
+      ],
+      "file": "/Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/playwright_docs.feature.spec.js"
+    },
+    {
+      "title": "Example #4",
+      "fullTitle": " > chromium > .features-gen/chromium/features/ui/login.feature.spec.js > Login Functionality > Failed login with invalid credentials > Example #4",
+      "status": "failed",
+      "duration": 31938,
+      "error": "TimeoutError: locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder=\"Email\"]')\u001b[22m\n",
+      "retries": 0,
+      "projectName": "chromium",
+      "tags": [
+        "@ui",
+        "@regression"
+      ],
+      "file": "/Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/login.feature.spec.js"
+    },
+    {
+      "title": "Example #4",
+      "fullTitle": " > chromium > .features-gen/chromium/features/ui/login.feature.spec.js > Login Functionality > Failed login with invalid credentials > Example #4",
+      "status": "failed",
+      "duration": 31251,
+      "error": "TimeoutError: locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder=\"Email\"]')\u001b[22m\n",
+      "retries": 1,
+      "projectName": "chromium",
+      "tags": [
+        "@ui",
+        "@regression"
+      ],
+      "file": "/Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/login.feature.spec.js"
+    },
+    {
+      "title": "Example #4",
+      "fullTitle": " > chromium > .features-gen/chromium/features/ui/login.feature.spec.js > Login Functionality > Failed login with invalid credentials > Example #4",
+      "status": "failed",
+      "duration": 31227,
+      "error": "TimeoutError: locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder=\"Email\"]')\u001b[22m\n",
+      "retries": 2,
+      "projectName": "chromium",
+      "tags": [
+        "@ui",
+        "@regression"
+      ],
+      "file": "/Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/login.feature.spec.js"
+    },
+    {
+      "title": "Example #4",
+      "fullTitle": " > chromium > .features-gen/chromium/features/ui/login.feature.spec.js > Login Functionality > Failed login with invalid credentials > Example #4",
+      "status": "failed",
+      "duration": 31255,
+      "error": "TimeoutError: locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder=\"Email\"]')\u001b[22m\n",
+      "retries": 3,
+      "projectName": "chromium",
+      "tags": [
+        "@ui",
+        "@regression"
+      ],
+      "file": "/Users/robindulhani/Documents/auto_repos/playwright-bdd-framework/.features-gen/chromium/features/ui/login.feature.spec.js"
+    }
+  ]
+}
