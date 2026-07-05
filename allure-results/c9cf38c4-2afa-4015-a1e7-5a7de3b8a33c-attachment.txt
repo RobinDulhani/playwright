@@ -1,0 +1,5 @@
+[2026-06-28 09:01:35] [STEP] [LoginPage] ▶ Navigating to SauceDemo login page
+[2026-06-28 09:01:35] [INFO] [LoginPage] Navigating to: https://www.saucedemo.com/
+[2026-06-28 09:01:35] [INFO] [LoginPage] Navigation complete.
+[2026-06-28 09:01:36] [STEP] [LoginPage] ▶ Logging in as: locked_out_user
+[2026-06-28 09:01:36] [INFO] [LoginPage] Filling "Username" with: "locked_out_user"

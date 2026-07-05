@@ -33,6 +33,7 @@ import { test as base, createBdd } from 'playwright-bdd';
 import { LoginPage } from '../../src/ui/pages/LoginPage';
 import { InventoryPage } from '../../src/ui/pages/InventoryPage';
 import { PlaywrightDocsPage } from '../../src/ui/pages/PlaywrightDocsPage';
+import { AmazonPage } from '../../src/ui/pages/AmazonPage';
 
 /**
  * Define the TYPES of our custom fixtures.
@@ -50,6 +51,8 @@ type UIFixtures = {
   inventoryPage: InventoryPage;
   /** Page Object for the Playwright documentation site */
   playwrightPage: PlaywrightDocsPage;
+  /** Page Object for Amazon.in */
+  amazonPage: AmazonPage;
 };
 
 /**
@@ -97,6 +100,14 @@ export const test = base.extend<UIFixtures>({
    */
   playwrightPage: async ({ page }, use) => {
     await use(new PlaywrightDocsPage(page));
+  },
+
+  /**
+   * AmazonPage fixture.
+   * Creates a fresh AmazonPage for each test that needs it.
+   */
+  amazonPage: async ({ page }, use) => {
+    await use(new AmazonPage(page));
   },
 });
 

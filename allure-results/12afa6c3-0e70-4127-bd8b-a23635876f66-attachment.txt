@@ -1,0 +1,5 @@
+[2026-06-28 09:06:30] [STEP] [LoginPage] ▶ Navigating to SauceDemo login page
+[2026-06-28 09:06:30] [INFO] [LoginPage] Navigating to: https://www.saucedemo.com/
+[2026-06-28 09:06:31] [INFO] [LoginPage] Navigation complete.
+[2026-06-28 09:06:31] [STEP] [LoginPage] ▶ Logging in as: 
+[2026-06-28 09:06:31] [INFO] [LoginPage] Filling "Username" with: ""

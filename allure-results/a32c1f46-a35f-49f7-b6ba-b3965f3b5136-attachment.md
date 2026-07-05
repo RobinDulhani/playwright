@@ -1,0 +1,5975 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation "Shortcuts menu" [ref=e3]:
+    - heading "Skip to" [level=2] [ref=e4]
+    - list "Skip to" [ref=e5]:
+      - listitem [ref=e6]:
+        - link "main content" [ref=e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+      - listitem [ref=e8]:
+        - link "Results" [ref=e9] [cursor=pointer]:
+          - /url: .s-asin a:has(h2)
+    - separator [ref=e10]
+    - heading "Keyboard shortcuts" [level=2] [ref=e11]
+    - list "Keyboard shortcuts" [ref=e12]:
+      - listitem [ref=e13]:
+        - link "Search, alt, forward slash" [ref=e14] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e15]:
+            - generic [ref=e16]: Search
+            - generic [ref=e17]:
+              - generic [ref=e18]: alt
+              - generic [ref=e19]: +
+              - generic [ref=e20]: /
+      - listitem [ref=e21]:
+        - link "Cart, shift, alt, c" [ref=e22] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e23]:
+            - generic [ref=e24]: Cart
+            - generic [ref=e25]:
+              - generic [ref=e26]: shift
+              - generic [ref=e27]: +
+              - generic [ref=e28]: alt
+              - generic [ref=e29]: +
+              - generic [ref=e30]: C
+      - listitem [ref=e31]:
+        - link "Home, shift, alt, h" [ref=e32] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e33]:
+            - generic [ref=e34]: Home
+            - generic [ref=e35]:
+              - generic [ref=e36]: shift
+              - generic [ref=e37]: +
+              - generic [ref=e38]: alt
+              - generic [ref=e39]: +
+              - generic [ref=e40]: H
+      - listitem [ref=e41]:
+        - link "Your orders, shift, alt, o" [ref=e42] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e43]:
+            - generic [ref=e44]: Orders
+            - generic [ref=e45]:
+              - generic [ref=e46]: shift
+              - generic [ref=e47]: +
+              - generic [ref=e48]: alt
+              - generic [ref=e49]: +
+              - generic [ref=e50]: O
+      - listitem [ref=e51]:
+        - button "Show/hide shortcuts, shift, alt, z" [ref=e52] [cursor=pointer]:
+          - generic [ref=e53]:
+            - generic [ref=e54]: Show/Hide shortcuts
+            - generic [ref=e55]:
+              - generic [ref=e56]: shift
+              - generic [ref=e57]: +
+              - generic [ref=e58]: alt
+              - generic [ref=e59]: +
+              - generic [ref=e60]: Z
+    - generic [ref=e66]: To move between items, use your keyboard's up or down arrows.
+  - banner [ref=e67]:
+    - navigation "Primary" [ref=e68]:
+      - generic [ref=e69]:
+        - generic [ref=e70]:
+          - link "Amazon.in" [ref=e72] [cursor=pointer]:
+            - /url: /ref=nav_logo
+            - generic: .in
+          - button "Delivering to Pune 411018 Update location" [ref=e75] [cursor=pointer]:
+            - generic [ref=e77]:
+              - generic [ref=e78]: Delivering to Pune 411018
+              - generic [ref=e79]: Update location
+        - search [ref=e82]:
+          - generic [ref=e85]:
+            - generic [ref=e87]: All
+            - combobox "Select the department you want to search in" [ref=e89] [cursor=pointer]:
+              - option "All Categories" [selected]
+              - option "Alexa Skills"
+              - option "Amazon Devices"
+              - option "Amazon Fashion"
+              - option "Amazon Fresh"
+              - option "Amazon Pharmacy"
+              - option "Appliances"
+              - option "Apps & Games"
+              - option "Audible Audiobooks"
+              - option "Baby"
+              - option "Beauty"
+              - option "Books"
+              - option "Car & Motorbike"
+              - option "Clothing & Accessories"
+              - option "Collectibles"
+              - option "Computers & Accessories"
+              - option "Deals"
+              - option "Electronics"
+              - option "Furniture"
+              - option "Garden & Outdoors"
+              - option "Gift Cards"
+              - option "Grocery & Gourmet Foods"
+              - option "Health & Personal Care"
+              - option "Home & Kitchen"
+              - option "Industrial & Scientific"
+              - option "Jewellery"
+              - option "Kindle Store"
+              - option "Luggage & Bags"
+              - option "Luxury Beauty"
+              - option "Movies & TV Shows"
+              - option "MP3 Music"
+              - option "Music"
+              - option "Musical Instruments"
+              - option "Office Products"
+              - option "Pet Supplies"
+              - option "Prime Video"
+              - option "Shoes & Handbags"
+              - option "Software"
+              - option "Sports, Fitness & Outdoors"
+              - option "Subscribe & Save"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Under ₹500"
+              - option "Video Games"
+              - option "Watches"
+          - searchbox "Search Amazon.in" [ref=e92]: gym clothes men
+          - generic "Go" [ref=e95] [cursor=pointer]:
+            - button "Go" [ref=e96]
+        - generic [ref=e98]:
+          - generic [ref=e99]:
+            - link "Choose a language for shopping in Amazon India. The current selection is English (EN)." [ref=e100] [cursor=pointer]:
+              - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+              - generic [ref=e103]:
+                - img "India" [ref=e104]
+                - generic [ref=e105]: EN
+            - button "Expand to Change Language or Country" [ref=e106] [cursor=pointer]
+          - generic [ref=e107]:
+            - link "Hello, sign in Account & Lists" [ref=e108] [cursor=pointer]:
+              - /url: https://www.amazon.in/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fs%3Fk%3Dgym%2Bclothes%2Bmen%26crid%3DNKNQ018KCWAW%26sprefix%3D%252Caps%252C249%26ref%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - generic [ref=e110]: Hello, sign in
+              - generic [ref=e111]: Account & Lists
+            - button "Expand Account and Lists" [ref=e112] [cursor=pointer]
+          - link "Returns & Orders" [ref=e113] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=e114]: Returns
+            - generic [ref=e115]: "& Orders"
+          - link "0 items in cart" [ref=e116] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e118]: "0"
+            - generic [ref=e121]: Cart
+      - generic [ref=e122]:
+        - button "Open All Categories Menu" [ref=e124] [cursor=pointer]:
+          - generic [ref=e126]: All
+        - list [ref=e130]:
+          - listitem [ref=e131]:
+            - generic [ref=e132]:
+              - link "Fresh" [ref=e133] [cursor=pointer]:
+                - /url: /fresh?ref_=nav_cs_grocery
+              - button "Fresh Details" [ref=e134] [cursor=pointer]
+          - listitem [ref=e135]:
+            - link "MX Player" [ref=e137] [cursor=pointer]:
+              - /url: /minitv?ref_=nav_avod_desktop_topnav
+          - listitem [ref=e138]:
+            - link "Sell" [ref=e140] [cursor=pointer]:
+              - /url: /b/32702023031?node=32702023031&ld=AZINSOANavDesktop_T3&ref_=nav_cs_sell_T3
+          - listitem [ref=e141]:
+            - link "Bestsellers" [ref=e143] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=e144]:
+            - link "Today's Deals" [ref=e146] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=e147]:
+            - generic [ref=e148]:
+              - link "Prime" [ref=e149] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+              - button "Prime Details" [ref=e150] [cursor=pointer]
+          - listitem [ref=e151]:
+            - link "Mobiles" [ref=e153] [cursor=pointer]:
+              - /url: /mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles
+          - listitem [ref=e154]:
+            - link "New Releases" [ref=e156] [cursor=pointer]:
+              - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+          - listitem [ref=e157]:
+            - link "Customer Service" [ref=e159] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help
+          - listitem [ref=e160]:
+            - link "Amazon Pay" [ref=e162] [cursor=pointer]:
+              - /url: /gp/sva/dashboard?ref_=nav_cs_apay
+          - listitem [ref=e163]:
+            - link "Electronics" [ref=e165] [cursor=pointer]:
+              - /url: /electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics
+          - listitem [ref=e166]:
+            - link "Home & Kitchen" [ref=e168] [cursor=pointer]:
+              - /url: /Home-Kitchen/b/?ie=UTF8&node=976442031&ref_=nav_cs_home
+          - listitem [ref=e169]:
+            - link "Fashion" [ref=e171] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6648217031&ref_=nav_cs_fashion
+          - listitem [ref=e172]:
+            - link "Computers" [ref=e174] [cursor=pointer]:
+              - /url: /computers-and-accessories/b/?ie=UTF8&node=976392031&ref_=nav_cs_pc
+          - listitem [ref=e175]:
+            - link "Toys & Games" [ref=e177] [cursor=pointer]:
+              - /url: /Toys-Games/b/?ie=UTF8&node=1350380031&ref_=nav_cs_toys
+          - listitem [ref=e178]:
+            - link "Car & Motorbike" [ref=e180] [cursor=pointer]:
+              - /url: /Car-Motorbike-Store/b/?ie=UTF8&node=4772060031&ref_=nav_cs_automotive
+          - listitem [ref=e181]:
+            - link "Beauty & Personal Care" [ref=e183] [cursor=pointer]:
+              - /url: /beauty/b/?ie=UTF8&node=1355016031&ref_=nav_cs_beauty
+          - listitem [ref=e184]:
+            - link "Gift Cards" [ref=e186] [cursor=pointer]:
+              - /url: /gift-card-store/b/?ie=UTF8&node=3704982031&ref_=nav_cs_gc
+          - listitem [ref=e187]:
+            - link "Home Improvement" [ref=e189] [cursor=pointer]:
+              - /url: /Home-Improvement/b/?ie=UTF8&node=4286640031&ref_=nav_cs_hi
+          - listitem [ref=e190]:
+            - link "Grocery & Gourmet Foods" [ref=e192] [cursor=pointer]:
+              - /url: /Gourmet-Specialty-Foods/b/?ie=UTF8&node=2454178031&ref_=nav_cs_grocery
+          - listitem [ref=e193]:
+            - link "Health, Household & Personal Care" [ref=e195] [cursor=pointer]:
+              - /url: /health-and-personal-care/b/?ie=UTF8&node=1350384031&ref_=nav_cs_hpc
+          - listitem [ref=e196]:
+            - link "Video Games" [ref=e198] [cursor=pointer]:
+              - /url: /video-games/b/?ie=UTF8&node=976460031&ref_=nav_cs_video_games
+          - listitem [ref=e199]:
+            - link "Custom Products" [ref=e201] [cursor=pointer]:
+              - /url: /Amazon-Custom/b/?ie=UTF8&node=32615889031&ref_=nav_cs_custom
+          - listitem [ref=e202]:
+            - link "Sports, Fitness & Outdoors" [ref=e204] [cursor=pointer]:
+              - /url: /Sports/b/?ie=UTF8&node=1984443031&ref_=nav_cs_sports
+          - listitem [ref=e205]:
+            - link "Baby" [ref=e207] [cursor=pointer]:
+              - /url: /Baby/b/?ie=UTF8&node=1571274031&ref_=nav_cs_baby
+          - listitem [ref=e208]:
+            - link "Pet Supplies" [ref=e210] [cursor=pointer]:
+              - /url: /Pet-Supplies/b/?ie=UTF8&node=2454181031&ref_=nav_cs_pets
+          - listitem [ref=e211]:
+            - link "Audible" [ref=e213] [cursor=pointer]:
+              - /url: /Audible-Books-and-Originals/b/?ie=UTF8&node=17941593031&ref_=nav_cs_audible
+          - listitem [ref=e214]:
+            - link "AmazonBasics" [ref=e216] [cursor=pointer]:
+              - /url: /b/?node=6637738031&ref_=nav_cs_amazonbasics
+          - listitem [ref=e217]:
+            - link "Subscribe & Save" [ref=e219] [cursor=pointer]:
+              - /url: /auto-deliveries/landing?ref_=nav_cs_sns
+          - listitem [ref=e220]:
+            - link "Books" [ref=e222] [cursor=pointer]:
+              - /url: /Books/b/?ie=UTF8&node=976389031&ref_=nav_cs_books
+          - listitem [ref=e223]:
+            - link "Kindle eBooks" [ref=e225] [cursor=pointer]:
+              - /url: /Kindle-eBooks/b/?ie=UTF8&node=1634753031&ref_=nav_cs_kindle_books
+          - listitem [ref=e226]:
+            - link "Flights" [ref=e228] [cursor=pointer]:
+              - /url: /flights?ref_=nav_cs_apay_desktop_topnav_flights
+        - link "PD26_Event" [ref=e232] [cursor=pointer]:
+          - /url: /events/primeday/?_encoding=UTF8&ref_=nav_swm_event&pf_rd_p=63a908bd-6cbd-4def-a079-3c7e9b6f3f3c&pf_rd_s=nav-sitewide-msg&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=A21TJRUUN4KGV&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ
+          - img "PD26_Event" [ref=e233]
+      - dialog [ref=e234]
+  - generic [ref=e236]:
+    - 'heading "1-48 of over 30,000 results for \"gym clothes men\" Sort by: Featured" [level=1] [ref=e239]':
+      - generic [ref=e240]:
+        - heading "1-48 of over 30,000 results for \"gym clothes men\"" [level=2] [ref=e245]
+        - generic [ref=e250]:
+          - generic [ref=e251]: "Sort by:"
+          - combobox "Sort by:" [ref=e252]:
+            - option "Featured" [selected]
+            - 'option "Price: Low to High"'
+            - 'option "Price: High to Low"'
+            - option "Avg. Customer Review"
+            - option "Newest Arrivals"
+            - option "Best Sellers"
+          - generic [ref=e255] [cursor=pointer]: Sort by:Featured
+    - generic [ref=e257]:
+      - generic [ref=e259]:
+        - generic [ref=e261]:
+          - generic [ref=e264]:
+            - link "Sponsored ad from Boldfit. \"Your activewear gym shorts for everyday use.\" Shop Boldfit." [ref=e265] [cursor=pointer]:
+              - /url: https://aax-eu-zaz.amazon.in/x/c/JIcRLI1YhJXl2jc6AwTU3uAAAAGfGZNDVgoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICC8cBSi/clv1c_ek-wBPfXJTbXzQ4Sc54huj4p7UUGewMY3TAnSSxEsdsJvgZS2RPYvpQ_1icuZct38JJFmCXPipccnb2U1whIzO04u1BLlxgLRh6YVzn5wQguCAkvCnYhTYD1v43k5nEZhzmbRVjhvpq157oNDcVUwTS6vOactF3KkMPAr0Vqzo0OSeMdGd2hnscWM7zTAfbKeS9pLpucKObgdeX2pkpY5jpbnDG3pmK3kpAYbtuTR_FoNElvLp0AIedpDO65Df6_R6_mZtpRh0Pb40ULYXA4Z8bLUeRqFPeKw9AIMQoWDEr-YeHkLYIWBhKPnWLp58m93lGWTSChO2oRnrn7N6mTP40BAHtxrOZTPBvPnd67xAJu9k7ELkcFTEVX0EmhtCnZajfW1rwMtNU4fLhy6MaIzNFaL_s7w0iFUWyFj-nvhoS-StdTb-ABD0xd-_XSECwMlpPjCl27AviXMxg5qI3Bxp7GsVTQPImIFbpWxnqFw3-AupPawIXcvzsGn-j9PARHe16Qxd6gUVSOILkdlJUITGmOSmswPx4P0HJqTebOejnHORSuDE8slOLvFa91IUsnENTwC_G0g2x5Qe9tA2q9ChIktHJknLAINpbFpnKRSqYpiMcC3dTeS3P3u_HHJMgWgQnznTf5aJdsP-LwVwrh-BS-PvjkFcFTPPR3II4hwwtQviAuv4ji-_anZ5CjolSUI95nEgwXtvJoYENxiXem4giTsxa6JbN9xETnNK6oJLnlWjj15xkgGIOpwIJFBqfw9_pZp1L9DXwkcbmpZRAZyNkA-3DprlAn2rDPvb_wDnsmG1wknk61_3TwTVI_EiY_ZXtBCFETSGS_Vp3d6jfn1ugru1lmNoaoFjft9XTUN-uUn3ND9LyLtm8F2S1Xdj9eHVZY_KD3p1uJX4IR13GkttWQndq9dfdoLtMTejwdT-oYHULa_tPwvJJ0HY4C-DKlE969IpaHEgxIUqE_4fIiY6_HbXY3jArHdQROHmcyXWZ298RaLqgcNP7t_jsSvbtKwQNYfM-q9Ustfjgu-0XgERcfqD8y7Ia0XmG6BLbAexT9gLPEJGZMP8BXsYxC3AHpHEj9ePoNU7XQwsLT7fzzwYiiBJf3d8IQwtKqBeTAbUuXxkh4yUGTJoc3zlAeMSQx9kE4sCu9PQ1DFfA91vBZd6k9jWSNlJIA36pMu1hx8_LWrIkM8eEli5fpmt9VovIhb1HdA2u9ZqAPvWU51fvATeRiakRqrBiEKwKkdJkcy7tl14TVObsPhN2tMNI6wD_hxlvQgnQb3CMkkU6l-FxrigB7Oen8yeyg3TkuVOqJpuVcNz1axp5cfwKfbx0ut1Aou1igU-rF8riJ5NogK5N3-IevRkk4lolCOvUgoGLQBZ0-uV5itWo8UgUjk1OetUSur1zOuKKhKDnr0MyMJJKkVnGDTN1e_SlFOaq32Mbml5bklzRwScsh8C7sBUbJp1_U3TJX4DG_G0EECHE8819as8ibGpJzJCnRqWG7Xs_AYB5BF4KTsFFlXgvthoTXP_mef-NQmL-shO0e7y80RDXZwudpS1H5CodGXfot_iXHp4NmGAvUST-ldLQRLkqzoUwZ2vIpX-njemEuyyIv8cczKLXeah_f01qTk86KFM_ehobXMo8YYvMEh7yELfZ0MgJ6skcf0_KmgAmxNgqUKW-lWNNhAU2dUOK60XlGsBksygIKv7mg1IA0QeHagQXW1AlvmaXQcmgGmw/https://www.amazon.in/stores/page/41028F16-05DE-4673-9689-1A274A4C50A9/?_encoding=UTF8&store_ref=SB_A031644718C9B6S2PA4OW-A05641273DO67I3WXOEO6&pd_rd_plhdr=t&aaxitk=e3d45ade76dd10b13f97fbb514ed9f0f&hsa_cr_id=0&lp_asins=B0D83VVZDJ%2CB0D6BQHSGL%2CB0DXKMFZ29&lp_query=gym%20clothes%20men&lp_slot=auto-sparkle-hsa-tetris&aref=dspgXDgWCi&ref_=sbx_s_sparkle_sbtcd_bkgd&pd_rd_w=04LwQ&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=f0I1Z&pd_rd_r=ffd907bd-2a11-4e3d-8c5b-9aa83b17f4e8
+            - generic [ref=e266]:
+              - generic [ref=e268]:
+                - link "Boldfit" [ref=e270] [cursor=pointer]:
+                  - /url: https://aax-eu-zaz.amazon.in/x/c/JIcRLI1YhJXl2jc6AwTU3uAAAAGfGZNDVgoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICC8cBSi/clv1c_ek-wBPfXJTbXzQ4Sc54huj4p7UUGewMY3TAnSSxEsdsJvgZS2RPYvpQ_1icuZct38JJFmCXPipccnb2U1whIzO04u1BLlxgLRh6YVzn5wQguCAkvCnYhTYD1v43k5nEZhzmbRVjhvpq157oNDcVUwTS6vOactF3KkMPAr0Vqzo0OSeMdGd2hnscWM7zTAfbKeS9pLpucKObgdeX2pkpY5jpbnDG3pmK3kpAYbtuTR_FoNElvLp0AIedpDO65Df6_R6_mZtpRh0Pb40ULYXA4Z8bLUeRqFPeKw9AIMQoWDEr-YeHkLYIWBhKPnWLp58m93lGWTSChO2oRnrn7N6mTP40BAHtxrOZTPBvPnd67xAJu9k7ELkcFTEVX0EmhtCnZajfW1rwMtNU4fLhy6MaIzNFaL_s7w0iFUWyFj-nvhoS-StdTb-ABD0xd-_XSECwMlpPjCl27AviXMxg5qI3Bxp7GsVTQPImIFbpWxnqFw3-AupPawIXcvzsGn-j9PARHe16Qxd6gUVSOILkdlJUITGmOSmswPx4P0HJqTebOejnHORSuDE8slOLvFa91IUsnENTwC_G0g2x5Qe9tA2q9ChIktHJknLAINpbFpnKRSqYpiMcC3dTeS3P3u_HHJMgWgQnznTf5aJdsP-LwVwrh-BS-PvjkFcFTPPR3II4hwwtQviAuv4ji-_anZ5CjolSUI95nEgwXtvJoYENxiXem4giTsxa6JbN9xETnNK6oJLnlWjj15xkgGIOpwIJFBqfw9_pZp1L9DXwkcbmpZRAZyNkA-3DprlAn2rDPvb_wDnsmG1wknk61_3TwTVI_EiY_ZXtBCFETSGS_Vp3d6jfn1ugru1lmNoaoFjft9XTUN-uUn3ND9LyLtm8F2S1Xdj9eHVZY_KD3p1uJX4IR13GkttWQndq9dfdoLtMTejwdT-oYHULa_tPwvJJ0HY4C-DKlE969IpaHEgxIUqE_4fIiY6_HbXY3jArHdQROHmcyXWZ298RaLqgcNP7t_jsSvbtKwQNYfM-q9Ustfjgu-0XgERcfqD8y7Ia0XmG6BLbAexT9gLPEJGZMP8BXsYxC3AHpHEj9ePoNU7XQwsLT7fzzwYiiBJf3d8IQwtKqBeTAbUuXxkh4yUGTJoc3zlAeMSQx9kE4sCu9PQ1DFfA91vBZd6k9jWSNlJIA36pMu1hx8_LWrIkM8eEli5fpmt9VovIhb1HdA2u9ZqAPvWU51fvATeRiakRqrBiEKwKkdJkcy7tl14TVObsPhN2tMNI6wD_hxlvQgnQb3CMkkU6l-FxrigB7Oen8yeyg3TkuVOqJpuVcNz1axp5cfwKfbx0ut1Aou1igU-rF8riJ5NogK5N3-IevRkk4lolCOvUgoGLQBZ0-uV5itWo8UgUjk1OetUSur1zOuKKhKDnr0MyMJJKkVnGDTN1e_SlFOaq32Mbml5bklzRwScsh8C7sBUbJp1_U3TJX4DG_G0EECHE8819as8ibGpJzJCnRqWG7Xs_AYB5BF4KTsFFlXgvthoTXP_mef-NQmL-shO0e7y80RDXZwudpS1H5CodGXfot_iXHp4NmGAvUST-ldLQRLkqzoUwZ2vIpX-njemEuyyIv8cczKLXeah_f01qTk86KFM_ehobXMo8YYvMEh7yELfZ0MgJ6skcf0_KmgAmxNgqUKW-lWNNhAU2dUOK60XlGsBksygIKv7mg1IA0QeHagQXW1AlvmaXQcmgGmw/https://www.amazon.in/stores/page/41028F16-05DE-4673-9689-1A274A4C50A9/?_encoding=UTF8&store_ref=SB_A031644718C9B6S2PA4OW-A05641273DO67I3WXOEO6&pd_rd_plhdr=t&aaxitk=e3d45ade76dd10b13f97fbb514ed9f0f&hsa_cr_id=0&lp_asins=B0D83VVZDJ%2CB0D6BQHSGL%2CB0DXKMFZ29&lp_query=gym%20clothes%20men&lp_slot=auto-sparkle-hsa-tetris&aref=dspgXDgWCi&ref_=sbx_s_sparkle_sbtcd_logo&pd_rd_w=04LwQ&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=f0I1Z&pd_rd_r=ffd907bd-2a11-4e3d-8c5b-9aa83b17f4e8
+                  - img "Boldfit" [ref=e272]
+                - generic [ref=e274]:
+                  - link "Your activewear gym shorts for everyday use" [ref=e275] [cursor=pointer]:
+                    - /url: https://aax-eu-zaz.amazon.in/x/c/JIcRLI1YhJXl2jc6AwTU3uAAAAGfGZNDVgoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICC8cBSi/clv1c_ek-wBPfXJTbXzQ4Sc54huj4p7UUGewMY3TAnSSxEsdsJvgZS2RPYvpQ_1icuZct38JJFmCXPipccnb2U1whIzO04u1BLlxgLRh6YVzn5wQguCAkvCnYhTYD1v43k5nEZhzmbRVjhvpq157oNDcVUwTS6vOactF3KkMPAr0Vqzo0OSeMdGd2hnscWM7zTAfbKeS9pLpucKObgdeX2pkpY5jpbnDG3pmK3kpAYbtuTR_FoNElvLp0AIedpDO65Df6_R6_mZtpRh0Pb40ULYXA4Z8bLUeRqFPeKw9AIMQoWDEr-YeHkLYIWBhKPnWLp58m93lGWTSChO2oRnrn7N6mTP40BAHtxrOZTPBvPnd67xAJu9k7ELkcFTEVX0EmhtCnZajfW1rwMtNU4fLhy6MaIzNFaL_s7w0iFUWyFj-nvhoS-StdTb-ABD0xd-_XSECwMlpPjCl27AviXMxg5qI3Bxp7GsVTQPImIFbpWxnqFw3-AupPawIXcvzsGn-j9PARHe16Qxd6gUVSOILkdlJUITGmOSmswPx4P0HJqTebOejnHORSuDE8slOLvFa91IUsnENTwC_G0g2x5Qe9tA2q9ChIktHJknLAINpbFpnKRSqYpiMcC3dTeS3P3u_HHJMgWgQnznTf5aJdsP-LwVwrh-BS-PvjkFcFTPPR3II4hwwtQviAuv4ji-_anZ5CjolSUI95nEgwXtvJoYENxiXem4giTsxa6JbN9xETnNK6oJLnlWjj15xkgGIOpwIJFBqfw9_pZp1L9DXwkcbmpZRAZyNkA-3DprlAn2rDPvb_wDnsmG1wknk61_3TwTVI_EiY_ZXtBCFETSGS_Vp3d6jfn1ugru1lmNoaoFjft9XTUN-uUn3ND9LyLtm8F2S1Xdj9eHVZY_KD3p1uJX4IR13GkttWQndq9dfdoLtMTejwdT-oYHULa_tPwvJJ0HY4C-DKlE969IpaHEgxIUqE_4fIiY6_HbXY3jArHdQROHmcyXWZ298RaLqgcNP7t_jsSvbtKwQNYfM-q9Ustfjgu-0XgERcfqD8y7Ia0XmG6BLbAexT9gLPEJGZMP8BXsYxC3AHpHEj9ePoNU7XQwsLT7fzzwYiiBJf3d8IQwtKqBeTAbUuXxkh4yUGTJoc3zlAeMSQx9kE4sCu9PQ1DFfA91vBZd6k9jWSNlJIA36pMu1hx8_LWrIkM8eEli5fpmt9VovIhb1HdA2u9ZqAPvWU51fvATeRiakRqrBiEKwKkdJkcy7tl14TVObsPhN2tMNI6wD_hxlvQgnQb3CMkkU6l-FxrigB7Oen8yeyg3TkuVOqJpuVcNz1axp5cfwKfbx0ut1Aou1igU-rF8riJ5NogK5N3-IevRkk4lolCOvUgoGLQBZ0-uV5itWo8UgUjk1OetUSur1zOuKKhKDnr0MyMJJKkVnGDTN1e_SlFOaq32Mbml5bklzRwScsh8C7sBUbJp1_U3TJX4DG_G0EECHE8819as8ibGpJzJCnRqWG7Xs_AYB5BF4KTsFFlXgvthoTXP_mef-NQmL-shO0e7y80RDXZwudpS1H5CodGXfot_iXHp4NmGAvUST-ldLQRLkqzoUwZ2vIpX-njemEuyyIv8cczKLXeah_f01qTk86KFM_ehobXMo8YYvMEh7yELfZ0MgJ6skcf0_KmgAmxNgqUKW-lWNNhAU2dUOK60XlGsBksygIKv7mg1IA0QeHagQXW1AlvmaXQcmgGmw/https://www.amazon.in/stores/page/41028F16-05DE-4673-9689-1A274A4C50A9/?_encoding=UTF8&store_ref=SB_A031644718C9B6S2PA4OW-A05641273DO67I3WXOEO6&pd_rd_plhdr=t&aaxitk=e3d45ade76dd10b13f97fbb514ed9f0f&hsa_cr_id=0&lp_asins=B0D83VVZDJ%2CB0D6BQHSGL%2CB0DXKMFZ29&lp_query=gym%20clothes%20men&lp_slot=auto-sparkle-hsa-tetris&aref=dspgXDgWCi&ref_=sbx_s_sparkle_sbtcd_hl&pd_rd_w=04LwQ&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=f0I1Z&pd_rd_r=ffd907bd-2a11-4e3d-8c5b-9aa83b17f4e8
+                    - generic [ref=e276]:
+                      - generic [ref=e277]: Your activewear gym shorts for everyday use
+                      - generic [ref=e278]: Your activewear gym shorts for everyday use
+                  - generic [ref=e279]:
+                    - button "Leave feedback on Sponsored ad" [ref=e283] [cursor=pointer]: Sponsored
+                    - generic [ref=e285]: "|"
+                    - generic [ref=e286]: Top 10 best-selling brand in this category
+                    - generic [ref=e287]: "|"
+                    - link "Shop Boldfit" [ref=e289] [cursor=pointer]:
+                      - /url: https://aax-eu-zaz.amazon.in/x/c/JIcRLI1YhJXl2jc6AwTU3uAAAAGfGZNDVgoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICC8cBSi/clv1c_ek-wBPfXJTbXzQ4Sc54huj4p7UUGewMY3TAnSSxEsdsJvgZS2RPYvpQ_1icuZct38JJFmCXPipccnb2U1whIzO04u1BLlxgLRh6YVzn5wQguCAkvCnYhTYD1v43k5nEZhzmbRVjhvpq157oNDcVUwTS6vOactF3KkMPAr0Vqzo0OSeMdGd2hnscWM7zTAfbKeS9pLpucKObgdeX2pkpY5jpbnDG3pmK3kpAYbtuTR_FoNElvLp0AIedpDO65Df6_R6_mZtpRh0Pb40ULYXA4Z8bLUeRqFPeKw9AIMQoWDEr-YeHkLYIWBhKPnWLp58m93lGWTSChO2oRnrn7N6mTP40BAHtxrOZTPBvPnd67xAJu9k7ELkcFTEVX0EmhtCnZajfW1rwMtNU4fLhy6MaIzNFaL_s7w0iFUWyFj-nvhoS-StdTb-ABD0xd-_XSECwMlpPjCl27AviXMxg5qI3Bxp7GsVTQPImIFbpWxnqFw3-AupPawIXcvzsGn-j9PARHe16Qxd6gUVSOILkdlJUITGmOSmswPx4P0HJqTebOejnHORSuDE8slOLvFa91IUsnENTwC_G0g2x5Qe9tA2q9ChIktHJknLAINpbFpnKRSqYpiMcC3dTeS3P3u_HHJMgWgQnznTf5aJdsP-LwVwrh-BS-PvjkFcFTPPR3II4hwwtQviAuv4ji-_anZ5CjolSUI95nEgwXtvJoYENxiXem4giTsxa6JbN9xETnNK6oJLnlWjj15xkgGIOpwIJFBqfw9_pZp1L9DXwkcbmpZRAZyNkA-3DprlAn2rDPvb_wDnsmG1wknk61_3TwTVI_EiY_ZXtBCFETSGS_Vp3d6jfn1ugru1lmNoaoFjft9XTUN-uUn3ND9LyLtm8F2S1Xdj9eHVZY_KD3p1uJX4IR13GkttWQndq9dfdoLtMTejwdT-oYHULa_tPwvJJ0HY4C-DKlE969IpaHEgxIUqE_4fIiY6_HbXY3jArHdQROHmcyXWZ298RaLqgcNP7t_jsSvbtKwQNYfM-q9Ustfjgu-0XgERcfqD8y7Ia0XmG6BLbAexT9gLPEJGZMP8BXsYxC3AHpHEj9ePoNU7XQwsLT7fzzwYiiBJf3d8IQwtKqBeTAbUuXxkh4yUGTJoc3zlAeMSQx9kE4sCu9PQ1DFfA91vBZd6k9jWSNlJIA36pMu1hx8_LWrIkM8eEli5fpmt9VovIhb1HdA2u9ZqAPvWU51fvATeRiakRqrBiEKwKkdJkcy7tl14TVObsPhN2tMNI6wD_hxlvQgnQb3CMkkU6l-FxrigB7Oen8yeyg3TkuVOqJpuVcNz1axp5cfwKfbx0ut1Aou1igU-rF8riJ5NogK5N3-IevRkk4lolCOvUgoGLQBZ0-uV5itWo8UgUjk1OetUSur1zOuKKhKDnr0MyMJJKkVnGDTN1e_SlFOaq32Mbml5bklzRwScsh8C7sBUbJp1_U3TJX4DG_G0EECHE8819as8ibGpJzJCnRqWG7Xs_AYB5BF4KTsFFlXgvthoTXP_mef-NQmL-shO0e7y80RDXZwudpS1H5CodGXfot_iXHp4NmGAvUST-ldLQRLkqzoUwZ2vIpX-njemEuyyIv8cczKLXeah_f01qTk86KFM_ehobXMo8YYvMEh7yELfZ0MgJ6skcf0_KmgAmxNgqUKW-lWNNhAU2dUOK60XlGsBksygIKv7mg1IA0QeHagQXW1AlvmaXQcmgGmw/https://www.amazon.in/stores/page/41028F16-05DE-4673-9689-1A274A4C50A9/?_encoding=UTF8&store_ref=SB_A031644718C9B6S2PA4OW-A05641273DO67I3WXOEO6&pd_rd_plhdr=t&aaxitk=e3d45ade76dd10b13f97fbb514ed9f0f&hsa_cr_id=0&lp_asins=B0D83VVZDJ%2CB0D6BQHSGL%2CB0DXKMFZ29&lp_query=gym%20clothes%20men&lp_slot=auto-sparkle-hsa-tetris&aref=dspgXDgWCi&ref_=sbx_s_sparkle_sbtcd_cta&pd_rd_w=04LwQ&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=f0I1Z&pd_rd_r=ffd907bd-2a11-4e3d-8c5b-9aa83b17f4e8
+                      - generic [ref=e292]:
+                        - text: Shop
+                        - generic [ref=e293]:
+                          - text: Boldfit
+                          - img [ref=e294]
+              - group [ref=e296]:
+                - generic [ref=e298]:
+                  - group [ref=e300]:
+                    - list [ref=e301]:
+                      - listitem [ref=e302]:
+                        - generic [ref=e304]:
+                          - link [ref=e305] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JIcRLI1YhJXl2jc6AwTU3uAAAAGfGZNDVgoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICC8cBSi/clv1c_ek-wBPfXJTbXzQ4Sc54huj4p7UUGewMY3TAnSSxEsdsJvgZS2RPYvpQ_1icuZct38JJFmCXPipccnb2U1whIzO04u1BLlxgLRh6YVzn5wQguCAkvCnYhTYD1v43k5nEZhzmbRVjhvpq157oNDcVUwTS6vOactF3KkMPAr0Vqzo0OSeMdGd2hnscWM7zTAfbKeS9pLpucKObgdeX2pkpY5jpbnDG3pmK3kpAYbtuTR_FoNElvLp0AIedpDO65Df6_R6_mZtpRh0Pb40ULYXA4Z8bLUeRqFPeKw9AIMQoWDEr-YeHkLYIWBhKPnWLp58m93lGWTSChO2oRnrn7N6mTP40BAHtxrOZTPBvPnd67xAJu9k7ELkcFTEVX0EmhtCnZajfW1rwMtNU4fLhy6MaIzNFaL_s7w0iFUWyFj-nvhoS-StdTb-ABD0xd-_XSECwMlpPjCl27AviXMxg5qI3Bxp7GsVTQPImIFbpWxnqFw3-AupPawIXcvzsGn-j9PARHe16Qxd6gUVSOILkdlJUITGmOSmswPx4P0HJqTebOejnHORSuDE8slOLvFa91IUsnENTwC_G0g2x5Qe9tA2q9ChIktHJknLAINpbFpnKRSqYpiMcC3dTeS3P3u_HHJMgWgQnznTf5aJdsP-LwVwrh-BS-PvjkFcFTPPR3II4hwwtQviAuv4ji-_anZ5CjolSUI95nEgwXtvJoYENxiXem4giTsxa6JbN9xETnNK6oJLnlWjj15xkgGIOpwIJFBqfw9_pZp1L9DXwkcbmpZRAZyNkA-3DprlAn2rDPvb_wDnsmG1wknk61_3TwTVI_EiY_ZXtBCFETSGS_Vp3d6jfn1ugru1lmNoaoFjft9XTUN-uUn3ND9LyLtm8F2S1Xdj9eHVZY_KD3p1uJX4IR13GkttWQndq9dfdoLtMTejwdT-oYHULa_tPwvJJ0HY4C-DKlE969IpaHEgxIUqE_4fIiY6_HbXY3jArHdQROHmcyXWZ298RaLqgcNP7t_jsSvbtKwQNYfM-q9Ustfjgu-0XgERcfqD8y7Ia0XmG6BLbAexT9gLPEJGZMP8BXsYxC3AHpHEj9ePoNU7XQwsLT7fzzwYiiBJf3d8IQwtKqBeTAbUuXxkh4yUGTJoc3zlAeMSQx9kE4sCu9PQ1DFfA91vBZd6k9jWSNlJIA36pMu1hx8_LWrIkM8eEli5fpmt9VovIhb1HdA2u9ZqAPvWU51fvATeRiakRqrBiEKwKkdJkcy7tl14TVObsPhN2tMNI6wD_hxlvQgnQb3CMkkU6l-FxrigB7Oen8yeyg3TkuVOqJpuVcNz1axp5cfwKfbx0ut1Aou1igU-rF8riJ5NogK5N3-IevRkk4lolCOvUgoGLQBZ0-uV5itWo8UgUjk1OetUSur1zOuKKhKDnr0MyMJJKkVnGDTN1e_SlFOaq32Mbml5bklzRwScsh8C7sBUbJp1_U3TJX4DG_G0EECHE8819as8ibGpJzJCnRqWG7Xs_AYB5BF4KTsFFlXgvthoTXP_mef-NQmL-shO0e7y80RDXZwudpS1H5CodGXfot_iXHp4NmGAvUST-ldLQRLkqzoUwZ2vIpX-njemEuyyIv8cczKLXeah_f01qTk86KFM_ehobXMo8YYvMEh7yELfZ0MgJ6skcf0_KmgAmxNgqUKW-lWNNhAU2dUOK60XlGsBksygIKv7mg1IA0QeHagQXW1AlvmaXQcmgGmw/https://www.amazon.in/gp/aw/d/B0D83VVZDJ/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=e3d45ade76dd10b13f97fbb514ed9f0f&hsa_cr_id=0&qid=1782840509&sr=1-1-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=dspgXDgWCi&ref_=sbx_s_sparkle_sbtcd_asin_0_bkgd&pd_rd_w=04LwQ&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=f0I1Z&pd_rd_r=ffd907bd-2a11-4e3d-8c5b-9aa83b17f4e8
+                          - link "Boldfit Shorts for Men Training Gym Shorts for Men Workout Lightweight Running Short for Man Badminton Short for Boys Breathable Gym Wear for Boys Half Pant for Running, Cycling, Workout, Pickleball" [ref=e307] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JIcRLI1YhJXl2jc6AwTU3uAAAAGfGZNDVgoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICC8cBSi/clv1c_ek-wBPfXJTbXzQ4Sc54huj4p7UUGewMY3TAnSSxEsdsJvgZS2RPYvpQ_1icuZct38JJFmCXPipccnb2U1whIzO04u1BLlxgLRh6YVzn5wQguCAkvCnYhTYD1v43k5nEZhzmbRVjhvpq157oNDcVUwTS6vOactF3KkMPAr0Vqzo0OSeMdGd2hnscWM7zTAfbKeS9pLpucKObgdeX2pkpY5jpbnDG3pmK3kpAYbtuTR_FoNElvLp0AIedpDO65Df6_R6_mZtpRh0Pb40ULYXA4Z8bLUeRqFPeKw9AIMQoWDEr-YeHkLYIWBhKPnWLp58m93lGWTSChO2oRnrn7N6mTP40BAHtxrOZTPBvPnd67xAJu9k7ELkcFTEVX0EmhtCnZajfW1rwMtNU4fLhy6MaIzNFaL_s7w0iFUWyFj-nvhoS-StdTb-ABD0xd-_XSECwMlpPjCl27AviXMxg5qI3Bxp7GsVTQPImIFbpWxnqFw3-AupPawIXcvzsGn-j9PARHe16Qxd6gUVSOILkdlJUITGmOSmswPx4P0HJqTebOejnHORSuDE8slOLvFa91IUsnENTwC_G0g2x5Qe9tA2q9ChIktHJknLAINpbFpnKRSqYpiMcC3dTeS3P3u_HHJMgWgQnznTf5aJdsP-LwVwrh-BS-PvjkFcFTPPR3II4hwwtQviAuv4ji-_anZ5CjolSUI95nEgwXtvJoYENxiXem4giTsxa6JbN9xETnNK6oJLnlWjj15xkgGIOpwIJFBqfw9_pZp1L9DXwkcbmpZRAZyNkA-3DprlAn2rDPvb_wDnsmG1wknk61_3TwTVI_EiY_ZXtBCFETSGS_Vp3d6jfn1ugru1lmNoaoFjft9XTUN-uUn3ND9LyLtm8F2S1Xdj9eHVZY_KD3p1uJX4IR13GkttWQndq9dfdoLtMTejwdT-oYHULa_tPwvJJ0HY4C-DKlE969IpaHEgxIUqE_4fIiY6_HbXY3jArHdQROHmcyXWZ298RaLqgcNP7t_jsSvbtKwQNYfM-q9Ustfjgu-0XgERcfqD8y7Ia0XmG6BLbAexT9gLPEJGZMP8BXsYxC3AHpHEj9ePoNU7XQwsLT7fzzwYiiBJf3d8IQwtKqBeTAbUuXxkh4yUGTJoc3zlAeMSQx9kE4sCu9PQ1DFfA91vBZd6k9jWSNlJIA36pMu1hx8_LWrIkM8eEli5fpmt9VovIhb1HdA2u9ZqAPvWU51fvATeRiakRqrBiEKwKkdJkcy7tl14TVObsPhN2tMNI6wD_hxlvQgnQb3CMkkU6l-FxrigB7Oen8yeyg3TkuVOqJpuVcNz1axp5cfwKfbx0ut1Aou1igU-rF8riJ5NogK5N3-IevRkk4lolCOvUgoGLQBZ0-uV5itWo8UgUjk1OetUSur1zOuKKhKDnr0MyMJJKkVnGDTN1e_SlFOaq32Mbml5bklzRwScsh8C7sBUbJp1_U3TJX4DG_G0EECHE8819as8ibGpJzJCnRqWG7Xs_AYB5BF4KTsFFlXgvthoTXP_mef-NQmL-shO0e7y80RDXZwudpS1H5CodGXfot_iXHp4NmGAvUST-ldLQRLkqzoUwZ2vIpX-njemEuyyIv8cczKLXeah_f01qTk86KFM_ehobXMo8YYvMEh7yELfZ0MgJ6skcf0_KmgAmxNgqUKW-lWNNhAU2dUOK60XlGsBksygIKv7mg1IA0QeHagQXW1AlvmaXQcmgGmw/https://www.amazon.in/gp/aw/d/B0D83VVZDJ/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=e3d45ade76dd10b13f97fbb514ed9f0f&hsa_cr_id=0&qid=1782840509&sr=1-1-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=dspgXDgWCi&ref_=sbx_s_sparkle_sbtcd_asin_0_img&pd_rd_w=04LwQ&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=f0I1Z&pd_rd_r=ffd907bd-2a11-4e3d-8c5b-9aa83b17f4e8
+                            - img "Boldfit Shorts for Men Training Gym Shorts for Men Workout Lightweight Running Short for Man Badminton Short for Boys Breathable Gym Wear for Boys Half Pant for Running, Cycling, Workout, Pickleball" [ref=e310]
+                          - generic [ref=e312]:
+                            - link [ref=e313] [cursor=pointer]:
+                              - /url: https://aax-eu-zaz.amazon.in/x/c/JIcRLI1YhJXl2jc6AwTU3uAAAAGfGZNDVgoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICC8cBSi/clv1c_ek-wBPfXJTbXzQ4Sc54huj4p7UUGewMY3TAnSSxEsdsJvgZS2RPYvpQ_1icuZct38JJFmCXPipccnb2U1whIzO04u1BLlxgLRh6YVzn5wQguCAkvCnYhTYD1v43k5nEZhzmbRVjhvpq157oNDcVUwTS6vOactF3KkMPAr0Vqzo0OSeMdGd2hnscWM7zTAfbKeS9pLpucKObgdeX2pkpY5jpbnDG3pmK3kpAYbtuTR_FoNElvLp0AIedpDO65Df6_R6_mZtpRh0Pb40ULYXA4Z8bLUeRqFPeKw9AIMQoWDEr-YeHkLYIWBhKPnWLp58m93lGWTSChO2oRnrn7N6mTP40BAHtxrOZTPBvPnd67xAJu9k7ELkcFTEVX0EmhtCnZajfW1rwMtNU4fLhy6MaIzNFaL_s7w0iFUWyFj-nvhoS-StdTb-ABD0xd-_XSECwMlpPjCl27AviXMxg5qI3Bxp7GsVTQPImIFbpWxnqFw3-AupPawIXcvzsGn-j9PARHe16Qxd6gUVSOILkdlJUITGmOSmswPx4P0HJqTebOejnHORSuDE8slOLvFa91IUsnENTwC_G0g2x5Qe9tA2q9ChIktHJknLAINpbFpnKRSqYpiMcC3dTeS3P3u_HHJMgWgQnznTf5aJdsP-LwVwrh-BS-PvjkFcFTPPR3II4hwwtQviAuv4ji-_anZ5CjolSUI95nEgwXtvJoYENxiXem4giTsxa6JbN9xETnNK6oJLnlWjj15xkgGIOpwIJFBqfw9_pZp1L9DXwkcbmpZRAZyNkA-3DprlAn2rDPvb_wDnsmG1wknk61_3TwTVI_EiY_ZXtBCFETSGS_Vp3d6jfn1ugru1lmNoaoFjft9XTUN-uUn3ND9LyLtm8F2S1Xdj9eHVZY_KD3p1uJX4IR13GkttWQndq9dfdoLtMTejwdT-oYHULa_tPwvJJ0HY4C-DKlE969IpaHEgxIUqE_4fIiY6_HbXY3jArHdQROHmcyXWZ298RaLqgcNP7t_jsSvbtKwQNYfM-q9Ustfjgu-0XgERcfqD8y7Ia0XmG6BLbAexT9gLPEJGZMP8BXsYxC3AHpHEj9ePoNU7XQwsLT7fzzwYiiBJf3d8IQwtKqBeTAbUuXxkh4yUGTJoc3zlAeMSQx9kE4sCu9PQ1DFfA91vBZd6k9jWSNlJIA36pMu1hx8_LWrIkM8eEli5fpmt9VovIhb1HdA2u9ZqAPvWU51fvATeRiakRqrBiEKwKkdJkcy7tl14TVObsPhN2tMNI6wD_hxlvQgnQb3CMkkU6l-FxrigB7Oen8yeyg3TkuVOqJpuVcNz1axp5cfwKfbx0ut1Aou1igU-rF8riJ5NogK5N3-IevRkk4lolCOvUgoGLQBZ0-uV5itWo8UgUjk1OetUSur1zOuKKhKDnr0MyMJJKkVnGDTN1e_SlFOaq32Mbml5bklzRwScsh8C7sBUbJp1_U3TJX4DG_G0EECHE8819as8ibGpJzJCnRqWG7Xs_AYB5BF4KTsFFlXgvthoTXP_mef-NQmL-shO0e7y80RDXZwudpS1H5CodGXfot_iXHp4NmGAvUST-ldLQRLkqzoUwZ2vIpX-njemEuyyIv8cczKLXeah_f01qTk86KFM_ehobXMo8YYvMEh7yELfZ0MgJ6skcf0_KmgAmxNgqUKW-lWNNhAU2dUOK60XlGsBksygIKv7mg1IA0QeHagQXW1AlvmaXQcmgGmw/https://www.amazon.in/gp/aw/d/B0D83VVZDJ/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=e3d45ade76dd10b13f97fbb514ed9f0f&hsa_cr_id=0&qid=1782840509&sr=1-1-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=dspgXDgWCi&ref_=sbx_s_sparkle_sbtcd_asin_0_bkgd&pd_rd_w=04LwQ&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=f0I1Z&pd_rd_r=ffd907bd-2a11-4e3d-8c5b-9aa83b17f4e8
+                            - link "Boldfit Shorts for Men Training Gym Shorts for Men Workout Lightweight Running Short for Man Badminton Short for Boys Breathable Gym Wear for Boys Half Pant for Running, Cycling, Workout, Pickleball" [ref=e315] [cursor=pointer]:
+                              - /url: https://aax-eu-zaz.amazon.in/x/c/JIcRLI1YhJXl2jc6AwTU3uAAAAGfGZNDVgoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICC8cBSi/clv1c_ek-wBPfXJTbXzQ4Sc54huj4p7UUGewMY3TAnSSxEsdsJvgZS2RPYvpQ_1icuZct38JJFmCXPipccnb2U1whIzO04u1BLlxgLRh6YVzn5wQguCAkvCnYhTYD1v43k5nEZhzmbRVjhvpq157oNDcVUwTS6vOactF3KkMPAr0Vqzo0OSeMdGd2hnscWM7zTAfbKeS9pLpucKObgdeX2pkpY5jpbnDG3pmK3kpAYbtuTR_FoNElvLp0AIedpDO65Df6_R6_mZtpRh0Pb40ULYXA4Z8bLUeRqFPeKw9AIMQoWDEr-YeHkLYIWBhKPnWLp58m93lGWTSChO2oRnrn7N6mTP40BAHtxrOZTPBvPnd67xAJu9k7ELkcFTEVX0EmhtCnZajfW1rwMtNU4fLhy6MaIzNFaL_s7w0iFUWyFj-nvhoS-StdTb-ABD0xd-_XSECwMlpPjCl27AviXMxg5qI3Bxp7GsVTQPImIFbpWxnqFw3-AupPawIXcvzsGn-j9PARHe16Qxd6gUVSOILkdlJUITGmOSmswPx4P0HJqTebOejnHORSuDE8slOLvFa91IUsnENTwC_G0g2x5Qe9tA2q9ChIktHJknLAINpbFpnKRSqYpiMcC3dTeS3P3u_HHJMgWgQnznTf5aJdsP-LwVwrh-BS-PvjkFcFTPPR3II4hwwtQviAuv4ji-_anZ5CjolSUI95nEgwXtvJoYENxiXem4giTsxa6JbN9xETnNK6oJLnlWjj15xkgGIOpwIJFBqfw9_pZp1L9DXwkcbmpZRAZyNkA-3DprlAn2rDPvb_wDnsmG1wknk61_3TwTVI_EiY_ZXtBCFETSGS_Vp3d6jfn1ugru1lmNoaoFjft9XTUN-uUn3ND9LyLtm8F2S1Xdj9eHVZY_KD3p1uJX4IR13GkttWQndq9dfdoLtMTejwdT-oYHULa_tPwvJJ0HY4C-DKlE969IpaHEgxIUqE_4fIiY6_HbXY3jArHdQROHmcyXWZ298RaLqgcNP7t_jsSvbtKwQNYfM-q9Ustfjgu-0XgERcfqD8y7Ia0XmG6BLbAexT9gLPEJGZMP8BXsYxC3AHpHEj9ePoNU7XQwsLT7fzzwYiiBJf3d8IQwtKqBeTAbUuXxkh4yUGTJoc3zlAeMSQx9kE4sCu9PQ1DFfA91vBZd6k9jWSNlJIA36pMu1hx8_LWrIkM8eEli5fpmt9VovIhb1HdA2u9ZqAPvWU51fvATeRiakRqrBiEKwKkdJkcy7tl14TVObsPhN2tMNI6wD_hxlvQgnQb3CMkkU6l-FxrigB7Oen8yeyg3TkuVOqJpuVcNz1axp5cfwKfbx0ut1Aou1igU-rF8riJ5NogK5N3-IevRkk4lolCOvUgoGLQBZ0-uV5itWo8UgUjk1OetUSur1zOuKKhKDnr0MyMJJKkVnGDTN1e_SlFOaq32Mbml5bklzRwScsh8C7sBUbJp1_U3TJX4DG_G0EECHE8819as8ibGpJzJCnRqWG7Xs_AYB5BF4KTsFFlXgvthoTXP_mef-NQmL-shO0e7y80RDXZwudpS1H5CodGXfot_iXHp4NmGAvUST-ldLQRLkqzoUwZ2vIpX-njemEuyyIv8cczKLXeah_f01qTk86KFM_ehobXMo8YYvMEh7yELfZ0MgJ6skcf0_KmgAmxNgqUKW-lWNNhAU2dUOK60XlGsBksygIKv7mg1IA0QeHagQXW1AlvmaXQcmgGmw/https://www.amazon.in/gp/aw/d/B0D83VVZDJ/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=e3d45ade76dd10b13f97fbb514ed9f0f&hsa_cr_id=0&qid=1782840509&sr=1-1-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=dspgXDgWCi&ref_=sbx_s_sparkle_sbtcd_asin_0_title&pd_rd_w=04LwQ&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=f0I1Z&pd_rd_r=ffd907bd-2a11-4e3d-8c5b-9aa83b17f4e8
+                              - generic [ref=e316]:
+                                - generic [ref=e317]: Boldfit Shorts for Men Training Gym Shorts for Men Workout Lightweight Running Short for Man Badminton Short for Boys Breathable Gym Wear for Boys Half Pant for Running, Cycling, Workout, Pickleball
+                                - generic [ref=e318]: Boldfit Shorts for Men Training Gym Shorts for Men Workout…
+                            - link "Rated 4.1 out of 5 stars by 1354 reviews. Go to review section." [ref=e319] [cursor=pointer]:
+                              - /url: https://aax-eu-zaz.amazon.in/x/c/JIcRLI1YhJXl2jc6AwTU3uAAAAGfGZNDVgoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICC8cBSi/clv1c_ek-wBPfXJTbXzQ4Sc54huj4p7UUGewMY3TAnSSxEsdsJvgZS2RPYvpQ_1icuZct38JJFmCXPipccnb2U1whIzO04u1BLlxgLRh6YVzn5wQguCAkvCnYhTYD1v43k5nEZhzmbRVjhvpq157oNDcVUwTS6vOactF3KkMPAr0Vqzo0OSeMdGd2hnscWM7zTAfbKeS9pLpucKObgdeX2pkpY5jpbnDG3pmK3kpAYbtuTR_FoNElvLp0AIedpDO65Df6_R6_mZtpRh0Pb40ULYXA4Z8bLUeRqFPeKw9AIMQoWDEr-YeHkLYIWBhKPnWLp58m93lGWTSChO2oRnrn7N6mTP40BAHtxrOZTPBvPnd67xAJu9k7ELkcFTEVX0EmhtCnZajfW1rwMtNU4fLhy6MaIzNFaL_s7w0iFUWyFj-nvhoS-StdTb-ABD0xd-_XSECwMlpPjCl27AviXMxg5qI3Bxp7GsVTQPImIFbpWxnqFw3-AupPawIXcvzsGn-j9PARHe16Qxd6gUVSOILkdlJUITGmOSmswPx4P0HJqTebOejnHORSuDE8slOLvFa91IUsnENTwC_G0g2x5Qe9tA2q9ChIktHJknLAINpbFpnKRSqYpiMcC3dTeS3P3u_HHJMgWgQnznTf5aJdsP-LwVwrh-BS-PvjkFcFTPPR3II4hwwtQviAuv4ji-_anZ5CjolSUI95nEgwXtvJoYENxiXem4giTsxa6JbN9xETnNK6oJLnlWjj15xkgGIOpwIJFBqfw9_pZp1L9DXwkcbmpZRAZyNkA-3DprlAn2rDPvb_wDnsmG1wknk61_3TwTVI_EiY_ZXtBCFETSGS_Vp3d6jfn1ugru1lmNoaoFjft9XTUN-uUn3ND9LyLtm8F2S1Xdj9eHVZY_KD3p1uJX4IR13GkttWQndq9dfdoLtMTejwdT-oYHULa_tPwvJJ0HY4C-DKlE969IpaHEgxIUqE_4fIiY6_HbXY3jArHdQROHmcyXWZ298RaLqgcNP7t_jsSvbtKwQNYfM-q9Ustfjgu-0XgERcfqD8y7Ia0XmG6BLbAexT9gLPEJGZMP8BXsYxC3AHpHEj9ePoNU7XQwsLT7fzzwYiiBJf3d8IQwtKqBeTAbUuXxkh4yUGTJoc3zlAeMSQx9kE4sCu9PQ1DFfA91vBZd6k9jWSNlJIA36pMu1hx8_LWrIkM8eEli5fpmt9VovIhb1HdA2u9ZqAPvWU51fvATeRiakRqrBiEKwKkdJkcy7tl14TVObsPhN2tMNI6wD_hxlvQgnQb3CMkkU6l-FxrigB7Oen8yeyg3TkuVOqJpuVcNz1axp5cfwKfbx0ut1Aou1igU-rF8riJ5NogK5N3-IevRkk4lolCOvUgoGLQBZ0-uV5itWo8UgUjk1OetUSur1zOuKKhKDnr0MyMJJKkVnGDTN1e_SlFOaq32Mbml5bklzRwScsh8C7sBUbJp1_U3TJX4DG_G0EECHE8819as8ibGpJzJCnRqWG7Xs_AYB5BF4KTsFFlXgvthoTXP_mef-NQmL-shO0e7y80RDXZwudpS1H5CodGXfot_iXHp4NmGAvUST-ldLQRLkqzoUwZ2vIpX-njemEuyyIv8cczKLXeah_f01qTk86KFM_ehobXMo8YYvMEh7yELfZ0MgJ6skcf0_KmgAmxNgqUKW-lWNNhAU2dUOK60XlGsBksygIKv7mg1IA0QeHagQXW1AlvmaXQcmgGmw/https://www.amazon.in/gp/aw/d/B0D83VVZDJ/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=e3d45ade76dd10b13f97fbb514ed9f0f&hsa_cr_id=0&qid=1782840509&sr=1-1-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=dspgXDgWCi&ref_=sbx_s_sparkle_sbtcd_asin_0_rating&pd_rd_w=04LwQ&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=f0I1Z&pd_rd_r=ffd907bd-2a11-4e3d-8c5b-9aa83b17f4e8#customerReviews
+                              - generic [ref=e320]:
+                                - generic [ref=e321]: "4.1"
+                                - generic [ref=e323]: 4.1 out of 5 stars.
+                                - generic [ref=e324]: (1.3k)
+                            - link "₹449.00" [ref=e326] [cursor=pointer]:
+                              - /url: https://aax-eu-zaz.amazon.in/x/c/JIcRLI1YhJXl2jc6AwTU3uAAAAGfGZNDVgoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICC8cBSi/clv1c_ek-wBPfXJTbXzQ4Sc54huj4p7UUGewMY3TAnSSxEsdsJvgZS2RPYvpQ_1icuZct38JJFmCXPipccnb2U1whIzO04u1BLlxgLRh6YVzn5wQguCAkvCnYhTYD1v43k5nEZhzmbRVjhvpq157oNDcVUwTS6vOactF3KkMPAr0Vqzo0OSeMdGd2hnscWM7zTAfbKeS9pLpucKObgdeX2pkpY5jpbnDG3pmK3kpAYbtuTR_FoNElvLp0AIedpDO65Df6_R6_mZtpRh0Pb40ULYXA4Z8bLUeRqFPeKw9AIMQoWDEr-YeHkLYIWBhKPnWLp58m93lGWTSChO2oRnrn7N6mTP40BAHtxrOZTPBvPnd67xAJu9k7ELkcFTEVX0EmhtCnZajfW1rwMtNU4fLhy6MaIzNFaL_s7w0iFUWyFj-nvhoS-StdTb-ABD0xd-_XSECwMlpPjCl27AviXMxg5qI3Bxp7GsVTQPImIFbpWxnqFw3-AupPawIXcvzsGn-j9PARHe16Qxd6gUVSOILkdlJUITGmOSmswPx4P0HJqTebOejnHORSuDE8slOLvFa91IUsnENTwC_G0g2x5Qe9tA2q9ChIktHJknLAINpbFpnKRSqYpiMcC3dTeS3P3u_HHJMgWgQnznTf5aJdsP-LwVwrh-BS-PvjkFcFTPPR3II4hwwtQviAuv4ji-_anZ5CjolSUI95nEgwXtvJoYENxiXem4giTsxa6JbN9xETnNK6oJLnlWjj15xkgGIOpwIJFBqfw9_pZp1L9DXwkcbmpZRAZyNkA-3DprlAn2rDPvb_wDnsmG1wknk61_3TwTVI_EiY_ZXtBCFETSGS_Vp3d6jfn1ugru1lmNoaoFjft9XTUN-uUn3ND9LyLtm8F2S1Xdj9eHVZY_KD3p1uJX4IR13GkttWQndq9dfdoLtMTejwdT-oYHULa_tPwvJJ0HY4C-DKlE969IpaHEgxIUqE_4fIiY6_HbXY3jArHdQROHmcyXWZ298RaLqgcNP7t_jsSvbtKwQNYfM-q9Ustfjgu-0XgERcfqD8y7Ia0XmG6BLbAexT9gLPEJGZMP8BXsYxC3AHpHEj9ePoNU7XQwsLT7fzzwYiiBJf3d8IQwtKqBeTAbUuXxkh4yUGTJoc3zlAeMSQx9kE4sCu9PQ1DFfA91vBZd6k9jWSNlJIA36pMu1hx8_LWrIkM8eEli5fpmt9VovIhb1HdA2u9ZqAPvWU51fvATeRiakRqrBiEKwKkdJkcy7tl14TVObsPhN2tMNI6wD_hxlvQgnQb3CMkkU6l-FxrigB7Oen8yeyg3TkuVOqJpuVcNz1axp5cfwKfbx0ut1Aou1igU-rF8riJ5NogK5N3-IevRkk4lolCOvUgoGLQBZ0-uV5itWo8UgUjk1OetUSur1zOuKKhKDnr0MyMJJKkVnGDTN1e_SlFOaq32Mbml5bklzRwScsh8C7sBUbJp1_U3TJX4DG_G0EECHE8819as8ibGpJzJCnRqWG7Xs_AYB5BF4KTsFFlXgvthoTXP_mef-NQmL-shO0e7y80RDXZwudpS1H5CodGXfot_iXHp4NmGAvUST-ldLQRLkqzoUwZ2vIpX-njemEuyyIv8cczKLXeah_f01qTk86KFM_ehobXMo8YYvMEh7yELfZ0MgJ6skcf0_KmgAmxNgqUKW-lWNNhAU2dUOK60XlGsBksygIKv7mg1IA0QeHagQXW1AlvmaXQcmgGmw/https://www.amazon.in/gp/aw/d/B0D83VVZDJ/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=e3d45ade76dd10b13f97fbb514ed9f0f&hsa_cr_id=0&qid=1782840509&sr=1-1-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=dspgXDgWCi&ref_=sbx_s_sparkle_sbtcd_asin_0_price&pd_rd_w=04LwQ&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=f0I1Z&pd_rd_r=ffd907bd-2a11-4e3d-8c5b-9aa83b17f4e8
+                              - generic [ref=e328]:
+                                - generic [ref=e329]: ₹449.00
+                                - generic [ref=e330]:
+                                  - text: ₹
+                                  - generic [ref=e331]:
+                                    - text: "449"
+                                    - generic [ref=e332]: .
+                                  - text: "00"
+                            - generic [ref=e335]: "M.R.P: ₹999.00"
+                      - listitem [ref=e336]:
+                        - generic [ref=e338]:
+                          - link [ref=e339] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JIcRLI1YhJXl2jc6AwTU3uAAAAGfGZNDVgoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICC8cBSi/clv1c_ek-wBPfXJTbXzQ4Sc54huj4p7UUGewMY3TAnSSxEsdsJvgZS2RPYvpQ_1icuZct38JJFmCXPipccnb2U1whIzO04u1BLlxgLRh6YVzn5wQguCAkvCnYhTYD1v43k5nEZhzmbRVjhvpq157oNDcVUwTS6vOactF3KkMPAr0Vqzo0OSeMdGd2hnscWM7zTAfbKeS9pLpucKObgdeX2pkpY5jpbnDG3pmK3kpAYbtuTR_FoNElvLp0AIedpDO65Df6_R6_mZtpRh0Pb40ULYXA4Z8bLUeRqFPeKw9AIMQoWDEr-YeHkLYIWBhKPnWLp58m93lGWTSChO2oRnrn7N6mTP40BAHtxrOZTPBvPnd67xAJu9k7ELkcFTEVX0EmhtCnZajfW1rwMtNU4fLhy6MaIzNFaL_s7w0iFUWyFj-nvhoS-StdTb-ABD0xd-_XSECwMlpPjCl27AviXMxg5qI3Bxp7GsVTQPImIFbpWxnqFw3-AupPawIXcvzsGn-j9PARHe16Qxd6gUVSOILkdlJUITGmOSmswPx4P0HJqTebOejnHORSuDE8slOLvFa91IUsnENTwC_G0g2x5Qe9tA2q9ChIktHJknLAINpbFpnKRSqYpiMcC3dTeS3P3u_HHJMgWgQnznTf5aJdsP-LwVwrh-BS-PvjkFcFTPPR3II4hwwtQviAuv4ji-_anZ5CjolSUI95nEgwXtvJoYENxiXem4giTsxa6JbN9xETnNK6oJLnlWjj15xkgGIOpwIJFBqfw9_pZp1L9DXwkcbmpZRAZyNkA-3DprlAn2rDPvb_wDnsmG1wknk61_3TwTVI_EiY_ZXtBCFETSGS_Vp3d6jfn1ugru1lmNoaoFjft9XTUN-uUn3ND9LyLtm8F2S1Xdj9eHVZY_KD3p1uJX4IR13GkttWQndq9dfdoLtMTejwdT-oYHULa_tPwvJJ0HY4C-DKlE969IpaHEgxIUqE_4fIiY6_HbXY3jArHdQROHmcyXWZ298RaLqgcNP7t_jsSvbtKwQNYfM-q9Ustfjgu-0XgERcfqD8y7Ia0XmG6BLbAexT9gLPEJGZMP8BXsYxC3AHpHEj9ePoNU7XQwsLT7fzzwYiiBJf3d8IQwtKqBeTAbUuXxkh4yUGTJoc3zlAeMSQx9kE4sCu9PQ1DFfA91vBZd6k9jWSNlJIA36pMu1hx8_LWrIkM8eEli5fpmt9VovIhb1HdA2u9ZqAPvWU51fvATeRiakRqrBiEKwKkdJkcy7tl14TVObsPhN2tMNI6wD_hxlvQgnQb3CMkkU6l-FxrigB7Oen8yeyg3TkuVOqJpuVcNz1axp5cfwKfbx0ut1Aou1igU-rF8riJ5NogK5N3-IevRkk4lolCOvUgoGLQBZ0-uV5itWo8UgUjk1OetUSur1zOuKKhKDnr0MyMJJKkVnGDTN1e_SlFOaq32Mbml5bklzRwScsh8C7sBUbJp1_U3TJX4DG_G0EECHE8819as8ibGpJzJCnRqWG7Xs_AYB5BF4KTsFFlXgvthoTXP_mef-NQmL-shO0e7y80RDXZwudpS1H5CodGXfot_iXHp4NmGAvUST-ldLQRLkqzoUwZ2vIpX-njemEuyyIv8cczKLXeah_f01qTk86KFM_ehobXMo8YYvMEh7yELfZ0MgJ6skcf0_KmgAmxNgqUKW-lWNNhAU2dUOK60XlGsBksygIKv7mg1IA0QeHagQXW1AlvmaXQcmgGmw/https://www.amazon.in/gp/aw/d/B0D6BQHSGL/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=e3d45ade76dd10b13f97fbb514ed9f0f&hsa_cr_id=0&qid=1782840509&sr=1-2-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=dspgXDgWCi&ref_=sbx_s_sparkle_sbtcd_asin_1_bkgd&pd_rd_w=04LwQ&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=f0I1Z&pd_rd_r=ffd907bd-2a11-4e3d-8c5b-9aa83b17f4e8
+                          - link "Boldfit Shorts for Men Lightweight Gym Shorts for Men Workout Sports Short for man Breathable Activewear Short for man Gym, Yoga, Running, Cycling Sportswear for Boys" [ref=e341] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JIcRLI1YhJXl2jc6AwTU3uAAAAGfGZNDVgoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICC8cBSi/clv1c_ek-wBPfXJTbXzQ4Sc54huj4p7UUGewMY3TAnSSxEsdsJvgZS2RPYvpQ_1icuZct38JJFmCXPipccnb2U1whIzO04u1BLlxgLRh6YVzn5wQguCAkvCnYhTYD1v43k5nEZhzmbRVjhvpq157oNDcVUwTS6vOactF3KkMPAr0Vqzo0OSeMdGd2hnscWM7zTAfbKeS9pLpucKObgdeX2pkpY5jpbnDG3pmK3kpAYbtuTR_FoNElvLp0AIedpDO65Df6_R6_mZtpRh0Pb40ULYXA4Z8bLUeRqFPeKw9AIMQoWDEr-YeHkLYIWBhKPnWLp58m93lGWTSChO2oRnrn7N6mTP40BAHtxrOZTPBvPnd67xAJu9k7ELkcFTEVX0EmhtCnZajfW1rwMtNU4fLhy6MaIzNFaL_s7w0iFUWyFj-nvhoS-StdTb-ABD0xd-_XSECwMlpPjCl27AviXMxg5qI3Bxp7GsVTQPImIFbpWxnqFw3-AupPawIXcvzsGn-j9PARHe16Qxd6gUVSOILkdlJUITGmOSmswPx4P0HJqTebOejnHORSuDE8slOLvFa91IUsnENTwC_G0g2x5Qe9tA2q9ChIktHJknLAINpbFpnKRSqYpiMcC3dTeS3P3u_HHJMgWgQnznTf5aJdsP-LwVwrh-BS-PvjkFcFTPPR3II4hwwtQviAuv4ji-_anZ5CjolSUI95nEgwXtvJoYENxiXem4giTsxa6JbN9xETnNK6oJLnlWjj15xkgGIOpwIJFBqfw9_pZp1L9DXwkcbmpZRAZyNkA-3DprlAn2rDPvb_wDnsmG1wknk61_3TwTVI_EiY_ZXtBCFETSGS_Vp3d6jfn1ugru1lmNoaoFjft9XTUN-uUn3ND9LyLtm8F2S1Xdj9eHVZY_KD3p1uJX4IR13GkttWQndq9dfdoLtMTejwdT-oYHULa_tPwvJJ0HY4C-DKlE969IpaHEgxIUqE_4fIiY6_HbXY3jArHdQROHmcyXWZ298RaLqgcNP7t_jsSvbtKwQNYfM-q9Ustfjgu-0XgERcfqD8y7Ia0XmG6BLbAexT9gLPEJGZMP8BXsYxC3AHpHEj9ePoNU7XQwsLT7fzzwYiiBJf3d8IQwtKqBeTAbUuXxkh4yUGTJoc3zlAeMSQx9kE4sCu9PQ1DFfA91vBZd6k9jWSNlJIA36pMu1hx8_LWrIkM8eEli5fpmt9VovIhb1HdA2u9ZqAPvWU51fvATeRiakRqrBiEKwKkdJkcy7tl14TVObsPhN2tMNI6wD_hxlvQgnQb3CMkkU6l-FxrigB7Oen8yeyg3TkuVOqJpuVcNz1axp5cfwKfbx0ut1Aou1igU-rF8riJ5NogK5N3-IevRkk4lolCOvUgoGLQBZ0-uV5itWo8UgUjk1OetUSur1zOuKKhKDnr0MyMJJKkVnGDTN1e_SlFOaq32Mbml5bklzRwScsh8C7sBUbJp1_U3TJX4DG_G0EECHE8819as8ibGpJzJCnRqWG7Xs_AYB5BF4KTsFFlXgvthoTXP_mef-NQmL-shO0e7y80RDXZwudpS1H5CodGXfot_iXHp4NmGAvUST-ldLQRLkqzoUwZ2vIpX-njemEuyyIv8cczKLXeah_f01qTk86KFM_ehobXMo8YYvMEh7yELfZ0MgJ6skcf0_KmgAmxNgqUKW-lWNNhAU2dUOK60XlGsBksygIKv7mg1IA0QeHagQXW1AlvmaXQcmgGmw/https://www.amazon.in/gp/aw/d/B0D6BQHSGL/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=e3d45ade76dd10b13f97fbb514ed9f0f&hsa_cr_id=0&qid=1782840509&sr=1-2-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=dspgXDgWCi&ref_=sbx_s_sparkle_sbtcd_asin_1_img&pd_rd_w=04LwQ&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=f0I1Z&pd_rd_r=ffd907bd-2a11-4e3d-8c5b-9aa83b17f4e8
+                            - img "Boldfit Shorts for Men Lightweight Gym Shorts for Men Workout Sports Short for man Breathable Activewear Short for man Gym, Yoga, Running, Cycling Sportswear for Boys" [ref=e344]
+                          - generic [ref=e346]:
+                            - link [ref=e347] [cursor=pointer]:
+                              - /url: https://aax-eu-zaz.amazon.in/x/c/JIcRLI1YhJXl2jc6AwTU3uAAAAGfGZNDVgoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICC8cBSi/clv1c_ek-wBPfXJTbXzQ4Sc54huj4p7UUGewMY3TAnSSxEsdsJvgZS2RPYvpQ_1icuZct38JJFmCXPipccnb2U1whIzO04u1BLlxgLRh6YVzn5wQguCAkvCnYhTYD1v43k5nEZhzmbRVjhvpq157oNDcVUwTS6vOactF3KkMPAr0Vqzo0OSeMdGd2hnscWM7zTAfbKeS9pLpucKObgdeX2pkpY5jpbnDG3pmK3kpAYbtuTR_FoNElvLp0AIedpDO65Df6_R6_mZtpRh0Pb40ULYXA4Z8bLUeRqFPeKw9AIMQoWDEr-YeHkLYIWBhKPnWLp58m93lGWTSChO2oRnrn7N6mTP40BAHtxrOZTPBvPnd67xAJu9k7ELkcFTEVX0EmhtCnZajfW1rwMtNU4fLhy6MaIzNFaL_s7w0iFUWyFj-nvhoS-StdTb-ABD0xd-_XSECwMlpPjCl27AviXMxg5qI3Bxp7GsVTQPImIFbpWxnqFw3-AupPawIXcvzsGn-j9PARHe16Qxd6gUVSOILkdlJUITGmOSmswPx4P0HJqTebOejnHORSuDE8slOLvFa91IUsnENTwC_G0g2x5Qe9tA2q9ChIktHJknLAINpbFpnKRSqYpiMcC3dTeS3P3u_HHJMgWgQnznTf5aJdsP-LwVwrh-BS-PvjkFcFTPPR3II4hwwtQviAuv4ji-_anZ5CjolSUI95nEgwXtvJoYENxiXem4giTsxa6JbN9xETnNK6oJLnlWjj15xkgGIOpwIJFBqfw9_pZp1L9DXwkcbmpZRAZyNkA-3DprlAn2rDPvb_wDnsmG1wknk61_3TwTVI_EiY_ZXtBCFETSGS_Vp3d6jfn1ugru1lmNoaoFjft9XTUN-uUn3ND9LyLtm8F2S1Xdj9eHVZY_KD3p1uJX4IR13GkttWQndq9dfdoLtMTejwdT-oYHULa_tPwvJJ0HY4C-DKlE969IpaHEgxIUqE_4fIiY6_HbXY3jArHdQROHmcyXWZ298RaLqgcNP7t_jsSvbtKwQNYfM-q9Ustfjgu-0XgERcfqD8y7Ia0XmG6BLbAexT9gLPEJGZMP8BXsYxC3AHpHEj9ePoNU7XQwsLT7fzzwYiiBJf3d8IQwtKqBeTAbUuXxkh4yUGTJoc3zlAeMSQx9kE4sCu9PQ1DFfA91vBZd6k9jWSNlJIA36pMu1hx8_LWrIkM8eEli5fpmt9VovIhb1HdA2u9ZqAPvWU51fvATeRiakRqrBiEKwKkdJkcy7tl14TVObsPhN2tMNI6wD_hxlvQgnQb3CMkkU6l-FxrigB7Oen8yeyg3TkuVOqJpuVcNz1axp5cfwKfbx0ut1Aou1igU-rF8riJ5NogK5N3-IevRkk4lolCOvUgoGLQBZ0-uV5itWo8UgUjk1OetUSur1zOuKKhKDnr0MyMJJKkVnGDTN1e_SlFOaq32Mbml5bklzRwScsh8C7sBUbJp1_U3TJX4DG_G0EECHE8819as8ibGpJzJCnRqWG7Xs_AYB5BF4KTsFFlXgvthoTXP_mef-NQmL-shO0e7y80RDXZwudpS1H5CodGXfot_iXHp4NmGAvUST-ldLQRLkqzoUwZ2vIpX-njemEuyyIv8cczKLXeah_f01qTk86KFM_ehobXMo8YYvMEh7yELfZ0MgJ6skcf0_KmgAmxNgqUKW-lWNNhAU2dUOK60XlGsBksygIKv7mg1IA0QeHagQXW1AlvmaXQcmgGmw/https://www.amazon.in/gp/aw/d/B0D6BQHSGL/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=e3d45ade76dd10b13f97fbb514ed9f0f&hsa_cr_id=0&qid=1782840509&sr=1-2-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=dspgXDgWCi&ref_=sbx_s_sparkle_sbtcd_asin_1_bkgd&pd_rd_w=04LwQ&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=f0I1Z&pd_rd_r=ffd907bd-2a11-4e3d-8c5b-9aa83b17f4e8
+                            - link "Boldfit Shorts for Men Lightweight Gym Shorts for Men Workout Sports Short for man Breathable Activewear Short for man Gym, Yoga, Running, Cycling Sportswear for Boys" [ref=e349] [cursor=pointer]:
+                              - /url: https://aax-eu-zaz.amazon.in/x/c/JIcRLI1YhJXl2jc6AwTU3uAAAAGfGZNDVgoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICC8cBSi/clv1c_ek-wBPfXJTbXzQ4Sc54huj4p7UUGewMY3TAnSSxEsdsJvgZS2RPYvpQ_1icuZct38JJFmCXPipccnb2U1whIzO04u1BLlxgLRh6YVzn5wQguCAkvCnYhTYD1v43k5nEZhzmbRVjhvpq157oNDcVUwTS6vOactF3KkMPAr0Vqzo0OSeMdGd2hnscWM7zTAfbKeS9pLpucKObgdeX2pkpY5jpbnDG3pmK3kpAYbtuTR_FoNElvLp0AIedpDO65Df6_R6_mZtpRh0Pb40ULYXA4Z8bLUeRqFPeKw9AIMQoWDEr-YeHkLYIWBhKPnWLp58m93lGWTSChO2oRnrn7N6mTP40BAHtxrOZTPBvPnd67xAJu9k7ELkcFTEVX0EmhtCnZajfW1rwMtNU4fLhy6MaIzNFaL_s7w0iFUWyFj-nvhoS-StdTb-ABD0xd-_XSECwMlpPjCl27AviXMxg5qI3Bxp7GsVTQPImIFbpWxnqFw3-AupPawIXcvzsGn-j9PARHe16Qxd6gUVSOILkdlJUITGmOSmswPx4P0HJqTebOejnHORSuDE8slOLvFa91IUsnENTwC_G0g2x5Qe9tA2q9ChIktHJknLAINpbFpnKRSqYpiMcC3dTeS3P3u_HHJMgWgQnznTf5aJdsP-LwVwrh-BS-PvjkFcFTPPR3II4hwwtQviAuv4ji-_anZ5CjolSUI95nEgwXtvJoYENxiXem4giTsxa6JbN9xETnNK6oJLnlWjj15xkgGIOpwIJFBqfw9_pZp1L9DXwkcbmpZRAZyNkA-3DprlAn2rDPvb_wDnsmG1wknk61_3TwTVI_EiY_ZXtBCFETSGS_Vp3d6jfn1ugru1lmNoaoFjft9XTUN-uUn3ND9LyLtm8F2S1Xdj9eHVZY_KD3p1uJX4IR13GkttWQndq9dfdoLtMTejwdT-oYHULa_tPwvJJ0HY4C-DKlE969IpaHEgxIUqE_4fIiY6_HbXY3jArHdQROHmcyXWZ298RaLqgcNP7t_jsSvbtKwQNYfM-q9Ustfjgu-0XgERcfqD8y7Ia0XmG6BLbAexT9gLPEJGZMP8BXsYxC3AHpHEj9ePoNU7XQwsLT7fzzwYiiBJf3d8IQwtKqBeTAbUuXxkh4yUGTJoc3zlAeMSQx9kE4sCu9PQ1DFfA91vBZd6k9jWSNlJIA36pMu1hx8_LWrIkM8eEli5fpmt9VovIhb1HdA2u9ZqAPvWU51fvATeRiakRqrBiEKwKkdJkcy7tl14TVObsPhN2tMNI6wD_hxlvQgnQb3CMkkU6l-FxrigB7Oen8yeyg3TkuVOqJpuVcNz1axp5cfwKfbx0ut1Aou1igU-rF8riJ5NogK5N3-IevRkk4lolCOvUgoGLQBZ0-uV5itWo8UgUjk1OetUSur1zOuKKhKDnr0MyMJJKkVnGDTN1e_SlFOaq32Mbml5bklzRwScsh8C7sBUbJp1_U3TJX4DG_G0EECHE8819as8ibGpJzJCnRqWG7Xs_AYB5BF4KTsFFlXgvthoTXP_mef-NQmL-shO0e7y80RDXZwudpS1H5CodGXfot_iXHp4NmGAvUST-ldLQRLkqzoUwZ2vIpX-njemEuyyIv8cczKLXeah_f01qTk86KFM_ehobXMo8YYvMEh7yELfZ0MgJ6skcf0_KmgAmxNgqUKW-lWNNhAU2dUOK60XlGsBksygIKv7mg1IA0QeHagQXW1AlvmaXQcmgGmw/https://www.amazon.in/gp/aw/d/B0D6BQHSGL/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=e3d45ade76dd10b13f97fbb514ed9f0f&hsa_cr_id=0&qid=1782840509&sr=1-2-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=dspgXDgWCi&ref_=sbx_s_sparkle_sbtcd_asin_1_title&pd_rd_w=04LwQ&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=f0I1Z&pd_rd_r=ffd907bd-2a11-4e3d-8c5b-9aa83b17f4e8
+                              - generic [ref=e350]:
+                                - generic [ref=e351]: Boldfit Shorts for Men Lightweight Gym Shorts for Men Workout Sports Short for man Breathable Activewear Short for man Gym, Yoga, Running, Cycling Sportswear for Boys
+                                - generic [ref=e352]: Boldfit Shorts for Men Lightweight Gym Shorts for M…
+                            - link "Rated 4.3 out of 5 stars by 1274 reviews. Go to review section." [ref=e353] [cursor=pointer]:
+                              - /url: https://aax-eu-zaz.amazon.in/x/c/JIcRLI1YhJXl2jc6AwTU3uAAAAGfGZNDVgoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICC8cBSi/clv1c_ek-wBPfXJTbXzQ4Sc54huj4p7UUGewMY3TAnSSxEsdsJvgZS2RPYvpQ_1icuZct38JJFmCXPipccnb2U1whIzO04u1BLlxgLRh6YVzn5wQguCAkvCnYhTYD1v43k5nEZhzmbRVjhvpq157oNDcVUwTS6vOactF3KkMPAr0Vqzo0OSeMdGd2hnscWM7zTAfbKeS9pLpucKObgdeX2pkpY5jpbnDG3pmK3kpAYbtuTR_FoNElvLp0AIedpDO65Df6_R6_mZtpRh0Pb40ULYXA4Z8bLUeRqFPeKw9AIMQoWDEr-YeHkLYIWBhKPnWLp58m93lGWTSChO2oRnrn7N6mTP40BAHtxrOZTPBvPnd67xAJu9k7ELkcFTEVX0EmhtCnZajfW1rwMtNU4fLhy6MaIzNFaL_s7w0iFUWyFj-nvhoS-StdTb-ABD0xd-_XSECwMlpPjCl27AviXMxg5qI3Bxp7GsVTQPImIFbpWxnqFw3-AupPawIXcvzsGn-j9PARHe16Qxd6gUVSOILkdlJUITGmOSmswPx4P0HJqTebOejnHORSuDE8slOLvFa91IUsnENTwC_G0g2x5Qe9tA2q9ChIktHJknLAINpbFpnKRSqYpiMcC3dTeS3P3u_HHJMgWgQnznTf5aJdsP-LwVwrh-BS-PvjkFcFTPPR3II4hwwtQviAuv4ji-_anZ5CjolSUI95nEgwXtvJoYENxiXem4giTsxa6JbN9xETnNK6oJLnlWjj15xkgGIOpwIJFBqfw9_pZp1L9DXwkcbmpZRAZyNkA-3DprlAn2rDPvb_wDnsmG1wknk61_3TwTVI_EiY_ZXtBCFETSGS_Vp3d6jfn1ugru1lmNoaoFjft9XTUN-uUn3ND9LyLtm8F2S1Xdj9eHVZY_KD3p1uJX4IR13GkttWQndq9dfdoLtMTejwdT-oYHULa_tPwvJJ0HY4C-DKlE969IpaHEgxIUqE_4fIiY6_HbXY3jArHdQROHmcyXWZ298RaLqgcNP7t_jsSvbtKwQNYfM-q9Ustfjgu-0XgERcfqD8y7Ia0XmG6BLbAexT9gLPEJGZMP8BXsYxC3AHpHEj9ePoNU7XQwsLT7fzzwYiiBJf3d8IQwtKqBeTAbUuXxkh4yUGTJoc3zlAeMSQx9kE4sCu9PQ1DFfA91vBZd6k9jWSNlJIA36pMu1hx8_LWrIkM8eEli5fpmt9VovIhb1HdA2u9ZqAPvWU51fvATeRiakRqrBiEKwKkdJkcy7tl14TVObsPhN2tMNI6wD_hxlvQgnQb3CMkkU6l-FxrigB7Oen8yeyg3TkuVOqJpuVcNz1axp5cfwKfbx0ut1Aou1igU-rF8riJ5NogK5N3-IevRkk4lolCOvUgoGLQBZ0-uV5itWo8UgUjk1OetUSur1zOuKKhKDnr0MyMJJKkVnGDTN1e_SlFOaq32Mbml5bklzRwScsh8C7sBUbJp1_U3TJX4DG_G0EECHE8819as8ibGpJzJCnRqWG7Xs_AYB5BF4KTsFFlXgvthoTXP_mef-NQmL-shO0e7y80RDXZwudpS1H5CodGXfot_iXHp4NmGAvUST-ldLQRLkqzoUwZ2vIpX-njemEuyyIv8cczKLXeah_f01qTk86KFM_ehobXMo8YYvMEh7yELfZ0MgJ6skcf0_KmgAmxNgqUKW-lWNNhAU2dUOK60XlGsBksygIKv7mg1IA0QeHagQXW1AlvmaXQcmgGmw/https://www.amazon.in/gp/aw/d/B0D6BQHSGL/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=e3d45ade76dd10b13f97fbb514ed9f0f&hsa_cr_id=0&qid=1782840509&sr=1-2-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=dspgXDgWCi&ref_=sbx_s_sparkle_sbtcd_asin_1_rating&pd_rd_w=04LwQ&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=f0I1Z&pd_rd_r=ffd907bd-2a11-4e3d-8c5b-9aa83b17f4e8#customerReviews
+                              - generic [ref=e354]:
+                                - generic [ref=e355]: "4.3"
+                                - generic [ref=e357]: 4.3 out of 5 stars.
+                                - generic [ref=e358]: (1.2k)
+                            - link "₹449.00" [ref=e360] [cursor=pointer]:
+                              - /url: https://aax-eu-zaz.amazon.in/x/c/JIcRLI1YhJXl2jc6AwTU3uAAAAGfGZNDVgoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICC8cBSi/clv1c_ek-wBPfXJTbXzQ4Sc54huj4p7UUGewMY3TAnSSxEsdsJvgZS2RPYvpQ_1icuZct38JJFmCXPipccnb2U1whIzO04u1BLlxgLRh6YVzn5wQguCAkvCnYhTYD1v43k5nEZhzmbRVjhvpq157oNDcVUwTS6vOactF3KkMPAr0Vqzo0OSeMdGd2hnscWM7zTAfbKeS9pLpucKObgdeX2pkpY5jpbnDG3pmK3kpAYbtuTR_FoNElvLp0AIedpDO65Df6_R6_mZtpRh0Pb40ULYXA4Z8bLUeRqFPeKw9AIMQoWDEr-YeHkLYIWBhKPnWLp58m93lGWTSChO2oRnrn7N6mTP40BAHtxrOZTPBvPnd67xAJu9k7ELkcFTEVX0EmhtCnZajfW1rwMtNU4fLhy6MaIzNFaL_s7w0iFUWyFj-nvhoS-StdTb-ABD0xd-_XSECwMlpPjCl27AviXMxg5qI3Bxp7GsVTQPImIFbpWxnqFw3-AupPawIXcvzsGn-j9PARHe16Qxd6gUVSOILkdlJUITGmOSmswPx4P0HJqTebOejnHORSuDE8slOLvFa91IUsnENTwC_G0g2x5Qe9tA2q9ChIktHJknLAINpbFpnKRSqYpiMcC3dTeS3P3u_HHJMgWgQnznTf5aJdsP-LwVwrh-BS-PvjkFcFTPPR3II4hwwtQviAuv4ji-_anZ5CjolSUI95nEgwXtvJoYENxiXem4giTsxa6JbN9xETnNK6oJLnlWjj15xkgGIOpwIJFBqfw9_pZp1L9DXwkcbmpZRAZyNkA-3DprlAn2rDPvb_wDnsmG1wknk61_3TwTVI_EiY_ZXtBCFETSGS_Vp3d6jfn1ugru1lmNoaoFjft9XTUN-uUn3ND9LyLtm8F2S1Xdj9eHVZY_KD3p1uJX4IR13GkttWQndq9dfdoLtMTejwdT-oYHULa_tPwvJJ0HY4C-DKlE969IpaHEgxIUqE_4fIiY6_HbXY3jArHdQROHmcyXWZ298RaLqgcNP7t_jsSvbtKwQNYfM-q9Ustfjgu-0XgERcfqD8y7Ia0XmG6BLbAexT9gLPEJGZMP8BXsYxC3AHpHEj9ePoNU7XQwsLT7fzzwYiiBJf3d8IQwtKqBeTAbUuXxkh4yUGTJoc3zlAeMSQx9kE4sCu9PQ1DFfA91vBZd6k9jWSNlJIA36pMu1hx8_LWrIkM8eEli5fpmt9VovIhb1HdA2u9ZqAPvWU51fvATeRiakRqrBiEKwKkdJkcy7tl14TVObsPhN2tMNI6wD_hxlvQgnQb3CMkkU6l-FxrigB7Oen8yeyg3TkuVOqJpuVcNz1axp5cfwKfbx0ut1Aou1igU-rF8riJ5NogK5N3-IevRkk4lolCOvUgoGLQBZ0-uV5itWo8UgUjk1OetUSur1zOuKKhKDnr0MyMJJKkVnGDTN1e_SlFOaq32Mbml5bklzRwScsh8C7sBUbJp1_U3TJX4DG_G0EECHE8819as8ibGpJzJCnRqWG7Xs_AYB5BF4KTsFFlXgvthoTXP_mef-NQmL-shO0e7y80RDXZwudpS1H5CodGXfot_iXHp4NmGAvUST-ldLQRLkqzoUwZ2vIpX-njemEuyyIv8cczKLXeah_f01qTk86KFM_ehobXMo8YYvMEh7yELfZ0MgJ6skcf0_KmgAmxNgqUKW-lWNNhAU2dUOK60XlGsBksygIKv7mg1IA0QeHagQXW1AlvmaXQcmgGmw/https://www.amazon.in/gp/aw/d/B0D6BQHSGL/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=e3d45ade76dd10b13f97fbb514ed9f0f&hsa_cr_id=0&qid=1782840509&sr=1-2-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=dspgXDgWCi&ref_=sbx_s_sparkle_sbtcd_asin_1_price&pd_rd_w=04LwQ&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=f0I1Z&pd_rd_r=ffd907bd-2a11-4e3d-8c5b-9aa83b17f4e8
+                              - generic [ref=e362]:
+                                - generic [ref=e363]: ₹449.00
+                                - generic [ref=e364]:
+                                  - text: ₹
+                                  - generic [ref=e365]:
+                                    - text: "449"
+                                    - generic [ref=e366]: .
+                                  - text: "00"
+                            - generic [ref=e369]: "M.R.P: ₹999.00"
+                      - listitem [ref=e370]:
+                        - generic [ref=e372]:
+                          - link [ref=e373] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JIcRLI1YhJXl2jc6AwTU3uAAAAGfGZNDVgoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICC8cBSi/clv1c_ek-wBPfXJTbXzQ4Sc54huj4p7UUGewMY3TAnSSxEsdsJvgZS2RPYvpQ_1icuZct38JJFmCXPipccnb2U1whIzO04u1BLlxgLRh6YVzn5wQguCAkvCnYhTYD1v43k5nEZhzmbRVjhvpq157oNDcVUwTS6vOactF3KkMPAr0Vqzo0OSeMdGd2hnscWM7zTAfbKeS9pLpucKObgdeX2pkpY5jpbnDG3pmK3kpAYbtuTR_FoNElvLp0AIedpDO65Df6_R6_mZtpRh0Pb40ULYXA4Z8bLUeRqFPeKw9AIMQoWDEr-YeHkLYIWBhKPnWLp58m93lGWTSChO2oRnrn7N6mTP40BAHtxrOZTPBvPnd67xAJu9k7ELkcFTEVX0EmhtCnZajfW1rwMtNU4fLhy6MaIzNFaL_s7w0iFUWyFj-nvhoS-StdTb-ABD0xd-_XSECwMlpPjCl27AviXMxg5qI3Bxp7GsVTQPImIFbpWxnqFw3-AupPawIXcvzsGn-j9PARHe16Qxd6gUVSOILkdlJUITGmOSmswPx4P0HJqTebOejnHORSuDE8slOLvFa91IUsnENTwC_G0g2x5Qe9tA2q9ChIktHJknLAINpbFpnKRSqYpiMcC3dTeS3P3u_HHJMgWgQnznTf5aJdsP-LwVwrh-BS-PvjkFcFTPPR3II4hwwtQviAuv4ji-_anZ5CjolSUI95nEgwXtvJoYENxiXem4giTsxa6JbN9xETnNK6oJLnlWjj15xkgGIOpwIJFBqfw9_pZp1L9DXwkcbmpZRAZyNkA-3DprlAn2rDPvb_wDnsmG1wknk61_3TwTVI_EiY_ZXtBCFETSGS_Vp3d6jfn1ugru1lmNoaoFjft9XTUN-uUn3ND9LyLtm8F2S1Xdj9eHVZY_KD3p1uJX4IR13GkttWQndq9dfdoLtMTejwdT-oYHULa_tPwvJJ0HY4C-DKlE969IpaHEgxIUqE_4fIiY6_HbXY3jArHdQROHmcyXWZ298RaLqgcNP7t_jsSvbtKwQNYfM-q9Ustfjgu-0XgERcfqD8y7Ia0XmG6BLbAexT9gLPEJGZMP8BXsYxC3AHpHEj9ePoNU7XQwsLT7fzzwYiiBJf3d8IQwtKqBeTAbUuXxkh4yUGTJoc3zlAeMSQx9kE4sCu9PQ1DFfA91vBZd6k9jWSNlJIA36pMu1hx8_LWrIkM8eEli5fpmt9VovIhb1HdA2u9ZqAPvWU51fvATeRiakRqrBiEKwKkdJkcy7tl14TVObsPhN2tMNI6wD_hxlvQgnQb3CMkkU6l-FxrigB7Oen8yeyg3TkuVOqJpuVcNz1axp5cfwKfbx0ut1Aou1igU-rF8riJ5NogK5N3-IevRkk4lolCOvUgoGLQBZ0-uV5itWo8UgUjk1OetUSur1zOuKKhKDnr0MyMJJKkVnGDTN1e_SlFOaq32Mbml5bklzRwScsh8C7sBUbJp1_U3TJX4DG_G0EECHE8819as8ibGpJzJCnRqWG7Xs_AYB5BF4KTsFFlXgvthoTXP_mef-NQmL-shO0e7y80RDXZwudpS1H5CodGXfot_iXHp4NmGAvUST-ldLQRLkqzoUwZ2vIpX-njemEuyyIv8cczKLXeah_f01qTk86KFM_ehobXMo8YYvMEh7yELfZ0MgJ6skcf0_KmgAmxNgqUKW-lWNNhAU2dUOK60XlGsBksygIKv7mg1IA0QeHagQXW1AlvmaXQcmgGmw/https://www.amazon.in/gp/aw/d/B0DXKMFZ29/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=e3d45ade76dd10b13f97fbb514ed9f0f&hsa_cr_id=0&qid=1782840509&sr=1-3-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=dspgXDgWCi&ref_=sbx_s_sparkle_sbtcd_asin_2_bkgd&pd_rd_w=04LwQ&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=f0I1Z&pd_rd_r=ffd907bd-2a11-4e3d-8c5b-9aa83b17f4e8
+                          - link [ref=e375] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JIcRLI1YhJXl2jc6AwTU3uAAAAGfGZNDVgoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICC8cBSi/clv1c_ek-wBPfXJTbXzQ4Sc54huj4p7UUGewMY3TAnSSxEsdsJvgZS2RPYvpQ_1icuZct38JJFmCXPipccnb2U1whIzO04u1BLlxgLRh6YVzn5wQguCAkvCnYhTYD1v43k5nEZhzmbRVjhvpq157oNDcVUwTS6vOactF3KkMPAr0Vqzo0OSeMdGd2hnscWM7zTAfbKeS9pLpucKObgdeX2pkpY5jpbnDG3pmK3kpAYbtuTR_FoNElvLp0AIedpDO65Df6_R6_mZtpRh0Pb40ULYXA4Z8bLUeRqFPeKw9AIMQoWDEr-YeHkLYIWBhKPnWLp58m93lGWTSChO2oRnrn7N6mTP40BAHtxrOZTPBvPnd67xAJu9k7ELkcFTEVX0EmhtCnZajfW1rwMtNU4fLhy6MaIzNFaL_s7w0iFUWyFj-nvhoS-StdTb-ABD0xd-_XSECwMlpPjCl27AviXMxg5qI3Bxp7GsVTQPImIFbpWxnqFw3-AupPawIXcvzsGn-j9PARHe16Qxd6gUVSOILkdlJUITGmOSmswPx4P0HJqTebOejnHORSuDE8slOLvFa91IUsnENTwC_G0g2x5Qe9tA2q9ChIktHJknLAINpbFpnKRSqYpiMcC3dTeS3P3u_HHJMgWgQnznTf5aJdsP-LwVwrh-BS-PvjkFcFTPPR3II4hwwtQviAuv4ji-_anZ5CjolSUI95nEgwXtvJoYENxiXem4giTsxa6JbN9xETnNK6oJLnlWjj15xkgGIOpwIJFBqfw9_pZp1L9DXwkcbmpZRAZyNkA-3DprlAn2rDPvb_wDnsmG1wknk61_3TwTVI_EiY_ZXtBCFETSGS_Vp3d6jfn1ugru1lmNoaoFjft9XTUN-uUn3ND9LyLtm8F2S1Xdj9eHVZY_KD3p1uJX4IR13GkttWQndq9dfdoLtMTejwdT-oYHULa_tPwvJJ0HY4C-DKlE969IpaHEgxIUqE_4fIiY6_HbXY3jArHdQROHmcyXWZ298RaLqgcNP7t_jsSvbtKwQNYfM-q9Ustfjgu-0XgERcfqD8y7Ia0XmG6BLbAexT9gLPEJGZMP8BXsYxC3AHpHEj9ePoNU7XQwsLT7fzzwYiiBJf3d8IQwtKqBeTAbUuXxkh4yUGTJoc3zlAeMSQx9kE4sCu9PQ1DFfA91vBZd6k9jWSNlJIA36pMu1hx8_LWrIkM8eEli5fpmt9VovIhb1HdA2u9ZqAPvWU51fvATeRiakRqrBiEKwKkdJkcy7tl14TVObsPhN2tMNI6wD_hxlvQgnQb3CMkkU6l-FxrigB7Oen8yeyg3TkuVOqJpuVcNz1axp5cfwKfbx0ut1Aou1igU-rF8riJ5NogK5N3-IevRkk4lolCOvUgoGLQBZ0-uV5itWo8UgUjk1OetUSur1zOuKKhKDnr0MyMJJKkVnGDTN1e_SlFOaq32Mbml5bklzRwScsh8C7sBUbJp1_U3TJX4DG_G0EECHE8819as8ibGpJzJCnRqWG7Xs_AYB5BF4KTsFFlXgvthoTXP_mef-NQmL-shO0e7y80RDXZwudpS1H5CodGXfot_iXHp4NmGAvUST-ldLQRLkqzoUwZ2vIpX-njemEuyyIv8cczKLXeah_f01qTk86KFM_ehobXMo8YYvMEh7yELfZ0MgJ6skcf0_KmgAmxNgqUKW-lWNNhAU2dUOK60XlGsBksygIKv7mg1IA0QeHagQXW1AlvmaXQcmgGmw/https://www.amazon.in/gp/aw/d/B0DXKMFZ29/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=e3d45ade76dd10b13f97fbb514ed9f0f&hsa_cr_id=0&qid=1782840509&sr=1-3-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=dspgXDgWCi&ref_=sbx_s_sparkle_sbtcd_asin_2_img&pd_rd_w=04LwQ&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=f0I1Z&pd_rd_r=ffd907bd-2a11-4e3d-8c5b-9aa83b17f4e8
+                            - img [ref=e378]
+                          - generic [ref=e380]:
+                            - link [ref=e381] [cursor=pointer]:
+                              - /url: https://aax-eu-zaz.amazon.in/x/c/JIcRLI1YhJXl2jc6AwTU3uAAAAGfGZNDVgoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICC8cBSi/clv1c_ek-wBPfXJTbXzQ4Sc54huj4p7UUGewMY3TAnSSxEsdsJvgZS2RPYvpQ_1icuZct38JJFmCXPipccnb2U1whIzO04u1BLlxgLRh6YVzn5wQguCAkvCnYhTYD1v43k5nEZhzmbRVjhvpq157oNDcVUwTS6vOactF3KkMPAr0Vqzo0OSeMdGd2hnscWM7zTAfbKeS9pLpucKObgdeX2pkpY5jpbnDG3pmK3kpAYbtuTR_FoNElvLp0AIedpDO65Df6_R6_mZtpRh0Pb40ULYXA4Z8bLUeRqFPeKw9AIMQoWDEr-YeHkLYIWBhKPnWLp58m93lGWTSChO2oRnrn7N6mTP40BAHtxrOZTPBvPnd67xAJu9k7ELkcFTEVX0EmhtCnZajfW1rwMtNU4fLhy6MaIzNFaL_s7w0iFUWyFj-nvhoS-StdTb-ABD0xd-_XSECwMlpPjCl27AviXMxg5qI3Bxp7GsVTQPImIFbpWxnqFw3-AupPawIXcvzsGn-j9PARHe16Qxd6gUVSOILkdlJUITGmOSmswPx4P0HJqTebOejnHORSuDE8slOLvFa91IUsnENTwC_G0g2x5Qe9tA2q9ChIktHJknLAINpbFpnKRSqYpiMcC3dTeS3P3u_HHJMgWgQnznTf5aJdsP-LwVwrh-BS-PvjkFcFTPPR3II4hwwtQviAuv4ji-_anZ5CjolSUI95nEgwXtvJoYENxiXem4giTsxa6JbN9xETnNK6oJLnlWjj15xkgGIOpwIJFBqfw9_pZp1L9DXwkcbmpZRAZyNkA-3DprlAn2rDPvb_wDnsmG1wknk61_3TwTVI_EiY_ZXtBCFETSGS_Vp3d6jfn1ugru1lmNoaoFjft9XTUN-uUn3ND9LyLtm8F2S1Xdj9eHVZY_KD3p1uJX4IR13GkttWQndq9dfdoLtMTejwdT-oYHULa_tPwvJJ0HY4C-DKlE969IpaHEgxIUqE_4fIiY6_HbXY3jArHdQROHmcyXWZ298RaLqgcNP7t_jsSvbtKwQNYfM-q9Ustfjgu-0XgERcfqD8y7Ia0XmG6BLbAexT9gLPEJGZMP8BXsYxC3AHpHEj9ePoNU7XQwsLT7fzzwYiiBJf3d8IQwtKqBeTAbUuXxkh4yUGTJoc3zlAeMSQx9kE4sCu9PQ1DFfA91vBZd6k9jWSNlJIA36pMu1hx8_LWrIkM8eEli5fpmt9VovIhb1HdA2u9ZqAPvWU51fvATeRiakRqrBiEKwKkdJkcy7tl14TVObsPhN2tMNI6wD_hxlvQgnQb3CMkkU6l-FxrigB7Oen8yeyg3TkuVOqJpuVcNz1axp5cfwKfbx0ut1Aou1igU-rF8riJ5NogK5N3-IevRkk4lolCOvUgoGLQBZ0-uV5itWo8UgUjk1OetUSur1zOuKKhKDnr0MyMJJKkVnGDTN1e_SlFOaq32Mbml5bklzRwScsh8C7sBUbJp1_U3TJX4DG_G0EECHE8819as8ibGpJzJCnRqWG7Xs_AYB5BF4KTsFFlXgvthoTXP_mef-NQmL-shO0e7y80RDXZwudpS1H5CodGXfot_iXHp4NmGAvUST-ldLQRLkqzoUwZ2vIpX-njemEuyyIv8cczKLXeah_f01qTk86KFM_ehobXMo8YYvMEh7yELfZ0MgJ6skcf0_KmgAmxNgqUKW-lWNNhAU2dUOK60XlGsBksygIKv7mg1IA0QeHagQXW1AlvmaXQcmgGmw/https://www.amazon.in/gp/aw/d/B0DXKMFZ29/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=e3d45ade76dd10b13f97fbb514ed9f0f&hsa_cr_id=0&qid=1782840509&sr=1-3-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=dspgXDgWCi&ref_=sbx_s_sparkle_sbtcd_asin_2_bkgd&pd_rd_w=04LwQ&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=f0I1Z&pd_rd_r=ffd907bd-2a11-4e3d-8c5b-9aa83b17f4e8
+                            - link [ref=e383] [cursor=pointer]:
+                              - /url: https://aax-eu-zaz.amazon.in/x/c/JIcRLI1YhJXl2jc6AwTU3uAAAAGfGZNDVgoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICC8cBSi/clv1c_ek-wBPfXJTbXzQ4Sc54huj4p7UUGewMY3TAnSSxEsdsJvgZS2RPYvpQ_1icuZct38JJFmCXPipccnb2U1whIzO04u1BLlxgLRh6YVzn5wQguCAkvCnYhTYD1v43k5nEZhzmbRVjhvpq157oNDcVUwTS6vOactF3KkMPAr0Vqzo0OSeMdGd2hnscWM7zTAfbKeS9pLpucKObgdeX2pkpY5jpbnDG3pmK3kpAYbtuTR_FoNElvLp0AIedpDO65Df6_R6_mZtpRh0Pb40ULYXA4Z8bLUeRqFPeKw9AIMQoWDEr-YeHkLYIWBhKPnWLp58m93lGWTSChO2oRnrn7N6mTP40BAHtxrOZTPBvPnd67xAJu9k7ELkcFTEVX0EmhtCnZajfW1rwMtNU4fLhy6MaIzNFaL_s7w0iFUWyFj-nvhoS-StdTb-ABD0xd-_XSECwMlpPjCl27AviXMxg5qI3Bxp7GsVTQPImIFbpWxnqFw3-AupPawIXcvzsGn-j9PARHe16Qxd6gUVSOILkdlJUITGmOSmswPx4P0HJqTebOejnHORSuDE8slOLvFa91IUsnENTwC_G0g2x5Qe9tA2q9ChIktHJknLAINpbFpnKRSqYpiMcC3dTeS3P3u_HHJMgWgQnznTf5aJdsP-LwVwrh-BS-PvjkFcFTPPR3II4hwwtQviAuv4ji-_anZ5CjolSUI95nEgwXtvJoYENxiXem4giTsxa6JbN9xETnNK6oJLnlWjj15xkgGIOpwIJFBqfw9_pZp1L9DXwkcbmpZRAZyNkA-3DprlAn2rDPvb_wDnsmG1wknk61_3TwTVI_EiY_ZXtBCFETSGS_Vp3d6jfn1ugru1lmNoaoFjft9XTUN-uUn3ND9LyLtm8F2S1Xdj9eHVZY_KD3p1uJX4IR13GkttWQndq9dfdoLtMTejwdT-oYHULa_tPwvJJ0HY4C-DKlE969IpaHEgxIUqE_4fIiY6_HbXY3jArHdQROHmcyXWZ298RaLqgcNP7t_jsSvbtKwQNYfM-q9Ustfjgu-0XgERcfqD8y7Ia0XmG6BLbAexT9gLPEJGZMP8BXsYxC3AHpHEj9ePoNU7XQwsLT7fzzwYiiBJf3d8IQwtKqBeTAbUuXxkh4yUGTJoc3zlAeMSQx9kE4sCu9PQ1DFfA91vBZd6k9jWSNlJIA36pMu1hx8_LWrIkM8eEli5fpmt9VovIhb1HdA2u9ZqAPvWU51fvATeRiakRqrBiEKwKkdJkcy7tl14TVObsPhN2tMNI6wD_hxlvQgnQb3CMkkU6l-FxrigB7Oen8yeyg3TkuVOqJpuVcNz1axp5cfwKfbx0ut1Aou1igU-rF8riJ5NogK5N3-IevRkk4lolCOvUgoGLQBZ0-uV5itWo8UgUjk1OetUSur1zOuKKhKDnr0MyMJJKkVnGDTN1e_SlFOaq32Mbml5bklzRwScsh8C7sBUbJp1_U3TJX4DG_G0EECHE8819as8ibGpJzJCnRqWG7Xs_AYB5BF4KTsFFlXgvthoTXP_mef-NQmL-shO0e7y80RDXZwudpS1H5CodGXfot_iXHp4NmGAvUST-ldLQRLkqzoUwZ2vIpX-njemEuyyIv8cczKLXeah_f01qTk86KFM_ehobXMo8YYvMEh7yELfZ0MgJ6skcf0_KmgAmxNgqUKW-lWNNhAU2dUOK60XlGsBksygIKv7mg1IA0QeHagQXW1AlvmaXQcmgGmw/https://www.amazon.in/gp/aw/d/B0DXKMFZ29/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=e3d45ade76dd10b13f97fbb514ed9f0f&hsa_cr_id=0&qid=1782840509&sr=1-3-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=dspgXDgWCi&ref_=sbx_s_sparkle_sbtcd_asin_2_title&pd_rd_w=04LwQ&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=f0I1Z&pd_rd_r=ffd907bd-2a11-4e3d-8c5b-9aa83b17f4e8
+                              - generic [ref=e384]:
+                                - generic [ref=e385]: Boldfit Shorts for Men Solid Men Shorts Regular Fit Gym Shorts for Men Workout Yoga Outdoor All Day Shorts for Men All Season Wear Cotton Poly Quick Dry Mens Shorts Yoga Shorts
+                                - generic [ref=e386]: Boldfit Shorts for Men Solid Men Shorts Regular Fit Gym…
+                            - link [ref=e387] [cursor=pointer]:
+                              - /url: https://aax-eu-zaz.amazon.in/x/c/JIcRLI1YhJXl2jc6AwTU3uAAAAGfGZNDVgoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICC8cBSi/clv1c_ek-wBPfXJTbXzQ4Sc54huj4p7UUGewMY3TAnSSxEsdsJvgZS2RPYvpQ_1icuZct38JJFmCXPipccnb2U1whIzO04u1BLlxgLRh6YVzn5wQguCAkvCnYhTYD1v43k5nEZhzmbRVjhvpq157oNDcVUwTS6vOactF3KkMPAr0Vqzo0OSeMdGd2hnscWM7zTAfbKeS9pLpucKObgdeX2pkpY5jpbnDG3pmK3kpAYbtuTR_FoNElvLp0AIedpDO65Df6_R6_mZtpRh0Pb40ULYXA4Z8bLUeRqFPeKw9AIMQoWDEr-YeHkLYIWBhKPnWLp58m93lGWTSChO2oRnrn7N6mTP40BAHtxrOZTPBvPnd67xAJu9k7ELkcFTEVX0EmhtCnZajfW1rwMtNU4fLhy6MaIzNFaL_s7w0iFUWyFj-nvhoS-StdTb-ABD0xd-_XSECwMlpPjCl27AviXMxg5qI3Bxp7GsVTQPImIFbpWxnqFw3-AupPawIXcvzsGn-j9PARHe16Qxd6gUVSOILkdlJUITGmOSmswPx4P0HJqTebOejnHORSuDE8slOLvFa91IUsnENTwC_G0g2x5Qe9tA2q9ChIktHJknLAINpbFpnKRSqYpiMcC3dTeS3P3u_HHJMgWgQnznTf5aJdsP-LwVwrh-BS-PvjkFcFTPPR3II4hwwtQviAuv4ji-_anZ5CjolSUI95nEgwXtvJoYENxiXem4giTsxa6JbN9xETnNK6oJLnlWjj15xkgGIOpwIJFBqfw9_pZp1L9DXwkcbmpZRAZyNkA-3DprlAn2rDPvb_wDnsmG1wknk61_3TwTVI_EiY_ZXtBCFETSGS_Vp3d6jfn1ugru1lmNoaoFjft9XTUN-uUn3ND9LyLtm8F2S1Xdj9eHVZY_KD3p1uJX4IR13GkttWQndq9dfdoLtMTejwdT-oYHULa_tPwvJJ0HY4C-DKlE969IpaHEgxIUqE_4fIiY6_HbXY3jArHdQROHmcyXWZ298RaLqgcNP7t_jsSvbtKwQNYfM-q9Ustfjgu-0XgERcfqD8y7Ia0XmG6BLbAexT9gLPEJGZMP8BXsYxC3AHpHEj9ePoNU7XQwsLT7fzzwYiiBJf3d8IQwtKqBeTAbUuXxkh4yUGTJoc3zlAeMSQx9kE4sCu9PQ1DFfA91vBZd6k9jWSNlJIA36pMu1hx8_LWrIkM8eEli5fpmt9VovIhb1HdA2u9ZqAPvWU51fvATeRiakRqrBiEKwKkdJkcy7tl14TVObsPhN2tMNI6wD_hxlvQgnQb3CMkkU6l-FxrigB7Oen8yeyg3TkuVOqJpuVcNz1axp5cfwKfbx0ut1Aou1igU-rF8riJ5NogK5N3-IevRkk4lolCOvUgoGLQBZ0-uV5itWo8UgUjk1OetUSur1zOuKKhKDnr0MyMJJKkVnGDTN1e_SlFOaq32Mbml5bklzRwScsh8C7sBUbJp1_U3TJX4DG_G0EECHE8819as8ibGpJzJCnRqWG7Xs_AYB5BF4KTsFFlXgvthoTXP_mef-NQmL-shO0e7y80RDXZwudpS1H5CodGXfot_iXHp4NmGAvUST-ldLQRLkqzoUwZ2vIpX-njemEuyyIv8cczKLXeah_f01qTk86KFM_ehobXMo8YYvMEh7yELfZ0MgJ6skcf0_KmgAmxNgqUKW-lWNNhAU2dUOK60XlGsBksygIKv7mg1IA0QeHagQXW1AlvmaXQcmgGmw/https://www.amazon.in/gp/aw/d/B0DXKMFZ29/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=e3d45ade76dd10b13f97fbb514ed9f0f&hsa_cr_id=0&qid=1782840509&sr=1-3-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=dspgXDgWCi&ref_=sbx_s_sparkle_sbtcd_asin_2_rating&pd_rd_w=04LwQ&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=f0I1Z&pd_rd_r=ffd907bd-2a11-4e3d-8c5b-9aa83b17f4e8#customerReviews
+                              - generic [ref=e388]:
+                                - generic [ref=e389]: "4.1"
+                                - generic [ref=e391]: 4.1 out of 5 stars.
+                                - generic [ref=e392]: (284)
+                            - link [ref=e394] [cursor=pointer]:
+                              - /url: https://aax-eu-zaz.amazon.in/x/c/JIcRLI1YhJXl2jc6AwTU3uAAAAGfGZNDVgoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICC8cBSi/clv1c_ek-wBPfXJTbXzQ4Sc54huj4p7UUGewMY3TAnSSxEsdsJvgZS2RPYvpQ_1icuZct38JJFmCXPipccnb2U1whIzO04u1BLlxgLRh6YVzn5wQguCAkvCnYhTYD1v43k5nEZhzmbRVjhvpq157oNDcVUwTS6vOactF3KkMPAr0Vqzo0OSeMdGd2hnscWM7zTAfbKeS9pLpucKObgdeX2pkpY5jpbnDG3pmK3kpAYbtuTR_FoNElvLp0AIedpDO65Df6_R6_mZtpRh0Pb40ULYXA4Z8bLUeRqFPeKw9AIMQoWDEr-YeHkLYIWBhKPnWLp58m93lGWTSChO2oRnrn7N6mTP40BAHtxrOZTPBvPnd67xAJu9k7ELkcFTEVX0EmhtCnZajfW1rwMtNU4fLhy6MaIzNFaL_s7w0iFUWyFj-nvhoS-StdTb-ABD0xd-_XSECwMlpPjCl27AviXMxg5qI3Bxp7GsVTQPImIFbpWxnqFw3-AupPawIXcvzsGn-j9PARHe16Qxd6gUVSOILkdlJUITGmOSmswPx4P0HJqTebOejnHORSuDE8slOLvFa91IUsnENTwC_G0g2x5Qe9tA2q9ChIktHJknLAINpbFpnKRSqYpiMcC3dTeS3P3u_HHJMgWgQnznTf5aJdsP-LwVwrh-BS-PvjkFcFTPPR3II4hwwtQviAuv4ji-_anZ5CjolSUI95nEgwXtvJoYENxiXem4giTsxa6JbN9xETnNK6oJLnlWjj15xkgGIOpwIJFBqfw9_pZp1L9DXwkcbmpZRAZyNkA-3DprlAn2rDPvb_wDnsmG1wknk61_3TwTVI_EiY_ZXtBCFETSGS_Vp3d6jfn1ugru1lmNoaoFjft9XTUN-uUn3ND9LyLtm8F2S1Xdj9eHVZY_KD3p1uJX4IR13GkttWQndq9dfdoLtMTejwdT-oYHULa_tPwvJJ0HY4C-DKlE969IpaHEgxIUqE_4fIiY6_HbXY3jArHdQROHmcyXWZ298RaLqgcNP7t_jsSvbtKwQNYfM-q9Ustfjgu-0XgERcfqD8y7Ia0XmG6BLbAexT9gLPEJGZMP8BXsYxC3AHpHEj9ePoNU7XQwsLT7fzzwYiiBJf3d8IQwtKqBeTAbUuXxkh4yUGTJoc3zlAeMSQx9kE4sCu9PQ1DFfA91vBZd6k9jWSNlJIA36pMu1hx8_LWrIkM8eEli5fpmt9VovIhb1HdA2u9ZqAPvWU51fvATeRiakRqrBiEKwKkdJkcy7tl14TVObsPhN2tMNI6wD_hxlvQgnQb3CMkkU6l-FxrigB7Oen8yeyg3TkuVOqJpuVcNz1axp5cfwKfbx0ut1Aou1igU-rF8riJ5NogK5N3-IevRkk4lolCOvUgoGLQBZ0-uV5itWo8UgUjk1OetUSur1zOuKKhKDnr0MyMJJKkVnGDTN1e_SlFOaq32Mbml5bklzRwScsh8C7sBUbJp1_U3TJX4DG_G0EECHE8819as8ibGpJzJCnRqWG7Xs_AYB5BF4KTsFFlXgvthoTXP_mef-NQmL-shO0e7y80RDXZwudpS1H5CodGXfot_iXHp4NmGAvUST-ldLQRLkqzoUwZ2vIpX-njemEuyyIv8cczKLXeah_f01qTk86KFM_ehobXMo8YYvMEh7yELfZ0MgJ6skcf0_KmgAmxNgqUKW-lWNNhAU2dUOK60XlGsBksygIKv7mg1IA0QeHagQXW1AlvmaXQcmgGmw/https://www.amazon.in/gp/aw/d/B0DXKMFZ29/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=e3d45ade76dd10b13f97fbb514ed9f0f&hsa_cr_id=0&qid=1782840509&sr=1-3-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=dspgXDgWCi&ref_=sbx_s_sparkle_sbtcd_asin_2_price&pd_rd_w=04LwQ&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=f0I1Z&pd_rd_r=ffd907bd-2a11-4e3d-8c5b-9aa83b17f4e8
+                              - generic [ref=e396]:
+                                - generic [ref=e397]: ₹459.00
+                                - generic [ref=e398]:
+                                  - text: ₹
+                                  - generic [ref=e399]:
+                                    - text: "459"
+                                    - generic [ref=e400]: .
+                                  - text: "00"
+                            - generic [ref=e403]: "M.R.P: ₹999.00"
+                  - button "Next page" [ref=e405] [cursor=pointer]:
+                    - generic [ref=e408]: Next page
+          - generic [ref=e410]:
+            - generic [ref=e413]:
+              - heading "Results" [level=2] [ref=e414]
+              - generic [ref=e415]: Check each product page for other buying options. Price and other details may vary based on product size and colour.
+            - generic:
+              - list:
+                - listitem [ref=e416]:
+                  - generic [ref=e423]:
+                    - link [ref=e427] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYXRmOjMwMTExNTU5OTc5OTEzMjo6MDo6&url=%2FVEUU-Shapewear-Seamless-Compression-Underwear%2Fdp%2FB0H1LMR7H3%2Fref%3Dsr_1_1_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-1-spons%26aref%3DMVKxat3c3v%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=MVKxat3c3v&sp_cr=ZAZ
+                      - img [ref=e429]
+                    - generic [ref=e430]:
+                      - group "colours available" [ref=e432]:
+                        - list
+                        - link "+5 other colors/patterns" [ref=e434] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYXRmOjMwMTExNTU5OTc5OTEzMjo6MDo6&url=%2FVEUU-Shapewear-Seamless-Compression-Underwear%2Fdp%2FB0H1LMR7H3%2Fref%3Dsr_1_1_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-1-spons%26aref%3DMVKxat3c3v%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=MVKxat3c3v&sp_cr=ZAZ
+                      - generic [ref=e435]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e438] [cursor=pointer]:
+                          - generic [ref=e439]: Sponsored
+                        - heading "VEUU" [level=2] [ref=e442]
+                        - link "Sponsored Ad - Tummy Tucker Men Shapewear Body Shaper for Mens Body Men's Seamless Shaper Slimming Compression Underwear Body Shaper for Men Tummy Control Shapewear" [ref=e443] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYXRmOjMwMTExNTU5OTc5OTEzMjo6MDo6&url=%2FVEUU-Shapewear-Seamless-Compression-Underwear%2Fdp%2FB0H1LMR7H3%2Fref%3Dsr_1_1_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-1-spons%26aref%3DMVKxat3c3v%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=MVKxat3c3v&sp_cr=ZAZ
+                          - heading "Sponsored Ad - Tummy Tucker Men Shapewear Body Shaper for Mens Body Men's Seamless Shaper Slimming Compression Underwear Body Shaper for Men Tummy Control Shapewear" [level=2] [ref=e444]: Tummy Tucker Men Shapewear Body Shaper for Mens Body Men's Seamless Shaper Slimming Compression Underwear Body Shaper for Men Tummy Control Shapewear
+                      - generic [ref=e445]:
+                        - generic [ref=e446]:
+                          - text: "4.1"
+                          - button "4.1 out of 5 stars, rating details" [ref=e448] [cursor=pointer]:
+                            - generic [ref=e450]: 4.1 out of 5 stars
+                          - link "14 ratings" [ref=e452] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYXRmOjMwMTExNTU5OTc5OTEzMjo6MDo6&url=%2FVEUU-Shapewear-Seamless-Compression-Underwear%2Fdp%2FB0H1LMR7H3%2Fref%3Dsr_1_1_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-1-spons%26aref%3DMVKxat3c3v%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=MVKxat3c3v&sp_cr=ZAZ#customerReviews
+                            - text: (14)
+                        - generic [ref=e453]: 100+ bought in past month
+                      - generic [ref=e454]:
+                        - generic [ref=e456]:
+                          - generic [ref=e457]: Price, product page
+                          - 'link "₹299 M.R.P: ₹1,299 M.R.P: ₹1,299" [ref=e458] [cursor=pointer]':
+                            - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYXRmOjMwMTExNTU5OTc5OTEzMjo6MDo6&url=%2FVEUU-Shapewear-Seamless-Compression-Underwear%2Fdp%2FB0H1LMR7H3%2Fref%3Dsr_1_1_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-1-spons%26aref%3DMVKxat3c3v%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=MVKxat3c3v&sp_cr=ZAZ
+                            - generic [ref=e459]:
+                              - generic [ref=e460]: ₹299
+                              - generic [ref=e461]: ₹299
+                            - generic [ref=e462]: "M.R.P: ₹1,299"
+                            - generic [ref=e463]:
+                              - text: "M.R.P:"
+                              - generic [ref=e464]:
+                                - generic [ref=e465]: ₹1,299
+                                - text: ₹1,299
+                          - text: (77% off)
+                        - generic [ref=e469]:
+                          - generic [ref=e470]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e471]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e474]:
+                        - generic [ref=e478]: FREE delivery Sat, 4 Jul
+                        - generic [ref=e480]: Or fastest delivery Fri, 3 Jul
+                      - button "Add to cart" [ref=e491] [cursor=pointer]
+                - listitem [ref=e492]:
+                  - generic [ref=e499]:
+                    - link [ref=e503] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYXRmOjMwMDg2NDQxMDgzNzUzMjo6MDo6&url=%2FBULLAR-Polyester-Compression-T-Shirt-Athletic%2Fdp%2FB0G7WVK3CH%2Fref%3Dsr_1_2_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-2-spons%26aref%3DhXyfhgaDKa%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=hXyfhgaDKa&sp_cr=ZAZ
+                      - img [ref=e505]
+                    - generic [ref=e506]:
+                      - group "colours available" [ref=e508]:
+                        - list
+                        - link "+3 other colors/patterns" [ref=e510] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYXRmOjMwMDg2NDQxMDgzNzUzMjo6MDo6&url=%2FBULLAR-Polyester-Compression-T-Shirt-Athletic%2Fdp%2FB0G7WVK3CH%2Fref%3Dsr_1_2_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-2-spons%26aref%3DhXyfhgaDKa%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=hXyfhgaDKa&sp_cr=ZAZ
+                      - generic [ref=e511]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e514] [cursor=pointer]:
+                          - generic [ref=e515]: Sponsored
+                        - heading "BULLAR" [level=2] [ref=e518]
+                        - link "Sponsored Ad - Men's Polyester Blend Compression T-Shirt, Half Sleeve Athletic Sports Tight, Crew Neck, Slim Fit Tshirt for Fitness and Workout" [ref=e519] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYXRmOjMwMDg2NDQxMDgzNzUzMjo6MDo6&url=%2FBULLAR-Polyester-Compression-T-Shirt-Athletic%2Fdp%2FB0G7WVK3CH%2Fref%3Dsr_1_2_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-2-spons%26aref%3DhXyfhgaDKa%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=hXyfhgaDKa&sp_cr=ZAZ
+                          - heading "Sponsored Ad - Men's Polyester Blend Compression T-Shirt, Half Sleeve Athletic Sports Tight, Crew Neck, Slim Fit Tshirt for Fitness and Workout" [level=2] [ref=e520]: Men's Polyester Blend Compression T-Shirt, Half Sleeve Athletic Sports Tight, Crew Neck, Slim Fit Tshirt for Fitness and Workout
+                      - generic [ref=e522]:
+                        - text: "3.9"
+                        - button "3.9 out of 5 stars, rating details" [ref=e524] [cursor=pointer]:
+                          - generic [ref=e526]: 3.9 out of 5 stars
+                        - link "149 ratings" [ref=e528] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYXRmOjMwMDg2NDQxMDgzNzUzMjo6MDo6&url=%2FBULLAR-Polyester-Compression-T-Shirt-Athletic%2Fdp%2FB0G7WVK3CH%2Fref%3Dsr_1_2_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-2-spons%26aref%3DhXyfhgaDKa%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=hXyfhgaDKa&sp_cr=ZAZ#customerReviews
+                          - text: (149)
+                      - generic [ref=e529]:
+                        - link "Limited time deal" [ref=e531] [cursor=pointer]:
+                          - /url: /deals
+                          - generic [ref=e534]: Limited time deal
+                        - generic [ref=e536]:
+                          - generic [ref=e537]: Price, product page
+                          - 'link "₹689 M.R.P: ₹999 M.R.P: ₹999" [ref=e538] [cursor=pointer]':
+                            - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYXRmOjMwMDg2NDQxMDgzNzUzMjo6MDo6&url=%2FBULLAR-Polyester-Compression-T-Shirt-Athletic%2Fdp%2FB0G7WVK3CH%2Fref%3Dsr_1_2_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-2-spons%26aref%3DhXyfhgaDKa%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=hXyfhgaDKa&sp_cr=ZAZ
+                            - generic [ref=e539]:
+                              - generic [ref=e540]: ₹689
+                              - generic [ref=e541]: ₹689
+                            - generic [ref=e542]: "M.R.P: ₹999"
+                            - generic [ref=e543]:
+                              - text: "M.R.P:"
+                              - generic [ref=e544]:
+                                - generic [ref=e545]: ₹999
+                                - text: ₹999
+                          - text: (31% off)
+                        - generic [ref=e548]:
+                          - generic [ref=e549]: You pay ₹675.22
+                          - text: with coupon (limited sizes/colours)
+                      - generic [ref=e554]: FREE delivery Sat, 11 Jul
+                      - link "See options" [ref=e561] [cursor=pointer]:
+                        - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYXRmOjMwMDg2NDQxMDgzNzUzMjo6MDo6&url=%2FBULLAR-Polyester-Compression-T-Shirt-Athletic%2Fdp%2FB0G7WVK3CH%2Fref%3Dsr_1_2_so_SHIRT%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-2-spons%26aref%3DhXyfhgaDKa%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=hXyfhgaDKa&sp_cr=ZAZ
+                - listitem [ref=e562]:
+                  - generic [ref=e569]:
+                    - link [ref=e573] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYXRmOjMwMTA1NjY2MzA4ODczMjo6MDo6&url=%2FPROSHARX-Advanced-Concealed-Pockets-T-Shirt%2Fdp%2FB0GWCYXBFH%2Fref%3Dsr_1_3_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-3-spons%26aref%3DSEIIYHbhw2%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=SEIIYHbhw2&sp_cr=ZAZ
+                      - img [ref=e575]
+                    - generic [ref=e576]:
+                      - group "colours available" [ref=e578]:
+                        - list
+                        - link "+3 other colors/patterns" [ref=e580] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYXRmOjMwMTA1NjY2MzA4ODczMjo6MDo6&url=%2FPROSHARX-Advanced-Concealed-Pockets-T-Shirt%2Fdp%2FB0GWCYXBFH%2Fref%3Dsr_1_3_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-3-spons%26aref%3DSEIIYHbhw2%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=SEIIYHbhw2&sp_cr=ZAZ
+                      - generic [ref=e581]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e584] [cursor=pointer]:
+                          - generic [ref=e585]: Sponsored
+                        - heading "PROSHARX" [level=2] [ref=e588]
+                        - link "Sponsored Ad - Apex Dual Shorts Advanced with Concealed and Secure Pockets & Towel/T-Shirt Holder | Men's 2 in 1 Double Layer Short for Running, Gym & Sports" [ref=e589] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYXRmOjMwMTA1NjY2MzA4ODczMjo6MDo6&url=%2FPROSHARX-Advanced-Concealed-Pockets-T-Shirt%2Fdp%2FB0GWCYXBFH%2Fref%3Dsr_1_3_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-3-spons%26aref%3DSEIIYHbhw2%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=SEIIYHbhw2&sp_cr=ZAZ
+                          - heading "Sponsored Ad - Apex Dual Shorts Advanced with Concealed and Secure Pockets & Towel/T-Shirt Holder | Men's 2 in 1 Double Layer Short for Running, Gym & Sports" [level=2] [ref=e590]: Apex Dual Shorts Advanced with Concealed and Secure Pockets & Towel/T-Shirt Holder | Men's 2 in 1 Double Layer Short for Running, Gym & Sports
+                      - generic [ref=e592]:
+                        - text: "3.6"
+                        - button "3.6 out of 5 stars, rating details" [ref=e594] [cursor=pointer]:
+                          - generic [ref=e596]: 3.6 out of 5 stars
+                        - link "60 ratings" [ref=e598] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYXRmOjMwMTA1NjY2MzA4ODczMjo6MDo6&url=%2FPROSHARX-Advanced-Concealed-Pockets-T-Shirt%2Fdp%2FB0GWCYXBFH%2Fref%3Dsr_1_3_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-3-spons%26aref%3DSEIIYHbhw2%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=SEIIYHbhw2&sp_cr=ZAZ#customerReviews
+                          - text: (60)
+                      - generic [ref=e599]:
+                        - generic [ref=e601]:
+                          - generic [ref=e602]: Price, product page
+                          - 'link "₹649 M.R.P: ₹2,499 M.R.P: ₹2,499" [ref=e603] [cursor=pointer]':
+                            - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYXRmOjMwMTA1NjY2MzA4ODczMjo6MDo6&url=%2FPROSHARX-Advanced-Concealed-Pockets-T-Shirt%2Fdp%2FB0GWCYXBFH%2Fref%3Dsr_1_3_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-3-spons%26aref%3DSEIIYHbhw2%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=SEIIYHbhw2&sp_cr=ZAZ
+                            - generic [ref=e604]:
+                              - generic [ref=e605]: ₹649
+                              - generic [ref=e606]: ₹649
+                            - generic [ref=e607]: "M.R.P: ₹2,499"
+                            - generic [ref=e608]:
+                              - text: "M.R.P:"
+                              - generic [ref=e609]:
+                                - generic [ref=e610]: ₹2,499
+                                - text: ₹2,499
+                          - text: (74% off)
+                        - generic [ref=e614]:
+                          - generic [ref=e615]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e616]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e621]: FREE delivery Sun, 5 Jul
+                      - button "Add to cart" [ref=e632] [cursor=pointer]
+                - listitem [ref=e633]:
+                  - generic [ref=e640]:
+                    - link [ref=e644] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYXRmOjMwMDc5MjcxNjQxMjczMjo6MDo6&url=%2FSymbol-Premium-Regular-Stretch-SPA-M-A25-TSH-301_Black%2Fdp%2FB0FHH36PJL%2Fref%3Dsr_1_4_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-4-spons%26aref%3DtzM6zfmOdv%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=tzM6zfmOdv&sp_cr=ZAZ
+                      - img [ref=e646]
+                    - generic [ref=e647]:
+                      - group "colours available" [ref=e649]:
+                        - list
+                        - link "+10 other colors/patterns" [ref=e651] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYXRmOjMwMDc5MjcxNjQxMjczMjo6MDo6&url=%2FSymbol-Premium-Regular-Stretch-SPA-M-A25-TSH-301_Black%2Fdp%2FB0FHH36PJL%2Fref%3Dsr_1_4_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-4-spons%26aref%3DtzM6zfmOdv%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=tzM6zfmOdv&sp_cr=ZAZ
+                      - generic [ref=e652]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e655] [cursor=pointer]:
+                          - generic [ref=e656]: Sponsored
+                        - heading "Symbol Premium" [level=2] [ref=e659]
+                        - link "Sponsored Ad - Men's Solid Regular Fit Sports Stretch T-Shirt | Round Neck | Raglan Sleeve | Moisture-Wicking | Activewear | Running | Gym | Plain (Available in Plus Sizes)" [ref=e660] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYXRmOjMwMDc5MjcxNjQxMjczMjo6MDo6&url=%2FSymbol-Premium-Regular-Stretch-SPA-M-A25-TSH-301_Black%2Fdp%2FB0FHH36PJL%2Fref%3Dsr_1_4_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-4-spons%26aref%3DtzM6zfmOdv%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=tzM6zfmOdv&sp_cr=ZAZ
+                          - heading "Sponsored Ad - Men's Solid Regular Fit Sports Stretch T-Shirt | Round Neck | Raglan Sleeve | Moisture-Wicking | Activewear | Running | Gym | Plain (Available in Plus Sizes)" [level=2] [ref=e661]: Men's Solid Regular Fit Sports Stretch T-Shirt | Round Neck | Raglan Sleeve | Moisture-Wicking | Activewear | Running | Gym | Plain (Available in Plus Sizes)
+                      - generic [ref=e663]:
+                        - text: "4.3"
+                        - button "4.3 out of 5 stars, rating details" [ref=e665] [cursor=pointer]:
+                          - generic [ref=e667]: 4.3 out of 5 stars
+                        - link "152 ratings" [ref=e669] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYXRmOjMwMDc5MjcxNjQxMjczMjo6MDo6&url=%2FSymbol-Premium-Regular-Stretch-SPA-M-A25-TSH-301_Black%2Fdp%2FB0FHH36PJL%2Fref%3Dsr_1_4_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-4-spons%26aref%3DtzM6zfmOdv%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=tzM6zfmOdv&sp_cr=ZAZ#customerReviews
+                          - text: (152)
+                      - generic [ref=e670]:
+                        - generic [ref=e672]:
+                          - generic [ref=e673]: Price, product page
+                          - 'link "₹599 M.R.P: ₹1,199 M.R.P: ₹1,199" [ref=e674] [cursor=pointer]':
+                            - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYXRmOjMwMDc5MjcxNjQxMjczMjo6MDo6&url=%2FSymbol-Premium-Regular-Stretch-SPA-M-A25-TSH-301_Black%2Fdp%2FB0FHH36PJL%2Fref%3Dsr_1_4_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-4-spons%26aref%3DtzM6zfmOdv%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=tzM6zfmOdv&sp_cr=ZAZ
+                            - generic [ref=e675]:
+                              - generic [ref=e676]: ₹599
+                              - generic [ref=e677]: ₹599
+                            - generic [ref=e678]: "M.R.P: ₹1,199"
+                            - generic [ref=e679]:
+                              - text: "M.R.P:"
+                              - generic [ref=e680]:
+                                - generic [ref=e681]: ₹1,199
+                                - text: ₹1,199
+                          - text: (50% off)
+                        - generic [ref=e685]:
+                          - generic [ref=e686]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e687]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e690]:
+                        - generic [ref=e692]: FREE delivery Thu, 2 Jul
+                        - generic [ref=e694]: Or fastest delivery Tomorrow, 1 Jul
+                      - button "Add to cart" [ref=e705] [cursor=pointer]
+                - listitem [ref=e706]:
+                  - generic [ref=e711]:
+                    - link [ref=e715] [cursor=pointer]:
+                      - /url: /FTX-Polyester-Regular-T-Shirt-Multicolor/dp/B0BPCYCDKR/ref=sr_1_5?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-5
+                      - img [ref=e717]
+                    - generic [ref=e718]:
+                      - group "colours available" [ref=e720]:
+                        - list [ref=e721]:
+                          - generic [ref=e722]:
+                            - listitem:
+                              - link "BLACK:AIRFORCE BLUE:LT.GREY:STEEL GREY":
+                                - /url: /FTX-Polyester-Regular-T-Shirt-Multicolor/dp/B0BPCYCDKR/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-5
+                          - generic [ref=e725]:
+                            - listitem:
+                              - link "BLACK:AQUA:AIRFORCE BLUE:LT.GREY":
+                                - /url: /FTX-Polyester-Regular-T-Shirt-Multicolor/dp/B0BPSXVTY7/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-5
+                          - generic [ref=e728]:
+                            - listitem:
+                              - link "AIRFORCE BLUE:NAVY:LT.GREY:STEEL GREY":
+                                - /url: /FTX-Polyester-Regular-T-Shirt-Multicolor/dp/B0BPSV7SSV/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-5
+                          - generic [ref=e731]:
+                            - listitem:
+                              - link "AQUA:RED:NAVY:STEEL GREY":
+                                - /url: /FTX-Polyester-Regular-T-Shirt-Multicolor/dp/B0BPSV7D3J/ref=cs_sr_dp_4?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-5
+                          - generic [ref=e734]:
+                            - listitem:
+                              - link "BLACK:AIRFORCE BLUE:NAVY:RED":
+                                - /url: /FTX-Polyester-Regular-T-Shirt-Multicolor/dp/B0BPSXDZK3/ref=cs_sr_dp_5?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-5
+                          - generic [ref=e737]:
+                            - listitem:
+                              - link "BLACK:AQUA:AIRFORCE BLUE:NAVY":
+                                - /url: /FTX-Polyester-Regular-T-Shirt-Multicolor/dp/B0BPSTSQ99/ref=cs_sr_dp_6?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-5
+                        - link "+63 other colors/patterns" [ref=e741] [cursor=pointer]:
+                          - /url: /FTX-Polyester-Regular-T-Shirt-Multicolor/dp/B0BPCYCDKR/ref=cs_sr_dp_n?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-5
+                          - text: "+63"
+                      - generic [ref=e742]:
+                        - heading "FTX" [level=2] [ref=e744]
+                        - link "Men Polyester Regular Fit T-Shirt" [ref=e745] [cursor=pointer]:
+                          - /url: /FTX-Polyester-Regular-T-Shirt-Multicolor/dp/B0BPCYCDKR/ref=sr_1_5?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-5
+                          - heading "Men Polyester Regular Fit T-Shirt" [level=2] [ref=e746]
+                      - generic [ref=e748]:
+                        - text: "3.9"
+                        - button "3.9 out of 5 stars, rating details" [ref=e750] [cursor=pointer]:
+                          - generic [ref=e752]: 3.9 out of 5 stars
+                        - link "3,034 ratings" [ref=e754] [cursor=pointer]:
+                          - /url: /FTX-Polyester-Regular-T-Shirt-Multicolor/dp/B0BPCYCDKR/ref=sr_1_5?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-5#customerReviews
+                          - text: (3K)
+                      - generic [ref=e755]:
+                        - generic [ref=e757]:
+                          - generic [ref=e758]: Price, product page
+                          - 'link "₹395 ( ₹98.75 /count) M.R.P: ₹1,249 M.R.P: ₹1,249" [ref=e759] [cursor=pointer]':
+                            - /url: /FTX-Polyester-Regular-T-Shirt-Multicolor/dp/B0BPCYCDKR/ref=sr_1_5?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-5
+                            - generic [ref=e760]:
+                              - generic [ref=e761]: ₹395
+                              - generic [ref=e762]: ₹395
+                            - generic [ref=e763]:
+                              - text: (
+                              - generic [ref=e764]:
+                                - generic [ref=e765]: ₹98.75
+                                - text: ₹98.75
+                              - text: /count)
+                            - generic [ref=e766]: "M.R.P: ₹1,249"
+                            - generic [ref=e767]:
+                              - text: "M.R.P:"
+                              - generic [ref=e768]:
+                                - generic [ref=e769]: ₹1,249
+                                - text: ₹1,249
+                          - text: (68% off)
+                        - generic [ref=e773]:
+                          - generic [ref=e774]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e775]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e778]:
+                        - generic [ref=e780]: FREE delivery Thu, 2 Jul on first order
+                        - generic [ref=e782]: Or fastest delivery Tomorrow, 1 Jul
+                      - button "Add to cart" [ref=e793] [cursor=pointer]
+                - listitem [ref=e794]:
+                  - generic [ref=e799]:
+                    - link [ref=e803] [cursor=pointer]:
+                      - /url: /AUSK-Regular-Tshirt-T-Shirts-Color-Teal/dp/B0D5MLKC56/ref=sr_1_6?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-6
+                      - img [ref=e805]
+                    - generic [ref=e806]:
+                      - group "colours available" [ref=e808]:
+                        - list [ref=e809]:
+                          - generic [ref=e810]:
+                            - listitem:
+                              - link "Teal":
+                                - /url: /AUSK-Regular-Tshirt-T-Shirts-Color-Teal/dp/B0D5MLKC56/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-6
+                          - generic [ref=e813]:
+                            - listitem:
+                              - link "Blue":
+                                - /url: /AUSK-Regular-Tshirt-T-Shirts-Color-Teal/dp/B0D5MMK37H/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-6
+                          - generic [ref=e816]:
+                            - listitem:
+                              - link "Multi&Maroon":
+                                - /url: /AUSK-Regular-Tshirt-T-Shirts-Color-Teal/dp/B0DHS7SKFR/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-6
+                          - generic [ref=e819]:
+                            - listitem:
+                              - link "Multi&Teal":
+                                - /url: /AUSK-Regular-Tshirt-T-Shirts-Color-Teal/dp/B0DHS91NNQ/ref=cs_sr_dp_4?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-6
+                          - generic [ref=e822]:
+                            - listitem:
+                              - link "Teal&Maroon":
+                                - /url: /AUSK-Regular-Tshirt-T-Shirts-Color-Teal/dp/B0DHS86P5X/ref=cs_sr_dp_5?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-6
+                          - generic [ref=e825]:
+                            - listitem:
+                              - link "Maroon":
+                                - /url: /AUSK-Regular-Tshirt-T-Shirts-Color-Teal/dp/B0D5MPG9Q6/ref=cs_sr_dp_6?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-6
+                      - generic [ref=e828]:
+                        - heading "AUSK" [level=2] [ref=e830]
+                        - link "Men Tshirt || Mens Sports T-Shirts (Color-)" [ref=e831] [cursor=pointer]:
+                          - /url: /AUSK-Regular-Tshirt-T-Shirts-Color-Teal/dp/B0D5MLKC56/ref=sr_1_6?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-6
+                          - heading "Men Tshirt || Mens Sports T-Shirts (Color-)" [level=2] [ref=e832]
+                      - generic [ref=e834]:
+                        - text: "3.4"
+                        - button "3.4 out of 5 stars, rating details" [ref=e836] [cursor=pointer]:
+                          - generic [ref=e838]: 3.4 out of 5 stars
+                        - link "1,457 ratings" [ref=e840] [cursor=pointer]:
+                          - /url: /AUSK-Regular-Tshirt-T-Shirts-Color-Teal/dp/B0D5MLKC56/ref=sr_1_6?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-6#customerReviews
+                          - text: (1.4K)
+                      - generic [ref=e841]:
+                        - link "Ends in 01:30:38" [ref=e843] [cursor=pointer]:
+                          - /url: /deals
+                          - generic [ref=e846]: Ends in 01:30:38
+                        - generic [ref=e848]:
+                          - generic [ref=e849]: Price, product page
+                          - 'link "₹225 M.R.P: ₹1,499 M.R.P: ₹1,499" [ref=e850] [cursor=pointer]':
+                            - /url: /AUSK-Regular-Tshirt-T-Shirts-Color-Teal/dp/B0D5MLKC56/ref=sr_1_6?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-6
+                            - generic [ref=e851]:
+                              - generic [ref=e852]: ₹225
+                              - generic [ref=e853]: ₹225
+                            - generic [ref=e854]: "M.R.P: ₹1,499"
+                            - generic [ref=e855]:
+                              - text: "M.R.P:"
+                              - generic [ref=e856]:
+                                - generic [ref=e857]: ₹1,499
+                                - text: ₹1,499
+                          - text: (85% off)
+                        - generic [ref=e860]:
+                          - generic [ref=e861]: You pay ₹220.50
+                          - text: with coupon (limited sizes/colours)
+                      - generic [ref=e866]: FREE delivery Sun, 5 Jul on first order
+                      - button "Add to cart" [ref=e877] [cursor=pointer]
+                - listitem [ref=e878]:
+                  - generic [ref=e883]:
+                    - group "Best sellerin Men's Activewear Ankle Socks" [ref=e888]:
+                      - generic "Best seller" [ref=e890]
+                    - link [ref=e894] [cursor=pointer]:
+                      - /url: /Fitness-Mantra%C2%AE-Sports-Breathable-Multicolor/dp/B0CTQ4RSMB/ref=sr_1_7?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-7
+                      - img [ref=e896]
+                    - generic [ref=e897]:
+                      - generic [ref=e898]:
+                        - heading "Fitness Mantra" [level=2] [ref=e900]
+                        - link "Fitness Mantra® 12 Pairs Sports Ankle Cotton Socks | Free Size| Breathable| Daily Use| Multicolor| 12 Pairs|" [ref=e901] [cursor=pointer]:
+                          - /url: /Fitness-Mantra%C2%AE-Sports-Breathable-Multicolor/dp/B0CTQ4RSMB/ref=sr_1_7?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-7
+                          - heading "Fitness Mantra® 12 Pairs Sports Ankle Cotton Socks | Free Size| Breathable| Daily Use| Multicolor| 12 Pairs|" [level=2] [ref=e902]
+                      - generic [ref=e903]:
+                        - generic [ref=e904]:
+                          - text: "4.0"
+                          - button "4.0 out of 5 stars, rating details" [ref=e906] [cursor=pointer]:
+                            - generic [ref=e908]: 4.0 out of 5 stars
+                          - link "5,523 ratings" [ref=e910] [cursor=pointer]:
+                            - /url: /Fitness-Mantra%C2%AE-Sports-Breathable-Multicolor/dp/B0CTQ4RSMB/ref=sr_1_7?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-7#customerReviews
+                            - text: (5.5K)
+                        - generic [ref=e911]: 6K+ bought in past month
+                      - generic [ref=e912]:
+                        - link "Limited time deal" [ref=e914] [cursor=pointer]:
+                          - /url: /deals
+                          - generic [ref=e917]: Limited time deal
+                        - generic [ref=e919]:
+                          - generic [ref=e920]: Price, product page
+                          - 'link "₹196 ( ₹16.33 /pack) M.R.P: ₹999 M.R.P: ₹999" [ref=e921] [cursor=pointer]':
+                            - /url: /Fitness-Mantra%C2%AE-Sports-Breathable-Multicolor/dp/B0CTQ4RSMB/ref=sr_1_7?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-7
+                            - generic [ref=e922]:
+                              - generic [ref=e923]: ₹196
+                              - generic [ref=e924]: ₹196
+                            - generic [ref=e925]:
+                              - text: (
+                              - generic [ref=e926]:
+                                - generic [ref=e927]: ₹16.33
+                                - text: ₹16.33
+                              - text: /pack)
+                            - generic [ref=e928]: "M.R.P: ₹999"
+                            - generic [ref=e929]:
+                              - text: "M.R.P:"
+                              - generic [ref=e930]:
+                                - generic [ref=e931]: ₹999
+                                - text: ₹999
+                          - text: (80% off)
+                        - generic [ref=e935]:
+                          - generic [ref=e936]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e937]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e940]:
+                        - generic [ref=e942]: FREE delivery Thu, 2 Jul on first order
+                        - generic [ref=e944]: Or fastest delivery Tomorrow 8 am - 12 pm
+                      - button "Add to cart" [ref=e959] [cursor=pointer]
+          - generic [ref=e963]:
+            - generic [ref=e968]:
+              - heading "Highly rated" [level=2] [ref=e970]
+              - generic [ref=e971]:
+                - button "View Sponsored information or leave ad feedback" [ref=e973] [cursor=pointer]: Sponsored
+                - text: "| Based on star rating and number of customer ratings"
+            - region "Highly rated" [ref=e975]:
+              - list [ref=e981]:
+                - listitem "1 of 5" [ref=e982]:
+                  - generic [ref=e988]:
+                    - link [ref=e992] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MToxNjk0MDU0OTAxNDA2OTE1OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDczNTM5NTk1MTQzMjo6MDo6&url=%2FSymbol-Premium-Regular-Stretch-SPA-M-A25-TSH-301_Black%2Fdp%2FB0FHH36PJL%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%253Aamzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB0FHH36PJL%26pd_rd_r%3D8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5%26pd_rd_w%3DipgVN%26pd_rd_wg%3D78qAs%26pf_rd_p%3D8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-1-ced4eeeb-b190-41d6-902a-1ecb3fb8b7c4-spons%26aref%3DAUcjSh7zZT%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&aref=AUcjSh7zZT&sp_cr=ZAZ
+                      - img [ref=e994]
+                    - generic [ref=e995]:
+                      - group "colours available" [ref=e997]:
+                        - list
+                        - link "+10 other colors/patterns" [ref=e999] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNjk0MDU0OTAxNDA2OTE1OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDczNTM5NTk1MTQzMjo6MDo6&url=%2FSymbol-Premium-Regular-Stretch-SPA-M-A25-TSH-301_Black%2Fdp%2FB0FHH36PJL%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%253Aamzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB0FHH36PJL%26pd_rd_r%3D8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5%26pd_rd_w%3DipgVN%26pd_rd_wg%3D78qAs%26pf_rd_p%3D8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-1-ced4eeeb-b190-41d6-902a-1ecb3fb8b7c4-spons%26aref%3DAUcjSh7zZT%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&aref=AUcjSh7zZT&sp_cr=ZAZ
+                      - generic [ref=e1000]:
+                        - heading "Symbol Premium" [level=2] [ref=e1002]
+                        - link "Sponsored Ad - Men's Solid Regular Fit Sports Stretch T-Shirt | Round Neck | Raglan Sleeve | Moisture-Wicking | Activewear | Running | Gym | Plain (Available in Plus Sizes)" [ref=e1003] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNjk0MDU0OTAxNDA2OTE1OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDczNTM5NTk1MTQzMjo6MDo6&url=%2FSymbol-Premium-Regular-Stretch-SPA-M-A25-TSH-301_Black%2Fdp%2FB0FHH36PJL%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%253Aamzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB0FHH36PJL%26pd_rd_r%3D8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5%26pd_rd_w%3DipgVN%26pd_rd_wg%3D78qAs%26pf_rd_p%3D8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-1-ced4eeeb-b190-41d6-902a-1ecb3fb8b7c4-spons%26aref%3DAUcjSh7zZT%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&aref=AUcjSh7zZT&sp_cr=ZAZ
+                          - heading "Sponsored Ad - Men's Solid Regular Fit Sports Stretch T-Shirt | Round Neck | Raglan Sleeve | Moisture-Wicking | Activewear | Running | Gym | Plain (Available in Plus Sizes)" [level=2] [ref=e1004]: Men's Solid Regular Fit Sports Stretch T-Shirt | Round Neck | Raglan Sleeve | Moisture-Wicking | Activewear | Running | Gym | Plain (Available in Plus Sizes)
+                      - generic [ref=e1006]:
+                        - text: "4.3"
+                        - button "4.3 out of 5 stars, rating details" [ref=e1008] [cursor=pointer]:
+                          - generic [ref=e1010]: 4.3 out of 5 stars
+                        - link "152 ratings" [ref=e1012] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNjk0MDU0OTAxNDA2OTE1OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDczNTM5NTk1MTQzMjo6MDo6&url=%2FSymbol-Premium-Regular-Stretch-SPA-M-A25-TSH-301_Black%2Fdp%2FB0FHH36PJL%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%253Aamzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB0FHH36PJL%26pd_rd_r%3D8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5%26pd_rd_w%3DipgVN%26pd_rd_wg%3D78qAs%26pf_rd_p%3D8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-1-ced4eeeb-b190-41d6-902a-1ecb3fb8b7c4-spons%26aref%3DAUcjSh7zZT%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&aref=AUcjSh7zZT&sp_cr=ZAZ#customerReviews
+                          - text: (152)
+                      - generic [ref=e1013]:
+                        - generic [ref=e1015]:
+                          - generic [ref=e1016]: Price, product page
+                          - 'link "₹599 M.R.P: ₹1,199 M.R.P: ₹1,199" [ref=e1017] [cursor=pointer]':
+                            - /url: /sspa/click?ie=UTF8&spc=MToxNjk0MDU0OTAxNDA2OTE1OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDczNTM5NTk1MTQzMjo6MDo6&url=%2FSymbol-Premium-Regular-Stretch-SPA-M-A25-TSH-301_Black%2Fdp%2FB0FHH36PJL%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%253Aamzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB0FHH36PJL%26pd_rd_r%3D8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5%26pd_rd_w%3DipgVN%26pd_rd_wg%3D78qAs%26pf_rd_p%3D8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-1-ced4eeeb-b190-41d6-902a-1ecb3fb8b7c4-spons%26aref%3DAUcjSh7zZT%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&aref=AUcjSh7zZT&sp_cr=ZAZ
+                            - generic [ref=e1018]:
+                              - generic [ref=e1019]: ₹599
+                              - generic [ref=e1020]: ₹599
+                            - generic [ref=e1021]: "M.R.P: ₹1,199"
+                            - generic [ref=e1022]:
+                              - text: "M.R.P:"
+                              - generic [ref=e1023]:
+                                - generic [ref=e1024]: ₹1,199
+                                - text: ₹1,199
+                          - text: (50% off)
+                        - generic [ref=e1028]:
+                          - generic [ref=e1029]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e1030]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e1033]:
+                        - generic [ref=e1035]: FREE delivery Thu, 2 Jul
+                        - generic [ref=e1037]: Or fastest delivery Tomorrow, 1 Jul
+                      - button "Add to cart" [ref=e1048] [cursor=pointer]
+                - listitem "2 of 5" [ref=e1049]:
+                  - generic [ref=e1055]:
+                    - link [ref=e1059] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MToxNjk0MDU0OTAxNDA2OTE1OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDgwNjk1MjEwODgzMjo6MTo6&url=%2FFUAARK-Mens-Sleeve-Compression-T-Shirt%2Fdp%2FB0C5SWSD5V%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%253Aamzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB0C5SWSD5V%26pd_rd_r%3D8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5%26pd_rd_w%3DipgVN%26pd_rd_wg%3D78qAs%26pf_rd_p%3D8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-2-ced4eeeb-b190-41d6-902a-1ecb3fb8b7c4-spons%26aref%3D1MzoxZmaIy%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&aref=1MzoxZmaIy&sp_cr=ZAZ
+                      - img [ref=e1061]
+                    - generic [ref=e1062]:
+                      - group "colours available" [ref=e1064]:
+                        - list
+                        - link "+16 other colors/patterns" [ref=e1066] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNjk0MDU0OTAxNDA2OTE1OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDgwNjk1MjEwODgzMjo6MTo6&url=%2FFUAARK-Mens-Sleeve-Compression-T-Shirt%2Fdp%2FB0C5SWSD5V%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%253Aamzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB0C5SWSD5V%26pd_rd_r%3D8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5%26pd_rd_w%3DipgVN%26pd_rd_wg%3D78qAs%26pf_rd_p%3D8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-2-ced4eeeb-b190-41d6-902a-1ecb3fb8b7c4-spons%26aref%3D1MzoxZmaIy%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&aref=1MzoxZmaIy&sp_cr=ZAZ
+                      - generic [ref=e1067]:
+                        - heading "FUAARK" [level=2] [ref=e1069]
+                        - link "Sponsored Ad - Men's Half Sleeve Compression T-Shirt - Athletic Base Layer for Fitness" [ref=e1070] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNjk0MDU0OTAxNDA2OTE1OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDgwNjk1MjEwODgzMjo6MTo6&url=%2FFUAARK-Mens-Sleeve-Compression-T-Shirt%2Fdp%2FB0C5SWSD5V%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%253Aamzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB0C5SWSD5V%26pd_rd_r%3D8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5%26pd_rd_w%3DipgVN%26pd_rd_wg%3D78qAs%26pf_rd_p%3D8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-2-ced4eeeb-b190-41d6-902a-1ecb3fb8b7c4-spons%26aref%3D1MzoxZmaIy%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&aref=1MzoxZmaIy&sp_cr=ZAZ
+                          - heading "Sponsored Ad - Men's Half Sleeve Compression T-Shirt - Athletic Base Layer for Fitness" [level=2] [ref=e1071]: Men's Half Sleeve Compression T-Shirt - Athletic Base Layer for Fitness
+                      - generic [ref=e1073]:
+                        - text: "4.2"
+                        - button "4.2 out of 5 stars, rating details" [ref=e1075] [cursor=pointer]:
+                          - generic [ref=e1077]: 4.2 out of 5 stars
+                        - link "705 ratings" [ref=e1079] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNjk0MDU0OTAxNDA2OTE1OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDgwNjk1MjEwODgzMjo6MTo6&url=%2FFUAARK-Mens-Sleeve-Compression-T-Shirt%2Fdp%2FB0C5SWSD5V%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%253Aamzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB0C5SWSD5V%26pd_rd_r%3D8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5%26pd_rd_w%3DipgVN%26pd_rd_wg%3D78qAs%26pf_rd_p%3D8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-2-ced4eeeb-b190-41d6-902a-1ecb3fb8b7c4-spons%26aref%3D1MzoxZmaIy%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&aref=1MzoxZmaIy&sp_cr=ZAZ#customerReviews
+                          - text: (705)
+                      - generic [ref=e1080]:
+                        - generic [ref=e1082]:
+                          - generic [ref=e1083]: Price, product page
+                          - 'link "₹999 M.R.P: ₹2,499 M.R.P: ₹2,499" [ref=e1084] [cursor=pointer]':
+                            - /url: /sspa/click?ie=UTF8&spc=MToxNjk0MDU0OTAxNDA2OTE1OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDgwNjk1MjEwODgzMjo6MTo6&url=%2FFUAARK-Mens-Sleeve-Compression-T-Shirt%2Fdp%2FB0C5SWSD5V%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%253Aamzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB0C5SWSD5V%26pd_rd_r%3D8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5%26pd_rd_w%3DipgVN%26pd_rd_wg%3D78qAs%26pf_rd_p%3D8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-2-ced4eeeb-b190-41d6-902a-1ecb3fb8b7c4-spons%26aref%3D1MzoxZmaIy%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&aref=1MzoxZmaIy&sp_cr=ZAZ
+                            - generic [ref=e1085]:
+                              - generic [ref=e1086]: ₹999
+                              - generic [ref=e1087]: ₹999
+                            - generic [ref=e1088]: "M.R.P: ₹2,499"
+                            - generic [ref=e1089]:
+                              - text: "M.R.P:"
+                              - generic [ref=e1090]:
+                                - generic [ref=e1091]: ₹2,499
+                                - text: ₹2,499
+                          - text: (60% off)
+                        - generic [ref=e1095]:
+                          - generic [ref=e1096]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e1097]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e1100]:
+                        - generic [ref=e1102]: FREE delivery Thu, 2 Jul
+                        - generic [ref=e1104]: Or fastest delivery Tomorrow, 1 Jul
+                      - button "Add to cart" [ref=e1115] [cursor=pointer]
+                - listitem "3 of 5" [ref=e1116]:
+                  - generic [ref=e1122]:
+                    - link [ref=e1126] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MToxNjk0MDU0OTAxNDA2OTE1OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDMyODQ3OTUwMDYzMjo6Mjo6&url=%2FBoldfit-Mens-Regular-T-Shirt-BFTBM3005SOliveXL_Olive%2Fdp%2FB0D93PQ1N8%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%253Aamzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB0D93PQ1N8%26pd_rd_r%3D8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5%26pd_rd_w%3DipgVN%26pd_rd_wg%3D78qAs%26pf_rd_p%3D8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-3-ced4eeeb-b190-41d6-902a-1ecb3fb8b7c4-spons%26aref%3Dcig9pzEKJ8%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&aref=cig9pzEKJ8&sp_cr=ZAZ
+                      - img [ref=e1128]
+                    - generic [ref=e1129]:
+                      - group "colours available" [ref=e1131]:
+                        - list
+                        - link "+5 other colors/patterns" [ref=e1133] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNjk0MDU0OTAxNDA2OTE1OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDMyODQ3OTUwMDYzMjo6Mjo6&url=%2FBoldfit-Mens-Regular-T-Shirt-BFTBM3005SOliveXL_Olive%2Fdp%2FB0D93PQ1N8%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%253Aamzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB0D93PQ1N8%26pd_rd_r%3D8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5%26pd_rd_w%3DipgVN%26pd_rd_wg%3D78qAs%26pf_rd_p%3D8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-3-ced4eeeb-b190-41d6-902a-1ecb3fb8b7c4-spons%26aref%3Dcig9pzEKJ8%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&aref=cig9pzEKJ8&sp_cr=ZAZ
+                      - generic [ref=e1134]:
+                        - heading "Boldfit" [level=2] [ref=e1136]
+                        - link "Sponsored Ad - Tshirt for Man Regular fit Gym t Shirts for Men Workout Active wear t Shirt for Man Running Mens t-Shirts Running Tshirt for Men Workout Gym wear Mens" [ref=e1137] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNjk0MDU0OTAxNDA2OTE1OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDMyODQ3OTUwMDYzMjo6Mjo6&url=%2FBoldfit-Mens-Regular-T-Shirt-BFTBM3005SOliveXL_Olive%2Fdp%2FB0D93PQ1N8%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%253Aamzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB0D93PQ1N8%26pd_rd_r%3D8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5%26pd_rd_w%3DipgVN%26pd_rd_wg%3D78qAs%26pf_rd_p%3D8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-3-ced4eeeb-b190-41d6-902a-1ecb3fb8b7c4-spons%26aref%3Dcig9pzEKJ8%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&aref=cig9pzEKJ8&sp_cr=ZAZ
+                          - heading "Sponsored Ad - Tshirt for Man Regular fit Gym t Shirts for Men Workout Active wear t Shirt for Man Running Mens t-Shirts Running Tshirt for Men Workout Gym wear Mens" [level=2] [ref=e1138]: Tshirt for Man Regular fit Gym t Shirts for Men Workout Active wear t Shirt for Man Running Mens t-Shirts Running Tshirt for Men Workout Gym wear Mens
+                      - generic [ref=e1139]:
+                        - generic [ref=e1140]:
+                          - text: "4.0"
+                          - button "4.0 out of 5 stars, rating details" [ref=e1142] [cursor=pointer]:
+                            - generic [ref=e1144]: 4.0 out of 5 stars
+                          - link "619 ratings" [ref=e1146] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MToxNjk0MDU0OTAxNDA2OTE1OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDMyODQ3OTUwMDYzMjo6Mjo6&url=%2FBoldfit-Mens-Regular-T-Shirt-BFTBM3005SOliveXL_Olive%2Fdp%2FB0D93PQ1N8%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%253Aamzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB0D93PQ1N8%26pd_rd_r%3D8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5%26pd_rd_w%3DipgVN%26pd_rd_wg%3D78qAs%26pf_rd_p%3D8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-3-ced4eeeb-b190-41d6-902a-1ecb3fb8b7c4-spons%26aref%3Dcig9pzEKJ8%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&aref=cig9pzEKJ8&sp_cr=ZAZ#customerReviews
+                            - text: (619)
+                        - generic [ref=e1147]: 100+ bought in past month
+                      - generic [ref=e1148]:
+                        - generic [ref=e1150]:
+                          - generic [ref=e1151]: Price, product page
+                          - 'link "₹519 M.R.P: ₹999 M.R.P: ₹999" [ref=e1152] [cursor=pointer]':
+                            - /url: /sspa/click?ie=UTF8&spc=MToxNjk0MDU0OTAxNDA2OTE1OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDMyODQ3OTUwMDYzMjo6Mjo6&url=%2FBoldfit-Mens-Regular-T-Shirt-BFTBM3005SOliveXL_Olive%2Fdp%2FB0D93PQ1N8%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%253Aamzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB0D93PQ1N8%26pd_rd_r%3D8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5%26pd_rd_w%3DipgVN%26pd_rd_wg%3D78qAs%26pf_rd_p%3D8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-3-ced4eeeb-b190-41d6-902a-1ecb3fb8b7c4-spons%26aref%3Dcig9pzEKJ8%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&aref=cig9pzEKJ8&sp_cr=ZAZ
+                            - generic [ref=e1153]:
+                              - generic [ref=e1154]: ₹519
+                              - generic [ref=e1155]: ₹519
+                            - generic [ref=e1156]: "M.R.P: ₹999"
+                            - generic [ref=e1157]:
+                              - text: "M.R.P:"
+                              - generic [ref=e1158]:
+                                - generic [ref=e1159]: ₹999
+                                - text: ₹999
+                          - text: (48% off)
+                        - generic [ref=e1163]:
+                          - generic [ref=e1164]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e1165]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e1168]:
+                        - generic [ref=e1170]: FREE delivery Fri, 3 Jul
+                        - generic [ref=e1172]: Or fastest delivery Thu, 2 Jul
+                      - button "Add to cart" [ref=e1183] [cursor=pointer]
+                - listitem "4 of 5" [ref=e1184]:
+                  - generic [ref=e1190]:
+                    - link [ref=e1194] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MToxNjk0MDU0OTAxNDA2OTE1OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDM2NzA1MzUzMzkzMjo6Mzo6&url=%2FATICX-Polyester-Actiwear-Technology-Musteebriblack-03%2Fdp%2FB08XMJBMN6%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%253Aamzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB08XMJBMN6%26pd_rd_r%3D8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5%26pd_rd_w%3DipgVN%26pd_rd_wg%3D78qAs%26pf_rd_p%3D8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-4-ced4eeeb-b190-41d6-902a-1ecb3fb8b7c4-spons%26aref%3DnvH8GzkOGC%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&aref=nvH8GzkOGC&sp_cr=ZAZ
+                      - img [ref=e1196]
+                    - generic [ref=e1197]:
+                      - group "colours available" [ref=e1199]:
+                        - list
+                        - link "+39 other colors/patterns" [ref=e1201] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNjk0MDU0OTAxNDA2OTE1OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDM2NzA1MzUzMzkzMjo6Mzo6&url=%2FATICX-Polyester-Actiwear-Technology-Musteebriblack-03%2Fdp%2FB08XMJBMN6%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%253Aamzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB08XMJBMN6%26pd_rd_r%3D8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5%26pd_rd_w%3DipgVN%26pd_rd_wg%3D78qAs%26pf_rd_p%3D8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-4-ced4eeeb-b190-41d6-902a-1ecb3fb8b7c4-spons%26aref%3DnvH8GzkOGC%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&aref=nvH8GzkOGC&sp_cr=ZAZ
+                      - generic [ref=e1202]:
+                        - heading "ATICX" [level=2] [ref=e1204]
+                        - link "Sponsored Ad - Men's Polyester Sports Sleeveless T Shirt - Gym Vest, Workout Sando, Training Tank Top, Cut Sleeves Quick Dry Tee for Running, Swimming, Badminton, Fitness & Sports" [ref=e1205] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNjk0MDU0OTAxNDA2OTE1OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDM2NzA1MzUzMzkzMjo6Mzo6&url=%2FATICX-Polyester-Actiwear-Technology-Musteebriblack-03%2Fdp%2FB08XMJBMN6%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%253Aamzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB08XMJBMN6%26pd_rd_r%3D8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5%26pd_rd_w%3DipgVN%26pd_rd_wg%3D78qAs%26pf_rd_p%3D8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-4-ced4eeeb-b190-41d6-902a-1ecb3fb8b7c4-spons%26aref%3DnvH8GzkOGC%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&aref=nvH8GzkOGC&sp_cr=ZAZ
+                          - heading "Sponsored Ad - Men's Polyester Sports Sleeveless T Shirt - Gym Vest, Workout Sando, Training Tank Top, Cut Sleeves Quick Dry Tee for Running, Swimming, Badminton, Fitness & Sports" [level=2] [ref=e1206]: Men's Polyester Sports Sleeveless T Shirt - Gym Vest, Workout Sando, Training Tank Top, Cut Sleeves Quick Dry Tee for Running, Swimming, Badminton, Fitness & Sports
+                      - generic [ref=e1207]:
+                        - generic [ref=e1208]:
+                          - text: "4.2"
+                          - button "4.2 out of 5 stars, rating details" [ref=e1210] [cursor=pointer]:
+                            - generic [ref=e1212]: 4.2 out of 5 stars
+                          - link "1,766 ratings" [ref=e1214] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MToxNjk0MDU0OTAxNDA2OTE1OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDM2NzA1MzUzMzkzMjo6Mzo6&url=%2FATICX-Polyester-Actiwear-Technology-Musteebriblack-03%2Fdp%2FB08XMJBMN6%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%253Aamzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB08XMJBMN6%26pd_rd_r%3D8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5%26pd_rd_w%3DipgVN%26pd_rd_wg%3D78qAs%26pf_rd_p%3D8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-4-ced4eeeb-b190-41d6-902a-1ecb3fb8b7c4-spons%26aref%3DnvH8GzkOGC%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&aref=nvH8GzkOGC&sp_cr=ZAZ#customerReviews
+                            - text: (1.7K)
+                        - generic [ref=e1215]: 100+ bought in past month
+                      - generic [ref=e1216]:
+                        - link "Limited time deal" [ref=e1218] [cursor=pointer]:
+                          - /url: /deals
+                          - generic [ref=e1221]: Limited time deal
+                        - generic [ref=e1223]:
+                          - generic [ref=e1224]: Price, product page
+                          - 'link "₹299 M.R.P: ₹849 M.R.P: ₹849" [ref=e1225] [cursor=pointer]':
+                            - /url: /sspa/click?ie=UTF8&spc=MToxNjk0MDU0OTAxNDA2OTE1OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDM2NzA1MzUzMzkzMjo6Mzo6&url=%2FATICX-Polyester-Actiwear-Technology-Musteebriblack-03%2Fdp%2FB08XMJBMN6%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%253Aamzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB08XMJBMN6%26pd_rd_r%3D8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5%26pd_rd_w%3DipgVN%26pd_rd_wg%3D78qAs%26pf_rd_p%3D8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-4-ced4eeeb-b190-41d6-902a-1ecb3fb8b7c4-spons%26aref%3DnvH8GzkOGC%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&aref=nvH8GzkOGC&sp_cr=ZAZ
+                            - generic [ref=e1226]:
+                              - generic [ref=e1227]: ₹299
+                              - generic [ref=e1228]: ₹299
+                            - generic [ref=e1229]: "M.R.P: ₹849"
+                            - generic [ref=e1230]:
+                              - text: "M.R.P:"
+                              - generic [ref=e1231]:
+                                - generic [ref=e1232]: ₹849
+                                - text: ₹849
+                          - text: (65% off)
+                        - generic [ref=e1235]:
+                          - generic [ref=e1236]: You pay ₹293.02
+                          - text: with coupon (limited sizes/colours)
+                      - generic [ref=e1239]:
+                        - generic [ref=e1241]: FREE delivery Thu, 2 Jul on first order
+                        - generic [ref=e1243]: Or fastest delivery Tomorrow, 1 Jul
+                      - button "Add to cart" [ref=e1254] [cursor=pointer]
+                - listitem "5 of 5" [ref=e1255]:
+                  - generic [ref=e1261]:
+                    - link [ref=e1265] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MToxNjk0MDU0OTAxNDA2OTE1OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDYyMjk1MTkyMjczMjo6NDo6&url=%2FCHKOKKO-Regular-Sportswear-Training-Activities%2Fdp%2FB0DQVB1YX2%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%253Aamzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB0DQVB1YX2%26pd_rd_r%3D8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5%26pd_rd_w%3DipgVN%26pd_rd_wg%3D78qAs%26pf_rd_p%3D8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-5-ced4eeeb-b190-41d6-902a-1ecb3fb8b7c4-spons%26aref%3DfHWK7UDFBl%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&aref=fHWK7UDFBl&sp_cr=ZAZ
+                      - img [ref=e1267]
+                    - generic [ref=e1268]:
+                      - group "colours available" [ref=e1270]:
+                        - list
+                        - link "+14 other colors/patterns" [ref=e1272] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNjk0MDU0OTAxNDA2OTE1OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDYyMjk1MTkyMjczMjo6NDo6&url=%2FCHKOKKO-Regular-Sportswear-Training-Activities%2Fdp%2FB0DQVB1YX2%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%253Aamzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB0DQVB1YX2%26pd_rd_r%3D8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5%26pd_rd_w%3DipgVN%26pd_rd_wg%3D78qAs%26pf_rd_p%3D8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-5-ced4eeeb-b190-41d6-902a-1ecb3fb8b7c4-spons%26aref%3DfHWK7UDFBl%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&aref=fHWK7UDFBl&sp_cr=ZAZ
+                      - generic [ref=e1273]:
+                        - heading "CHKOKKO" [level=2] [ref=e1275]
+                        - link "Sponsored Ad - Gym T Shirts for Men Workout Activewear Solid Quick Dry Sports Tshirt for man Breathable Lightweight Half Sleeve Regular Fit Round Neck Running Boys T Shirt" [ref=e1276] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNjk0MDU0OTAxNDA2OTE1OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDYyMjk1MTkyMjczMjo6NDo6&url=%2FCHKOKKO-Regular-Sportswear-Training-Activities%2Fdp%2FB0DQVB1YX2%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%253Aamzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB0DQVB1YX2%26pd_rd_r%3D8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5%26pd_rd_w%3DipgVN%26pd_rd_wg%3D78qAs%26pf_rd_p%3D8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-5-ced4eeeb-b190-41d6-902a-1ecb3fb8b7c4-spons%26aref%3DfHWK7UDFBl%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&aref=fHWK7UDFBl&sp_cr=ZAZ
+                          - heading "Sponsored Ad - Gym T Shirts for Men Workout Activewear Solid Quick Dry Sports Tshirt for man Breathable Lightweight Half Sleeve Regular Fit Round Neck Running Boys T Shirt" [level=2] [ref=e1277]: Gym T Shirts for Men Workout Activewear Solid Quick Dry Sports Tshirt for man Breathable Lightweight Half Sleeve Regular Fit Round Neck Running Boys T Shirt
+                      - generic [ref=e1279]:
+                        - text: "4.0"
+                        - button "4.0 out of 5 stars, rating details" [ref=e1281] [cursor=pointer]:
+                          - generic [ref=e1283]: 4.0 out of 5 stars
+                        - link "4,593 ratings" [ref=e1285] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNjk0MDU0OTAxNDA2OTE1OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDYyMjk1MTkyMjczMjo6NDo6&url=%2FCHKOKKO-Regular-Sportswear-Training-Activities%2Fdp%2FB0DQVB1YX2%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%253Aamzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB0DQVB1YX2%26pd_rd_r%3D8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5%26pd_rd_w%3DipgVN%26pd_rd_wg%3D78qAs%26pf_rd_p%3D8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-5-ced4eeeb-b190-41d6-902a-1ecb3fb8b7c4-spons%26aref%3DfHWK7UDFBl%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&aref=fHWK7UDFBl&sp_cr=ZAZ#customerReviews
+                          - text: (4.5K)
+                      - generic [ref=e1286]:
+                        - generic [ref=e1288]:
+                          - generic [ref=e1289]: Price, product page
+                          - 'link "₹348 M.R.P: ₹1,660 M.R.P: ₹1,660" [ref=e1290] [cursor=pointer]':
+                            - /url: /sspa/click?ie=UTF8&spc=MToxNjk0MDU0OTAxNDA2OTE1OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDYyMjk1MTkyMjczMjo6NDo6&url=%2FCHKOKKO-Regular-Sportswear-Training-Activities%2Fdp%2FB0DQVB1YX2%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%253Aamzn1.sym.8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB0DQVB1YX2%26pd_rd_r%3D8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5%26pd_rd_w%3DipgVN%26pd_rd_wg%3D78qAs%26pf_rd_p%3D8b99ac48-0c8d-4226-ac23-52de60b2e5f1%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-5-ced4eeeb-b190-41d6-902a-1ecb3fb8b7c4-spons%26aref%3DfHWK7UDFBl%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&aref=fHWK7UDFBl&sp_cr=ZAZ
+                            - generic [ref=e1291]:
+                              - generic [ref=e1292]: ₹348
+                              - generic [ref=e1293]: ₹348
+                            - generic [ref=e1294]: "M.R.P: ₹1,660"
+                            - generic [ref=e1295]:
+                              - text: "M.R.P:"
+                              - generic [ref=e1296]:
+                                - generic [ref=e1297]: ₹1,660
+                                - text: ₹1,660
+                          - text: (79% off)
+                        - generic [ref=e1300]:
+                          - generic [ref=e1301]: You pay ₹313.20
+                          - text: with coupon (limited sizes/colours)
+                      - generic [ref=e1304]:
+                        - generic [ref=e1306]: FREE delivery Thu, 2 Jul on first order
+                        - generic [ref=e1308]: Or fastest delivery Tomorrow, 1 Jul
+                      - button "Add to cart" [ref=e1319] [cursor=pointer]
+          - generic [ref=e1321]:
+            - heading "More results" [level=2] [ref=e1325]
+            - generic:
+              - list:
+                - listitem [ref=e1326]:
+                  - generic [ref=e1331]:
+                    - group "Best sellerin Men's Track Pants" [ref=e1336]:
+                      - generic "Best seller" [ref=e1338]
+                    - link [ref=e1342] [cursor=pointer]:
+                      - /url: /Trackpants-Oversized-Streetwear-Comfortable-Joggers/dp/B0FVYBV835/ref=sr_1_8?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-8
+                      - img [ref=e1344]
+                    - generic [ref=e1345]:
+                      - group "colours available" [ref=e1347]:
+                        - list [ref=e1348]:
+                          - generic [ref=e1349]:
+                            - listitem:
+                              - link "Black":
+                                - /url: /Trackpants-Oversized-Streetwear-Comfortable-Joggers/dp/B0FVYBV835/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-8
+                          - generic [ref=e1352]:
+                            - listitem:
+                              - link "Grey":
+                                - /url: /Trackpants-Oversized-Streetwear-Comfortable-Joggers/dp/B0FVYDFZ9W/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-8
+                          - generic [ref=e1355]:
+                            - listitem:
+                              - link "Navy":
+                                - /url: /Trackpants-Oversized-Streetwear-Comfortable-Joggers/dp/B0FVY8WCLR/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-8
+                      - generic [ref=e1358]:
+                        - heading "QUIXEL" [level=2] [ref=e1360]
+                        - link "Men's Cotton Baggy Trackpants | Oversized Fit Streetwear & Gym Wear | Comfortable Casual Joggers for Men" [ref=e1361] [cursor=pointer]:
+                          - /url: /Trackpants-Oversized-Streetwear-Comfortable-Joggers/dp/B0FVYBV835/ref=sr_1_8?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-8
+                          - heading "Men's Cotton Baggy Trackpants | Oversized Fit Streetwear & Gym Wear | Comfortable Casual Joggers for Men" [level=2] [ref=e1362]
+                      - generic [ref=e1363]:
+                        - generic [ref=e1364]:
+                          - text: "4.0"
+                          - button "4.0 out of 5 stars, rating details" [ref=e1366] [cursor=pointer]:
+                            - generic [ref=e1368]: 4.0 out of 5 stars
+                          - link "1,435 ratings" [ref=e1370] [cursor=pointer]:
+                            - /url: /Trackpants-Oversized-Streetwear-Comfortable-Joggers/dp/B0FVYBV835/ref=sr_1_8?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-8#customerReviews
+                            - text: (1.4K)
+                        - generic [ref=e1371]: 700+ bought in past month
+                      - generic [ref=e1372]:
+                        - link "Limited time deal" [ref=e1374] [cursor=pointer]:
+                          - /url: /deals
+                          - generic [ref=e1377]: Limited time deal
+                        - generic [ref=e1379]:
+                          - generic [ref=e1380]: Price, product page
+                          - 'link "₹379 M.R.P: ₹999 M.R.P: ₹999" [ref=e1381] [cursor=pointer]':
+                            - /url: /Trackpants-Oversized-Streetwear-Comfortable-Joggers/dp/B0FVYBV835/ref=sr_1_8?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-8
+                            - generic [ref=e1382]:
+                              - generic [ref=e1383]: ₹379
+                              - generic [ref=e1384]: ₹379
+                            - generic [ref=e1385]: "M.R.P: ₹999"
+                            - generic [ref=e1386]:
+                              - text: "M.R.P:"
+                              - generic [ref=e1387]:
+                                - generic [ref=e1388]: ₹999
+                                - text: ₹999
+                          - text: (62% off)
+                        - generic [ref=e1392]:
+                          - generic [ref=e1393]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e1394]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e1401]: FREE delivery Mon, 6 Jul
+                      - button "Add to cart" [ref=e1412] [cursor=pointer]
+                - listitem [ref=e1413]:
+                  - generic [ref=e1418]:
+                    - generic "Amazon's Choice" [ref=e1420]:
+                      - group "Amazon's Choice for \"gym clothes men\"" [ref=e1423]:
+                        - generic [ref=e1425]: Amazon's Choice
+                    - link [ref=e1429] [cursor=pointer]:
+                      - /url: /JUARI-BE-GENTLEMAN-Mens-Sleeveless/dp/B0FB8XVZ8Q/ref=sr_1_9?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-9
+                      - img [ref=e1431]
+                    - generic [ref=e1432]:
+                      - group "colours available" [ref=e1434]:
+                        - list [ref=e1435]:
+                          - generic [ref=e1436]:
+                            - listitem:
+                              - link "SLRIB-NVY-BROKLYN":
+                                - /url: /JUARI-BE-GENTLEMAN-Mens-Sleeveless/dp/B0FB8XVZ8Q/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-9
+                          - generic [ref=e1439]:
+                            - listitem:
+                              - link "NVY-1967":
+                                - /url: /JUARI-BE-GENTLEMAN-Mens-Sleeveless/dp/B0G2JGB1BZ/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-9
+                          - generic [ref=e1442]:
+                            - listitem:
+                              - link "SLRIB-BLK-1967":
+                                - /url: /JUARI-BE-GENTLEMAN-Mens-Sleeveless/dp/B0G2JGRWZZ/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-9
+                          - generic [ref=e1445]:
+                            - listitem:
+                              - link "SLRIB-BLK-BROKLYN":
+                                - /url: /JUARI-BE-GENTLEMAN-Mens-Sleeveless/dp/B0FB92DKW8/ref=cs_sr_dp_4?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-9
+                          - generic [ref=e1448]:
+                            - listitem:
+                              - link "SLRIB-BLK-NEVR-T":
+                                - /url: /JUARI-BE-GENTLEMAN-Mens-Sleeveless/dp/B0FB8YFL55/ref=cs_sr_dp_5?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-9
+                          - generic [ref=e1451]:
+                            - listitem:
+                              - link "SLRIB-MRON-BROKLYN":
+                                - /url: /JUARI-BE-GENTLEMAN-Mens-Sleeveless/dp/B0FB911NSH/ref=cs_sr_dp_6?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-9
+                        - link "+2 other colors/patterns" [ref=e1455] [cursor=pointer]:
+                          - /url: /JUARI-BE-GENTLEMAN-Mens-Sleeveless/dp/B0FB8XVZ8Q/ref=cs_sr_dp_n?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-9
+                          - text: "+2"
+                      - generic [ref=e1456]:
+                        - heading "JUARI BE A GENTLEMAN" [level=2] [ref=e1458]
+                        - link "Men's Sleeveless Tank Top Premium Cotton Blend Muscle Fit Gym Vest | Casual Summer Workout Shirt | Breathable & Lightweight Fitness Wear for Bodybuilding, Running & Daily Use" [ref=e1459] [cursor=pointer]:
+                          - /url: /JUARI-BE-GENTLEMAN-Mens-Sleeveless/dp/B0FB8XVZ8Q/ref=sr_1_9?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-9
+                          - heading "Men's Sleeveless Tank Top Premium Cotton Blend Muscle Fit Gym Vest | Casual Summer Workout Shirt | Breathable & Lightweight Fitness Wear for Bodybuilding, Running & Daily Use" [level=2] [ref=e1460]
+                      - generic [ref=e1461]:
+                        - generic [ref=e1462]:
+                          - text: "4.0"
+                          - button "4.0 out of 5 stars, rating details" [ref=e1464] [cursor=pointer]:
+                            - generic [ref=e1466]: 4.0 out of 5 stars
+                          - link "569 ratings" [ref=e1468] [cursor=pointer]:
+                            - /url: /JUARI-BE-GENTLEMAN-Mens-Sleeveless/dp/B0FB8XVZ8Q/ref=sr_1_9?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-9#customerReviews
+                            - text: (569)
+                        - generic [ref=e1469]: 700+ bought in past month
+                      - generic [ref=e1470]:
+                        - generic [ref=e1472]:
+                          - generic [ref=e1473]: Price, product page
+                          - 'link "₹298.99 M.R.P: ₹999 M.R.P: ₹999" [ref=e1474] [cursor=pointer]':
+                            - /url: /JUARI-BE-GENTLEMAN-Mens-Sleeveless/dp/B0FB8XVZ8Q/ref=sr_1_9?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-9
+                            - generic [ref=e1475]:
+                              - generic [ref=e1476]: ₹298.99
+                              - generic [ref=e1477]:
+                                - text: ₹
+                                - generic [ref=e1478]:
+                                  - text: "298"
+                                  - generic [ref=e1479]: .
+                                - text: "99"
+                            - generic [ref=e1480]: "M.R.P: ₹999"
+                            - generic [ref=e1481]:
+                              - text: "M.R.P:"
+                              - generic [ref=e1482]:
+                                - generic [ref=e1483]: ₹999
+                                - text: ₹999
+                          - text: (70% off)
+                        - generic [ref=e1486]:
+                          - generic [ref=e1487]: You pay ₹293.01
+                          - text: with coupon (limited sizes/colours)
+                      - generic [ref=e1490]:
+                        - generic [ref=e1492]: FREE delivery Thu, 2 Jul on first order
+                        - generic [ref=e1494]: Or fastest delivery Tomorrow, 1 Jul
+                      - button "Add to cart" [ref=e1505] [cursor=pointer]
+                - listitem [ref=e1506]:
+                  - generic [ref=e1511]:
+                    - link [ref=e1515] [cursor=pointer]:
+                      - /url: /Adidas-Polyester-CLASSIC-Sports-T-Shirts/dp/B07XQ8YB28/ref=sr_1_10?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-10
+                      - img [ref=e1517]
+                    - generic [ref=e1518]:
+                      - group "colours available" [ref=e1520]:
+                        - list [ref=e1521]:
+                          - generic [ref=e1522]:
+                            - listitem:
+                              - link "BOONIX":
+                                - /url: /Adidas-Polyester-CLASSIC-Sports-T-Shirts/dp/B07XQ8YB28/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-10
+                          - generic [ref=e1525]:
+                            - listitem:
+                              - link "BLACK":
+                                - /url: /Adidas-Polyester-CLASSIC-Sports-T-Shirts/dp/B07XQ6XMZK/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-10
+                          - generic [ref=e1528]:
+                            - listitem:
+                              - link "BLUBEA":
+                                - /url: /Adidas-Polyester-CLASSIC-Sports-T-Shirts/dp/B07XL2MWPR/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-10
+                          - generic [ref=e1531]:
+                            - listitem:
+                              - link "CONAVY":
+                                - /url: /Adidas-Polyester-CLASSIC-Sports-T-Shirts/dp/B07XPW74QV/ref=cs_sr_dp_4?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-10
+                          - generic [ref=e1534]:
+                            - listitem:
+                              - link "SCARLE":
+                                - /url: /Adidas-Polyester-CLASSIC-Sports-T-Shirts/dp/B07XL2VLGJ/ref=cs_sr_dp_5?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-10
+                          - generic [ref=e1537]:
+                            - listitem:
+                              - link "WHITE":
+                                - /url: /Adidas-Polyester-CLASSIC-Sports-T-Shirts/dp/B07VDL5R4N/ref=cs_sr_dp_6?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-10
+                      - generic [ref=e1540]:
+                        - heading "adidas" [level=2] [ref=e1542]
+                        - link "Men T-Shirt" [ref=e1543] [cursor=pointer]:
+                          - /url: /Adidas-Polyester-CLASSIC-Sports-T-Shirts/dp/B07XQ8YB28/ref=sr_1_10?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-10
+                          - heading "Men T-Shirt" [level=2] [ref=e1544]
+                      - generic [ref=e1546]:
+                        - text: "4.0"
+                        - button "4.0 out of 5 stars, rating details" [ref=e1548] [cursor=pointer]:
+                          - generic [ref=e1550]: 4.0 out of 5 stars
+                        - link "2,935 ratings" [ref=e1552] [cursor=pointer]:
+                          - /url: /Adidas-Polyester-CLASSIC-Sports-T-Shirts/dp/B07XQ8YB28/ref=sr_1_10?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-10#customerReviews
+                          - text: (2.9K)
+                      - generic [ref=e1553]:
+                        - generic [ref=e1555]:
+                          - generic [ref=e1556]: Price, product page
+                          - 'link "₹799 M.R.P: ₹1,199 M.R.P: ₹1,199" [ref=e1557] [cursor=pointer]':
+                            - /url: /Adidas-Polyester-CLASSIC-Sports-T-Shirts/dp/B07XQ8YB28/ref=sr_1_10?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-10
+                            - generic [ref=e1558]:
+                              - generic [ref=e1559]: ₹799
+                              - generic [ref=e1560]: ₹799
+                            - generic [ref=e1561]: "M.R.P: ₹1,199"
+                            - generic [ref=e1562]:
+                              - text: "M.R.P:"
+                              - generic [ref=e1563]:
+                                - generic [ref=e1564]: ₹1,199
+                                - text: ₹1,199
+                          - text: (33% off)
+                        - generic [ref=e1568]:
+                          - generic [ref=e1569]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e1570]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e1573]:
+                        - generic [ref=e1575]: FREE delivery Thu, 2 Jul
+                        - generic [ref=e1577]: Or fastest delivery Tomorrow, 1 Jul
+                      - button "Add to cart" [ref=e1588] [cursor=pointer]
+                - listitem [ref=e1589]:
+                  - generic [ref=e1594]:
+                    - link [ref=e1598] [cursor=pointer]:
+                      - /url: /Imsa-Moda-Polycotton-Loose-Comfortable/dp/B0GWVMPD5W/ref=sr_1_11?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-11
+                      - img [ref=e1600]
+                    - generic [ref=e1601]:
+                      - group "colours available" [ref=e1603]:
+                        - list [ref=e1604]:
+                          - generic [ref=e1605]:
+                            - listitem:
+                              - link "Black":
+                                - /url: /Imsa-Moda-Polycotton-Loose-Comfortable/dp/B0GWVMPD5W/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-11
+                          - generic [ref=e1608]:
+                            - listitem:
+                              - link "Grey":
+                                - /url: /Imsa-Moda-Polycotton-Loose-Comfortable/dp/B0GWVR7DD7/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-11
+                      - generic [ref=e1611]:
+                        - heading "Imsa Moda" [level=2] [ref=e1613]
+                        - link "Men’s Polycotton Loose Fit Track Pants | Comfortable Joggers with Elastic Waistband & Side Pockets | Casual & Gym Wear Lower for Men" [ref=e1614] [cursor=pointer]:
+                          - /url: /Imsa-Moda-Polycotton-Loose-Comfortable/dp/B0GWVMPD5W/ref=sr_1_11?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-11
+                          - heading "Men’s Polycotton Loose Fit Track Pants | Comfortable Joggers with Elastic Waistband & Side Pockets | Casual & Gym Wear Lower for Men" [level=2] [ref=e1615]
+                      - generic [ref=e1616]:
+                        - generic [ref=e1617]:
+                          - text: "4.2"
+                          - button "4.2 out of 5 stars, rating details" [ref=e1619] [cursor=pointer]:
+                            - generic [ref=e1621]: 4.2 out of 5 stars
+                          - link "135 ratings" [ref=e1623] [cursor=pointer]:
+                            - /url: /Imsa-Moda-Polycotton-Loose-Comfortable/dp/B0GWVMPD5W/ref=sr_1_11?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-11#customerReviews
+                            - text: (135)
+                        - generic [ref=e1624]: 500+ bought in past month
+                      - generic [ref=e1625]:
+                        - link "Limited time deal" [ref=e1627] [cursor=pointer]:
+                          - /url: /deals
+                          - generic [ref=e1630]: Limited time deal
+                        - generic [ref=e1632]:
+                          - generic [ref=e1633]: Price, product page
+                          - 'link "₹334 M.R.P: ₹1,499 M.R.P: ₹1,499" [ref=e1634] [cursor=pointer]':
+                            - /url: /Imsa-Moda-Polycotton-Loose-Comfortable/dp/B0GWVMPD5W/ref=sr_1_11?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-11
+                            - generic [ref=e1635]:
+                              - generic [ref=e1636]: ₹334
+                              - generic [ref=e1637]: ₹334
+                            - generic [ref=e1638]: "M.R.P: ₹1,499"
+                            - generic [ref=e1639]:
+                              - text: "M.R.P:"
+                              - generic [ref=e1640]:
+                                - generic [ref=e1641]: ₹1,499
+                                - text: ₹1,499
+                          - text: (78% off)
+                        - generic [ref=e1644]:
+                          - generic [ref=e1645]: You pay ₹327.32
+                          - text: with coupon (limited sizes/colours)
+                      - generic [ref=e1650]: FREE delivery Sun, 5 Jul on first order
+                      - button "Add to cart" [ref=e1661] [cursor=pointer]
+                - listitem [ref=e1662]:
+                  - generic [ref=e1667]:
+                    - link [ref=e1671] [cursor=pointer]:
+                      - /url: /BULLAR-Polyester-Compression-T-Shirt-Athletic/dp/B0G7WYRRXX/ref=sr_1_12?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-12
+                      - img [ref=e1673]
+                    - generic [ref=e1674]:
+                      - group "colours available" [ref=e1676]:
+                        - list [ref=e1677]:
+                          - generic [ref=e1678]:
+                            - listitem:
+                              - link "Black/White":
+                                - /url: /BULLAR-Polyester-Compression-T-Shirt-Athletic/dp/B0G7WYRRXX/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-12
+                          - generic [ref=e1681]:
+                            - listitem:
+                              - link "Black":
+                                - /url: /BULLAR-Polyester-Compression-T-Shirt-Athletic/dp/B0G34ZDZ7B/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-12
+                          - generic [ref=e1684]:
+                            - listitem:
+                              - link "White":
+                                - /url: /BULLAR-Polyester-Compression-T-Shirt-Athletic/dp/B0G7Y1JS7T/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-12
+                          - generic [ref=e1687]:
+                            - listitem:
+                              - link "Blue":
+                                - /url: /BULLAR-Polyester-Compression-T-Shirt-Athletic/dp/B0GF817X68/ref=cs_sr_dp_4?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-12
+                      - generic [ref=e1690]:
+                        - heading "BULLAR" [level=2] [ref=e1692]
+                        - link "Men's Polyester Blend Compression T-Shirt, Half Sleeve Athletic Sports Tight, Crew Neck, Slim Fit Tshirt for Fitness and Workout" [ref=e1693] [cursor=pointer]:
+                          - /url: /BULLAR-Polyester-Compression-T-Shirt-Athletic/dp/B0G7WYRRXX/ref=sr_1_12?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-12
+                          - heading "Men's Polyester Blend Compression T-Shirt, Half Sleeve Athletic Sports Tight, Crew Neck, Slim Fit Tshirt for Fitness and Workout" [level=2] [ref=e1694]
+                      - generic [ref=e1695]:
+                        - generic [ref=e1696]:
+                          - text: "3.9"
+                          - button "3.9 out of 5 stars, rating details" [ref=e1698] [cursor=pointer]:
+                            - generic [ref=e1700]: 3.9 out of 5 stars
+                          - link "149 ratings" [ref=e1702] [cursor=pointer]:
+                            - /url: /BULLAR-Polyester-Compression-T-Shirt-Athletic/dp/B0G7WYRRXX/ref=sr_1_12?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-12#customerReviews
+                            - text: (149)
+                        - generic [ref=e1703]: 50+ bought in past month
+                      - generic [ref=e1704]:
+                        - link "Limited time deal" [ref=e1706] [cursor=pointer]:
+                          - /url: /deals
+                          - generic [ref=e1709]: Limited time deal
+                        - generic [ref=e1711]:
+                          - generic [ref=e1712]: Price, product page
+                          - 'link "₹689 M.R.P: ₹999 M.R.P: ₹999" [ref=e1713] [cursor=pointer]':
+                            - /url: /BULLAR-Polyester-Compression-T-Shirt-Athletic/dp/B0G7WYRRXX/ref=sr_1_12?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-12
+                            - generic [ref=e1714]:
+                              - generic [ref=e1715]: ₹689
+                              - generic [ref=e1716]: ₹689
+                            - generic [ref=e1717]: "M.R.P: ₹999"
+                            - generic [ref=e1718]:
+                              - text: "M.R.P:"
+                              - generic [ref=e1719]:
+                                - generic [ref=e1720]: ₹999
+                                - text: ₹999
+                          - text: (31% off)
+                        - generic [ref=e1723]:
+                          - generic [ref=e1724]: You pay ₹675.22
+                          - text: with coupon (limited sizes/colours)
+                      - generic [ref=e1729]: FREE delivery Sat, 11 Jul
+                      - link "See options" [ref=e1736] [cursor=pointer]:
+                        - /url: /BULLAR-Polyester-Compression-T-Shirt-Athletic/dp/B0G7WYRRXX/ref=sr_1_12_so_SHIRT?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-12
+                - listitem [ref=e1737]:
+                  - generic [ref=e1742]:
+                    - link [ref=e1746] [cursor=pointer]:
+                      - /url: /Pepe-Jeans-Athleisure-Stretch-Encased/dp/B0C3DCMXTF/ref=sr_1_13?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-13
+                      - img [ref=e1748]
+                    - generic [ref=e1749]:
+                      - group "colours available" [ref=e1751]:
+                        - list [ref=e1752]:
+                          - generic [ref=e1753]:
+                            - listitem:
+                              - link "BLACK":
+                                - /url: /Pepe-Jeans-Athleisure-Stretch-Encased/dp/B0C3DCMXTF/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-13
+                          - generic [ref=e1756]:
+                            - listitem:
+                              - link "BLACK MELANGE":
+                                - /url: /Pepe-Jeans-Athleisure-Stretch-Encased/dp/B0C3DC214T/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-13
+                          - generic [ref=e1759]:
+                            - listitem:
+                              - link "NAVY":
+                                - /url: /Pepe-Jeans-Athleisure-Stretch-Encased/dp/B0C3DCMG2W/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-13
+                          - generic [ref=e1762]:
+                            - listitem:
+                              - link "BLUE MELANGE":
+                                - /url: /Pepe-Jeans-Athleisure-Stretch-Encased/dp/B0C3D9LGFB/ref=cs_sr_dp_4?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-13
+                      - generic [ref=e1765]:
+                        - heading "Pepe Jeans" [level=2] [ref=e1767]
+                        - link "Men's Regular Fit Mid Rise Track Pant" [ref=e1768] [cursor=pointer]:
+                          - /url: /Pepe-Jeans-Athleisure-Stretch-Encased/dp/B0C3DCMXTF/ref=sr_1_13?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-13
+                          - heading "Men's Regular Fit Mid Rise Track Pant" [level=2] [ref=e1769]
+                      - generic [ref=e1771]:
+                        - text: "3.9"
+                        - button "3.9 out of 5 stars, rating details" [ref=e1773] [cursor=pointer]:
+                          - generic [ref=e1775]: 3.9 out of 5 stars
+                        - link "3,804 ratings" [ref=e1777] [cursor=pointer]:
+                          - /url: /Pepe-Jeans-Athleisure-Stretch-Encased/dp/B0C3DCMXTF/ref=sr_1_13?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-13#customerReviews
+                          - text: (3.8K)
+                      - generic [ref=e1778]:
+                        - generic [ref=e1780]:
+                          - generic [ref=e1781]: Price, product page
+                          - 'link "₹699 M.R.P: ₹1,399 M.R.P: ₹1,399" [ref=e1782] [cursor=pointer]':
+                            - /url: /Pepe-Jeans-Athleisure-Stretch-Encased/dp/B0C3DCMXTF/ref=sr_1_13?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-13
+                            - generic [ref=e1783]:
+                              - generic [ref=e1784]: ₹699
+                              - generic [ref=e1785]: ₹699
+                            - generic [ref=e1786]: "M.R.P: ₹1,399"
+                            - generic [ref=e1787]:
+                              - text: "M.R.P:"
+                              - generic [ref=e1788]:
+                                - generic [ref=e1789]: ₹1,399
+                                - text: ₹1,399
+                          - text: (50% off)
+                        - generic [ref=e1793]:
+                          - generic [ref=e1794]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e1795]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e1798]:
+                        - generic [ref=e1800]: FREE delivery Thu, 2 Jul
+                        - generic [ref=e1802]: Or fastest delivery Tomorrow 8 am - 12 pm
+                      - button "Add to cart" [ref=e1813] [cursor=pointer]
+                - listitem [ref=e1814]:
+                  - generic [ref=e1819]:
+                    - link [ref=e1823] [cursor=pointer]:
+                      - /url: /Adidas-Mens-Fitted-T-Shirt-FJ9218_Black/dp/B07XQCDMVB/ref=sr_1_14?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-14
+                      - img [ref=e1825]
+                    - generic [ref=e1826]:
+                      - group "colours available" [ref=e1828]:
+                        - list [ref=e1829]:
+                          - generic [ref=e1830]:
+                            - listitem:
+                              - link "BLACK":
+                                - /url: /Adidas-Mens-Fitted-T-Shirt-FJ9218_Black/dp/B07XQCDMVB/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-14
+                          - generic [ref=e1833]:
+                            - listitem:
+                              - link "BLUBEA":
+                                - /url: /Adidas-Mens-Fitted-T-Shirt-FJ9218_Black/dp/B07XPVHTSN/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-14
+                          - generic [ref=e1836]:
+                            - listitem:
+                              - link "CONAVY":
+                                - /url: /Adidas-Mens-Fitted-T-Shirt-FJ9218_Black/dp/B07XJX3YWV/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-14
+                          - generic [ref=e1839]:
+                            - listitem:
+                              - link "SCARLE":
+                                - /url: /Adidas-Mens-Fitted-T-Shirt-FJ9218_Black/dp/B07XQ389TL/ref=cs_sr_dp_4?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-14
+                          - generic [ref=e1842]:
+                            - listitem:
+                              - link "WHITE":
+                                - /url: /Adidas-Mens-Fitted-T-Shirt-FJ9218_Black/dp/B07VGSJL2X/ref=cs_sr_dp_5?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-14
+                          - generic [ref=e1845]:
+                            - listitem:
+                              - link "BOONIX":
+                                - /url: /Adidas-Mens-Fitted-T-Shirt-FJ9218_Black/dp/B07XQ8LZYZ/ref=cs_sr_dp_6?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-14
+                      - generic [ref=e1848]:
+                        - heading "adidas" [level=2] [ref=e1850]
+                        - link "Men T-Shirt" [ref=e1851] [cursor=pointer]:
+                          - /url: /Adidas-Mens-Fitted-T-Shirt-FJ9218_Black/dp/B07XQCDMVB/ref=sr_1_14?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-14
+                          - heading "Men T-Shirt" [level=2] [ref=e1852]
+                      - generic [ref=e1854]:
+                        - text: "4.0"
+                        - button "4.0 out of 5 stars, rating details" [ref=e1856] [cursor=pointer]:
+                          - generic [ref=e1858]: 4.0 out of 5 stars
+                        - link "2,935 ratings" [ref=e1860] [cursor=pointer]:
+                          - /url: /Adidas-Mens-Fitted-T-Shirt-FJ9218_Black/dp/B07XQCDMVB/ref=sr_1_14?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-14#customerReviews
+                          - text: (2.9K)
+                      - generic [ref=e1861]:
+                        - generic [ref=e1863]:
+                          - generic [ref=e1864]: Price, product page
+                          - 'link "₹779 M.R.P: ₹1,199 M.R.P: ₹1,199" [ref=e1865] [cursor=pointer]':
+                            - /url: /Adidas-Mens-Fitted-T-Shirt-FJ9218_Black/dp/B07XQCDMVB/ref=sr_1_14?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-14
+                            - generic [ref=e1866]:
+                              - generic [ref=e1867]: ₹779
+                              - generic [ref=e1868]: ₹779
+                            - generic [ref=e1869]: "M.R.P: ₹1,199"
+                            - generic [ref=e1870]:
+                              - text: "M.R.P:"
+                              - generic [ref=e1871]:
+                                - generic [ref=e1872]: ₹1,199
+                                - text: ₹1,199
+                          - text: (35% off)
+                        - generic [ref=e1876]:
+                          - generic [ref=e1877]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e1878]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e1883]: FREE delivery Mon, 6 Jul
+                      - button "Add to cart" [ref=e1894] [cursor=pointer]
+          - generic [ref=e1902]:
+            - link "Sponsored video; click to navigate to featured product page. Boldfit Gym T Shirts for Men Workout Breathable T Shirt for Man Active Wear Sports Tshirt for Men Lightweight Gym Tshirts for Man Dry Fit Running T Shirts for Boys Regular Fit Sports Tshirts" [ref=e1906] [cursor=pointer]:
+              - /url: https://aax-eu-zaz.amazon.in/x/c/JLJ5BI91R8xjUwcrSvviNV4AAAGfGZNDVAoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICDXU09X/clv1c_ek-wBPHXEsTWniFPYhsAb2gzhEiX4nLDLZxTrtlmzzzGdTKhIKJOw3crYhTaeEaJgRMlA-PZEhxY3h3hQtMV0QHUn8_MzAWYWqL3RNuwcMRXBwTuPE57tQK5ZPh8_qKRCAsDS_I4wg4PBFInv0Nkh1H9IduoJtXrnKxzwyacnB5fm-8YQxFZHKIqlEcHt3YuNdQSozyrfkdM2OmRjRygkjApsXUfpe0dkCzFCYG32b-hK0GOG2u2PEe79hTckFtaGCoZUnXW6rDUGB998k2D6YRZxZWXOfceDqVjVVdojlEm7BgyjCJhjOt7AxHbpBEh9bTxjCmuByWBZRrmwNrzrFFejd5AjSSA64a7g5ZYaxC-kYoFHJ8HLsg0-E936QtplXDBV2TNzbW09HOUKHQ1CAi2sVL8ZSajtVf0_DRMDPHnD9jmtAtfYCjSDG06xEnWSEKSGeo2U6qerMQo0H1X0C2hNmuFk5LAvSuaRG4eD-cSc2TukSxVwoMOQUa-Yh1QbvRrGkw1yNRbgFQWxueWYmDhssamLJrfDq5T0lZ3UDzoSWRYdtEDmOCuDfVG0fpaz4baZW082S_5NCPdYEJjupLtP9cLeJk4m2V9qELLkcyR1J-6b8P9xtM0IqZNDP8bdgoJsDbuzTFxIIxfAfSzTMfesKBBbHBLZNLo3lM4vCLLfYqgMRxG3F2-zVyfMUza4UmdTxXXHBEc6wj5ywvFyCpv7nRMWrI7tvR9ApxPI6fjJDnmzXQbjOct4NUVYiFs7EA8JesKmEZOry3tZcR_MV6sdPSbyS7yzaKD1YtLysTJzNtBqgiWx5TVKR7pPgLDEI0JQ_79bX7SCuMXSJTyBbr55h8F8bf9UagsHn9qOYQwkhEOkSK4HXPMsXP7nnRpZ-uuLTKVYcdVIfkhKUfhZptesXIu1ruEUV88FQYEQS_jdf1MWNr4vNrizQbDzR8A773jd7HAvkQm1M4Aai3zfvbB1g5-XupNk2LIPdFi2o3XuwGfl5l1kAM5bQPJjpD30QUxVQWdMSF0y4_VCsevRpD2itsxNYHb9SnJyJsjia_vD7qWwjbX38v3xrtYEWYD5TbvzQWbgbvUstVGBSpQ8o_j_LV3vhI6siFTj4CDYPK_sSLKQbPP8FRJpH-G5ZKJUjUXPETUoyq2MNH-hguojEBf2IAFxT9bcSD_Qjd-pNACuB-begx2DdmG5r1iq1H0OiNhDroaT7sb1qcnAmz0qPiytmynuzkexJe8U9EsDPdVeKQOuTjE69HRxZ2E0b2haUPEoPjCsdCMFKbGiYjgPFCKzB-Abi1aUBy2DNvEIaXIEAbcK15R1U_QWb7akDXsrKXD7iJDHh_-LXGnwstgYeRD-oqDu124Vm4-2Gl7MEUrnRglkvTGMyqgfr4AQw0SEvuv3tUQvk86mjT4ZdSM2Py7q0FaSRfdYaPADj_lwzOasFlPwpX50y1YEAh-6xVUHOrj5QGWHnlnSrPvMpLYQpztksTUjEYaBDHvz7f4JgOdStBl70sFt4PmQj2g3AUjTI-w4uXKgtk5TZYa0iWXwYCTYdGIyYlXaTAjPJpGERHwRG5WS3xMmBc4uHIcPfNBBmmTNix6tJtqOudyv0nmkk5WhJtzAjl80dEbKqmJa2zl3GLegY62CZFdTIgzVB0sPb-rlkH5OdWHQr7Wgq5TDh7-KOuKIDs/https://www.amazon.in/dp/B0CVX9VNVB?aref=xDI7qDo59M&pd_rd_i=B0CVX9VNVB&pf_rd_p=7f127af2-01e9-4e9a-857b-f7f598682cc6&pd_rd_wg=78qAs&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_w=qV65X&pd_rd_r=8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5
+              - generic "Sponsored video; click to navigate to featured product page. Boldfit Gym T Shirts for Men Workout Breathable T Shirt for Man Active Wear Sports Tshirt for Men Lightweight Gym Tshirts for Man Dry Fit Running T Shirts for Boys Regular Fit Sports Tshirts" [ref=e1907]
+            - generic [ref=e1915]:
+              - link [ref=e1921] [cursor=pointer]:
+                - /url: https://aax-eu-zaz.amazon.in/x/c/JLJ5BI91R8xjUwcrSvviNV4AAAGfGZNDVAoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICDXU09X/clv1c_ek-wBPHXEsTWniFPYhsAb2gzhEiX4nLDLZxTrtlmzzzGdTKhIKJOw3crYhTaeEaJgRMlA-PZEhxY3h3hQtMV0QHUn8_MzAWYWqL3RNuwcMRXBwTuPE57tQK5ZPh8_qKRCAsDS_I4wg4PBFInv0Nkh1H9IduoJtXrnKxzwyacnB5fm-8YQxFZHKIqlEcHt3YuNdQSozyrfkdM2OmRjRygkjApsXUfpe0dkCzFCYG32b-hK0GOG2u2PEe79hTckFtaGCoZUnXW6rDUGB998k2D6YRZxZWXOfceDqVjVVdojlEm7BgyjCJhjOt7AxHbpBEh9bTxjCmuByWBZRrmwNrzrFFejd5AjSSA64a7g5ZYaxC-kYoFHJ8HLsg0-E936QtplXDBV2TNzbW09HOUKHQ1CAi2sVL8ZSajtVf0_DRMDPHnD9jmtAtfYCjSDG06xEnWSEKSGeo2U6qerMQo0H1X0C2hNmuFk5LAvSuaRG4eD-cSc2TukSxVwoMOQUa-Yh1QbvRrGkw1yNRbgFQWxueWYmDhssamLJrfDq5T0lZ3UDzoSWRYdtEDmOCuDfVG0fpaz4baZW082S_5NCPdYEJjupLtP9cLeJk4m2V9qELLkcyR1J-6b8P9xtM0IqZNDP8bdgoJsDbuzTFxIIxfAfSzTMfesKBBbHBLZNLo3lM4vCLLfYqgMRxG3F2-zVyfMUza4UmdTxXXHBEc6wj5ywvFyCpv7nRMWrI7tvR9ApxPI6fjJDnmzXQbjOct4NUVYiFs7EA8JesKmEZOry3tZcR_MV6sdPSbyS7yzaKD1YtLysTJzNtBqgiWx5TVKR7pPgLDEI0JQ_79bX7SCuMXSJTyBbr55h8F8bf9UagsHn9qOYQwkhEOkSK4HXPMsXP7nnRpZ-uuLTKVYcdVIfkhKUfhZptesXIu1ruEUV88FQYEQS_jdf1MWNr4vNrizQbDzR8A773jd7HAvkQm1M4Aai3zfvbB1g5-XupNk2LIPdFi2o3XuwGfl5l1kAM5bQPJjpD30QUxVQWdMSF0y4_VCsevRpD2itsxNYHb9SnJyJsjia_vD7qWwjbX38v3xrtYEWYD5TbvzQWbgbvUstVGBSpQ8o_j_LV3vhI6siFTj4CDYPK_sSLKQbPP8FRJpH-G5ZKJUjUXPETUoyq2MNH-hguojEBf2IAFxT9bcSD_Qjd-pNACuB-begx2DdmG5r1iq1H0OiNhDroaT7sb1qcnAmz0qPiytmynuzkexJe8U9EsDPdVeKQOuTjE69HRxZ2E0b2haUPEoPjCsdCMFKbGiYjgPFCKzB-Abi1aUBy2DNvEIaXIEAbcK15R1U_QWb7akDXsrKXD7iJDHh_-LXGnwstgYeRD-oqDu124Vm4-2Gl7MEUrnRglkvTGMyqgfr4AQw0SEvuv3tUQvk86mjT4ZdSM2Py7q0FaSRfdYaPADj_lwzOasFlPwpX50y1YEAh-6xVUHOrj5QGWHnlnSrPvMpLYQpztksTUjEYaBDHvz7f4JgOdStBl70sFt4PmQj2g3AUjTI-w4uXKgtk5TZYa0iWXwYCTYdGIyYlXaTAjPJpGERHwRG5WS3xMmBc4uHIcPfNBBmmTNix6tJtqOudyv0nmkk5WhJtzAjl80dEbKqmJa2zl3GLegY62CZFdTIgzVB0sPb-rlkH5OdWHQr7Wgq5TDh7-KOuKIDs/https://www.amazon.in/Boldfit-Quick-Dry-Anti-Odor-Lightweight-Breathable/dp/B0CVX9VNVB/ref=sxin_24_sbv_search_btf?aref=xDI7qDo59M&content-id=amzn1.sym.7f127af2-01e9-4e9a-857b-f7f598682cc6%3Aamzn1.sym.7f127af2-01e9-4e9a-857b-f7f598682cc6&crid=NKNQ018KCWAW&cv_ct_cx=gym+clothes+men&keywords=gym+clothes+men&pd_rd_i=B0CVX9VNVB&pd_rd_r=8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5&pd_rd_w=qV65X&pd_rd_wg=78qAs&pf_rd_p=7f127af2-01e9-4e9a-857b-f7f598682cc6&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&qid=1782840509&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=%2Caps%2C249&sr=1-1-9131241a-a358-4619-a7b8-0f5a65d91d81
+                - img [ref=e1923]
+              - generic [ref=e1926]:
+                - generic [ref=e1927]:
+                  - generic [ref=e1930] [cursor=pointer]: Sponsored
+                  - link "Boldfit Gym T Shirts for Men Workout Breathable T Shirt for Man Active Wear Sports Tshirt for Men Lightweight Gym Tshirts for Man Dry Fit Running T Shirts for Boys Regular Fit Sports Tshirts" [ref=e1932] [cursor=pointer]:
+                    - /url: https://aax-eu-zaz.amazon.in/x/c/JLJ5BI91R8xjUwcrSvviNV4AAAGfGZNDVAoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICDXU09X/clv1c_ek-wBPHXEsTWniFPYhsAb2gzhEiX4nLDLZxTrtlmzzzGdTKhIKJOw3crYhTaeEaJgRMlA-PZEhxY3h3hQtMV0QHUn8_MzAWYWqL3RNuwcMRXBwTuPE57tQK5ZPh8_qKRCAsDS_I4wg4PBFInv0Nkh1H9IduoJtXrnKxzwyacnB5fm-8YQxFZHKIqlEcHt3YuNdQSozyrfkdM2OmRjRygkjApsXUfpe0dkCzFCYG32b-hK0GOG2u2PEe79hTckFtaGCoZUnXW6rDUGB998k2D6YRZxZWXOfceDqVjVVdojlEm7BgyjCJhjOt7AxHbpBEh9bTxjCmuByWBZRrmwNrzrFFejd5AjSSA64a7g5ZYaxC-kYoFHJ8HLsg0-E936QtplXDBV2TNzbW09HOUKHQ1CAi2sVL8ZSajtVf0_DRMDPHnD9jmtAtfYCjSDG06xEnWSEKSGeo2U6qerMQo0H1X0C2hNmuFk5LAvSuaRG4eD-cSc2TukSxVwoMOQUa-Yh1QbvRrGkw1yNRbgFQWxueWYmDhssamLJrfDq5T0lZ3UDzoSWRYdtEDmOCuDfVG0fpaz4baZW082S_5NCPdYEJjupLtP9cLeJk4m2V9qELLkcyR1J-6b8P9xtM0IqZNDP8bdgoJsDbuzTFxIIxfAfSzTMfesKBBbHBLZNLo3lM4vCLLfYqgMRxG3F2-zVyfMUza4UmdTxXXHBEc6wj5ywvFyCpv7nRMWrI7tvR9ApxPI6fjJDnmzXQbjOct4NUVYiFs7EA8JesKmEZOry3tZcR_MV6sdPSbyS7yzaKD1YtLysTJzNtBqgiWx5TVKR7pPgLDEI0JQ_79bX7SCuMXSJTyBbr55h8F8bf9UagsHn9qOYQwkhEOkSK4HXPMsXP7nnRpZ-uuLTKVYcdVIfkhKUfhZptesXIu1ruEUV88FQYEQS_jdf1MWNr4vNrizQbDzR8A773jd7HAvkQm1M4Aai3zfvbB1g5-XupNk2LIPdFi2o3XuwGfl5l1kAM5bQPJjpD30QUxVQWdMSF0y4_VCsevRpD2itsxNYHb9SnJyJsjia_vD7qWwjbX38v3xrtYEWYD5TbvzQWbgbvUstVGBSpQ8o_j_LV3vhI6siFTj4CDYPK_sSLKQbPP8FRJpH-G5ZKJUjUXPETUoyq2MNH-hguojEBf2IAFxT9bcSD_Qjd-pNACuB-begx2DdmG5r1iq1H0OiNhDroaT7sb1qcnAmz0qPiytmynuzkexJe8U9EsDPdVeKQOuTjE69HRxZ2E0b2haUPEoPjCsdCMFKbGiYjgPFCKzB-Abi1aUBy2DNvEIaXIEAbcK15R1U_QWb7akDXsrKXD7iJDHh_-LXGnwstgYeRD-oqDu124Vm4-2Gl7MEUrnRglkvTGMyqgfr4AQw0SEvuv3tUQvk86mjT4ZdSM2Py7q0FaSRfdYaPADj_lwzOasFlPwpX50y1YEAh-6xVUHOrj5QGWHnlnSrPvMpLYQpztksTUjEYaBDHvz7f4JgOdStBl70sFt4PmQj2g3AUjTI-w4uXKgtk5TZYa0iWXwYCTYdGIyYlXaTAjPJpGERHwRG5WS3xMmBc4uHIcPfNBBmmTNix6tJtqOudyv0nmkk5WhJtzAjl80dEbKqmJa2zl3GLegY62CZFdTIgzVB0sPb-rlkH5OdWHQr7Wgq5TDh7-KOuKIDs/https://www.amazon.in/Boldfit-Quick-Dry-Anti-Odor-Lightweight-Breathable/dp/B0CVX9VNVB/ref=sxin_24_sbv_search_btf?aref=xDI7qDo59M&content-id=amzn1.sym.7f127af2-01e9-4e9a-857b-f7f598682cc6%3Aamzn1.sym.7f127af2-01e9-4e9a-857b-f7f598682cc6&crid=NKNQ018KCWAW&cv_ct_cx=gym+clothes+men&keywords=gym+clothes+men&pd_rd_i=B0CVX9VNVB&pd_rd_r=8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5&pd_rd_w=qV65X&pd_rd_wg=78qAs&pf_rd_p=7f127af2-01e9-4e9a-857b-f7f598682cc6&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&qid=1782840509&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=%2Caps%2C249&sr=1-1-9131241a-a358-4619-a7b8-0f5a65d91d81
+                    - heading "Boldfit Gym T Shirts for Men Workout Breathable T Shirt for Man Active Wear Sports Tshirt for Men Lightweight Gym Tshirts for Man Dry Fit Running T Shirts for Boys Regular Fit Sports Tshirts" [level=2] [ref=e1933]
+                - generic [ref=e1934]:
+                  - generic [ref=e1935]:
+                    - text: "4.1"
+                    - button "4.1 out of 5 stars, rating details" [ref=e1937] [cursor=pointer]:
+                      - generic [ref=e1939]: 4.1 out of 5 stars
+                    - link "1,259 ratings" [ref=e1941] [cursor=pointer]:
+                      - /url: https://aax-eu-zaz.amazon.in/x/c/JLJ5BI91R8xjUwcrSvviNV4AAAGfGZNDVAoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICDXU09X/clv1c_ek-wBPHXEsTWniFPYhsAb2gzhEiX4nLDLZxTrtlmzzzGdTKhIKJOw3crYhTaeEaJgRMlA-PZEhxY3h3hQtMV0QHUn8_MzAWYWqL3RNuwcMRXBwTuPE57tQK5ZPh8_qKRCAsDS_I4wg4PBFInv0Nkh1H9IduoJtXrnKxzwyacnB5fm-8YQxFZHKIqlEcHt3YuNdQSozyrfkdM2OmRjRygkjApsXUfpe0dkCzFCYG32b-hK0GOG2u2PEe79hTckFtaGCoZUnXW6rDUGB998k2D6YRZxZWXOfceDqVjVVdojlEm7BgyjCJhjOt7AxHbpBEh9bTxjCmuByWBZRrmwNrzrFFejd5AjSSA64a7g5ZYaxC-kYoFHJ8HLsg0-E936QtplXDBV2TNzbW09HOUKHQ1CAi2sVL8ZSajtVf0_DRMDPHnD9jmtAtfYCjSDG06xEnWSEKSGeo2U6qerMQo0H1X0C2hNmuFk5LAvSuaRG4eD-cSc2TukSxVwoMOQUa-Yh1QbvRrGkw1yNRbgFQWxueWYmDhssamLJrfDq5T0lZ3UDzoSWRYdtEDmOCuDfVG0fpaz4baZW082S_5NCPdYEJjupLtP9cLeJk4m2V9qELLkcyR1J-6b8P9xtM0IqZNDP8bdgoJsDbuzTFxIIxfAfSzTMfesKBBbHBLZNLo3lM4vCLLfYqgMRxG3F2-zVyfMUza4UmdTxXXHBEc6wj5ywvFyCpv7nRMWrI7tvR9ApxPI6fjJDnmzXQbjOct4NUVYiFs7EA8JesKmEZOry3tZcR_MV6sdPSbyS7yzaKD1YtLysTJzNtBqgiWx5TVKR7pPgLDEI0JQ_79bX7SCuMXSJTyBbr55h8F8bf9UagsHn9qOYQwkhEOkSK4HXPMsXP7nnRpZ-uuLTKVYcdVIfkhKUfhZptesXIu1ruEUV88FQYEQS_jdf1MWNr4vNrizQbDzR8A773jd7HAvkQm1M4Aai3zfvbB1g5-XupNk2LIPdFi2o3XuwGfl5l1kAM5bQPJjpD30QUxVQWdMSF0y4_VCsevRpD2itsxNYHb9SnJyJsjia_vD7qWwjbX38v3xrtYEWYD5TbvzQWbgbvUstVGBSpQ8o_j_LV3vhI6siFTj4CDYPK_sSLKQbPP8FRJpH-G5ZKJUjUXPETUoyq2MNH-hguojEBf2IAFxT9bcSD_Qjd-pNACuB-begx2DdmG5r1iq1H0OiNhDroaT7sb1qcnAmz0qPiytmynuzkexJe8U9EsDPdVeKQOuTjE69HRxZ2E0b2haUPEoPjCsdCMFKbGiYjgPFCKzB-Abi1aUBy2DNvEIaXIEAbcK15R1U_QWb7akDXsrKXD7iJDHh_-LXGnwstgYeRD-oqDu124Vm4-2Gl7MEUrnRglkvTGMyqgfr4AQw0SEvuv3tUQvk86mjT4ZdSM2Py7q0FaSRfdYaPADj_lwzOasFlPwpX50y1YEAh-6xVUHOrj5QGWHnlnSrPvMpLYQpztksTUjEYaBDHvz7f4JgOdStBl70sFt4PmQj2g3AUjTI-w4uXKgtk5TZYa0iWXwYCTYdGIyYlXaTAjPJpGERHwRG5WS3xMmBc4uHIcPfNBBmmTNix6tJtqOudyv0nmkk5WhJtzAjl80dEbKqmJa2zl3GLegY62CZFdTIgzVB0sPb-rlkH5OdWHQr7Wgq5TDh7-KOuKIDs/https://www.amazon.in/Boldfit-Quick-Dry-Anti-Odor-Lightweight-Breathable/dp/B0CVX9VNVB/ref=sxin_24_sbv_search_btf?aref=xDI7qDo59M&content-id=amzn1.sym.7f127af2-01e9-4e9a-857b-f7f598682cc6%3Aamzn1.sym.7f127af2-01e9-4e9a-857b-f7f598682cc6&crid=NKNQ018KCWAW&cv_ct_cx=gym+clothes+men&keywords=gym+clothes+men&pd_rd_i=B0CVX9VNVB&pd_rd_r=8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5&pd_rd_w=qV65X&pd_rd_wg=78qAs&pf_rd_p=7f127af2-01e9-4e9a-857b-f7f598682cc6&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&qid=1782840509&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=%2Caps%2C249&sr=1-1-9131241a-a358-4619-a7b8-0f5a65d91d81#customerReviews
+                      - text: (1.2K)
+                  - generic [ref=e1942]: 100+ bought in past month
+                - generic [ref=e1945]:
+                  - generic [ref=e1946]:
+                    - generic [ref=e1948]:
+                      - generic [ref=e1949]: Price, product page
+                      - 'link "₹399 M.R.P: ₹999 M.R.P: ₹999" [ref=e1950] [cursor=pointer]':
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/JLJ5BI91R8xjUwcrSvviNV4AAAGfGZNDVAoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICDXU09X/clv1c_ek-wBPHXEsTWniFPYhsAb2gzhEiX4nLDLZxTrtlmzzzGdTKhIKJOw3crYhTaeEaJgRMlA-PZEhxY3h3hQtMV0QHUn8_MzAWYWqL3RNuwcMRXBwTuPE57tQK5ZPh8_qKRCAsDS_I4wg4PBFInv0Nkh1H9IduoJtXrnKxzwyacnB5fm-8YQxFZHKIqlEcHt3YuNdQSozyrfkdM2OmRjRygkjApsXUfpe0dkCzFCYG32b-hK0GOG2u2PEe79hTckFtaGCoZUnXW6rDUGB998k2D6YRZxZWXOfceDqVjVVdojlEm7BgyjCJhjOt7AxHbpBEh9bTxjCmuByWBZRrmwNrzrFFejd5AjSSA64a7g5ZYaxC-kYoFHJ8HLsg0-E936QtplXDBV2TNzbW09HOUKHQ1CAi2sVL8ZSajtVf0_DRMDPHnD9jmtAtfYCjSDG06xEnWSEKSGeo2U6qerMQo0H1X0C2hNmuFk5LAvSuaRG4eD-cSc2TukSxVwoMOQUa-Yh1QbvRrGkw1yNRbgFQWxueWYmDhssamLJrfDq5T0lZ3UDzoSWRYdtEDmOCuDfVG0fpaz4baZW082S_5NCPdYEJjupLtP9cLeJk4m2V9qELLkcyR1J-6b8P9xtM0IqZNDP8bdgoJsDbuzTFxIIxfAfSzTMfesKBBbHBLZNLo3lM4vCLLfYqgMRxG3F2-zVyfMUza4UmdTxXXHBEc6wj5ywvFyCpv7nRMWrI7tvR9ApxPI6fjJDnmzXQbjOct4NUVYiFs7EA8JesKmEZOry3tZcR_MV6sdPSbyS7yzaKD1YtLysTJzNtBqgiWx5TVKR7pPgLDEI0JQ_79bX7SCuMXSJTyBbr55h8F8bf9UagsHn9qOYQwkhEOkSK4HXPMsXP7nnRpZ-uuLTKVYcdVIfkhKUfhZptesXIu1ruEUV88FQYEQS_jdf1MWNr4vNrizQbDzR8A773jd7HAvkQm1M4Aai3zfvbB1g5-XupNk2LIPdFi2o3XuwGfl5l1kAM5bQPJjpD30QUxVQWdMSF0y4_VCsevRpD2itsxNYHb9SnJyJsjia_vD7qWwjbX38v3xrtYEWYD5TbvzQWbgbvUstVGBSpQ8o_j_LV3vhI6siFTj4CDYPK_sSLKQbPP8FRJpH-G5ZKJUjUXPETUoyq2MNH-hguojEBf2IAFxT9bcSD_Qjd-pNACuB-begx2DdmG5r1iq1H0OiNhDroaT7sb1qcnAmz0qPiytmynuzkexJe8U9EsDPdVeKQOuTjE69HRxZ2E0b2haUPEoPjCsdCMFKbGiYjgPFCKzB-Abi1aUBy2DNvEIaXIEAbcK15R1U_QWb7akDXsrKXD7iJDHh_-LXGnwstgYeRD-oqDu124Vm4-2Gl7MEUrnRglkvTGMyqgfr4AQw0SEvuv3tUQvk86mjT4ZdSM2Py7q0FaSRfdYaPADj_lwzOasFlPwpX50y1YEAh-6xVUHOrj5QGWHnlnSrPvMpLYQpztksTUjEYaBDHvz7f4JgOdStBl70sFt4PmQj2g3AUjTI-w4uXKgtk5TZYa0iWXwYCTYdGIyYlXaTAjPJpGERHwRG5WS3xMmBc4uHIcPfNBBmmTNix6tJtqOudyv0nmkk5WhJtzAjl80dEbKqmJa2zl3GLegY62CZFdTIgzVB0sPb-rlkH5OdWHQr7Wgq5TDh7-KOuKIDs/https://www.amazon.in/Boldfit-Quick-Dry-Anti-Odor-Lightweight-Breathable/dp/B0CVX9VNVB/ref=sxin_24_sbv_search_btf?aref=xDI7qDo59M&content-id=amzn1.sym.7f127af2-01e9-4e9a-857b-f7f598682cc6%3Aamzn1.sym.7f127af2-01e9-4e9a-857b-f7f598682cc6&crid=NKNQ018KCWAW&cv_ct_cx=gym+clothes+men&keywords=gym+clothes+men&pd_rd_i=B0CVX9VNVB&pd_rd_r=8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5&pd_rd_w=qV65X&pd_rd_wg=78qAs&pf_rd_p=7f127af2-01e9-4e9a-857b-f7f598682cc6&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&qid=1782840509&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=%2Caps%2C249&sr=1-1-9131241a-a358-4619-a7b8-0f5a65d91d81
+                        - generic [ref=e1951]:
+                          - generic [ref=e1952]: ₹399
+                          - generic [ref=e1953]: ₹399
+                        - generic [ref=e1954]: "M.R.P: ₹999"
+                        - generic [ref=e1955]:
+                          - text: "M.R.P:"
+                          - generic [ref=e1956]:
+                            - generic [ref=e1957]: ₹999
+                            - text: ₹999
+                      - text: (60% off)
+                    - generic [ref=e1961]:
+                      - generic [ref=e1962]: Up to 5% back with Amazon Pay ICICI card
+                      - generic [ref=e1963]: Up to 5% back with Amazon Pay ICI...
+                  - generic [ref=e1966]:
+                    - generic [ref=e1968]: FREE delivery Thu, 2 Jul on first order
+                    - generic [ref=e1970]: Or fastest delivery Tomorrow, 1 Jul
+          - generic [ref=e1973]:
+            - link "Sponsored ad from Boldfit. \"Your Activewear Gym Shorts For Daily Use.\" Shop Boldfit." [ref=e1974] [cursor=pointer]:
+              - /url: https://aax-eu-zaz.amazon.in/x/c/JAWV2BtrOPyo9za4Z6ZqEjUAAAGfGZNDSAoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDSVBxz/clv1c_ek-wBPfXLcTVnuOrT81pu0Gum1obi5OzajSmka3GG2k57oQV0n_C2jNxYxRiQyZ2gxMlpifZihe-Xm6Cl-0R70dLY0viqAoJ5TChrA1SHcQXByGtYr3j2b2JG_l9mjIRVRmV_ApOzYfWBvLwkeasP_zj5V-ZjW0KE8TiHzueDOcd0mEF5tAtXQSV7lcaBHtrJuPszhnY4hBI0tyxr1gTMmiRYRwvIF-2XEZUNFUdy44KQ3G6uzMZ1cAxcD1fNgxg3_0eMwgIcxW8gueAqtyCh5VGIeP8E_baf3-OKIEVsEn_ObudloIaRACPCW7FR3cnRw-d3y62KDM3abqQHnBgke8hTkMZ6wodYJsBmJSfZyFudA55Y_pETEVDV-xB0DjL3pEb5v6nlOVSpTBpydqVY-9HvEo7_kbLonE-j7UG-BBU0vOgoswND8yrw04oMhyXt6Y1IDfUZ_OL6PIR-zEoysGTYjAMwRpfWHfSe5I986T68PtOLViNzjgYubdCQPoOcSf_AB4FJDcIJzzJkVwCbzfgh2Pl0FTUwl_YISBXAIygUWfX6xRMnBMGQrPT2EAdKb9ozcCk8kp0aR8UASAs766ZhFCcfPKgngPeWdduSYTBZ5Pkhkw2JFKdN1irt_dvcUIDD8_uL3ctAgTMOr5oFP1IWHDsVwt2qsF5hvP3qf3Vhy0bRRyFulGfXDWhTg3UrE3xXvmffUIcMvzy2IuCi6VcWfJKeYMjof4KgHLBAzY-TpB5JnfcvOhbGY-E49O8NlnBIQtCUe69oUGrV9okF29tUTWCU2pLiLVwWMP7ZK_QkcF9Ug2JADrHcQx5g0qjSOqlk3QVF6WSYeIBAAc-FQCB0iKCaMWm-jxjmUDrc9tZLe-w25AliEpYQ5Ej-U6G7zhI3J2L9moF42ZFoqZX99wA2jkyoxEP1onTZOJJVZ28Q7zVTpiMWJn8maCd5_4bO0yKIz-ceanvIiy928l8yqM5viOrEBpIlcGNeRvSf8lENS2eXg506fCI92nfZBcQrvMfy1CijwKFaJ3yQFEROlOqEXx50QvZjaNaz9RFX4wpQifNdbQBMfQvGWICjDpDsBpEq7okV2NJk1tTRjrNMkIHURoQuNEAslenE_RMk2wcttPIUxmrvhtdGwPY7J6pZB2nXaK2TVTNoN0CWK-VUL3HO_oVHzrpoTZwboS11fBWJmzwUVteDLNd5AuG6rXi6woJ3bn4juXpSmxovnl0qEzDVwOsdN-vi2wz4ElyW7LMTP7RAhFbQ0HnU6V4GnMVyrvuNwtj3rIUdlBkMbIyFachYpWyNFm9hUfnxNFJAC0GZbToU39MIBHZFKoxFwcNpfmUzLumouUeRErWJrHqeEvuCCiGznKFLLajJg99XGwqFJAlQVwZyZs3r34L4JGdzTb_2pyT03cctmchyPmXCdjhVab1_lhBQ9vfd0H6i0dWVhAzQHzmEN-dZozYwKafBZ6prM5ebH6yYc1JAscdwXBS4tc44PCpI1m5OcSWEVidqmrLavEfduB7GLd0o7cN2E6wEyf48WkPzwWCtO-9Du94HpkuL5dRdMIIomef51Ve9ZC6XgysZoxhYVW9Ix7RICipiJr-iSfWmCOpoFWYV2DBfOvyiZ27cRZZy1FF4VeFJksg9BSEg2XMOtLFCuYbslsTschsjd8q_Q5QENli2E4kxaQZ2QO1syikUArJwHZYPrRjwJcZEO64zztDOvoOQzmHJx5Zvw/https://www.amazon.in/stores/page/B5C807DC-0B2F-41AC-B13E-C2FB9787601C/?_encoding=UTF8&store_ref=SB_A01694731XRC2CT36064E-A07497563UW8CCS5NWS2Z&pd_rd_plhdr=t&aaxitk=4858c1d0ed5e60e9561e203017d22ead&hsa_cr_id=0&lp_asins=B0D83VVZDJ%2CB0DXKJKTWH%2CB0D6BRWN8F&lp_query=gym%20clothes%20men&lp_slot=desktop-inline&aref=Aoo2PiqrWy&ref_=sbx__sbtcd2_bkgd&pd_rd_w=h6j6c&content-id=amzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212%3Aamzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_p=11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=78qAs&pd_rd_r=8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5
+            - generic [ref=e1975]:
+              - generic [ref=e1977]:
+                - link "Boldfit" [ref=e1979] [cursor=pointer]:
+                  - /url: https://aax-eu-zaz.amazon.in/x/c/JAWV2BtrOPyo9za4Z6ZqEjUAAAGfGZNDSAoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDSVBxz/clv1c_ek-wBPfXLcTVnuOrT81pu0Gum1obi5OzajSmka3GG2k57oQV0n_C2jNxYxRiQyZ2gxMlpifZihe-Xm6Cl-0R70dLY0viqAoJ5TChrA1SHcQXByGtYr3j2b2JG_l9mjIRVRmV_ApOzYfWBvLwkeasP_zj5V-ZjW0KE8TiHzueDOcd0mEF5tAtXQSV7lcaBHtrJuPszhnY4hBI0tyxr1gTMmiRYRwvIF-2XEZUNFUdy44KQ3G6uzMZ1cAxcD1fNgxg3_0eMwgIcxW8gueAqtyCh5VGIeP8E_baf3-OKIEVsEn_ObudloIaRACPCW7FR3cnRw-d3y62KDM3abqQHnBgke8hTkMZ6wodYJsBmJSfZyFudA55Y_pETEVDV-xB0DjL3pEb5v6nlOVSpTBpydqVY-9HvEo7_kbLonE-j7UG-BBU0vOgoswND8yrw04oMhyXt6Y1IDfUZ_OL6PIR-zEoysGTYjAMwRpfWHfSe5I986T68PtOLViNzjgYubdCQPoOcSf_AB4FJDcIJzzJkVwCbzfgh2Pl0FTUwl_YISBXAIygUWfX6xRMnBMGQrPT2EAdKb9ozcCk8kp0aR8UASAs766ZhFCcfPKgngPeWdduSYTBZ5Pkhkw2JFKdN1irt_dvcUIDD8_uL3ctAgTMOr5oFP1IWHDsVwt2qsF5hvP3qf3Vhy0bRRyFulGfXDWhTg3UrE3xXvmffUIcMvzy2IuCi6VcWfJKeYMjof4KgHLBAzY-TpB5JnfcvOhbGY-E49O8NlnBIQtCUe69oUGrV9okF29tUTWCU2pLiLVwWMP7ZK_QkcF9Ug2JADrHcQx5g0qjSOqlk3QVF6WSYeIBAAc-FQCB0iKCaMWm-jxjmUDrc9tZLe-w25AliEpYQ5Ej-U6G7zhI3J2L9moF42ZFoqZX99wA2jkyoxEP1onTZOJJVZ28Q7zVTpiMWJn8maCd5_4bO0yKIz-ceanvIiy928l8yqM5viOrEBpIlcGNeRvSf8lENS2eXg506fCI92nfZBcQrvMfy1CijwKFaJ3yQFEROlOqEXx50QvZjaNaz9RFX4wpQifNdbQBMfQvGWICjDpDsBpEq7okV2NJk1tTRjrNMkIHURoQuNEAslenE_RMk2wcttPIUxmrvhtdGwPY7J6pZB2nXaK2TVTNoN0CWK-VUL3HO_oVHzrpoTZwboS11fBWJmzwUVteDLNd5AuG6rXi6woJ3bn4juXpSmxovnl0qEzDVwOsdN-vi2wz4ElyW7LMTP7RAhFbQ0HnU6V4GnMVyrvuNwtj3rIUdlBkMbIyFachYpWyNFm9hUfnxNFJAC0GZbToU39MIBHZFKoxFwcNpfmUzLumouUeRErWJrHqeEvuCCiGznKFLLajJg99XGwqFJAlQVwZyZs3r34L4JGdzTb_2pyT03cctmchyPmXCdjhVab1_lhBQ9vfd0H6i0dWVhAzQHzmEN-dZozYwKafBZ6prM5ebH6yYc1JAscdwXBS4tc44PCpI1m5OcSWEVidqmrLavEfduB7GLd0o7cN2E6wEyf48WkPzwWCtO-9Du94HpkuL5dRdMIIomef51Ve9ZC6XgysZoxhYVW9Ix7RICipiJr-iSfWmCOpoFWYV2DBfOvyiZ27cRZZy1FF4VeFJksg9BSEg2XMOtLFCuYbslsTschsjd8q_Q5QENli2E4kxaQZ2QO1syikUArJwHZYPrRjwJcZEO64zztDOvoOQzmHJx5Zvw/https://www.amazon.in/stores/page/B5C807DC-0B2F-41AC-B13E-C2FB9787601C/?_encoding=UTF8&store_ref=SB_A01694731XRC2CT36064E-A07497563UW8CCS5NWS2Z&pd_rd_plhdr=t&aaxitk=4858c1d0ed5e60e9561e203017d22ead&hsa_cr_id=0&lp_asins=B0D83VVZDJ%2CB0DXKJKTWH%2CB0D6BRWN8F&lp_query=gym%20clothes%20men&lp_slot=desktop-inline&aref=Aoo2PiqrWy&ref_=sbx__sbtcd2_logo&pd_rd_w=h6j6c&content-id=amzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212%3Aamzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_p=11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=78qAs&pd_rd_r=8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5
+                  - img "Boldfit" [ref=e1981]
+                - generic [ref=e1983]:
+                  - link "Your Activewear Gym Shorts For Daily Use" [ref=e1984] [cursor=pointer]:
+                    - /url: https://aax-eu-zaz.amazon.in/x/c/JAWV2BtrOPyo9za4Z6ZqEjUAAAGfGZNDSAoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDSVBxz/clv1c_ek-wBPfXLcTVnuOrT81pu0Gum1obi5OzajSmka3GG2k57oQV0n_C2jNxYxRiQyZ2gxMlpifZihe-Xm6Cl-0R70dLY0viqAoJ5TChrA1SHcQXByGtYr3j2b2JG_l9mjIRVRmV_ApOzYfWBvLwkeasP_zj5V-ZjW0KE8TiHzueDOcd0mEF5tAtXQSV7lcaBHtrJuPszhnY4hBI0tyxr1gTMmiRYRwvIF-2XEZUNFUdy44KQ3G6uzMZ1cAxcD1fNgxg3_0eMwgIcxW8gueAqtyCh5VGIeP8E_baf3-OKIEVsEn_ObudloIaRACPCW7FR3cnRw-d3y62KDM3abqQHnBgke8hTkMZ6wodYJsBmJSfZyFudA55Y_pETEVDV-xB0DjL3pEb5v6nlOVSpTBpydqVY-9HvEo7_kbLonE-j7UG-BBU0vOgoswND8yrw04oMhyXt6Y1IDfUZ_OL6PIR-zEoysGTYjAMwRpfWHfSe5I986T68PtOLViNzjgYubdCQPoOcSf_AB4FJDcIJzzJkVwCbzfgh2Pl0FTUwl_YISBXAIygUWfX6xRMnBMGQrPT2EAdKb9ozcCk8kp0aR8UASAs766ZhFCcfPKgngPeWdduSYTBZ5Pkhkw2JFKdN1irt_dvcUIDD8_uL3ctAgTMOr5oFP1IWHDsVwt2qsF5hvP3qf3Vhy0bRRyFulGfXDWhTg3UrE3xXvmffUIcMvzy2IuCi6VcWfJKeYMjof4KgHLBAzY-TpB5JnfcvOhbGY-E49O8NlnBIQtCUe69oUGrV9okF29tUTWCU2pLiLVwWMP7ZK_QkcF9Ug2JADrHcQx5g0qjSOqlk3QVF6WSYeIBAAc-FQCB0iKCaMWm-jxjmUDrc9tZLe-w25AliEpYQ5Ej-U6G7zhI3J2L9moF42ZFoqZX99wA2jkyoxEP1onTZOJJVZ28Q7zVTpiMWJn8maCd5_4bO0yKIz-ceanvIiy928l8yqM5viOrEBpIlcGNeRvSf8lENS2eXg506fCI92nfZBcQrvMfy1CijwKFaJ3yQFEROlOqEXx50QvZjaNaz9RFX4wpQifNdbQBMfQvGWICjDpDsBpEq7okV2NJk1tTRjrNMkIHURoQuNEAslenE_RMk2wcttPIUxmrvhtdGwPY7J6pZB2nXaK2TVTNoN0CWK-VUL3HO_oVHzrpoTZwboS11fBWJmzwUVteDLNd5AuG6rXi6woJ3bn4juXpSmxovnl0qEzDVwOsdN-vi2wz4ElyW7LMTP7RAhFbQ0HnU6V4GnMVyrvuNwtj3rIUdlBkMbIyFachYpWyNFm9hUfnxNFJAC0GZbToU39MIBHZFKoxFwcNpfmUzLumouUeRErWJrHqeEvuCCiGznKFLLajJg99XGwqFJAlQVwZyZs3r34L4JGdzTb_2pyT03cctmchyPmXCdjhVab1_lhBQ9vfd0H6i0dWVhAzQHzmEN-dZozYwKafBZ6prM5ebH6yYc1JAscdwXBS4tc44PCpI1m5OcSWEVidqmrLavEfduB7GLd0o7cN2E6wEyf48WkPzwWCtO-9Du94HpkuL5dRdMIIomef51Ve9ZC6XgysZoxhYVW9Ix7RICipiJr-iSfWmCOpoFWYV2DBfOvyiZ27cRZZy1FF4VeFJksg9BSEg2XMOtLFCuYbslsTschsjd8q_Q5QENli2E4kxaQZ2QO1syikUArJwHZYPrRjwJcZEO64zztDOvoOQzmHJx5Zvw/https://www.amazon.in/stores/page/B5C807DC-0B2F-41AC-B13E-C2FB9787601C/?_encoding=UTF8&store_ref=SB_A01694731XRC2CT36064E-A07497563UW8CCS5NWS2Z&pd_rd_plhdr=t&aaxitk=4858c1d0ed5e60e9561e203017d22ead&hsa_cr_id=0&lp_asins=B0D83VVZDJ%2CB0DXKJKTWH%2CB0D6BRWN8F&lp_query=gym%20clothes%20men&lp_slot=desktop-inline&aref=Aoo2PiqrWy&ref_=sbx__sbtcd2_hl&pd_rd_w=h6j6c&content-id=amzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212%3Aamzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_p=11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=78qAs&pd_rd_r=8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5
+                    - generic [ref=e1985]:
+                      - generic [ref=e1986]: Your Activewear Gym Shorts For Daily Use
+                      - generic [ref=e1987]: Your Activewear Gym Shorts For Daily Use
+                  - generic [ref=e1988]:
+                    - button "Leave feedback on Sponsored ad" [ref=e1992] [cursor=pointer]: Sponsored
+                    - generic [ref=e1994]: "|"
+                    - generic [ref=e1995]: Top 10 best-selling brand in this category
+                    - generic [ref=e1996]: "|"
+                    - link "Shop Boldfit" [ref=e1998] [cursor=pointer]:
+                      - /url: https://aax-eu-zaz.amazon.in/x/c/JAWV2BtrOPyo9za4Z6ZqEjUAAAGfGZNDSAoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDSVBxz/clv1c_ek-wBPfXLcTVnuOrT81pu0Gum1obi5OzajSmka3GG2k57oQV0n_C2jNxYxRiQyZ2gxMlpifZihe-Xm6Cl-0R70dLY0viqAoJ5TChrA1SHcQXByGtYr3j2b2JG_l9mjIRVRmV_ApOzYfWBvLwkeasP_zj5V-ZjW0KE8TiHzueDOcd0mEF5tAtXQSV7lcaBHtrJuPszhnY4hBI0tyxr1gTMmiRYRwvIF-2XEZUNFUdy44KQ3G6uzMZ1cAxcD1fNgxg3_0eMwgIcxW8gueAqtyCh5VGIeP8E_baf3-OKIEVsEn_ObudloIaRACPCW7FR3cnRw-d3y62KDM3abqQHnBgke8hTkMZ6wodYJsBmJSfZyFudA55Y_pETEVDV-xB0DjL3pEb5v6nlOVSpTBpydqVY-9HvEo7_kbLonE-j7UG-BBU0vOgoswND8yrw04oMhyXt6Y1IDfUZ_OL6PIR-zEoysGTYjAMwRpfWHfSe5I986T68PtOLViNzjgYubdCQPoOcSf_AB4FJDcIJzzJkVwCbzfgh2Pl0FTUwl_YISBXAIygUWfX6xRMnBMGQrPT2EAdKb9ozcCk8kp0aR8UASAs766ZhFCcfPKgngPeWdduSYTBZ5Pkhkw2JFKdN1irt_dvcUIDD8_uL3ctAgTMOr5oFP1IWHDsVwt2qsF5hvP3qf3Vhy0bRRyFulGfXDWhTg3UrE3xXvmffUIcMvzy2IuCi6VcWfJKeYMjof4KgHLBAzY-TpB5JnfcvOhbGY-E49O8NlnBIQtCUe69oUGrV9okF29tUTWCU2pLiLVwWMP7ZK_QkcF9Ug2JADrHcQx5g0qjSOqlk3QVF6WSYeIBAAc-FQCB0iKCaMWm-jxjmUDrc9tZLe-w25AliEpYQ5Ej-U6G7zhI3J2L9moF42ZFoqZX99wA2jkyoxEP1onTZOJJVZ28Q7zVTpiMWJn8maCd5_4bO0yKIz-ceanvIiy928l8yqM5viOrEBpIlcGNeRvSf8lENS2eXg506fCI92nfZBcQrvMfy1CijwKFaJ3yQFEROlOqEXx50QvZjaNaz9RFX4wpQifNdbQBMfQvGWICjDpDsBpEq7okV2NJk1tTRjrNMkIHURoQuNEAslenE_RMk2wcttPIUxmrvhtdGwPY7J6pZB2nXaK2TVTNoN0CWK-VUL3HO_oVHzrpoTZwboS11fBWJmzwUVteDLNd5AuG6rXi6woJ3bn4juXpSmxovnl0qEzDVwOsdN-vi2wz4ElyW7LMTP7RAhFbQ0HnU6V4GnMVyrvuNwtj3rIUdlBkMbIyFachYpWyNFm9hUfnxNFJAC0GZbToU39MIBHZFKoxFwcNpfmUzLumouUeRErWJrHqeEvuCCiGznKFLLajJg99XGwqFJAlQVwZyZs3r34L4JGdzTb_2pyT03cctmchyPmXCdjhVab1_lhBQ9vfd0H6i0dWVhAzQHzmEN-dZozYwKafBZ6prM5ebH6yYc1JAscdwXBS4tc44PCpI1m5OcSWEVidqmrLavEfduB7GLd0o7cN2E6wEyf48WkPzwWCtO-9Du94HpkuL5dRdMIIomef51Ve9ZC6XgysZoxhYVW9Ix7RICipiJr-iSfWmCOpoFWYV2DBfOvyiZ27cRZZy1FF4VeFJksg9BSEg2XMOtLFCuYbslsTschsjd8q_Q5QENli2E4kxaQZ2QO1syikUArJwHZYPrRjwJcZEO64zztDOvoOQzmHJx5Zvw/https://www.amazon.in/stores/page/B5C807DC-0B2F-41AC-B13E-C2FB9787601C/?_encoding=UTF8&store_ref=SB_A01694731XRC2CT36064E-A07497563UW8CCS5NWS2Z&pd_rd_plhdr=t&aaxitk=4858c1d0ed5e60e9561e203017d22ead&hsa_cr_id=0&lp_asins=B0D83VVZDJ%2CB0DXKJKTWH%2CB0D6BRWN8F&lp_query=gym%20clothes%20men&lp_slot=desktop-inline&aref=Aoo2PiqrWy&ref_=sbx__sbtcd2_cta&pd_rd_w=h6j6c&content-id=amzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212%3Aamzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_p=11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=78qAs&pd_rd_r=8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5
+                      - generic [ref=e2001]:
+                        - text: Shop
+                        - generic [ref=e2002]:
+                          - text: Boldfit
+                          - img [ref=e2003]
+              - group [ref=e2006]:
+                - group [ref=e2010]:
+                  - list [ref=e2011]:
+                    - listitem [ref=e2012]:
+                      - generic [ref=e2014]:
+                        - link [ref=e2015] [cursor=pointer]:
+                          - /url: https://aax-eu-zaz.amazon.in/x/c/JAWV2BtrOPyo9za4Z6ZqEjUAAAGfGZNDSAoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDSVBxz/clv1c_ek-wBPfXLcTVnuOrT81pu0Gum1obi5OzajSmka3GG2k57oQV0n_C2jNxYxRiQyZ2gxMlpifZihe-Xm6Cl-0R70dLY0viqAoJ5TChrA1SHcQXByGtYr3j2b2JG_l9mjIRVRmV_ApOzYfWBvLwkeasP_zj5V-ZjW0KE8TiHzueDOcd0mEF5tAtXQSV7lcaBHtrJuPszhnY4hBI0tyxr1gTMmiRYRwvIF-2XEZUNFUdy44KQ3G6uzMZ1cAxcD1fNgxg3_0eMwgIcxW8gueAqtyCh5VGIeP8E_baf3-OKIEVsEn_ObudloIaRACPCW7FR3cnRw-d3y62KDM3abqQHnBgke8hTkMZ6wodYJsBmJSfZyFudA55Y_pETEVDV-xB0DjL3pEb5v6nlOVSpTBpydqVY-9HvEo7_kbLonE-j7UG-BBU0vOgoswND8yrw04oMhyXt6Y1IDfUZ_OL6PIR-zEoysGTYjAMwRpfWHfSe5I986T68PtOLViNzjgYubdCQPoOcSf_AB4FJDcIJzzJkVwCbzfgh2Pl0FTUwl_YISBXAIygUWfX6xRMnBMGQrPT2EAdKb9ozcCk8kp0aR8UASAs766ZhFCcfPKgngPeWdduSYTBZ5Pkhkw2JFKdN1irt_dvcUIDD8_uL3ctAgTMOr5oFP1IWHDsVwt2qsF5hvP3qf3Vhy0bRRyFulGfXDWhTg3UrE3xXvmffUIcMvzy2IuCi6VcWfJKeYMjof4KgHLBAzY-TpB5JnfcvOhbGY-E49O8NlnBIQtCUe69oUGrV9okF29tUTWCU2pLiLVwWMP7ZK_QkcF9Ug2JADrHcQx5g0qjSOqlk3QVF6WSYeIBAAc-FQCB0iKCaMWm-jxjmUDrc9tZLe-w25AliEpYQ5Ej-U6G7zhI3J2L9moF42ZFoqZX99wA2jkyoxEP1onTZOJJVZ28Q7zVTpiMWJn8maCd5_4bO0yKIz-ceanvIiy928l8yqM5viOrEBpIlcGNeRvSf8lENS2eXg506fCI92nfZBcQrvMfy1CijwKFaJ3yQFEROlOqEXx50QvZjaNaz9RFX4wpQifNdbQBMfQvGWICjDpDsBpEq7okV2NJk1tTRjrNMkIHURoQuNEAslenE_RMk2wcttPIUxmrvhtdGwPY7J6pZB2nXaK2TVTNoN0CWK-VUL3HO_oVHzrpoTZwboS11fBWJmzwUVteDLNd5AuG6rXi6woJ3bn4juXpSmxovnl0qEzDVwOsdN-vi2wz4ElyW7LMTP7RAhFbQ0HnU6V4GnMVyrvuNwtj3rIUdlBkMbIyFachYpWyNFm9hUfnxNFJAC0GZbToU39MIBHZFKoxFwcNpfmUzLumouUeRErWJrHqeEvuCCiGznKFLLajJg99XGwqFJAlQVwZyZs3r34L4JGdzTb_2pyT03cctmchyPmXCdjhVab1_lhBQ9vfd0H6i0dWVhAzQHzmEN-dZozYwKafBZ6prM5ebH6yYc1JAscdwXBS4tc44PCpI1m5OcSWEVidqmrLavEfduB7GLd0o7cN2E6wEyf48WkPzwWCtO-9Du94HpkuL5dRdMIIomef51Ve9ZC6XgysZoxhYVW9Ix7RICipiJr-iSfWmCOpoFWYV2DBfOvyiZ27cRZZy1FF4VeFJksg9BSEg2XMOtLFCuYbslsTschsjd8q_Q5QENli2E4kxaQZ2QO1syikUArJwHZYPrRjwJcZEO64zztDOvoOQzmHJx5Zvw/https://www.amazon.in/gp/aw/d/B0D83VVZDJ/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=4858c1d0ed5e60e9561e203017d22ead&hsa_cr_id=0&qid=1782840509&sr=1-1-1ee1b2e4-01d1-4cd0-b737-4c27ebfc8105&aref=Aoo2PiqrWy&ref_=sbx__sbtcd2_asin_0_bkgd&pd_rd_w=h6j6c&content-id=amzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212%3Aamzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_p=11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=78qAs&pd_rd_r=8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5
+                        - link "Boldfit Shorts for Men Training Gym Shorts for Men Workout Lightweight Running Short for Man Badminton Short for Boys Breathable Gym Wear for Boys Half Pant for Running, Cycling, Workout, Pickleball" [ref=e2017] [cursor=pointer]:
+                          - /url: https://aax-eu-zaz.amazon.in/x/c/JAWV2BtrOPyo9za4Z6ZqEjUAAAGfGZNDSAoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDSVBxz/clv1c_ek-wBPfXLcTVnuOrT81pu0Gum1obi5OzajSmka3GG2k57oQV0n_C2jNxYxRiQyZ2gxMlpifZihe-Xm6Cl-0R70dLY0viqAoJ5TChrA1SHcQXByGtYr3j2b2JG_l9mjIRVRmV_ApOzYfWBvLwkeasP_zj5V-ZjW0KE8TiHzueDOcd0mEF5tAtXQSV7lcaBHtrJuPszhnY4hBI0tyxr1gTMmiRYRwvIF-2XEZUNFUdy44KQ3G6uzMZ1cAxcD1fNgxg3_0eMwgIcxW8gueAqtyCh5VGIeP8E_baf3-OKIEVsEn_ObudloIaRACPCW7FR3cnRw-d3y62KDM3abqQHnBgke8hTkMZ6wodYJsBmJSfZyFudA55Y_pETEVDV-xB0DjL3pEb5v6nlOVSpTBpydqVY-9HvEo7_kbLonE-j7UG-BBU0vOgoswND8yrw04oMhyXt6Y1IDfUZ_OL6PIR-zEoysGTYjAMwRpfWHfSe5I986T68PtOLViNzjgYubdCQPoOcSf_AB4FJDcIJzzJkVwCbzfgh2Pl0FTUwl_YISBXAIygUWfX6xRMnBMGQrPT2EAdKb9ozcCk8kp0aR8UASAs766ZhFCcfPKgngPeWdduSYTBZ5Pkhkw2JFKdN1irt_dvcUIDD8_uL3ctAgTMOr5oFP1IWHDsVwt2qsF5hvP3qf3Vhy0bRRyFulGfXDWhTg3UrE3xXvmffUIcMvzy2IuCi6VcWfJKeYMjof4KgHLBAzY-TpB5JnfcvOhbGY-E49O8NlnBIQtCUe69oUGrV9okF29tUTWCU2pLiLVwWMP7ZK_QkcF9Ug2JADrHcQx5g0qjSOqlk3QVF6WSYeIBAAc-FQCB0iKCaMWm-jxjmUDrc9tZLe-w25AliEpYQ5Ej-U6G7zhI3J2L9moF42ZFoqZX99wA2jkyoxEP1onTZOJJVZ28Q7zVTpiMWJn8maCd5_4bO0yKIz-ceanvIiy928l8yqM5viOrEBpIlcGNeRvSf8lENS2eXg506fCI92nfZBcQrvMfy1CijwKFaJ3yQFEROlOqEXx50QvZjaNaz9RFX4wpQifNdbQBMfQvGWICjDpDsBpEq7okV2NJk1tTRjrNMkIHURoQuNEAslenE_RMk2wcttPIUxmrvhtdGwPY7J6pZB2nXaK2TVTNoN0CWK-VUL3HO_oVHzrpoTZwboS11fBWJmzwUVteDLNd5AuG6rXi6woJ3bn4juXpSmxovnl0qEzDVwOsdN-vi2wz4ElyW7LMTP7RAhFbQ0HnU6V4GnMVyrvuNwtj3rIUdlBkMbIyFachYpWyNFm9hUfnxNFJAC0GZbToU39MIBHZFKoxFwcNpfmUzLumouUeRErWJrHqeEvuCCiGznKFLLajJg99XGwqFJAlQVwZyZs3r34L4JGdzTb_2pyT03cctmchyPmXCdjhVab1_lhBQ9vfd0H6i0dWVhAzQHzmEN-dZozYwKafBZ6prM5ebH6yYc1JAscdwXBS4tc44PCpI1m5OcSWEVidqmrLavEfduB7GLd0o7cN2E6wEyf48WkPzwWCtO-9Du94HpkuL5dRdMIIomef51Ve9ZC6XgysZoxhYVW9Ix7RICipiJr-iSfWmCOpoFWYV2DBfOvyiZ27cRZZy1FF4VeFJksg9BSEg2XMOtLFCuYbslsTschsjd8q_Q5QENli2E4kxaQZ2QO1syikUArJwHZYPrRjwJcZEO64zztDOvoOQzmHJx5Zvw/https://www.amazon.in/gp/aw/d/B0D83VVZDJ/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=4858c1d0ed5e60e9561e203017d22ead&hsa_cr_id=0&qid=1782840509&sr=1-1-1ee1b2e4-01d1-4cd0-b737-4c27ebfc8105&aref=Aoo2PiqrWy&ref_=sbx__sbtcd2_asin_0_img&pd_rd_w=h6j6c&content-id=amzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212%3Aamzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_p=11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=78qAs&pd_rd_r=8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5
+                          - img "Boldfit Shorts for Men Training Gym Shorts for Men Workout Lightweight Running Short for Man Badminton Short for Boys Breathable Gym Wear for Boys Half Pant for Running, Cycling, Workout, Pickleball" [ref=e2020]
+                        - generic [ref=e2021]:
+                          - link [ref=e2022] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JAWV2BtrOPyo9za4Z6ZqEjUAAAGfGZNDSAoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDSVBxz/clv1c_ek-wBPfXLcTVnuOrT81pu0Gum1obi5OzajSmka3GG2k57oQV0n_C2jNxYxRiQyZ2gxMlpifZihe-Xm6Cl-0R70dLY0viqAoJ5TChrA1SHcQXByGtYr3j2b2JG_l9mjIRVRmV_ApOzYfWBvLwkeasP_zj5V-ZjW0KE8TiHzueDOcd0mEF5tAtXQSV7lcaBHtrJuPszhnY4hBI0tyxr1gTMmiRYRwvIF-2XEZUNFUdy44KQ3G6uzMZ1cAxcD1fNgxg3_0eMwgIcxW8gueAqtyCh5VGIeP8E_baf3-OKIEVsEn_ObudloIaRACPCW7FR3cnRw-d3y62KDM3abqQHnBgke8hTkMZ6wodYJsBmJSfZyFudA55Y_pETEVDV-xB0DjL3pEb5v6nlOVSpTBpydqVY-9HvEo7_kbLonE-j7UG-BBU0vOgoswND8yrw04oMhyXt6Y1IDfUZ_OL6PIR-zEoysGTYjAMwRpfWHfSe5I986T68PtOLViNzjgYubdCQPoOcSf_AB4FJDcIJzzJkVwCbzfgh2Pl0FTUwl_YISBXAIygUWfX6xRMnBMGQrPT2EAdKb9ozcCk8kp0aR8UASAs766ZhFCcfPKgngPeWdduSYTBZ5Pkhkw2JFKdN1irt_dvcUIDD8_uL3ctAgTMOr5oFP1IWHDsVwt2qsF5hvP3qf3Vhy0bRRyFulGfXDWhTg3UrE3xXvmffUIcMvzy2IuCi6VcWfJKeYMjof4KgHLBAzY-TpB5JnfcvOhbGY-E49O8NlnBIQtCUe69oUGrV9okF29tUTWCU2pLiLVwWMP7ZK_QkcF9Ug2JADrHcQx5g0qjSOqlk3QVF6WSYeIBAAc-FQCB0iKCaMWm-jxjmUDrc9tZLe-w25AliEpYQ5Ej-U6G7zhI3J2L9moF42ZFoqZX99wA2jkyoxEP1onTZOJJVZ28Q7zVTpiMWJn8maCd5_4bO0yKIz-ceanvIiy928l8yqM5viOrEBpIlcGNeRvSf8lENS2eXg506fCI92nfZBcQrvMfy1CijwKFaJ3yQFEROlOqEXx50QvZjaNaz9RFX4wpQifNdbQBMfQvGWICjDpDsBpEq7okV2NJk1tTRjrNMkIHURoQuNEAslenE_RMk2wcttPIUxmrvhtdGwPY7J6pZB2nXaK2TVTNoN0CWK-VUL3HO_oVHzrpoTZwboS11fBWJmzwUVteDLNd5AuG6rXi6woJ3bn4juXpSmxovnl0qEzDVwOsdN-vi2wz4ElyW7LMTP7RAhFbQ0HnU6V4GnMVyrvuNwtj3rIUdlBkMbIyFachYpWyNFm9hUfnxNFJAC0GZbToU39MIBHZFKoxFwcNpfmUzLumouUeRErWJrHqeEvuCCiGznKFLLajJg99XGwqFJAlQVwZyZs3r34L4JGdzTb_2pyT03cctmchyPmXCdjhVab1_lhBQ9vfd0H6i0dWVhAzQHzmEN-dZozYwKafBZ6prM5ebH6yYc1JAscdwXBS4tc44PCpI1m5OcSWEVidqmrLavEfduB7GLd0o7cN2E6wEyf48WkPzwWCtO-9Du94HpkuL5dRdMIIomef51Ve9ZC6XgysZoxhYVW9Ix7RICipiJr-iSfWmCOpoFWYV2DBfOvyiZ27cRZZy1FF4VeFJksg9BSEg2XMOtLFCuYbslsTschsjd8q_Q5QENli2E4kxaQZ2QO1syikUArJwHZYPrRjwJcZEO64zztDOvoOQzmHJx5Zvw/https://www.amazon.in/gp/aw/d/B0D83VVZDJ/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=4858c1d0ed5e60e9561e203017d22ead&hsa_cr_id=0&qid=1782840509&sr=1-1-1ee1b2e4-01d1-4cd0-b737-4c27ebfc8105&aref=Aoo2PiqrWy&ref_=sbx__sbtcd2_asin_0_bkgd&pd_rd_w=h6j6c&content-id=amzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212%3Aamzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_p=11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=78qAs&pd_rd_r=8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5
+                          - link "Boldfit Shorts for Men Training Gym Shorts for Men Workout Lightweight Running Short for Man Badminton Short for Boys Breathable Gym Wear for Boys Half Pant for Running, Cycling, Workout, Pickleball" [ref=e2024] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JAWV2BtrOPyo9za4Z6ZqEjUAAAGfGZNDSAoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDSVBxz/clv1c_ek-wBPfXLcTVnuOrT81pu0Gum1obi5OzajSmka3GG2k57oQV0n_C2jNxYxRiQyZ2gxMlpifZihe-Xm6Cl-0R70dLY0viqAoJ5TChrA1SHcQXByGtYr3j2b2JG_l9mjIRVRmV_ApOzYfWBvLwkeasP_zj5V-ZjW0KE8TiHzueDOcd0mEF5tAtXQSV7lcaBHtrJuPszhnY4hBI0tyxr1gTMmiRYRwvIF-2XEZUNFUdy44KQ3G6uzMZ1cAxcD1fNgxg3_0eMwgIcxW8gueAqtyCh5VGIeP8E_baf3-OKIEVsEn_ObudloIaRACPCW7FR3cnRw-d3y62KDM3abqQHnBgke8hTkMZ6wodYJsBmJSfZyFudA55Y_pETEVDV-xB0DjL3pEb5v6nlOVSpTBpydqVY-9HvEo7_kbLonE-j7UG-BBU0vOgoswND8yrw04oMhyXt6Y1IDfUZ_OL6PIR-zEoysGTYjAMwRpfWHfSe5I986T68PtOLViNzjgYubdCQPoOcSf_AB4FJDcIJzzJkVwCbzfgh2Pl0FTUwl_YISBXAIygUWfX6xRMnBMGQrPT2EAdKb9ozcCk8kp0aR8UASAs766ZhFCcfPKgngPeWdduSYTBZ5Pkhkw2JFKdN1irt_dvcUIDD8_uL3ctAgTMOr5oFP1IWHDsVwt2qsF5hvP3qf3Vhy0bRRyFulGfXDWhTg3UrE3xXvmffUIcMvzy2IuCi6VcWfJKeYMjof4KgHLBAzY-TpB5JnfcvOhbGY-E49O8NlnBIQtCUe69oUGrV9okF29tUTWCU2pLiLVwWMP7ZK_QkcF9Ug2JADrHcQx5g0qjSOqlk3QVF6WSYeIBAAc-FQCB0iKCaMWm-jxjmUDrc9tZLe-w25AliEpYQ5Ej-U6G7zhI3J2L9moF42ZFoqZX99wA2jkyoxEP1onTZOJJVZ28Q7zVTpiMWJn8maCd5_4bO0yKIz-ceanvIiy928l8yqM5viOrEBpIlcGNeRvSf8lENS2eXg506fCI92nfZBcQrvMfy1CijwKFaJ3yQFEROlOqEXx50QvZjaNaz9RFX4wpQifNdbQBMfQvGWICjDpDsBpEq7okV2NJk1tTRjrNMkIHURoQuNEAslenE_RMk2wcttPIUxmrvhtdGwPY7J6pZB2nXaK2TVTNoN0CWK-VUL3HO_oVHzrpoTZwboS11fBWJmzwUVteDLNd5AuG6rXi6woJ3bn4juXpSmxovnl0qEzDVwOsdN-vi2wz4ElyW7LMTP7RAhFbQ0HnU6V4GnMVyrvuNwtj3rIUdlBkMbIyFachYpWyNFm9hUfnxNFJAC0GZbToU39MIBHZFKoxFwcNpfmUzLumouUeRErWJrHqeEvuCCiGznKFLLajJg99XGwqFJAlQVwZyZs3r34L4JGdzTb_2pyT03cctmchyPmXCdjhVab1_lhBQ9vfd0H6i0dWVhAzQHzmEN-dZozYwKafBZ6prM5ebH6yYc1JAscdwXBS4tc44PCpI1m5OcSWEVidqmrLavEfduB7GLd0o7cN2E6wEyf48WkPzwWCtO-9Du94HpkuL5dRdMIIomef51Ve9ZC6XgysZoxhYVW9Ix7RICipiJr-iSfWmCOpoFWYV2DBfOvyiZ27cRZZy1FF4VeFJksg9BSEg2XMOtLFCuYbslsTschsjd8q_Q5QENli2E4kxaQZ2QO1syikUArJwHZYPrRjwJcZEO64zztDOvoOQzmHJx5Zvw/https://www.amazon.in/gp/aw/d/B0D83VVZDJ/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=4858c1d0ed5e60e9561e203017d22ead&hsa_cr_id=0&qid=1782840509&sr=1-1-1ee1b2e4-01d1-4cd0-b737-4c27ebfc8105&aref=Aoo2PiqrWy&ref_=sbx__sbtcd2_asin_0_title&pd_rd_w=h6j6c&content-id=amzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212%3Aamzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_p=11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=78qAs&pd_rd_r=8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5
+                            - generic [ref=e2025]:
+                              - generic [ref=e2026]: Boldfit Shorts for Men Training Gym Shorts for Men Workout Lightweight Running Short for Man Badminton Short for Boys Breathable Gym Wear for Boys Half Pant for Running, Cycling, Workout, Pickleball
+                              - generic [ref=e2027]: Boldfit Shorts for Men Training Gym Shorts for Men Workout Lightweight Running Short for Man Badminton Short for Boys Breathable Gym Wear for Boys…
+                          - link "Rated 4.1 out of 5 stars by 1354 reviews. Go to review section." [ref=e2028] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JAWV2BtrOPyo9za4Z6ZqEjUAAAGfGZNDSAoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDSVBxz/clv1c_ek-wBPfXLcTVnuOrT81pu0Gum1obi5OzajSmka3GG2k57oQV0n_C2jNxYxRiQyZ2gxMlpifZihe-Xm6Cl-0R70dLY0viqAoJ5TChrA1SHcQXByGtYr3j2b2JG_l9mjIRVRmV_ApOzYfWBvLwkeasP_zj5V-ZjW0KE8TiHzueDOcd0mEF5tAtXQSV7lcaBHtrJuPszhnY4hBI0tyxr1gTMmiRYRwvIF-2XEZUNFUdy44KQ3G6uzMZ1cAxcD1fNgxg3_0eMwgIcxW8gueAqtyCh5VGIeP8E_baf3-OKIEVsEn_ObudloIaRACPCW7FR3cnRw-d3y62KDM3abqQHnBgke8hTkMZ6wodYJsBmJSfZyFudA55Y_pETEVDV-xB0DjL3pEb5v6nlOVSpTBpydqVY-9HvEo7_kbLonE-j7UG-BBU0vOgoswND8yrw04oMhyXt6Y1IDfUZ_OL6PIR-zEoysGTYjAMwRpfWHfSe5I986T68PtOLViNzjgYubdCQPoOcSf_AB4FJDcIJzzJkVwCbzfgh2Pl0FTUwl_YISBXAIygUWfX6xRMnBMGQrPT2EAdKb9ozcCk8kp0aR8UASAs766ZhFCcfPKgngPeWdduSYTBZ5Pkhkw2JFKdN1irt_dvcUIDD8_uL3ctAgTMOr5oFP1IWHDsVwt2qsF5hvP3qf3Vhy0bRRyFulGfXDWhTg3UrE3xXvmffUIcMvzy2IuCi6VcWfJKeYMjof4KgHLBAzY-TpB5JnfcvOhbGY-E49O8NlnBIQtCUe69oUGrV9okF29tUTWCU2pLiLVwWMP7ZK_QkcF9Ug2JADrHcQx5g0qjSOqlk3QVF6WSYeIBAAc-FQCB0iKCaMWm-jxjmUDrc9tZLe-w25AliEpYQ5Ej-U6G7zhI3J2L9moF42ZFoqZX99wA2jkyoxEP1onTZOJJVZ28Q7zVTpiMWJn8maCd5_4bO0yKIz-ceanvIiy928l8yqM5viOrEBpIlcGNeRvSf8lENS2eXg506fCI92nfZBcQrvMfy1CijwKFaJ3yQFEROlOqEXx50QvZjaNaz9RFX4wpQifNdbQBMfQvGWICjDpDsBpEq7okV2NJk1tTRjrNMkIHURoQuNEAslenE_RMk2wcttPIUxmrvhtdGwPY7J6pZB2nXaK2TVTNoN0CWK-VUL3HO_oVHzrpoTZwboS11fBWJmzwUVteDLNd5AuG6rXi6woJ3bn4juXpSmxovnl0qEzDVwOsdN-vi2wz4ElyW7LMTP7RAhFbQ0HnU6V4GnMVyrvuNwtj3rIUdlBkMbIyFachYpWyNFm9hUfnxNFJAC0GZbToU39MIBHZFKoxFwcNpfmUzLumouUeRErWJrHqeEvuCCiGznKFLLajJg99XGwqFJAlQVwZyZs3r34L4JGdzTb_2pyT03cctmchyPmXCdjhVab1_lhBQ9vfd0H6i0dWVhAzQHzmEN-dZozYwKafBZ6prM5ebH6yYc1JAscdwXBS4tc44PCpI1m5OcSWEVidqmrLavEfduB7GLd0o7cN2E6wEyf48WkPzwWCtO-9Du94HpkuL5dRdMIIomef51Ve9ZC6XgysZoxhYVW9Ix7RICipiJr-iSfWmCOpoFWYV2DBfOvyiZ27cRZZy1FF4VeFJksg9BSEg2XMOtLFCuYbslsTschsjd8q_Q5QENli2E4kxaQZ2QO1syikUArJwHZYPrRjwJcZEO64zztDOvoOQzmHJx5Zvw/https://www.amazon.in/gp/aw/d/B0D83VVZDJ/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=4858c1d0ed5e60e9561e203017d22ead&hsa_cr_id=0&qid=1782840509&sr=1-1-1ee1b2e4-01d1-4cd0-b737-4c27ebfc8105&aref=Aoo2PiqrWy&ref_=sbx__sbtcd2_asin_0_rating&pd_rd_w=h6j6c&content-id=amzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212%3Aamzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_p=11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=78qAs&pd_rd_r=8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5#customerReviews
+                            - generic [ref=e2029]:
+                              - generic [ref=e2030]: "4.1"
+                              - generic [ref=e2032]: 4.1 out of 5 stars.
+                              - generic [ref=e2033]: 1,354
+                          - link "₹449.00" [ref=e2035] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JAWV2BtrOPyo9za4Z6ZqEjUAAAGfGZNDSAoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDSVBxz/clv1c_ek-wBPfXLcTVnuOrT81pu0Gum1obi5OzajSmka3GG2k57oQV0n_C2jNxYxRiQyZ2gxMlpifZihe-Xm6Cl-0R70dLY0viqAoJ5TChrA1SHcQXByGtYr3j2b2JG_l9mjIRVRmV_ApOzYfWBvLwkeasP_zj5V-ZjW0KE8TiHzueDOcd0mEF5tAtXQSV7lcaBHtrJuPszhnY4hBI0tyxr1gTMmiRYRwvIF-2XEZUNFUdy44KQ3G6uzMZ1cAxcD1fNgxg3_0eMwgIcxW8gueAqtyCh5VGIeP8E_baf3-OKIEVsEn_ObudloIaRACPCW7FR3cnRw-d3y62KDM3abqQHnBgke8hTkMZ6wodYJsBmJSfZyFudA55Y_pETEVDV-xB0DjL3pEb5v6nlOVSpTBpydqVY-9HvEo7_kbLonE-j7UG-BBU0vOgoswND8yrw04oMhyXt6Y1IDfUZ_OL6PIR-zEoysGTYjAMwRpfWHfSe5I986T68PtOLViNzjgYubdCQPoOcSf_AB4FJDcIJzzJkVwCbzfgh2Pl0FTUwl_YISBXAIygUWfX6xRMnBMGQrPT2EAdKb9ozcCk8kp0aR8UASAs766ZhFCcfPKgngPeWdduSYTBZ5Pkhkw2JFKdN1irt_dvcUIDD8_uL3ctAgTMOr5oFP1IWHDsVwt2qsF5hvP3qf3Vhy0bRRyFulGfXDWhTg3UrE3xXvmffUIcMvzy2IuCi6VcWfJKeYMjof4KgHLBAzY-TpB5JnfcvOhbGY-E49O8NlnBIQtCUe69oUGrV9okF29tUTWCU2pLiLVwWMP7ZK_QkcF9Ug2JADrHcQx5g0qjSOqlk3QVF6WSYeIBAAc-FQCB0iKCaMWm-jxjmUDrc9tZLe-w25AliEpYQ5Ej-U6G7zhI3J2L9moF42ZFoqZX99wA2jkyoxEP1onTZOJJVZ28Q7zVTpiMWJn8maCd5_4bO0yKIz-ceanvIiy928l8yqM5viOrEBpIlcGNeRvSf8lENS2eXg506fCI92nfZBcQrvMfy1CijwKFaJ3yQFEROlOqEXx50QvZjaNaz9RFX4wpQifNdbQBMfQvGWICjDpDsBpEq7okV2NJk1tTRjrNMkIHURoQuNEAslenE_RMk2wcttPIUxmrvhtdGwPY7J6pZB2nXaK2TVTNoN0CWK-VUL3HO_oVHzrpoTZwboS11fBWJmzwUVteDLNd5AuG6rXi6woJ3bn4juXpSmxovnl0qEzDVwOsdN-vi2wz4ElyW7LMTP7RAhFbQ0HnU6V4GnMVyrvuNwtj3rIUdlBkMbIyFachYpWyNFm9hUfnxNFJAC0GZbToU39MIBHZFKoxFwcNpfmUzLumouUeRErWJrHqeEvuCCiGznKFLLajJg99XGwqFJAlQVwZyZs3r34L4JGdzTb_2pyT03cctmchyPmXCdjhVab1_lhBQ9vfd0H6i0dWVhAzQHzmEN-dZozYwKafBZ6prM5ebH6yYc1JAscdwXBS4tc44PCpI1m5OcSWEVidqmrLavEfduB7GLd0o7cN2E6wEyf48WkPzwWCtO-9Du94HpkuL5dRdMIIomef51Ve9ZC6XgysZoxhYVW9Ix7RICipiJr-iSfWmCOpoFWYV2DBfOvyiZ27cRZZy1FF4VeFJksg9BSEg2XMOtLFCuYbslsTschsjd8q_Q5QENli2E4kxaQZ2QO1syikUArJwHZYPrRjwJcZEO64zztDOvoOQzmHJx5Zvw/https://www.amazon.in/gp/aw/d/B0D83VVZDJ/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=4858c1d0ed5e60e9561e203017d22ead&hsa_cr_id=0&qid=1782840509&sr=1-1-1ee1b2e4-01d1-4cd0-b737-4c27ebfc8105&aref=Aoo2PiqrWy&ref_=sbx__sbtcd2_asin_0_price&pd_rd_w=h6j6c&content-id=amzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212%3Aamzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_p=11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=78qAs&pd_rd_r=8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5
+                            - generic [ref=e2037]:
+                              - generic [ref=e2038]: ₹449.00
+                              - generic [ref=e2039]:
+                                - text: ₹
+                                - generic [ref=e2040]:
+                                  - text: "449"
+                                  - generic [ref=e2041]: .
+                                - text: "00"
+                          - generic [ref=e2044]: "M.R.P: ₹999.00"
+                    - listitem [ref=e2045]:
+                      - generic [ref=e2047]:
+                        - link [ref=e2048] [cursor=pointer]:
+                          - /url: https://aax-eu-zaz.amazon.in/x/c/JAWV2BtrOPyo9za4Z6ZqEjUAAAGfGZNDSAoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDSVBxz/clv1c_ek-wBPfXLcTVnuOrT81pu0Gum1obi5OzajSmka3GG2k57oQV0n_C2jNxYxRiQyZ2gxMlpifZihe-Xm6Cl-0R70dLY0viqAoJ5TChrA1SHcQXByGtYr3j2b2JG_l9mjIRVRmV_ApOzYfWBvLwkeasP_zj5V-ZjW0KE8TiHzueDOcd0mEF5tAtXQSV7lcaBHtrJuPszhnY4hBI0tyxr1gTMmiRYRwvIF-2XEZUNFUdy44KQ3G6uzMZ1cAxcD1fNgxg3_0eMwgIcxW8gueAqtyCh5VGIeP8E_baf3-OKIEVsEn_ObudloIaRACPCW7FR3cnRw-d3y62KDM3abqQHnBgke8hTkMZ6wodYJsBmJSfZyFudA55Y_pETEVDV-xB0DjL3pEb5v6nlOVSpTBpydqVY-9HvEo7_kbLonE-j7UG-BBU0vOgoswND8yrw04oMhyXt6Y1IDfUZ_OL6PIR-zEoysGTYjAMwRpfWHfSe5I986T68PtOLViNzjgYubdCQPoOcSf_AB4FJDcIJzzJkVwCbzfgh2Pl0FTUwl_YISBXAIygUWfX6xRMnBMGQrPT2EAdKb9ozcCk8kp0aR8UASAs766ZhFCcfPKgngPeWdduSYTBZ5Pkhkw2JFKdN1irt_dvcUIDD8_uL3ctAgTMOr5oFP1IWHDsVwt2qsF5hvP3qf3Vhy0bRRyFulGfXDWhTg3UrE3xXvmffUIcMvzy2IuCi6VcWfJKeYMjof4KgHLBAzY-TpB5JnfcvOhbGY-E49O8NlnBIQtCUe69oUGrV9okF29tUTWCU2pLiLVwWMP7ZK_QkcF9Ug2JADrHcQx5g0qjSOqlk3QVF6WSYeIBAAc-FQCB0iKCaMWm-jxjmUDrc9tZLe-w25AliEpYQ5Ej-U6G7zhI3J2L9moF42ZFoqZX99wA2jkyoxEP1onTZOJJVZ28Q7zVTpiMWJn8maCd5_4bO0yKIz-ceanvIiy928l8yqM5viOrEBpIlcGNeRvSf8lENS2eXg506fCI92nfZBcQrvMfy1CijwKFaJ3yQFEROlOqEXx50QvZjaNaz9RFX4wpQifNdbQBMfQvGWICjDpDsBpEq7okV2NJk1tTRjrNMkIHURoQuNEAslenE_RMk2wcttPIUxmrvhtdGwPY7J6pZB2nXaK2TVTNoN0CWK-VUL3HO_oVHzrpoTZwboS11fBWJmzwUVteDLNd5AuG6rXi6woJ3bn4juXpSmxovnl0qEzDVwOsdN-vi2wz4ElyW7LMTP7RAhFbQ0HnU6V4GnMVyrvuNwtj3rIUdlBkMbIyFachYpWyNFm9hUfnxNFJAC0GZbToU39MIBHZFKoxFwcNpfmUzLumouUeRErWJrHqeEvuCCiGznKFLLajJg99XGwqFJAlQVwZyZs3r34L4JGdzTb_2pyT03cctmchyPmXCdjhVab1_lhBQ9vfd0H6i0dWVhAzQHzmEN-dZozYwKafBZ6prM5ebH6yYc1JAscdwXBS4tc44PCpI1m5OcSWEVidqmrLavEfduB7GLd0o7cN2E6wEyf48WkPzwWCtO-9Du94HpkuL5dRdMIIomef51Ve9ZC6XgysZoxhYVW9Ix7RICipiJr-iSfWmCOpoFWYV2DBfOvyiZ27cRZZy1FF4VeFJksg9BSEg2XMOtLFCuYbslsTschsjd8q_Q5QENli2E4kxaQZ2QO1syikUArJwHZYPrRjwJcZEO64zztDOvoOQzmHJx5Zvw/https://www.amazon.in/gp/aw/d/B0DXKJKTWH/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=4858c1d0ed5e60e9561e203017d22ead&hsa_cr_id=0&qid=1782840509&sr=1-2-1ee1b2e4-01d1-4cd0-b737-4c27ebfc8105&aref=Aoo2PiqrWy&ref_=sbx__sbtcd2_asin_1_bkgd&pd_rd_w=h6j6c&content-id=amzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212%3Aamzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_p=11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=78qAs&pd_rd_r=8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5
+                        - link "Boldfit Shorts for Men Solid Men Shorts Regular Fit Gym Shorts for Men Workout Yoga Outdoor All Day Shorts for Men All Season Wear Cotton Poly Quick Dry Mens Shorts Yoga Shorts" [ref=e2050] [cursor=pointer]:
+                          - /url: https://aax-eu-zaz.amazon.in/x/c/JAWV2BtrOPyo9za4Z6ZqEjUAAAGfGZNDSAoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDSVBxz/clv1c_ek-wBPfXLcTVnuOrT81pu0Gum1obi5OzajSmka3GG2k57oQV0n_C2jNxYxRiQyZ2gxMlpifZihe-Xm6Cl-0R70dLY0viqAoJ5TChrA1SHcQXByGtYr3j2b2JG_l9mjIRVRmV_ApOzYfWBvLwkeasP_zj5V-ZjW0KE8TiHzueDOcd0mEF5tAtXQSV7lcaBHtrJuPszhnY4hBI0tyxr1gTMmiRYRwvIF-2XEZUNFUdy44KQ3G6uzMZ1cAxcD1fNgxg3_0eMwgIcxW8gueAqtyCh5VGIeP8E_baf3-OKIEVsEn_ObudloIaRACPCW7FR3cnRw-d3y62KDM3abqQHnBgke8hTkMZ6wodYJsBmJSfZyFudA55Y_pETEVDV-xB0DjL3pEb5v6nlOVSpTBpydqVY-9HvEo7_kbLonE-j7UG-BBU0vOgoswND8yrw04oMhyXt6Y1IDfUZ_OL6PIR-zEoysGTYjAMwRpfWHfSe5I986T68PtOLViNzjgYubdCQPoOcSf_AB4FJDcIJzzJkVwCbzfgh2Pl0FTUwl_YISBXAIygUWfX6xRMnBMGQrPT2EAdKb9ozcCk8kp0aR8UASAs766ZhFCcfPKgngPeWdduSYTBZ5Pkhkw2JFKdN1irt_dvcUIDD8_uL3ctAgTMOr5oFP1IWHDsVwt2qsF5hvP3qf3Vhy0bRRyFulGfXDWhTg3UrE3xXvmffUIcMvzy2IuCi6VcWfJKeYMjof4KgHLBAzY-TpB5JnfcvOhbGY-E49O8NlnBIQtCUe69oUGrV9okF29tUTWCU2pLiLVwWMP7ZK_QkcF9Ug2JADrHcQx5g0qjSOqlk3QVF6WSYeIBAAc-FQCB0iKCaMWm-jxjmUDrc9tZLe-w25AliEpYQ5Ej-U6G7zhI3J2L9moF42ZFoqZX99wA2jkyoxEP1onTZOJJVZ28Q7zVTpiMWJn8maCd5_4bO0yKIz-ceanvIiy928l8yqM5viOrEBpIlcGNeRvSf8lENS2eXg506fCI92nfZBcQrvMfy1CijwKFaJ3yQFEROlOqEXx50QvZjaNaz9RFX4wpQifNdbQBMfQvGWICjDpDsBpEq7okV2NJk1tTRjrNMkIHURoQuNEAslenE_RMk2wcttPIUxmrvhtdGwPY7J6pZB2nXaK2TVTNoN0CWK-VUL3HO_oVHzrpoTZwboS11fBWJmzwUVteDLNd5AuG6rXi6woJ3bn4juXpSmxovnl0qEzDVwOsdN-vi2wz4ElyW7LMTP7RAhFbQ0HnU6V4GnMVyrvuNwtj3rIUdlBkMbIyFachYpWyNFm9hUfnxNFJAC0GZbToU39MIBHZFKoxFwcNpfmUzLumouUeRErWJrHqeEvuCCiGznKFLLajJg99XGwqFJAlQVwZyZs3r34L4JGdzTb_2pyT03cctmchyPmXCdjhVab1_lhBQ9vfd0H6i0dWVhAzQHzmEN-dZozYwKafBZ6prM5ebH6yYc1JAscdwXBS4tc44PCpI1m5OcSWEVidqmrLavEfduB7GLd0o7cN2E6wEyf48WkPzwWCtO-9Du94HpkuL5dRdMIIomef51Ve9ZC6XgysZoxhYVW9Ix7RICipiJr-iSfWmCOpoFWYV2DBfOvyiZ27cRZZy1FF4VeFJksg9BSEg2XMOtLFCuYbslsTschsjd8q_Q5QENli2E4kxaQZ2QO1syikUArJwHZYPrRjwJcZEO64zztDOvoOQzmHJx5Zvw/https://www.amazon.in/gp/aw/d/B0DXKJKTWH/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=4858c1d0ed5e60e9561e203017d22ead&hsa_cr_id=0&qid=1782840509&sr=1-2-1ee1b2e4-01d1-4cd0-b737-4c27ebfc8105&aref=Aoo2PiqrWy&ref_=sbx__sbtcd2_asin_1_img&pd_rd_w=h6j6c&content-id=amzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212%3Aamzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_p=11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=78qAs&pd_rd_r=8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5
+                          - img "Boldfit Shorts for Men Solid Men Shorts Regular Fit Gym Shorts for Men Workout Yoga Outdoor All Day Shorts for Men All Season Wear Cotton Poly Quick Dry Mens Shorts Yoga Shorts" [ref=e2053]
+                        - generic [ref=e2054]:
+                          - link [ref=e2055] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JAWV2BtrOPyo9za4Z6ZqEjUAAAGfGZNDSAoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDSVBxz/clv1c_ek-wBPfXLcTVnuOrT81pu0Gum1obi5OzajSmka3GG2k57oQV0n_C2jNxYxRiQyZ2gxMlpifZihe-Xm6Cl-0R70dLY0viqAoJ5TChrA1SHcQXByGtYr3j2b2JG_l9mjIRVRmV_ApOzYfWBvLwkeasP_zj5V-ZjW0KE8TiHzueDOcd0mEF5tAtXQSV7lcaBHtrJuPszhnY4hBI0tyxr1gTMmiRYRwvIF-2XEZUNFUdy44KQ3G6uzMZ1cAxcD1fNgxg3_0eMwgIcxW8gueAqtyCh5VGIeP8E_baf3-OKIEVsEn_ObudloIaRACPCW7FR3cnRw-d3y62KDM3abqQHnBgke8hTkMZ6wodYJsBmJSfZyFudA55Y_pETEVDV-xB0DjL3pEb5v6nlOVSpTBpydqVY-9HvEo7_kbLonE-j7UG-BBU0vOgoswND8yrw04oMhyXt6Y1IDfUZ_OL6PIR-zEoysGTYjAMwRpfWHfSe5I986T68PtOLViNzjgYubdCQPoOcSf_AB4FJDcIJzzJkVwCbzfgh2Pl0FTUwl_YISBXAIygUWfX6xRMnBMGQrPT2EAdKb9ozcCk8kp0aR8UASAs766ZhFCcfPKgngPeWdduSYTBZ5Pkhkw2JFKdN1irt_dvcUIDD8_uL3ctAgTMOr5oFP1IWHDsVwt2qsF5hvP3qf3Vhy0bRRyFulGfXDWhTg3UrE3xXvmffUIcMvzy2IuCi6VcWfJKeYMjof4KgHLBAzY-TpB5JnfcvOhbGY-E49O8NlnBIQtCUe69oUGrV9okF29tUTWCU2pLiLVwWMP7ZK_QkcF9Ug2JADrHcQx5g0qjSOqlk3QVF6WSYeIBAAc-FQCB0iKCaMWm-jxjmUDrc9tZLe-w25AliEpYQ5Ej-U6G7zhI3J2L9moF42ZFoqZX99wA2jkyoxEP1onTZOJJVZ28Q7zVTpiMWJn8maCd5_4bO0yKIz-ceanvIiy928l8yqM5viOrEBpIlcGNeRvSf8lENS2eXg506fCI92nfZBcQrvMfy1CijwKFaJ3yQFEROlOqEXx50QvZjaNaz9RFX4wpQifNdbQBMfQvGWICjDpDsBpEq7okV2NJk1tTRjrNMkIHURoQuNEAslenE_RMk2wcttPIUxmrvhtdGwPY7J6pZB2nXaK2TVTNoN0CWK-VUL3HO_oVHzrpoTZwboS11fBWJmzwUVteDLNd5AuG6rXi6woJ3bn4juXpSmxovnl0qEzDVwOsdN-vi2wz4ElyW7LMTP7RAhFbQ0HnU6V4GnMVyrvuNwtj3rIUdlBkMbIyFachYpWyNFm9hUfnxNFJAC0GZbToU39MIBHZFKoxFwcNpfmUzLumouUeRErWJrHqeEvuCCiGznKFLLajJg99XGwqFJAlQVwZyZs3r34L4JGdzTb_2pyT03cctmchyPmXCdjhVab1_lhBQ9vfd0H6i0dWVhAzQHzmEN-dZozYwKafBZ6prM5ebH6yYc1JAscdwXBS4tc44PCpI1m5OcSWEVidqmrLavEfduB7GLd0o7cN2E6wEyf48WkPzwWCtO-9Du94HpkuL5dRdMIIomef51Ve9ZC6XgysZoxhYVW9Ix7RICipiJr-iSfWmCOpoFWYV2DBfOvyiZ27cRZZy1FF4VeFJksg9BSEg2XMOtLFCuYbslsTschsjd8q_Q5QENli2E4kxaQZ2QO1syikUArJwHZYPrRjwJcZEO64zztDOvoOQzmHJx5Zvw/https://www.amazon.in/gp/aw/d/B0DXKJKTWH/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=4858c1d0ed5e60e9561e203017d22ead&hsa_cr_id=0&qid=1782840509&sr=1-2-1ee1b2e4-01d1-4cd0-b737-4c27ebfc8105&aref=Aoo2PiqrWy&ref_=sbx__sbtcd2_asin_1_bkgd&pd_rd_w=h6j6c&content-id=amzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212%3Aamzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_p=11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=78qAs&pd_rd_r=8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5
+                          - link "Boldfit Shorts for Men Solid Men Shorts Regular Fit Gym Shorts for Men Workout Yoga Outdoor All Day Shorts for Men All Season Wear Cotton Poly Quick Dry Mens Shorts Yoga Shorts" [ref=e2057] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JAWV2BtrOPyo9za4Z6ZqEjUAAAGfGZNDSAoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDSVBxz/clv1c_ek-wBPfXLcTVnuOrT81pu0Gum1obi5OzajSmka3GG2k57oQV0n_C2jNxYxRiQyZ2gxMlpifZihe-Xm6Cl-0R70dLY0viqAoJ5TChrA1SHcQXByGtYr3j2b2JG_l9mjIRVRmV_ApOzYfWBvLwkeasP_zj5V-ZjW0KE8TiHzueDOcd0mEF5tAtXQSV7lcaBHtrJuPszhnY4hBI0tyxr1gTMmiRYRwvIF-2XEZUNFUdy44KQ3G6uzMZ1cAxcD1fNgxg3_0eMwgIcxW8gueAqtyCh5VGIeP8E_baf3-OKIEVsEn_ObudloIaRACPCW7FR3cnRw-d3y62KDM3abqQHnBgke8hTkMZ6wodYJsBmJSfZyFudA55Y_pETEVDV-xB0DjL3pEb5v6nlOVSpTBpydqVY-9HvEo7_kbLonE-j7UG-BBU0vOgoswND8yrw04oMhyXt6Y1IDfUZ_OL6PIR-zEoysGTYjAMwRpfWHfSe5I986T68PtOLViNzjgYubdCQPoOcSf_AB4FJDcIJzzJkVwCbzfgh2Pl0FTUwl_YISBXAIygUWfX6xRMnBMGQrPT2EAdKb9ozcCk8kp0aR8UASAs766ZhFCcfPKgngPeWdduSYTBZ5Pkhkw2JFKdN1irt_dvcUIDD8_uL3ctAgTMOr5oFP1IWHDsVwt2qsF5hvP3qf3Vhy0bRRyFulGfXDWhTg3UrE3xXvmffUIcMvzy2IuCi6VcWfJKeYMjof4KgHLBAzY-TpB5JnfcvOhbGY-E49O8NlnBIQtCUe69oUGrV9okF29tUTWCU2pLiLVwWMP7ZK_QkcF9Ug2JADrHcQx5g0qjSOqlk3QVF6WSYeIBAAc-FQCB0iKCaMWm-jxjmUDrc9tZLe-w25AliEpYQ5Ej-U6G7zhI3J2L9moF42ZFoqZX99wA2jkyoxEP1onTZOJJVZ28Q7zVTpiMWJn8maCd5_4bO0yKIz-ceanvIiy928l8yqM5viOrEBpIlcGNeRvSf8lENS2eXg506fCI92nfZBcQrvMfy1CijwKFaJ3yQFEROlOqEXx50QvZjaNaz9RFX4wpQifNdbQBMfQvGWICjDpDsBpEq7okV2NJk1tTRjrNMkIHURoQuNEAslenE_RMk2wcttPIUxmrvhtdGwPY7J6pZB2nXaK2TVTNoN0CWK-VUL3HO_oVHzrpoTZwboS11fBWJmzwUVteDLNd5AuG6rXi6woJ3bn4juXpSmxovnl0qEzDVwOsdN-vi2wz4ElyW7LMTP7RAhFbQ0HnU6V4GnMVyrvuNwtj3rIUdlBkMbIyFachYpWyNFm9hUfnxNFJAC0GZbToU39MIBHZFKoxFwcNpfmUzLumouUeRErWJrHqeEvuCCiGznKFLLajJg99XGwqFJAlQVwZyZs3r34L4JGdzTb_2pyT03cctmchyPmXCdjhVab1_lhBQ9vfd0H6i0dWVhAzQHzmEN-dZozYwKafBZ6prM5ebH6yYc1JAscdwXBS4tc44PCpI1m5OcSWEVidqmrLavEfduB7GLd0o7cN2E6wEyf48WkPzwWCtO-9Du94HpkuL5dRdMIIomef51Ve9ZC6XgysZoxhYVW9Ix7RICipiJr-iSfWmCOpoFWYV2DBfOvyiZ27cRZZy1FF4VeFJksg9BSEg2XMOtLFCuYbslsTschsjd8q_Q5QENli2E4kxaQZ2QO1syikUArJwHZYPrRjwJcZEO64zztDOvoOQzmHJx5Zvw/https://www.amazon.in/gp/aw/d/B0DXKJKTWH/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=4858c1d0ed5e60e9561e203017d22ead&hsa_cr_id=0&qid=1782840509&sr=1-2-1ee1b2e4-01d1-4cd0-b737-4c27ebfc8105&aref=Aoo2PiqrWy&ref_=sbx__sbtcd2_asin_1_title&pd_rd_w=h6j6c&content-id=amzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212%3Aamzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_p=11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=78qAs&pd_rd_r=8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5
+                            - generic [ref=e2058]:
+                              - generic [ref=e2059]: Boldfit Shorts for Men Solid Men Shorts Regular Fit Gym Shorts for Men Workout Yoga Outdoor All Day Shorts for Men All Season Wear Cotton Poly Quick Dry Mens Shorts Yoga Shorts
+                              - generic [ref=e2060]: Boldfit Shorts for Men Solid Men Shorts Regular Fit Gym Shorts for Men Workout Yoga Outdoor All Day Shorts for Men All Season Wear Cotton Poly Quick Dry Me…
+                          - link "Rated 4.1 out of 5 stars by 284 reviews. Go to review section." [ref=e2061] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JAWV2BtrOPyo9za4Z6ZqEjUAAAGfGZNDSAoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDSVBxz/clv1c_ek-wBPfXLcTVnuOrT81pu0Gum1obi5OzajSmka3GG2k57oQV0n_C2jNxYxRiQyZ2gxMlpifZihe-Xm6Cl-0R70dLY0viqAoJ5TChrA1SHcQXByGtYr3j2b2JG_l9mjIRVRmV_ApOzYfWBvLwkeasP_zj5V-ZjW0KE8TiHzueDOcd0mEF5tAtXQSV7lcaBHtrJuPszhnY4hBI0tyxr1gTMmiRYRwvIF-2XEZUNFUdy44KQ3G6uzMZ1cAxcD1fNgxg3_0eMwgIcxW8gueAqtyCh5VGIeP8E_baf3-OKIEVsEn_ObudloIaRACPCW7FR3cnRw-d3y62KDM3abqQHnBgke8hTkMZ6wodYJsBmJSfZyFudA55Y_pETEVDV-xB0DjL3pEb5v6nlOVSpTBpydqVY-9HvEo7_kbLonE-j7UG-BBU0vOgoswND8yrw04oMhyXt6Y1IDfUZ_OL6PIR-zEoysGTYjAMwRpfWHfSe5I986T68PtOLViNzjgYubdCQPoOcSf_AB4FJDcIJzzJkVwCbzfgh2Pl0FTUwl_YISBXAIygUWfX6xRMnBMGQrPT2EAdKb9ozcCk8kp0aR8UASAs766ZhFCcfPKgngPeWdduSYTBZ5Pkhkw2JFKdN1irt_dvcUIDD8_uL3ctAgTMOr5oFP1IWHDsVwt2qsF5hvP3qf3Vhy0bRRyFulGfXDWhTg3UrE3xXvmffUIcMvzy2IuCi6VcWfJKeYMjof4KgHLBAzY-TpB5JnfcvOhbGY-E49O8NlnBIQtCUe69oUGrV9okF29tUTWCU2pLiLVwWMP7ZK_QkcF9Ug2JADrHcQx5g0qjSOqlk3QVF6WSYeIBAAc-FQCB0iKCaMWm-jxjmUDrc9tZLe-w25AliEpYQ5Ej-U6G7zhI3J2L9moF42ZFoqZX99wA2jkyoxEP1onTZOJJVZ28Q7zVTpiMWJn8maCd5_4bO0yKIz-ceanvIiy928l8yqM5viOrEBpIlcGNeRvSf8lENS2eXg506fCI92nfZBcQrvMfy1CijwKFaJ3yQFEROlOqEXx50QvZjaNaz9RFX4wpQifNdbQBMfQvGWICjDpDsBpEq7okV2NJk1tTRjrNMkIHURoQuNEAslenE_RMk2wcttPIUxmrvhtdGwPY7J6pZB2nXaK2TVTNoN0CWK-VUL3HO_oVHzrpoTZwboS11fBWJmzwUVteDLNd5AuG6rXi6woJ3bn4juXpSmxovnl0qEzDVwOsdN-vi2wz4ElyW7LMTP7RAhFbQ0HnU6V4GnMVyrvuNwtj3rIUdlBkMbIyFachYpWyNFm9hUfnxNFJAC0GZbToU39MIBHZFKoxFwcNpfmUzLumouUeRErWJrHqeEvuCCiGznKFLLajJg99XGwqFJAlQVwZyZs3r34L4JGdzTb_2pyT03cctmchyPmXCdjhVab1_lhBQ9vfd0H6i0dWVhAzQHzmEN-dZozYwKafBZ6prM5ebH6yYc1JAscdwXBS4tc44PCpI1m5OcSWEVidqmrLavEfduB7GLd0o7cN2E6wEyf48WkPzwWCtO-9Du94HpkuL5dRdMIIomef51Ve9ZC6XgysZoxhYVW9Ix7RICipiJr-iSfWmCOpoFWYV2DBfOvyiZ27cRZZy1FF4VeFJksg9BSEg2XMOtLFCuYbslsTschsjd8q_Q5QENli2E4kxaQZ2QO1syikUArJwHZYPrRjwJcZEO64zztDOvoOQzmHJx5Zvw/https://www.amazon.in/gp/aw/d/B0DXKJKTWH/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=4858c1d0ed5e60e9561e203017d22ead&hsa_cr_id=0&qid=1782840509&sr=1-2-1ee1b2e4-01d1-4cd0-b737-4c27ebfc8105&aref=Aoo2PiqrWy&ref_=sbx__sbtcd2_asin_1_rating&pd_rd_w=h6j6c&content-id=amzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212%3Aamzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_p=11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=78qAs&pd_rd_r=8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5#customerReviews
+                            - generic [ref=e2062]:
+                              - generic [ref=e2063]: "4.1"
+                              - generic [ref=e2065]: 4.1 out of 5 stars.
+                              - generic [ref=e2066]: "284"
+                          - link "₹459.00" [ref=e2068] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JAWV2BtrOPyo9za4Z6ZqEjUAAAGfGZNDSAoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDSVBxz/clv1c_ek-wBPfXLcTVnuOrT81pu0Gum1obi5OzajSmka3GG2k57oQV0n_C2jNxYxRiQyZ2gxMlpifZihe-Xm6Cl-0R70dLY0viqAoJ5TChrA1SHcQXByGtYr3j2b2JG_l9mjIRVRmV_ApOzYfWBvLwkeasP_zj5V-ZjW0KE8TiHzueDOcd0mEF5tAtXQSV7lcaBHtrJuPszhnY4hBI0tyxr1gTMmiRYRwvIF-2XEZUNFUdy44KQ3G6uzMZ1cAxcD1fNgxg3_0eMwgIcxW8gueAqtyCh5VGIeP8E_baf3-OKIEVsEn_ObudloIaRACPCW7FR3cnRw-d3y62KDM3abqQHnBgke8hTkMZ6wodYJsBmJSfZyFudA55Y_pETEVDV-xB0DjL3pEb5v6nlOVSpTBpydqVY-9HvEo7_kbLonE-j7UG-BBU0vOgoswND8yrw04oMhyXt6Y1IDfUZ_OL6PIR-zEoysGTYjAMwRpfWHfSe5I986T68PtOLViNzjgYubdCQPoOcSf_AB4FJDcIJzzJkVwCbzfgh2Pl0FTUwl_YISBXAIygUWfX6xRMnBMGQrPT2EAdKb9ozcCk8kp0aR8UASAs766ZhFCcfPKgngPeWdduSYTBZ5Pkhkw2JFKdN1irt_dvcUIDD8_uL3ctAgTMOr5oFP1IWHDsVwt2qsF5hvP3qf3Vhy0bRRyFulGfXDWhTg3UrE3xXvmffUIcMvzy2IuCi6VcWfJKeYMjof4KgHLBAzY-TpB5JnfcvOhbGY-E49O8NlnBIQtCUe69oUGrV9okF29tUTWCU2pLiLVwWMP7ZK_QkcF9Ug2JADrHcQx5g0qjSOqlk3QVF6WSYeIBAAc-FQCB0iKCaMWm-jxjmUDrc9tZLe-w25AliEpYQ5Ej-U6G7zhI3J2L9moF42ZFoqZX99wA2jkyoxEP1onTZOJJVZ28Q7zVTpiMWJn8maCd5_4bO0yKIz-ceanvIiy928l8yqM5viOrEBpIlcGNeRvSf8lENS2eXg506fCI92nfZBcQrvMfy1CijwKFaJ3yQFEROlOqEXx50QvZjaNaz9RFX4wpQifNdbQBMfQvGWICjDpDsBpEq7okV2NJk1tTRjrNMkIHURoQuNEAslenE_RMk2wcttPIUxmrvhtdGwPY7J6pZB2nXaK2TVTNoN0CWK-VUL3HO_oVHzrpoTZwboS11fBWJmzwUVteDLNd5AuG6rXi6woJ3bn4juXpSmxovnl0qEzDVwOsdN-vi2wz4ElyW7LMTP7RAhFbQ0HnU6V4GnMVyrvuNwtj3rIUdlBkMbIyFachYpWyNFm9hUfnxNFJAC0GZbToU39MIBHZFKoxFwcNpfmUzLumouUeRErWJrHqeEvuCCiGznKFLLajJg99XGwqFJAlQVwZyZs3r34L4JGdzTb_2pyT03cctmchyPmXCdjhVab1_lhBQ9vfd0H6i0dWVhAzQHzmEN-dZozYwKafBZ6prM5ebH6yYc1JAscdwXBS4tc44PCpI1m5OcSWEVidqmrLavEfduB7GLd0o7cN2E6wEyf48WkPzwWCtO-9Du94HpkuL5dRdMIIomef51Ve9ZC6XgysZoxhYVW9Ix7RICipiJr-iSfWmCOpoFWYV2DBfOvyiZ27cRZZy1FF4VeFJksg9BSEg2XMOtLFCuYbslsTschsjd8q_Q5QENli2E4kxaQZ2QO1syikUArJwHZYPrRjwJcZEO64zztDOvoOQzmHJx5Zvw/https://www.amazon.in/gp/aw/d/B0DXKJKTWH/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=4858c1d0ed5e60e9561e203017d22ead&hsa_cr_id=0&qid=1782840509&sr=1-2-1ee1b2e4-01d1-4cd0-b737-4c27ebfc8105&aref=Aoo2PiqrWy&ref_=sbx__sbtcd2_asin_1_price&pd_rd_w=h6j6c&content-id=amzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212%3Aamzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_p=11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=78qAs&pd_rd_r=8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5
+                            - generic [ref=e2070]:
+                              - generic [ref=e2071]: ₹459.00
+                              - generic [ref=e2072]:
+                                - text: ₹
+                                - generic [ref=e2073]:
+                                  - text: "459"
+                                  - generic [ref=e2074]: .
+                                - text: "00"
+                          - generic [ref=e2077]: "M.R.P: ₹999.00"
+                    - listitem [ref=e2078]:
+                      - generic [ref=e2080]:
+                        - link [ref=e2081] [cursor=pointer]:
+                          - /url: https://aax-eu-zaz.amazon.in/x/c/JAWV2BtrOPyo9za4Z6ZqEjUAAAGfGZNDSAoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDSVBxz/clv1c_ek-wBPfXLcTVnuOrT81pu0Gum1obi5OzajSmka3GG2k57oQV0n_C2jNxYxRiQyZ2gxMlpifZihe-Xm6Cl-0R70dLY0viqAoJ5TChrA1SHcQXByGtYr3j2b2JG_l9mjIRVRmV_ApOzYfWBvLwkeasP_zj5V-ZjW0KE8TiHzueDOcd0mEF5tAtXQSV7lcaBHtrJuPszhnY4hBI0tyxr1gTMmiRYRwvIF-2XEZUNFUdy44KQ3G6uzMZ1cAxcD1fNgxg3_0eMwgIcxW8gueAqtyCh5VGIeP8E_baf3-OKIEVsEn_ObudloIaRACPCW7FR3cnRw-d3y62KDM3abqQHnBgke8hTkMZ6wodYJsBmJSfZyFudA55Y_pETEVDV-xB0DjL3pEb5v6nlOVSpTBpydqVY-9HvEo7_kbLonE-j7UG-BBU0vOgoswND8yrw04oMhyXt6Y1IDfUZ_OL6PIR-zEoysGTYjAMwRpfWHfSe5I986T68PtOLViNzjgYubdCQPoOcSf_AB4FJDcIJzzJkVwCbzfgh2Pl0FTUwl_YISBXAIygUWfX6xRMnBMGQrPT2EAdKb9ozcCk8kp0aR8UASAs766ZhFCcfPKgngPeWdduSYTBZ5Pkhkw2JFKdN1irt_dvcUIDD8_uL3ctAgTMOr5oFP1IWHDsVwt2qsF5hvP3qf3Vhy0bRRyFulGfXDWhTg3UrE3xXvmffUIcMvzy2IuCi6VcWfJKeYMjof4KgHLBAzY-TpB5JnfcvOhbGY-E49O8NlnBIQtCUe69oUGrV9okF29tUTWCU2pLiLVwWMP7ZK_QkcF9Ug2JADrHcQx5g0qjSOqlk3QVF6WSYeIBAAc-FQCB0iKCaMWm-jxjmUDrc9tZLe-w25AliEpYQ5Ej-U6G7zhI3J2L9moF42ZFoqZX99wA2jkyoxEP1onTZOJJVZ28Q7zVTpiMWJn8maCd5_4bO0yKIz-ceanvIiy928l8yqM5viOrEBpIlcGNeRvSf8lENS2eXg506fCI92nfZBcQrvMfy1CijwKFaJ3yQFEROlOqEXx50QvZjaNaz9RFX4wpQifNdbQBMfQvGWICjDpDsBpEq7okV2NJk1tTRjrNMkIHURoQuNEAslenE_RMk2wcttPIUxmrvhtdGwPY7J6pZB2nXaK2TVTNoN0CWK-VUL3HO_oVHzrpoTZwboS11fBWJmzwUVteDLNd5AuG6rXi6woJ3bn4juXpSmxovnl0qEzDVwOsdN-vi2wz4ElyW7LMTP7RAhFbQ0HnU6V4GnMVyrvuNwtj3rIUdlBkMbIyFachYpWyNFm9hUfnxNFJAC0GZbToU39MIBHZFKoxFwcNpfmUzLumouUeRErWJrHqeEvuCCiGznKFLLajJg99XGwqFJAlQVwZyZs3r34L4JGdzTb_2pyT03cctmchyPmXCdjhVab1_lhBQ9vfd0H6i0dWVhAzQHzmEN-dZozYwKafBZ6prM5ebH6yYc1JAscdwXBS4tc44PCpI1m5OcSWEVidqmrLavEfduB7GLd0o7cN2E6wEyf48WkPzwWCtO-9Du94HpkuL5dRdMIIomef51Ve9ZC6XgysZoxhYVW9Ix7RICipiJr-iSfWmCOpoFWYV2DBfOvyiZ27cRZZy1FF4VeFJksg9BSEg2XMOtLFCuYbslsTschsjd8q_Q5QENli2E4kxaQZ2QO1syikUArJwHZYPrRjwJcZEO64zztDOvoOQzmHJx5Zvw/https://www.amazon.in/gp/aw/d/B0D6BRWN8F/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=4858c1d0ed5e60e9561e203017d22ead&hsa_cr_id=0&qid=1782840509&sr=1-3-1ee1b2e4-01d1-4cd0-b737-4c27ebfc8105&aref=Aoo2PiqrWy&ref_=sbx__sbtcd2_asin_2_bkgd&pd_rd_w=h6j6c&content-id=amzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212%3Aamzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_p=11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=78qAs&pd_rd_r=8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5
+                        - link "Boldfit Shorts for Men Lightweight Gym Shorts for Men Workout Sports Short for man Breathable Activewear Short for man Gym, Yoga, Running, Cycling Sportswear for Boys" [ref=e2083] [cursor=pointer]:
+                          - /url: https://aax-eu-zaz.amazon.in/x/c/JAWV2BtrOPyo9za4Z6ZqEjUAAAGfGZNDSAoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDSVBxz/clv1c_ek-wBPfXLcTVnuOrT81pu0Gum1obi5OzajSmka3GG2k57oQV0n_C2jNxYxRiQyZ2gxMlpifZihe-Xm6Cl-0R70dLY0viqAoJ5TChrA1SHcQXByGtYr3j2b2JG_l9mjIRVRmV_ApOzYfWBvLwkeasP_zj5V-ZjW0KE8TiHzueDOcd0mEF5tAtXQSV7lcaBHtrJuPszhnY4hBI0tyxr1gTMmiRYRwvIF-2XEZUNFUdy44KQ3G6uzMZ1cAxcD1fNgxg3_0eMwgIcxW8gueAqtyCh5VGIeP8E_baf3-OKIEVsEn_ObudloIaRACPCW7FR3cnRw-d3y62KDM3abqQHnBgke8hTkMZ6wodYJsBmJSfZyFudA55Y_pETEVDV-xB0DjL3pEb5v6nlOVSpTBpydqVY-9HvEo7_kbLonE-j7UG-BBU0vOgoswND8yrw04oMhyXt6Y1IDfUZ_OL6PIR-zEoysGTYjAMwRpfWHfSe5I986T68PtOLViNzjgYubdCQPoOcSf_AB4FJDcIJzzJkVwCbzfgh2Pl0FTUwl_YISBXAIygUWfX6xRMnBMGQrPT2EAdKb9ozcCk8kp0aR8UASAs766ZhFCcfPKgngPeWdduSYTBZ5Pkhkw2JFKdN1irt_dvcUIDD8_uL3ctAgTMOr5oFP1IWHDsVwt2qsF5hvP3qf3Vhy0bRRyFulGfXDWhTg3UrE3xXvmffUIcMvzy2IuCi6VcWfJKeYMjof4KgHLBAzY-TpB5JnfcvOhbGY-E49O8NlnBIQtCUe69oUGrV9okF29tUTWCU2pLiLVwWMP7ZK_QkcF9Ug2JADrHcQx5g0qjSOqlk3QVF6WSYeIBAAc-FQCB0iKCaMWm-jxjmUDrc9tZLe-w25AliEpYQ5Ej-U6G7zhI3J2L9moF42ZFoqZX99wA2jkyoxEP1onTZOJJVZ28Q7zVTpiMWJn8maCd5_4bO0yKIz-ceanvIiy928l8yqM5viOrEBpIlcGNeRvSf8lENS2eXg506fCI92nfZBcQrvMfy1CijwKFaJ3yQFEROlOqEXx50QvZjaNaz9RFX4wpQifNdbQBMfQvGWICjDpDsBpEq7okV2NJk1tTRjrNMkIHURoQuNEAslenE_RMk2wcttPIUxmrvhtdGwPY7J6pZB2nXaK2TVTNoN0CWK-VUL3HO_oVHzrpoTZwboS11fBWJmzwUVteDLNd5AuG6rXi6woJ3bn4juXpSmxovnl0qEzDVwOsdN-vi2wz4ElyW7LMTP7RAhFbQ0HnU6V4GnMVyrvuNwtj3rIUdlBkMbIyFachYpWyNFm9hUfnxNFJAC0GZbToU39MIBHZFKoxFwcNpfmUzLumouUeRErWJrHqeEvuCCiGznKFLLajJg99XGwqFJAlQVwZyZs3r34L4JGdzTb_2pyT03cctmchyPmXCdjhVab1_lhBQ9vfd0H6i0dWVhAzQHzmEN-dZozYwKafBZ6prM5ebH6yYc1JAscdwXBS4tc44PCpI1m5OcSWEVidqmrLavEfduB7GLd0o7cN2E6wEyf48WkPzwWCtO-9Du94HpkuL5dRdMIIomef51Ve9ZC6XgysZoxhYVW9Ix7RICipiJr-iSfWmCOpoFWYV2DBfOvyiZ27cRZZy1FF4VeFJksg9BSEg2XMOtLFCuYbslsTschsjd8q_Q5QENli2E4kxaQZ2QO1syikUArJwHZYPrRjwJcZEO64zztDOvoOQzmHJx5Zvw/https://www.amazon.in/gp/aw/d/B0D6BRWN8F/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=4858c1d0ed5e60e9561e203017d22ead&hsa_cr_id=0&qid=1782840509&sr=1-3-1ee1b2e4-01d1-4cd0-b737-4c27ebfc8105&aref=Aoo2PiqrWy&ref_=sbx__sbtcd2_asin_2_img&pd_rd_w=h6j6c&content-id=amzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212%3Aamzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_p=11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=78qAs&pd_rd_r=8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5
+                          - img "Boldfit Shorts for Men Lightweight Gym Shorts for Men Workout Sports Short for man Breathable Activewear Short for man Gym, Yoga, Running, Cycling Sportswear for Boys" [ref=e2086]
+                        - generic [ref=e2087]:
+                          - link [ref=e2088] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JAWV2BtrOPyo9za4Z6ZqEjUAAAGfGZNDSAoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDSVBxz/clv1c_ek-wBPfXLcTVnuOrT81pu0Gum1obi5OzajSmka3GG2k57oQV0n_C2jNxYxRiQyZ2gxMlpifZihe-Xm6Cl-0R70dLY0viqAoJ5TChrA1SHcQXByGtYr3j2b2JG_l9mjIRVRmV_ApOzYfWBvLwkeasP_zj5V-ZjW0KE8TiHzueDOcd0mEF5tAtXQSV7lcaBHtrJuPszhnY4hBI0tyxr1gTMmiRYRwvIF-2XEZUNFUdy44KQ3G6uzMZ1cAxcD1fNgxg3_0eMwgIcxW8gueAqtyCh5VGIeP8E_baf3-OKIEVsEn_ObudloIaRACPCW7FR3cnRw-d3y62KDM3abqQHnBgke8hTkMZ6wodYJsBmJSfZyFudA55Y_pETEVDV-xB0DjL3pEb5v6nlOVSpTBpydqVY-9HvEo7_kbLonE-j7UG-BBU0vOgoswND8yrw04oMhyXt6Y1IDfUZ_OL6PIR-zEoysGTYjAMwRpfWHfSe5I986T68PtOLViNzjgYubdCQPoOcSf_AB4FJDcIJzzJkVwCbzfgh2Pl0FTUwl_YISBXAIygUWfX6xRMnBMGQrPT2EAdKb9ozcCk8kp0aR8UASAs766ZhFCcfPKgngPeWdduSYTBZ5Pkhkw2JFKdN1irt_dvcUIDD8_uL3ctAgTMOr5oFP1IWHDsVwt2qsF5hvP3qf3Vhy0bRRyFulGfXDWhTg3UrE3xXvmffUIcMvzy2IuCi6VcWfJKeYMjof4KgHLBAzY-TpB5JnfcvOhbGY-E49O8NlnBIQtCUe69oUGrV9okF29tUTWCU2pLiLVwWMP7ZK_QkcF9Ug2JADrHcQx5g0qjSOqlk3QVF6WSYeIBAAc-FQCB0iKCaMWm-jxjmUDrc9tZLe-w25AliEpYQ5Ej-U6G7zhI3J2L9moF42ZFoqZX99wA2jkyoxEP1onTZOJJVZ28Q7zVTpiMWJn8maCd5_4bO0yKIz-ceanvIiy928l8yqM5viOrEBpIlcGNeRvSf8lENS2eXg506fCI92nfZBcQrvMfy1CijwKFaJ3yQFEROlOqEXx50QvZjaNaz9RFX4wpQifNdbQBMfQvGWICjDpDsBpEq7okV2NJk1tTRjrNMkIHURoQuNEAslenE_RMk2wcttPIUxmrvhtdGwPY7J6pZB2nXaK2TVTNoN0CWK-VUL3HO_oVHzrpoTZwboS11fBWJmzwUVteDLNd5AuG6rXi6woJ3bn4juXpSmxovnl0qEzDVwOsdN-vi2wz4ElyW7LMTP7RAhFbQ0HnU6V4GnMVyrvuNwtj3rIUdlBkMbIyFachYpWyNFm9hUfnxNFJAC0GZbToU39MIBHZFKoxFwcNpfmUzLumouUeRErWJrHqeEvuCCiGznKFLLajJg99XGwqFJAlQVwZyZs3r34L4JGdzTb_2pyT03cctmchyPmXCdjhVab1_lhBQ9vfd0H6i0dWVhAzQHzmEN-dZozYwKafBZ6prM5ebH6yYc1JAscdwXBS4tc44PCpI1m5OcSWEVidqmrLavEfduB7GLd0o7cN2E6wEyf48WkPzwWCtO-9Du94HpkuL5dRdMIIomef51Ve9ZC6XgysZoxhYVW9Ix7RICipiJr-iSfWmCOpoFWYV2DBfOvyiZ27cRZZy1FF4VeFJksg9BSEg2XMOtLFCuYbslsTschsjd8q_Q5QENli2E4kxaQZ2QO1syikUArJwHZYPrRjwJcZEO64zztDOvoOQzmHJx5Zvw/https://www.amazon.in/gp/aw/d/B0D6BRWN8F/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=4858c1d0ed5e60e9561e203017d22ead&hsa_cr_id=0&qid=1782840509&sr=1-3-1ee1b2e4-01d1-4cd0-b737-4c27ebfc8105&aref=Aoo2PiqrWy&ref_=sbx__sbtcd2_asin_2_bkgd&pd_rd_w=h6j6c&content-id=amzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212%3Aamzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_p=11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=78qAs&pd_rd_r=8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5
+                          - link "Boldfit Shorts for Men Lightweight Gym Shorts for Men Workout Sports Short for man Breathable Activewear Short for man Gym, Yoga, Running, Cycling Sportswear for Boys" [ref=e2090] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JAWV2BtrOPyo9za4Z6ZqEjUAAAGfGZNDSAoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDSVBxz/clv1c_ek-wBPfXLcTVnuOrT81pu0Gum1obi5OzajSmka3GG2k57oQV0n_C2jNxYxRiQyZ2gxMlpifZihe-Xm6Cl-0R70dLY0viqAoJ5TChrA1SHcQXByGtYr3j2b2JG_l9mjIRVRmV_ApOzYfWBvLwkeasP_zj5V-ZjW0KE8TiHzueDOcd0mEF5tAtXQSV7lcaBHtrJuPszhnY4hBI0tyxr1gTMmiRYRwvIF-2XEZUNFUdy44KQ3G6uzMZ1cAxcD1fNgxg3_0eMwgIcxW8gueAqtyCh5VGIeP8E_baf3-OKIEVsEn_ObudloIaRACPCW7FR3cnRw-d3y62KDM3abqQHnBgke8hTkMZ6wodYJsBmJSfZyFudA55Y_pETEVDV-xB0DjL3pEb5v6nlOVSpTBpydqVY-9HvEo7_kbLonE-j7UG-BBU0vOgoswND8yrw04oMhyXt6Y1IDfUZ_OL6PIR-zEoysGTYjAMwRpfWHfSe5I986T68PtOLViNzjgYubdCQPoOcSf_AB4FJDcIJzzJkVwCbzfgh2Pl0FTUwl_YISBXAIygUWfX6xRMnBMGQrPT2EAdKb9ozcCk8kp0aR8UASAs766ZhFCcfPKgngPeWdduSYTBZ5Pkhkw2JFKdN1irt_dvcUIDD8_uL3ctAgTMOr5oFP1IWHDsVwt2qsF5hvP3qf3Vhy0bRRyFulGfXDWhTg3UrE3xXvmffUIcMvzy2IuCi6VcWfJKeYMjof4KgHLBAzY-TpB5JnfcvOhbGY-E49O8NlnBIQtCUe69oUGrV9okF29tUTWCU2pLiLVwWMP7ZK_QkcF9Ug2JADrHcQx5g0qjSOqlk3QVF6WSYeIBAAc-FQCB0iKCaMWm-jxjmUDrc9tZLe-w25AliEpYQ5Ej-U6G7zhI3J2L9moF42ZFoqZX99wA2jkyoxEP1onTZOJJVZ28Q7zVTpiMWJn8maCd5_4bO0yKIz-ceanvIiy928l8yqM5viOrEBpIlcGNeRvSf8lENS2eXg506fCI92nfZBcQrvMfy1CijwKFaJ3yQFEROlOqEXx50QvZjaNaz9RFX4wpQifNdbQBMfQvGWICjDpDsBpEq7okV2NJk1tTRjrNMkIHURoQuNEAslenE_RMk2wcttPIUxmrvhtdGwPY7J6pZB2nXaK2TVTNoN0CWK-VUL3HO_oVHzrpoTZwboS11fBWJmzwUVteDLNd5AuG6rXi6woJ3bn4juXpSmxovnl0qEzDVwOsdN-vi2wz4ElyW7LMTP7RAhFbQ0HnU6V4GnMVyrvuNwtj3rIUdlBkMbIyFachYpWyNFm9hUfnxNFJAC0GZbToU39MIBHZFKoxFwcNpfmUzLumouUeRErWJrHqeEvuCCiGznKFLLajJg99XGwqFJAlQVwZyZs3r34L4JGdzTb_2pyT03cctmchyPmXCdjhVab1_lhBQ9vfd0H6i0dWVhAzQHzmEN-dZozYwKafBZ6prM5ebH6yYc1JAscdwXBS4tc44PCpI1m5OcSWEVidqmrLavEfduB7GLd0o7cN2E6wEyf48WkPzwWCtO-9Du94HpkuL5dRdMIIomef51Ve9ZC6XgysZoxhYVW9Ix7RICipiJr-iSfWmCOpoFWYV2DBfOvyiZ27cRZZy1FF4VeFJksg9BSEg2XMOtLFCuYbslsTschsjd8q_Q5QENli2E4kxaQZ2QO1syikUArJwHZYPrRjwJcZEO64zztDOvoOQzmHJx5Zvw/https://www.amazon.in/gp/aw/d/B0D6BRWN8F/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=4858c1d0ed5e60e9561e203017d22ead&hsa_cr_id=0&qid=1782840509&sr=1-3-1ee1b2e4-01d1-4cd0-b737-4c27ebfc8105&aref=Aoo2PiqrWy&ref_=sbx__sbtcd2_asin_2_title&pd_rd_w=h6j6c&content-id=amzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212%3Aamzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_p=11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=78qAs&pd_rd_r=8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5
+                            - generic [ref=e2091]:
+                              - generic [ref=e2092]: Boldfit Shorts for Men Lightweight Gym Shorts for Men Workout Sports Short for man Breathable Activewear Short for man Gym, Yoga, Running, Cycling Sportswear for Boys
+                              - generic [ref=e2093]: Boldfit Shorts for Men Lightweight Gym Shorts for Men Workout Sports Short for man Breathable Activewear Short for man Gym, Yoga, Running, Cycling Sportswe…
+                          - link "Rated 4.3 out of 5 stars by 1274 reviews. Go to review section." [ref=e2094] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JAWV2BtrOPyo9za4Z6ZqEjUAAAGfGZNDSAoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDSVBxz/clv1c_ek-wBPfXLcTVnuOrT81pu0Gum1obi5OzajSmka3GG2k57oQV0n_C2jNxYxRiQyZ2gxMlpifZihe-Xm6Cl-0R70dLY0viqAoJ5TChrA1SHcQXByGtYr3j2b2JG_l9mjIRVRmV_ApOzYfWBvLwkeasP_zj5V-ZjW0KE8TiHzueDOcd0mEF5tAtXQSV7lcaBHtrJuPszhnY4hBI0tyxr1gTMmiRYRwvIF-2XEZUNFUdy44KQ3G6uzMZ1cAxcD1fNgxg3_0eMwgIcxW8gueAqtyCh5VGIeP8E_baf3-OKIEVsEn_ObudloIaRACPCW7FR3cnRw-d3y62KDM3abqQHnBgke8hTkMZ6wodYJsBmJSfZyFudA55Y_pETEVDV-xB0DjL3pEb5v6nlOVSpTBpydqVY-9HvEo7_kbLonE-j7UG-BBU0vOgoswND8yrw04oMhyXt6Y1IDfUZ_OL6PIR-zEoysGTYjAMwRpfWHfSe5I986T68PtOLViNzjgYubdCQPoOcSf_AB4FJDcIJzzJkVwCbzfgh2Pl0FTUwl_YISBXAIygUWfX6xRMnBMGQrPT2EAdKb9ozcCk8kp0aR8UASAs766ZhFCcfPKgngPeWdduSYTBZ5Pkhkw2JFKdN1irt_dvcUIDD8_uL3ctAgTMOr5oFP1IWHDsVwt2qsF5hvP3qf3Vhy0bRRyFulGfXDWhTg3UrE3xXvmffUIcMvzy2IuCi6VcWfJKeYMjof4KgHLBAzY-TpB5JnfcvOhbGY-E49O8NlnBIQtCUe69oUGrV9okF29tUTWCU2pLiLVwWMP7ZK_QkcF9Ug2JADrHcQx5g0qjSOqlk3QVF6WSYeIBAAc-FQCB0iKCaMWm-jxjmUDrc9tZLe-w25AliEpYQ5Ej-U6G7zhI3J2L9moF42ZFoqZX99wA2jkyoxEP1onTZOJJVZ28Q7zVTpiMWJn8maCd5_4bO0yKIz-ceanvIiy928l8yqM5viOrEBpIlcGNeRvSf8lENS2eXg506fCI92nfZBcQrvMfy1CijwKFaJ3yQFEROlOqEXx50QvZjaNaz9RFX4wpQifNdbQBMfQvGWICjDpDsBpEq7okV2NJk1tTRjrNMkIHURoQuNEAslenE_RMk2wcttPIUxmrvhtdGwPY7J6pZB2nXaK2TVTNoN0CWK-VUL3HO_oVHzrpoTZwboS11fBWJmzwUVteDLNd5AuG6rXi6woJ3bn4juXpSmxovnl0qEzDVwOsdN-vi2wz4ElyW7LMTP7RAhFbQ0HnU6V4GnMVyrvuNwtj3rIUdlBkMbIyFachYpWyNFm9hUfnxNFJAC0GZbToU39MIBHZFKoxFwcNpfmUzLumouUeRErWJrHqeEvuCCiGznKFLLajJg99XGwqFJAlQVwZyZs3r34L4JGdzTb_2pyT03cctmchyPmXCdjhVab1_lhBQ9vfd0H6i0dWVhAzQHzmEN-dZozYwKafBZ6prM5ebH6yYc1JAscdwXBS4tc44PCpI1m5OcSWEVidqmrLavEfduB7GLd0o7cN2E6wEyf48WkPzwWCtO-9Du94HpkuL5dRdMIIomef51Ve9ZC6XgysZoxhYVW9Ix7RICipiJr-iSfWmCOpoFWYV2DBfOvyiZ27cRZZy1FF4VeFJksg9BSEg2XMOtLFCuYbslsTschsjd8q_Q5QENli2E4kxaQZ2QO1syikUArJwHZYPrRjwJcZEO64zztDOvoOQzmHJx5Zvw/https://www.amazon.in/gp/aw/d/B0D6BRWN8F/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=4858c1d0ed5e60e9561e203017d22ead&hsa_cr_id=0&qid=1782840509&sr=1-3-1ee1b2e4-01d1-4cd0-b737-4c27ebfc8105&aref=Aoo2PiqrWy&ref_=sbx__sbtcd2_asin_2_rating&pd_rd_w=h6j6c&content-id=amzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212%3Aamzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_p=11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=78qAs&pd_rd_r=8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5#customerReviews
+                            - generic [ref=e2095]:
+                              - generic [ref=e2096]: "4.3"
+                              - generic [ref=e2098]: 4.3 out of 5 stars.
+                              - generic [ref=e2099]: 1,274
+                          - link "₹449.00" [ref=e2101] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JAWV2BtrOPyo9za4Z6ZqEjUAAAGfGZNDSAoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDSVBxz/clv1c_ek-wBPfXLcTVnuOrT81pu0Gum1obi5OzajSmka3GG2k57oQV0n_C2jNxYxRiQyZ2gxMlpifZihe-Xm6Cl-0R70dLY0viqAoJ5TChrA1SHcQXByGtYr3j2b2JG_l9mjIRVRmV_ApOzYfWBvLwkeasP_zj5V-ZjW0KE8TiHzueDOcd0mEF5tAtXQSV7lcaBHtrJuPszhnY4hBI0tyxr1gTMmiRYRwvIF-2XEZUNFUdy44KQ3G6uzMZ1cAxcD1fNgxg3_0eMwgIcxW8gueAqtyCh5VGIeP8E_baf3-OKIEVsEn_ObudloIaRACPCW7FR3cnRw-d3y62KDM3abqQHnBgke8hTkMZ6wodYJsBmJSfZyFudA55Y_pETEVDV-xB0DjL3pEb5v6nlOVSpTBpydqVY-9HvEo7_kbLonE-j7UG-BBU0vOgoswND8yrw04oMhyXt6Y1IDfUZ_OL6PIR-zEoysGTYjAMwRpfWHfSe5I986T68PtOLViNzjgYubdCQPoOcSf_AB4FJDcIJzzJkVwCbzfgh2Pl0FTUwl_YISBXAIygUWfX6xRMnBMGQrPT2EAdKb9ozcCk8kp0aR8UASAs766ZhFCcfPKgngPeWdduSYTBZ5Pkhkw2JFKdN1irt_dvcUIDD8_uL3ctAgTMOr5oFP1IWHDsVwt2qsF5hvP3qf3Vhy0bRRyFulGfXDWhTg3UrE3xXvmffUIcMvzy2IuCi6VcWfJKeYMjof4KgHLBAzY-TpB5JnfcvOhbGY-E49O8NlnBIQtCUe69oUGrV9okF29tUTWCU2pLiLVwWMP7ZK_QkcF9Ug2JADrHcQx5g0qjSOqlk3QVF6WSYeIBAAc-FQCB0iKCaMWm-jxjmUDrc9tZLe-w25AliEpYQ5Ej-U6G7zhI3J2L9moF42ZFoqZX99wA2jkyoxEP1onTZOJJVZ28Q7zVTpiMWJn8maCd5_4bO0yKIz-ceanvIiy928l8yqM5viOrEBpIlcGNeRvSf8lENS2eXg506fCI92nfZBcQrvMfy1CijwKFaJ3yQFEROlOqEXx50QvZjaNaz9RFX4wpQifNdbQBMfQvGWICjDpDsBpEq7okV2NJk1tTRjrNMkIHURoQuNEAslenE_RMk2wcttPIUxmrvhtdGwPY7J6pZB2nXaK2TVTNoN0CWK-VUL3HO_oVHzrpoTZwboS11fBWJmzwUVteDLNd5AuG6rXi6woJ3bn4juXpSmxovnl0qEzDVwOsdN-vi2wz4ElyW7LMTP7RAhFbQ0HnU6V4GnMVyrvuNwtj3rIUdlBkMbIyFachYpWyNFm9hUfnxNFJAC0GZbToU39MIBHZFKoxFwcNpfmUzLumouUeRErWJrHqeEvuCCiGznKFLLajJg99XGwqFJAlQVwZyZs3r34L4JGdzTb_2pyT03cctmchyPmXCdjhVab1_lhBQ9vfd0H6i0dWVhAzQHzmEN-dZozYwKafBZ6prM5ebH6yYc1JAscdwXBS4tc44PCpI1m5OcSWEVidqmrLavEfduB7GLd0o7cN2E6wEyf48WkPzwWCtO-9Du94HpkuL5dRdMIIomef51Ve9ZC6XgysZoxhYVW9Ix7RICipiJr-iSfWmCOpoFWYV2DBfOvyiZ27cRZZy1FF4VeFJksg9BSEg2XMOtLFCuYbslsTschsjd8q_Q5QENli2E4kxaQZ2QO1syikUArJwHZYPrRjwJcZEO64zztDOvoOQzmHJx5Zvw/https://www.amazon.in/gp/aw/d/B0D6BRWN8F/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=4858c1d0ed5e60e9561e203017d22ead&hsa_cr_id=0&qid=1782840509&sr=1-3-1ee1b2e4-01d1-4cd0-b737-4c27ebfc8105&aref=Aoo2PiqrWy&ref_=sbx__sbtcd2_asin_2_price&pd_rd_w=h6j6c&content-id=amzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212%3Aamzn1.sym.11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_p=11c43426-cf54-44c1-9e5b-d25a5fd43212&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=78qAs&pd_rd_r=8e01f887-f47b-4ec9-9b5a-5f2e6c8b77a5
+                            - generic [ref=e2103]:
+                              - generic [ref=e2104]: ₹449.00
+                              - generic [ref=e2105]:
+                                - text: ₹
+                                - generic [ref=e2106]:
+                                  - text: "449"
+                                  - generic [ref=e2107]: .
+                                - text: "00"
+                          - generic [ref=e2110]: "M.R.P: ₹999.00"
+          - generic [ref=e2112]:
+            - heading "More results" [level=2] [ref=e2116]
+            - generic:
+              - list:
+                - listitem [ref=e2117]:
+                  - generic [ref=e2122]:
+                    - link [ref=e2126] [cursor=pointer]:
+                      - /url: /ATICX-Polyester-Sleeve-3_Black-Burgundy_XL/dp/B0CZJBH3G1/ref=sr_1_15?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-15
+                      - img [ref=e2128]
+                    - generic [ref=e2129]:
+                      - group "colours available" [ref=e2131]:
+                        - list [ref=e2132]:
+                          - generic [ref=e2133]:
+                            - listitem:
+                              - link "Supreme Black, Burgundy Bliss, Deep Grey":
+                                - /url: /ATICX-Polyester-Sleeve-3_Black-Burgundy_XL/dp/B0CZJBH3G1/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-15
+                          - generic [ref=e2136]:
+                            - listitem:
+                              - link "Supreme Black, Cavansite Blue, Deep Grey":
+                                - /url: /ATICX-Polyester-Sleeve-3_Black-Burgundy_XL/dp/B0CZJB7VKS/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-15
+                          - generic [ref=e2139]:
+                            - listitem:
+                              - link "Supreme Black, Elbait Green, Deep Grey":
+                                - /url: /ATICX-Polyester-Sleeve-3_Black-Burgundy_XL/dp/B0CZJ8W7W8/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-15
+                          - generic [ref=e2142]:
+                            - listitem:
+                              - link "Supreme Black, Titanium Grey, Garnet Maroon Red":
+                                - /url: /ATICX-Polyester-Sleeve-3_Black-Burgundy_XL/dp/B0GP6B34PX/ref=cs_sr_dp_4?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-15
+                          - generic [ref=e2145]:
+                            - listitem:
+                              - link "Supreme Black, Titanium Grey, Majestic Air Force Blue":
+                                - /url: /ATICX-Polyester-Sleeve-3_Black-Burgundy_XL/dp/B0GP6JNX33/ref=cs_sr_dp_5?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-15
+                          - generic [ref=e2148]:
+                            - listitem:
+                              - link "Supreme Black, Titanium Grey, Deep Grey":
+                                - /url: /ATICX-Polyester-Sleeve-3_Black-Burgundy_XL/dp/B0GP6P7SZQ/ref=cs_sr_dp_6?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-15
+                        - link "+16 other colors/patterns" [ref=e2152] [cursor=pointer]:
+                          - /url: /ATICX-Polyester-Sleeve-3_Black-Burgundy_XL/dp/B0CZJBH3G1/ref=cs_sr_dp_n?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-15
+                          - text: "+16"
+                      - generic [ref=e2153]:
+                        - heading "ATICX" [level=2] [ref=e2155]
+                        - link "Slim Fit Polyester Sports T-Shirt for Men - Round Neck Quick Dry Fit Half Sleeve Breathable Stylish Gym & Workout Tee - Lightweight Running Cycling Football Swimming Training Sportswear Top" [ref=e2156] [cursor=pointer]:
+                          - /url: /ATICX-Polyester-Sleeve-3_Black-Burgundy_XL/dp/B0CZJBH3G1/ref=sr_1_15?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-15
+                          - heading "Slim Fit Polyester Sports T-Shirt for Men - Round Neck Quick Dry Fit Half Sleeve Breathable Stylish Gym & Workout Tee - Lightweight Running Cycling Football Swimming Training Sportswear Top" [level=2] [ref=e2157]
+                      - generic [ref=e2158]:
+                        - generic [ref=e2159]:
+                          - text: "4.0"
+                          - button "4.0 out of 5 stars, rating details" [ref=e2161] [cursor=pointer]:
+                            - generic [ref=e2163]: 4.0 out of 5 stars
+                          - link "686 ratings" [ref=e2165] [cursor=pointer]:
+                            - /url: /ATICX-Polyester-Sleeve-3_Black-Burgundy_XL/dp/B0CZJBH3G1/ref=sr_1_15?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-15#customerReviews
+                            - text: (686)
+                        - generic [ref=e2166]: 600+ bought in past month
+                      - generic [ref=e2167]:
+                        - generic [ref=e2169]:
+                          - generic [ref=e2170]: Price, product page
+                          - 'link "₹489 ( ₹163 /piece) M.R.P: ₹3,297 M.R.P: ₹3,297" [ref=e2171] [cursor=pointer]':
+                            - /url: /ATICX-Polyester-Sleeve-3_Black-Burgundy_XL/dp/B0CZJBH3G1/ref=sr_1_15?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-15
+                            - generic [ref=e2172]:
+                              - generic [ref=e2173]: ₹489
+                              - generic [ref=e2174]: ₹489
+                            - generic [ref=e2175]:
+                              - text: (
+                              - generic [ref=e2176]:
+                                - generic [ref=e2177]: ₹163
+                                - text: ₹163
+                              - text: /piece)
+                            - generic [ref=e2178]: "M.R.P: ₹3,297"
+                            - generic [ref=e2179]:
+                              - text: "M.R.P:"
+                              - generic [ref=e2180]:
+                                - generic [ref=e2181]: ₹3,297
+                                - text: ₹3,297
+                          - text: (85% off)
+                        - generic [ref=e2184]:
+                          - generic [ref=e2185]: You pay ₹479.22
+                          - text: with coupon (limited sizes/colours)
+                      - generic [ref=e2188]:
+                        - generic [ref=e2190]: FREE delivery Thu, 2 Jul on first order
+                        - generic [ref=e2192]: Or fastest delivery Tomorrow, 1 Jul
+                      - button "Add to cart" [ref=e2203] [cursor=pointer]
+                - listitem [ref=e2204]:
+                  - generic [ref=e2209]:
+                    - link [ref=e2213] [cursor=pointer]:
+                      - /url: /Pepe-Jeans-Regular-T-Shirt-PPTS01_Black/dp/B0CDH4T5GL/ref=sr_1_16?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-16
+                      - img [ref=e2215]
+                    - generic [ref=e2216]:
+                      - group "colours available" [ref=e2218]:
+                        - list [ref=e2219]:
+                          - generic [ref=e2220]:
+                            - listitem:
+                              - link "Black":
+                                - /url: /Pepe-Jeans-Regular-T-Shirt-PPTS01_Black/dp/B0CDH4T5GL/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-16
+                          - generic [ref=e2223]:
+                            - listitem:
+                              - link "Baltic Blue":
+                                - /url: /Pepe-Jeans-Regular-T-Shirt-PPTS01_Black/dp/B0CDH4T297/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-16
+                          - generic [ref=e2226]:
+                            - listitem:
+                              - link "Dusty Pink":
+                                - /url: /Pepe-Jeans-Regular-T-Shirt-PPTS01_Black/dp/B0CDH5HHWG/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-16
+                          - generic [ref=e2229]:
+                            - listitem:
+                              - link "Ebony":
+                                - /url: /Pepe-Jeans-Regular-T-Shirt-PPTS01_Black/dp/B0CDH4757X/ref=cs_sr_dp_4?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-16
+                          - generic [ref=e2232]:
+                            - listitem:
+                              - link "Ebony Grey":
+                                - /url: /Pepe-Jeans-Regular-T-Shirt-PPTS01_Black/dp/B0CDH4TQ8D/ref=cs_sr_dp_5?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-16
+                      - generic [ref=e2235]:
+                        - heading "Pepe Jeans" [level=2] [ref=e2237]
+                        - link "Men's Polyester Regular fit T-Shirt" [ref=e2238] [cursor=pointer]:
+                          - /url: /Pepe-Jeans-Regular-T-Shirt-PPTS01_Black/dp/B0CDH4T5GL/ref=sr_1_16?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-16
+                          - heading "Men's Polyester Regular fit T-Shirt" [level=2] [ref=e2239]
+                      - generic [ref=e2240]:
+                        - generic [ref=e2241]:
+                          - text: "3.7"
+                          - button "3.7 out of 5 stars, rating details" [ref=e2243] [cursor=pointer]:
+                            - generic [ref=e2245]: 3.7 out of 5 stars
+                          - link "558 ratings" [ref=e2247] [cursor=pointer]:
+                            - /url: /Pepe-Jeans-Regular-T-Shirt-PPTS01_Black/dp/B0CDH4T5GL/ref=sr_1_16?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-16#customerReviews
+                            - text: (558)
+                        - generic [ref=e2248]: 100+ bought in past month
+                      - generic [ref=e2249]:
+                        - generic [ref=e2251]:
+                          - generic [ref=e2252]: Price, product page
+                          - 'link "₹417 M.R.P: ₹999 M.R.P: ₹999" [ref=e2253] [cursor=pointer]':
+                            - /url: /Pepe-Jeans-Regular-T-Shirt-PPTS01_Black/dp/B0CDH4T5GL/ref=sr_1_16?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-16
+                            - generic [ref=e2254]:
+                              - generic [ref=e2255]: ₹417
+                              - generic [ref=e2256]: ₹417
+                            - generic [ref=e2257]: "M.R.P: ₹999"
+                            - generic [ref=e2258]:
+                              - text: "M.R.P:"
+                              - generic [ref=e2259]:
+                                - generic [ref=e2260]: ₹999
+                                - text: ₹999
+                          - text: (58% off)
+                        - generic [ref=e2264]:
+                          - generic [ref=e2265]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e2266]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e2269]:
+                        - generic [ref=e2271]: FREE delivery Thu, 2 Jul on first order
+                        - generic [ref=e2273]: Or fastest delivery Tomorrow, 1 Jul
+                      - button "Add to cart" [ref=e2284] [cursor=pointer]
+                - listitem [ref=e2285]:
+                  - generic [ref=e2290]:
+                    - group "Best sellerin Men's Track Pants" [ref=e2295]:
+                      - generic "Best seller" [ref=e2297]
+                    - link [ref=e2301] [cursor=pointer]:
+                      - /url: /Trackpants-Oversized-Streetwear-Comfortable-Joggers/dp/B0FVYF6PWS/ref=sr_1_17?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-17
+                      - img [ref=e2303]
+                    - generic [ref=e2304]:
+                      - group "colours available" [ref=e2306]:
+                        - list [ref=e2307]:
+                          - generic [ref=e2308]:
+                            - listitem:
+                              - link "Grey":
+                                - /url: /Trackpants-Oversized-Streetwear-Comfortable-Joggers/dp/B0FVYF6PWS/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-17
+                          - generic [ref=e2311]:
+                            - listitem:
+                              - link "Black":
+                                - /url: /Trackpants-Oversized-Streetwear-Comfortable-Joggers/dp/B0FVY6YG9Q/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-17
+                          - generic [ref=e2314]:
+                            - listitem:
+                              - link "Navy":
+                                - /url: /Trackpants-Oversized-Streetwear-Comfortable-Joggers/dp/B0FVYCXJHY/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-17
+                      - generic [ref=e2317]:
+                        - heading "QUIXEL" [level=2] [ref=e2319]
+                        - link "Men's Cotton Baggy Trackpants | Oversized Fit Streetwear & Gym Wear | Comfortable Casual Joggers for Men" [ref=e2320] [cursor=pointer]:
+                          - /url: /Trackpants-Oversized-Streetwear-Comfortable-Joggers/dp/B0FVYF6PWS/ref=sr_1_17?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-17
+                          - heading "Men's Cotton Baggy Trackpants | Oversized Fit Streetwear & Gym Wear | Comfortable Casual Joggers for Men" [level=2] [ref=e2321]
+                      - generic [ref=e2322]:
+                        - generic [ref=e2323]:
+                          - text: "4.0"
+                          - button "4.0 out of 5 stars, rating details" [ref=e2325] [cursor=pointer]:
+                            - generic [ref=e2327]: 4.0 out of 5 stars
+                          - link "1,435 ratings" [ref=e2329] [cursor=pointer]:
+                            - /url: /Trackpants-Oversized-Streetwear-Comfortable-Joggers/dp/B0FVYF6PWS/ref=sr_1_17?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-17#customerReviews
+                            - text: (1.4K)
+                        - generic [ref=e2330]: 300+ bought in past month
+                      - generic [ref=e2331]:
+                        - link "Limited time deal" [ref=e2333] [cursor=pointer]:
+                          - /url: /deals
+                          - generic [ref=e2336]: Limited time deal
+                        - generic [ref=e2338]:
+                          - generic [ref=e2339]: Price, product page
+                          - 'link "₹379 M.R.P: ₹999 M.R.P: ₹999" [ref=e2340] [cursor=pointer]':
+                            - /url: /Trackpants-Oversized-Streetwear-Comfortable-Joggers/dp/B0FVYF6PWS/ref=sr_1_17?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-17
+                            - generic [ref=e2341]:
+                              - generic [ref=e2342]: ₹379
+                              - generic [ref=e2343]: ₹379
+                            - generic [ref=e2344]: "M.R.P: ₹999"
+                            - generic [ref=e2345]:
+                              - text: "M.R.P:"
+                              - generic [ref=e2346]:
+                                - generic [ref=e2347]: ₹999
+                                - text: ₹999
+                          - text: (62% off)
+                        - generic [ref=e2351]:
+                          - generic [ref=e2352]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e2353]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e2360]: FREE delivery Mon, 6 Jul
+                      - button "Add to cart" [ref=e2371] [cursor=pointer]
+                - listitem [ref=e2372]:
+                  - generic [ref=e2377]:
+                    - group "Best sellerin Men's Activewear T-Shirts" [ref=e2382]:
+                      - generic "Best seller" [ref=e2384]
+                    - link [ref=e2388] [cursor=pointer]:
+                      - /url: /Boldfit-BFTBM3003SFLUOROXL-Activewear-Tshirts/dp/B0CZDZ1DC6/ref=sr_1_18?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-18
+                      - img [ref=e2390]
+                    - generic [ref=e2391]:
+                      - group "colours available" [ref=e2393]:
+                        - list [ref=e2394]:
+                          - generic [ref=e2395]:
+                            - listitem:
+                              - link "Neon":
+                                - /url: /Boldfit-BFTBM3003SFLUOROXL-Activewear-Tshirts/dp/B0CZDZ1DC6/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-18
+                          - generic [ref=e2398]:
+                            - listitem:
+                              - link "Black":
+                                - /url: /Boldfit-BFTBM3003SFLUOROXL-Activewear-Tshirts/dp/B0D5CXV2BJ/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-18
+                          - generic [ref=e2401]:
+                            - listitem:
+                              - link "Blue":
+                                - /url: /Boldfit-BFTBM3003SFLUOROXL-Activewear-Tshirts/dp/B0D5CYJYS4/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-18
+                      - generic [ref=e2404]:
+                        - heading "Boldfit" [level=2] [ref=e2406]
+                        - link "Gym T Shirts for Men Workout Lightweight Men Round Neck Breathable Sports Tshirt for man Gym Tshirt for man Workout Regular fit Sports t Shirt for Boys" [ref=e2407] [cursor=pointer]:
+                          - /url: /Boldfit-BFTBM3003SFLUOROXL-Activewear-Tshirts/dp/B0CZDZ1DC6/ref=sr_1_18?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-18
+                          - heading "Gym T Shirts for Men Workout Lightweight Men Round Neck Breathable Sports Tshirt for man Gym Tshirt for man Workout Regular fit Sports t Shirt for Boys" [level=2] [ref=e2408]
+                      - generic [ref=e2409]:
+                        - generic [ref=e2410]:
+                          - text: "4.2"
+                          - button "4.2 out of 5 stars, rating details" [ref=e2412] [cursor=pointer]:
+                            - generic [ref=e2414]: 4.2 out of 5 stars
+                          - link "1,316 ratings" [ref=e2416] [cursor=pointer]:
+                            - /url: /Boldfit-BFTBM3003SFLUOROXL-Activewear-Tshirts/dp/B0CZDZ1DC6/ref=sr_1_18?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-18#customerReviews
+                            - text: (1.3K)
+                        - generic [ref=e2417]: 600+ bought in past month
+                      - generic [ref=e2418]:
+                        - generic [ref=e2420]:
+                          - generic [ref=e2421]: Price, product page
+                          - 'link "₹299 M.R.P: ₹999 M.R.P: ₹999" [ref=e2422] [cursor=pointer]':
+                            - /url: /Boldfit-BFTBM3003SFLUOROXL-Activewear-Tshirts/dp/B0CZDZ1DC6/ref=sr_1_18?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-18
+                            - generic [ref=e2423]:
+                              - generic [ref=e2424]: ₹299
+                              - generic [ref=e2425]: ₹299
+                            - generic [ref=e2426]: "M.R.P: ₹999"
+                            - generic [ref=e2427]:
+                              - text: "M.R.P:"
+                              - generic [ref=e2428]:
+                                - generic [ref=e2429]: ₹999
+                                - text: ₹999
+                          - text: (70% off)
+                        - generic [ref=e2433]:
+                          - generic [ref=e2434]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e2435]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e2438]:
+                        - generic [ref=e2440]: FREE delivery Thu, 2 Jul on first order
+                        - generic [ref=e2442]: Or fastest delivery Tomorrow 8 am - 12 pm
+                      - button "Add to cart" [ref=e2453] [cursor=pointer]
+                - listitem [ref=e2454]:
+                  - generic [ref=e2459]:
+                    - link [ref=e2463] [cursor=pointer]:
+                      - /url: /HeraDawn-Straight-Trackpants-NS-L-Dark-Grey-M/dp/B0FVT577VY/ref=sr_1_19?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-19
+                      - img [ref=e2465]
+                    - generic [ref=e2466]:
+                      - group "colours available" [ref=e2468]:
+                        - list [ref=e2469]:
+                          - generic [ref=e2470]:
+                            - listitem:
+                              - link "Dark Grey":
+                                - /url: /HeraDawn-Straight-Trackpants-NS-L-Dark-Grey-M/dp/B0FVT577VY/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-19
+                          - generic [ref=e2473]:
+                            - listitem:
+                              - link "Black":
+                                - /url: /HeraDawn-Straight-Trackpants-NS-L-Dark-Grey-M/dp/B0FVT6V8WN/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-19
+                          - generic [ref=e2476]:
+                            - listitem:
+                              - link "Navy Blue":
+                                - /url: /HeraDawn-Straight-Trackpants-NS-L-Dark-Grey-M/dp/B0FVT5R328/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-19
+                      - generic [ref=e2479]:
+                        - heading "HeraDawn" [level=2] [ref=e2481]
+                        - link "Light Fit Straight Fit Track Pant for Men | Lower for Men | Gym Trackpants" [ref=e2482] [cursor=pointer]:
+                          - /url: /HeraDawn-Straight-Trackpants-NS-L-Dark-Grey-M/dp/B0FVT577VY/ref=sr_1_19?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-19
+                          - heading "Light Fit Straight Fit Track Pant for Men | Lower for Men | Gym Trackpants" [level=2] [ref=e2483]
+                      - generic [ref=e2484]:
+                        - generic [ref=e2485]:
+                          - text: "3.7"
+                          - button "3.7 out of 5 stars, rating details" [ref=e2487] [cursor=pointer]:
+                            - generic [ref=e2489]: 3.7 out of 5 stars
+                          - link "472 ratings" [ref=e2491] [cursor=pointer]:
+                            - /url: /HeraDawn-Straight-Trackpants-NS-L-Dark-Grey-M/dp/B0FVT577VY/ref=sr_1_19?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-19#customerReviews
+                            - text: (472)
+                        - generic [ref=e2492]: 300+ bought in past month
+                      - generic [ref=e2493]:
+                        - generic [ref=e2495]:
+                          - generic [ref=e2496]: Price, product page
+                          - 'link "₹399 M.R.P: ₹1,499 M.R.P: ₹1,499" [ref=e2497] [cursor=pointer]':
+                            - /url: /HeraDawn-Straight-Trackpants-NS-L-Dark-Grey-M/dp/B0FVT577VY/ref=sr_1_19?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-19
+                            - generic [ref=e2498]:
+                              - generic [ref=e2499]: ₹399
+                              - generic [ref=e2500]: ₹399
+                            - generic [ref=e2501]: "M.R.P: ₹1,499"
+                            - generic [ref=e2502]:
+                              - text: "M.R.P:"
+                              - generic [ref=e2503]:
+                                - generic [ref=e2504]: ₹1,499
+                                - text: ₹1,499
+                          - text: (73% off)
+                        - generic [ref=e2507]:
+                          - generic [ref=e2508]: You pay ₹391
+                          - text: with coupon (limited sizes/colours)
+                      - generic [ref=e2515]: FREE delivery Sun, 5 Jul
+                      - button "Add to cart" [ref=e2526] [cursor=pointer]
+                - listitem [ref=e2527]:
+                  - generic [ref=e2532]:
+                    - link [ref=e2536] [cursor=pointer]:
+                      - /url: /Imsa-Moda-Printed-Polycotton-Comfortable/dp/B0GQJNSSGP/ref=sr_1_20?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-20
+                      - img [ref=e2538]
+                    - generic [ref=e2539]:
+                      - group "colours available" [ref=e2541]:
+                        - list [ref=e2542]:
+                          - generic [ref=e2543]:
+                            - listitem:
+                              - link "Black":
+                                - /url: /Imsa-Moda-Printed-Polycotton-Comfortable/dp/B0GQJNSSGP/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-20
+                          - generic [ref=e2546]:
+                            - listitem:
+                              - link "White":
+                                - /url: /Imsa-Moda-Printed-Polycotton-Comfortable/dp/B0GQJH1YLT/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-20
+                      - generic [ref=e2549]:
+                        - heading "Imsa Moda" [level=2] [ref=e2551]
+                        - link "Printed Men’s Polycotton Relax Fit Round Neck T-Shirt | Half Sleeve Solid Casual & Gym Wear Comfortable Regular T-Shirt" [ref=e2552] [cursor=pointer]:
+                          - /url: /Imsa-Moda-Printed-Polycotton-Comfortable/dp/B0GQJNSSGP/ref=sr_1_20?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-20
+                          - heading "Printed Men’s Polycotton Relax Fit Round Neck T-Shirt | Half Sleeve Solid Casual & Gym Wear Comfortable Regular T-Shirt" [level=2] [ref=e2553]
+                      - generic [ref=e2554]:
+                        - generic [ref=e2555]:
+                          - text: "3.9"
+                          - button "3.9 out of 5 stars, rating details" [ref=e2557] [cursor=pointer]:
+                            - generic [ref=e2559]: 3.9 out of 5 stars
+                          - link "175 ratings" [ref=e2561] [cursor=pointer]:
+                            - /url: /Imsa-Moda-Printed-Polycotton-Comfortable/dp/B0GQJNSSGP/ref=sr_1_20?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-20#customerReviews
+                            - text: (175)
+                        - generic [ref=e2562]: 200+ bought in past month
+                      - generic [ref=e2563]:
+                        - generic [ref=e2565]:
+                          - generic [ref=e2566]: Price, product page
+                          - 'link "₹299 M.R.P: ₹999 M.R.P: ₹999" [ref=e2567] [cursor=pointer]':
+                            - /url: /Imsa-Moda-Printed-Polycotton-Comfortable/dp/B0GQJNSSGP/ref=sr_1_20?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-20
+                            - generic [ref=e2568]:
+                              - generic [ref=e2569]: ₹299
+                              - generic [ref=e2570]: ₹299
+                            - generic [ref=e2571]: "M.R.P: ₹999"
+                            - generic [ref=e2572]:
+                              - text: "M.R.P:"
+                              - generic [ref=e2573]:
+                                - generic [ref=e2574]: ₹999
+                                - text: ₹999
+                          - text: (70% off)
+                        - generic [ref=e2577]:
+                          - generic [ref=e2578]: You pay ₹293.02
+                          - text: with coupon (limited sizes/colours)
+                      - generic [ref=e2583]: FREE delivery Sun, 5 Jul on first order
+                      - button "Add to cart" [ref=e2594] [cursor=pointer]
+                - listitem [ref=e2595]:
+                  - generic [ref=e2602]:
+                    - link [ref=e2606] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfbXRmOjMwMTAxNTUyNDUzMDMzMjo6MDo6&url=%2FCULINA-Shapewear-Slimming-Underwear-Seamless%2Fdp%2FB0GTLYC21F%2Fref%3Dsr_1_21_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-21-spons%26aref%3DMbtUUG3nal%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=MbtUUG3nal&sp_cr=ZAZ
+                      - img [ref=e2608]
+                    - generic [ref=e2609]:
+                      - generic [ref=e2610]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e2613] [cursor=pointer]:
+                          - generic [ref=e2614]: Sponsored
+                        - heading "CULINA" [level=2] [ref=e2617]
+                        - link "Sponsored Ad - Tummy Tucker Men Shapewear Body Shaper for Mens Body Slimming Underwear Seamless Waist Trainer Men Tummy Control Shapewear for Gym Office" [ref=e2618] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfbXRmOjMwMTAxNTUyNDUzMDMzMjo6MDo6&url=%2FCULINA-Shapewear-Slimming-Underwear-Seamless%2Fdp%2FB0GTLYC21F%2Fref%3Dsr_1_21_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-21-spons%26aref%3DMbtUUG3nal%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=MbtUUG3nal&sp_cr=ZAZ
+                          - heading "Sponsored Ad - Tummy Tucker Men Shapewear Body Shaper for Mens Body Slimming Underwear Seamless Waist Trainer Men Tummy Control Shapewear for Gym Office" [level=2] [ref=e2619]: Tummy Tucker Men Shapewear Body Shaper for Mens Body Slimming Underwear Seamless Waist Trainer Men Tummy Control Shapewear for Gym Office
+                      - generic [ref=e2620]:
+                        - generic [ref=e2621]:
+                          - text: "3.4"
+                          - button "3.4 out of 5 stars, rating details" [ref=e2623] [cursor=pointer]:
+                            - generic [ref=e2625]: 3.4 out of 5 stars
+                          - link "33 ratings" [ref=e2627] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfbXRmOjMwMTAxNTUyNDUzMDMzMjo6MDo6&url=%2FCULINA-Shapewear-Slimming-Underwear-Seamless%2Fdp%2FB0GTLYC21F%2Fref%3Dsr_1_21_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-21-spons%26aref%3DMbtUUG3nal%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=MbtUUG3nal&sp_cr=ZAZ#customerReviews
+                            - text: (33)
+                        - generic [ref=e2628]: 50+ bought in past month
+                      - generic [ref=e2629]:
+                        - generic [ref=e2631]:
+                          - generic [ref=e2632]: Price, product page
+                          - 'link "₹269 M.R.P: ₹999 M.R.P: ₹999" [ref=e2633] [cursor=pointer]':
+                            - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfbXRmOjMwMTAxNTUyNDUzMDMzMjo6MDo6&url=%2FCULINA-Shapewear-Slimming-Underwear-Seamless%2Fdp%2FB0GTLYC21F%2Fref%3Dsr_1_21_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-21-spons%26aref%3DMbtUUG3nal%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=MbtUUG3nal&sp_cr=ZAZ
+                            - generic [ref=e2634]:
+                              - generic [ref=e2635]: ₹269
+                              - generic [ref=e2636]: ₹269
+                            - generic [ref=e2637]: "M.R.P: ₹999"
+                            - generic [ref=e2638]:
+                              - text: "M.R.P:"
+                              - generic [ref=e2639]:
+                                - generic [ref=e2640]: ₹999
+                                - text: ₹999
+                          - text: (73% off)
+                        - generic [ref=e2644]:
+                          - generic [ref=e2645]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e2646]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e2649]:
+                        - generic [ref=e2653]: FREE delivery Sat, 4 Jul
+                        - generic [ref=e2655]: Or fastest delivery Fri, 3 Jul
+                      - link "See options" [ref=e2662] [cursor=pointer]:
+                        - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfbXRmOjMwMTAxNTUyNDUzMDMzMjo6MDo6&url=%2FCULINA-Shapewear-Slimming-Underwear-Seamless%2Fdp%2FB0GTLYC21F%2Fref%3Dsr_1_21_so_WAIST_CINCHER%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-21-spons%26aref%3DMbtUUG3nal%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=MbtUUG3nal&sp_cr=ZAZ
+                - listitem [ref=e2663]:
+                  - generic [ref=e2670]:
+                    - link [ref=e2674] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfbXRmOjMwMTA2ODcxNDkwODAzMjo6MDo6&url=%2FFEVOHOT-Compression-T-Shirt-Trapping-Exercise%2Fdp%2FB0FBDP5TBY%2Fref%3Dsr_1_22_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-22-spons%26aref%3DvdimflOJbd%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=vdimflOJbd&sp_cr=ZAZ
+                      - img [ref=e2676]
+                    - generic [ref=e2677]:
+                      - generic [ref=e2678]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e2681] [cursor=pointer]:
+                          - generic [ref=e2682]: Sponsored
+                        - heading "FEVOHOT" [level=2] [ref=e2685]
+                        - link "Sponsored Ad - Sauna Shirt for Men Short Sleeve Compression Sweat Suit Loss Body Shaper T-Shirt Heat Trapping Workout Gym Exercise" [ref=e2686] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfbXRmOjMwMTA2ODcxNDkwODAzMjo6MDo6&url=%2FFEVOHOT-Compression-T-Shirt-Trapping-Exercise%2Fdp%2FB0FBDP5TBY%2Fref%3Dsr_1_22_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-22-spons%26aref%3DvdimflOJbd%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=vdimflOJbd&sp_cr=ZAZ
+                          - heading "Sponsored Ad - Sauna Shirt for Men Short Sleeve Compression Sweat Suit Loss Body Shaper T-Shirt Heat Trapping Workout Gym Exercise" [level=2] [ref=e2687]: Sauna Shirt for Men Short Sleeve Compression Sweat Suit Loss Body Shaper T-Shirt Heat Trapping Workout Gym Exercise
+                      - generic [ref=e2689]:
+                        - text: "4.5"
+                        - button "4.5 out of 5 stars, rating details" [ref=e2691] [cursor=pointer]:
+                          - generic [ref=e2693]: 4.5 out of 5 stars
+                        - link "70 ratings" [ref=e2695] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfbXRmOjMwMTA2ODcxNDkwODAzMjo6MDo6&url=%2FFEVOHOT-Compression-T-Shirt-Trapping-Exercise%2Fdp%2FB0FBDP5TBY%2Fref%3Dsr_1_22_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-22-spons%26aref%3DvdimflOJbd%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=vdimflOJbd&sp_cr=ZAZ#customerReviews
+                          - text: (70)
+                      - generic [ref=e2696]:
+                        - link "Ends in 55:38" [ref=e2698] [cursor=pointer]:
+                          - /url: /deals
+                          - generic [ref=e2701]: Ends in 55:38
+                        - generic [ref=e2703]:
+                          - generic [ref=e2704]: Price, product page
+                          - 'link "₹664 M.R.P: ₹1,999 M.R.P: ₹1,999" [ref=e2705] [cursor=pointer]':
+                            - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfbXRmOjMwMTA2ODcxNDkwODAzMjo6MDo6&url=%2FFEVOHOT-Compression-T-Shirt-Trapping-Exercise%2Fdp%2FB0FBDP5TBY%2Fref%3Dsr_1_22_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-22-spons%26aref%3DvdimflOJbd%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=vdimflOJbd&sp_cr=ZAZ
+                            - generic [ref=e2706]:
+                              - generic [ref=e2707]: ₹664
+                              - generic [ref=e2708]: ₹664
+                            - generic [ref=e2709]: "M.R.P: ₹1,999"
+                            - generic [ref=e2710]:
+                              - text: "M.R.P:"
+                              - generic [ref=e2711]:
+                                - generic [ref=e2712]: ₹1,999
+                                - text: ₹1,999
+                          - text: (67% off)
+                        - generic [ref=e2716]:
+                          - generic [ref=e2717]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e2718]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e2725]: FREE delivery Sun, 5 Jul
+                      - button "Add to cart" [ref=e2736] [cursor=pointer]
+                - listitem [ref=e2737]:
+                  - generic [ref=e2744]:
+                    - link [ref=e2748] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfbXRmOjMwMDQ5MzgzMTY3MDYzMjo6MDo6&url=%2FPinkmint-Spendex-Regular-Active-Jogger%2Fdp%2FB0DR8QDP2G%2Fref%3Dsr_1_23_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-23-spons%26aref%3DWMLSO3OKVc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=WMLSO3OKVc&sp_cr=ZAZ
+                      - img [ref=e2750]
+                    - generic [ref=e2751]:
+                      - group "colours available" [ref=e2753]:
+                        - list
+                        - link "+6 other colors/patterns" [ref=e2755] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfbXRmOjMwMDQ5MzgzMTY3MDYzMjo6MDo6&url=%2FPinkmint-Spendex-Regular-Active-Jogger%2Fdp%2FB0DR8QDP2G%2Fref%3Dsr_1_23_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-23-spons%26aref%3DWMLSO3OKVc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=WMLSO3OKVc&sp_cr=ZAZ
+                      - generic [ref=e2756]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e2759] [cursor=pointer]:
+                          - generic [ref=e2760]: Sponsored
+                        - heading "Pinkmint" [level=2] [ref=e2763]
+                        - link "Sponsored Ad - Track Pant for Men Spendex | Active Wear Jogger l Super Soft Track Pants for Man |Sports Wear l Gym Track Pants (Available in Plus Size and Combo Pack of 3)" [ref=e2764] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfbXRmOjMwMDQ5MzgzMTY3MDYzMjo6MDo6&url=%2FPinkmint-Spendex-Regular-Active-Jogger%2Fdp%2FB0DR8QDP2G%2Fref%3Dsr_1_23_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-23-spons%26aref%3DWMLSO3OKVc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=WMLSO3OKVc&sp_cr=ZAZ
+                          - heading "Sponsored Ad - Track Pant for Men Spendex | Active Wear Jogger l Super Soft Track Pants for Man |Sports Wear l Gym Track Pants (Available in Plus Size and Combo Pack of 3)" [level=2] [ref=e2765]: Track Pant for Men Spendex | Active Wear Jogger l Super Soft Track Pants for Man |Sports Wear l Gym Track Pants (Available in Plus Size and Combo Pack of 3)
+                      - generic [ref=e2766]:
+                        - generic [ref=e2767]:
+                          - text: "3.5"
+                          - button "3.5 out of 5 stars, rating details" [ref=e2769] [cursor=pointer]:
+                            - generic [ref=e2771]: 3.5 out of 5 stars
+                          - link "1,961 ratings" [ref=e2773] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfbXRmOjMwMDQ5MzgzMTY3MDYzMjo6MDo6&url=%2FPinkmint-Spendex-Regular-Active-Jogger%2Fdp%2FB0DR8QDP2G%2Fref%3Dsr_1_23_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-23-spons%26aref%3DWMLSO3OKVc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=WMLSO3OKVc&sp_cr=ZAZ#customerReviews
+                            - text: (1.9K)
+                        - generic [ref=e2774]: 50+ bought in past month
+                      - generic [ref=e2775]:
+                        - link "Limited time deal" [ref=e2777] [cursor=pointer]:
+                          - /url: /deals
+                          - generic [ref=e2780]: Limited time deal
+                        - generic [ref=e2782]:
+                          - generic [ref=e2783]: Price, product page
+                          - 'link "₹749 ( ₹249.67 /count) M.R.P: ₹1,999 M.R.P: ₹1,999" [ref=e2784] [cursor=pointer]':
+                            - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfbXRmOjMwMDQ5MzgzMTY3MDYzMjo6MDo6&url=%2FPinkmint-Spendex-Regular-Active-Jogger%2Fdp%2FB0DR8QDP2G%2Fref%3Dsr_1_23_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-23-spons%26aref%3DWMLSO3OKVc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=WMLSO3OKVc&sp_cr=ZAZ
+                            - generic [ref=e2785]:
+                              - generic [ref=e2786]: ₹749
+                              - generic [ref=e2787]: ₹749
+                            - generic [ref=e2788]:
+                              - text: (
+                              - generic [ref=e2789]:
+                                - generic [ref=e2790]: ₹249.67
+                                - text: ₹249.67
+                              - text: /count)
+                            - generic [ref=e2791]: "M.R.P: ₹1,999"
+                            - generic [ref=e2792]:
+                              - text: "M.R.P:"
+                              - generic [ref=e2793]:
+                                - generic [ref=e2794]: ₹1,999
+                                - text: ₹1,999
+                          - text: (63% off)
+                        - generic [ref=e2798]:
+                          - generic [ref=e2799]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e2800]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e2803]:
+                        - generic [ref=e2805]: FREE delivery Thu, 2 Jul
+                        - generic [ref=e2807]: Or fastest delivery Tomorrow, 1 Jul
+                      - button "Add to cart" [ref=e2818] [cursor=pointer]
+                - listitem [ref=e2819]:
+                  - generic [ref=e2826]:
+                    - link [ref=e2830] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfbXRmOjMwMDU0NzE0MjM5ODAzMjo6MDo6&url=%2FBULLMER-Trendy-Printed-Cotton-Regular%2Fdp%2FB0DJYK59R2%2Fref%3Dsr_1_24_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-24-spons%26aref%3DIQ5P0tez8k%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=IQ5P0tez8k&sp_cr=ZAZ
+                      - img [ref=e2832]
+                    - generic [ref=e2833]:
+                      - group "colours available" [ref=e2835]:
+                        - list
+                        - link "+5 other colors/patterns" [ref=e2837] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfbXRmOjMwMDU0NzE0MjM5ODAzMjo6MDo6&url=%2FBULLMER-Trendy-Printed-Cotton-Regular%2Fdp%2FB0DJYK59R2%2Fref%3Dsr_1_24_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-24-spons%26aref%3DIQ5P0tez8k%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=IQ5P0tez8k&sp_cr=ZAZ
+                      - generic [ref=e2838]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e2841] [cursor=pointer]:
+                          - generic [ref=e2842]: Sponsored
+                        - heading "BULLMER" [level=2] [ref=e2845]
+                        - link "Sponsored Ad - Trendy Printed Cotton Blend Crew Neck/Round Neck Half Sleeve Tshirt for Men - Pack of 3" [ref=e2846] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfbXRmOjMwMDU0NzE0MjM5ODAzMjo6MDo6&url=%2FBULLMER-Trendy-Printed-Cotton-Regular%2Fdp%2FB0DJYK59R2%2Fref%3Dsr_1_24_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-24-spons%26aref%3DIQ5P0tez8k%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=IQ5P0tez8k&sp_cr=ZAZ
+                          - heading "Sponsored Ad - Trendy Printed Cotton Blend Crew Neck/Round Neck Half Sleeve Tshirt for Men - Pack of 3" [level=2] [ref=e2847]: Trendy Printed Cotton Blend Crew Neck/Round Neck Half Sleeve Tshirt for Men - Pack of 3
+                      - generic [ref=e2849]:
+                        - text: "3.5"
+                        - button "3.5 out of 5 stars, rating details" [ref=e2851] [cursor=pointer]:
+                          - generic [ref=e2853]: 3.5 out of 5 stars
+                        - link "2,348 ratings" [ref=e2855] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfbXRmOjMwMDU0NzE0MjM5ODAzMjo6MDo6&url=%2FBULLMER-Trendy-Printed-Cotton-Regular%2Fdp%2FB0DJYK59R2%2Fref%3Dsr_1_24_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-24-spons%26aref%3DIQ5P0tez8k%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=IQ5P0tez8k&sp_cr=ZAZ#customerReviews
+                          - text: (2.3K)
+                      - generic [ref=e2856]:
+                        - generic [ref=e2858]:
+                          - generic [ref=e2859]: Price, product page
+                          - 'link "₹559 ( ₹186.33 /count) M.R.P: ₹2,997 M.R.P: ₹2,997" [ref=e2860] [cursor=pointer]':
+                            - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfbXRmOjMwMDU0NzE0MjM5ODAzMjo6MDo6&url=%2FBULLMER-Trendy-Printed-Cotton-Regular%2Fdp%2FB0DJYK59R2%2Fref%3Dsr_1_24_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-24-spons%26aref%3DIQ5P0tez8k%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=IQ5P0tez8k&sp_cr=ZAZ
+                            - generic [ref=e2861]:
+                              - generic [ref=e2862]: ₹559
+                              - generic [ref=e2863]: ₹559
+                            - generic [ref=e2864]:
+                              - text: (
+                              - generic [ref=e2865]:
+                                - generic [ref=e2866]: ₹186.33
+                                - text: ₹186.33
+                              - text: /count)
+                            - generic [ref=e2867]: "M.R.P: ₹2,997"
+                            - generic [ref=e2868]:
+                              - text: "M.R.P:"
+                              - generic [ref=e2869]:
+                                - generic [ref=e2870]: ₹2,997
+                                - text: ₹2,997
+                          - text: (81% off)
+                        - generic [ref=e2874]:
+                          - generic [ref=e2875]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e2876]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e2879]:
+                        - generic [ref=e2881]: FREE delivery Thu, 2 Jul
+                        - generic [ref=e2883]: Or fastest delivery Tomorrow, 1 Jul
+                      - button "Add to cart" [ref=e2894] [cursor=pointer]
+                - listitem [ref=e2895]:
+                  - generic [ref=e2900]:
+                    - link [ref=e2904] [cursor=pointer]:
+                      - /url: /Modern-Soul-Cotton-Athletic-Sleeveless/dp/B0FBMFQQR5/ref=sr_1_25?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-25
+                      - img [ref=e2906]
+                    - generic [ref=e2907]:
+                      - group "colours available" [ref=e2909]:
+                        - list [ref=e2910]:
+                          - generic [ref=e2911]:
+                            - listitem:
+                              - link "Dark Grey":
+                                - /url: /Modern-Soul-Cotton-Athletic-Sleeveless/dp/B0FBMFQQR5/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-25
+                          - generic [ref=e2914]:
+                            - listitem:
+                              - link "Navy Blue":
+                                - /url: /Modern-Soul-Cotton-Athletic-Sleeveless/dp/B0FBMFWW3C/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-25
+                          - generic [ref=e2917]:
+                            - listitem:
+                              - link "White":
+                                - /url: /Modern-Soul-Cotton-Athletic-Sleeveless/dp/B0FBMDKGT3/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-25
+                          - generic [ref=e2920]:
+                            - listitem:
+                              - link "Light Grey":
+                                - /url: /Modern-Soul-Cotton-Athletic-Sleeveless/dp/B0FBMH1MY4/ref=cs_sr_dp_4?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-25
+                          - generic [ref=e2923]:
+                            - listitem:
+                              - link "Black":
+                                - /url: /Modern-Soul-Cotton-Athletic-Sleeveless/dp/B0FBMHMY1F/ref=cs_sr_dp_5?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-25
+                      - generic [ref=e2926]:
+                        - heading "The Modern Soul" [level=2] [ref=e2928]
+                        - link "Men Cotton Blend Athletic Gym Tank Tops Sleeveless Sports Vest" [ref=e2929] [cursor=pointer]:
+                          - /url: /Modern-Soul-Cotton-Athletic-Sleeveless/dp/B0FBMFQQR5/ref=sr_1_25?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-25
+                          - heading "Men Cotton Blend Athletic Gym Tank Tops Sleeveless Sports Vest" [level=2] [ref=e2930]
+                      - generic [ref=e2931]:
+                        - generic [ref=e2932]:
+                          - text: "3.4"
+                          - button "3.4 out of 5 stars, rating details" [ref=e2934] [cursor=pointer]:
+                            - generic [ref=e2936]: 3.4 out of 5 stars
+                          - link "625 ratings" [ref=e2938] [cursor=pointer]:
+                            - /url: /Modern-Soul-Cotton-Athletic-Sleeveless/dp/B0FBMFQQR5/ref=sr_1_25?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-25#customerReviews
+                            - text: (625)
+                        - generic [ref=e2939]: 100+ bought in past month
+                      - generic [ref=e2940]:
+                        - generic [ref=e2942]:
+                          - generic [ref=e2943]: Price, product page
+                          - 'link "₹299 M.R.P: ₹1,099 M.R.P: ₹1,099" [ref=e2944] [cursor=pointer]':
+                            - /url: /Modern-Soul-Cotton-Athletic-Sleeveless/dp/B0FBMFQQR5/ref=sr_1_25?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-25
+                            - generic [ref=e2945]:
+                              - generic [ref=e2946]: ₹299
+                              - generic [ref=e2947]: ₹299
+                            - generic [ref=e2948]: "M.R.P: ₹1,099"
+                            - generic [ref=e2949]:
+                              - text: "M.R.P:"
+                              - generic [ref=e2950]:
+                                - generic [ref=e2951]: ₹1,099
+                                - text: ₹1,099
+                          - text: (73% off)
+                        - generic [ref=e2955]:
+                          - generic [ref=e2956]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e2957]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e2962]: FREE delivery Sun, 5 Jul on first order
+                      - button "Add to cart" [ref=e2973] [cursor=pointer]
+                - listitem [ref=e2974]:
+                  - generic [ref=e2979]:
+                    - link [ref=e2983] [cursor=pointer]:
+                      - /url: /Pepe-Jeans-Athleisure-Breathable-Drawstring/dp/B0C3MKG2T6/ref=sr_1_26?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-26
+                      - img [ref=e2985]
+                    - generic [ref=e2986]:
+                      - group "colours available" [ref=e2988]:
+                        - list [ref=e2989]:
+                          - generic [ref=e2990]:
+                            - listitem:
+                              - link "BLACK":
+                                - /url: /Pepe-Jeans-Athleisure-Breathable-Drawstring/dp/B0C3MKG2T6/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-26
+                          - generic [ref=e2993]:
+                            - listitem:
+                              - link "BLACK MELANGE":
+                                - /url: /Pepe-Jeans-Athleisure-Breathable-Drawstring/dp/B0C3ML7G91/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-26
+                          - generic [ref=e2996]:
+                            - listitem:
+                              - link "GREY MELANGE":
+                                - /url: /Pepe-Jeans-Athleisure-Breathable-Drawstring/dp/B0C3MK3K48/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-26
+                          - generic [ref=e2999]:
+                            - listitem:
+                              - link "Ice Blue":
+                                - /url: /Pepe-Jeans-Athleisure-Breathable-Drawstring/dp/B0G25899BW/ref=cs_sr_dp_4?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-26
+                          - generic [ref=e3002]:
+                            - listitem:
+                              - link "MOCHA MOUSSE":
+                                - /url: /Pepe-Jeans-Athleisure-Breathable-Drawstring/dp/B0G258VLBJ/ref=cs_sr_dp_5?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-26
+                          - generic [ref=e3005]:
+                            - listitem:
+                              - link "NAVY":
+                                - /url: /Pepe-Jeans-Athleisure-Breathable-Drawstring/dp/B0C3MHL4TZ/ref=cs_sr_dp_6?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-26
+                        - link "+8 other colors/patterns" [ref=e3009] [cursor=pointer]:
+                          - /url: /Pepe-Jeans-Athleisure-Breathable-Drawstring/dp/B0C3MKG2T6/ref=cs_sr_dp_n?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-26
+                          - text: "+8"
+                      - generic [ref=e3010]:
+                        - heading "Pepe Jeans" [level=2] [ref=e3012]
+                        - link "Men Shorts" [ref=e3013] [cursor=pointer]:
+                          - /url: /Pepe-Jeans-Athleisure-Breathable-Drawstring/dp/B0C3MKG2T6/ref=sr_1_26?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-26
+                          - heading "Men Shorts" [level=2] [ref=e3014]
+                      - generic [ref=e3015]:
+                        - generic [ref=e3016]:
+                          - text: "4.0"
+                          - button "4.0 out of 5 stars, rating details" [ref=e3018] [cursor=pointer]:
+                            - generic [ref=e3020]: 4.0 out of 5 stars
+                          - link "1,561 ratings" [ref=e3022] [cursor=pointer]:
+                            - /url: /Pepe-Jeans-Athleisure-Breathable-Drawstring/dp/B0C3MKG2T6/ref=sr_1_26?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-26#customerReviews
+                            - text: (1.5K)
+                        - generic [ref=e3023]: 200+ bought in past month
+                      - generic [ref=e3024]:
+                        - generic [ref=e3026]:
+                          - generic [ref=e3027]: Price, product page
+                          - 'link "₹599 M.R.P: ₹1,199 M.R.P: ₹1,199" [ref=e3028] [cursor=pointer]':
+                            - /url: /Pepe-Jeans-Athleisure-Breathable-Drawstring/dp/B0C3MKG2T6/ref=sr_1_26?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-26
+                            - generic [ref=e3029]:
+                              - generic [ref=e3030]: ₹599
+                              - generic [ref=e3031]: ₹599
+                            - generic [ref=e3032]: "M.R.P: ₹1,199"
+                            - generic [ref=e3033]:
+                              - text: "M.R.P:"
+                              - generic [ref=e3034]:
+                                - generic [ref=e3035]: ₹1,199
+                                - text: ₹1,199
+                          - text: (50% off)
+                        - generic [ref=e3039]:
+                          - generic [ref=e3040]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e3041]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e3044]:
+                        - generic [ref=e3046]: FREE delivery Thu, 2 Jul
+                        - generic [ref=e3048]: Or fastest delivery Tomorrow 8 am - 12 pm
+                      - button "Add to cart" [ref=e3059] [cursor=pointer]
+                - listitem [ref=e3060]:
+                  - generic [ref=e3065]:
+                    - group "Best sellerin Men's Activewear T-Shirts" [ref=e3070]:
+                      - generic "Best seller" [ref=e3072]
+                    - link [ref=e3076] [cursor=pointer]:
+                      - /url: /Boldfit-BFTBM3003SBlackL-Activewear-Tshirts-Black/dp/B0D5CXZ2F5/ref=sr_1_27?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-27
+                      - img [ref=e3078]
+                    - generic [ref=e3079]:
+                      - group "colours available" [ref=e3081]:
+                        - list [ref=e3082]:
+                          - generic [ref=e3083]:
+                            - listitem:
+                              - link "Black":
+                                - /url: /Boldfit-BFTBM3003SBlackL-Activewear-Tshirts-Black/dp/B0D5CXZ2F5/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-27
+                          - generic [ref=e3086]:
+                            - listitem:
+                              - link "Blue":
+                                - /url: /Boldfit-BFTBM3003SBlackL-Activewear-Tshirts-Black/dp/B0D5CYV3ZS/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-27
+                          - generic [ref=e3089]:
+                            - listitem:
+                              - link "Neon":
+                                - /url: /Boldfit-BFTBM3003SBlackL-Activewear-Tshirts-Black/dp/B0CZDY1ZKX/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-27
+                      - generic [ref=e3092]:
+                        - heading "Boldfit" [level=2] [ref=e3094]
+                        - link "Gym T Shirts for Men Workout Lightweight Men Round Neck Breathable Sports Tshirt for man Gym Tshirt for man Workout Regular fit Sports t Shirt for Boys" [ref=e3095] [cursor=pointer]:
+                          - /url: /Boldfit-BFTBM3003SBlackL-Activewear-Tshirts-Black/dp/B0D5CXZ2F5/ref=sr_1_27?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-27
+                          - heading "Gym T Shirts for Men Workout Lightweight Men Round Neck Breathable Sports Tshirt for man Gym Tshirt for man Workout Regular fit Sports t Shirt for Boys" [level=2] [ref=e3096]
+                      - generic [ref=e3097]:
+                        - generic [ref=e3098]:
+                          - text: "4.2"
+                          - button "4.2 out of 5 stars, rating details" [ref=e3100] [cursor=pointer]:
+                            - generic [ref=e3102]: 4.2 out of 5 stars
+                          - link "1,316 ratings" [ref=e3104] [cursor=pointer]:
+                            - /url: /Boldfit-BFTBM3003SBlackL-Activewear-Tshirts-Black/dp/B0D5CXZ2F5/ref=sr_1_27?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-27#customerReviews
+                            - text: (1.3K)
+                        - generic [ref=e3105]: 700+ bought in past month
+                      - generic [ref=e3106]:
+                        - generic [ref=e3108]:
+                          - generic [ref=e3109]: Price, product page
+                          - 'link "₹399 M.R.P: ₹666 M.R.P: ₹666" [ref=e3110] [cursor=pointer]':
+                            - /url: /Boldfit-BFTBM3003SBlackL-Activewear-Tshirts-Black/dp/B0D5CXZ2F5/ref=sr_1_27?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-27
+                            - generic [ref=e3111]:
+                              - generic [ref=e3112]: ₹399
+                              - generic [ref=e3113]: ₹399
+                            - generic [ref=e3114]: "M.R.P: ₹666"
+                            - generic [ref=e3115]:
+                              - text: "M.R.P:"
+                              - generic [ref=e3116]:
+                                - generic [ref=e3117]: ₹666
+                                - text: ₹666
+                          - text: (40% off)
+                        - generic [ref=e3121]:
+                          - generic [ref=e3122]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e3123]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e3126]:
+                        - generic [ref=e3128]: FREE delivery Thu, 2 Jul on first order
+                        - generic [ref=e3130]: Or fastest delivery Tomorrow 8 am - 12 pm
+                      - button "Add to cart" [ref=e3141] [cursor=pointer]
+                - listitem [ref=e3142]:
+                  - generic [ref=e3147]:
+                    - link [ref=e3151] [cursor=pointer]:
+                      - /url: /JUARI-BE-GENTLEMAN-Sleeveless-Multicolour/dp/B0F6YSDVQW/ref=sr_1_28?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-28
+                      - img [ref=e3153]
+                    - generic [ref=e3154]:
+                      - group "colours available" [ref=e3156]:
+                        - list [ref=e3157]:
+                          - generic [ref=e3158]:
+                            - listitem:
+                              - link "Multicolour":
+                                - /url: /JUARI-BE-GENTLEMAN-Sleeveless-Multicolour/dp/B0F6YSDVQW/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-28
+                          - generic [ref=e3161]:
+                            - listitem:
+                              - link "Mint, Onion Pink, White":
+                                - /url: /JUARI-BE-GENTLEMAN-Sleeveless-Multicolour/dp/B0GS6JZXY9/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-28
+                      - generic [ref=e3164]:
+                        - heading "JUARI BE A GENTLEMAN" [level=2] [ref=e3166]
+                        - link "Cotton Regular Fit,Sleeveless, Gym Vest for Men, Set of 3 (Multicolour)" [ref=e3167] [cursor=pointer]:
+                          - /url: /JUARI-BE-GENTLEMAN-Sleeveless-Multicolour/dp/B0F6YSDVQW/ref=sr_1_28?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-28
+                          - heading "Cotton Regular Fit,Sleeveless, Gym Vest for Men, Set of 3 (Multicolour)" [level=2] [ref=e3168]
+                      - generic [ref=e3169]:
+                        - generic [ref=e3170]:
+                          - text: "4.0"
+                          - button "4.0 out of 5 stars, rating details" [ref=e3172] [cursor=pointer]:
+                            - generic [ref=e3174]: 4.0 out of 5 stars
+                          - link "396 ratings" [ref=e3176] [cursor=pointer]:
+                            - /url: /JUARI-BE-GENTLEMAN-Sleeveless-Multicolour/dp/B0F6YSDVQW/ref=sr_1_28?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-28#customerReviews
+                            - text: (396)
+                        - generic [ref=e3177]: 200+ bought in past month
+                      - generic [ref=e3178]:
+                        - link "Limited time deal" [ref=e3180] [cursor=pointer]:
+                          - /url: /deals
+                          - generic [ref=e3183]: Limited time deal
+                        - generic [ref=e3185]:
+                          - generic [ref=e3186]: Price, product page
+                          - 'link "₹578 ( ₹192.67 /count) M.R.P: ₹1,599 M.R.P: ₹1,599" [ref=e3187] [cursor=pointer]':
+                            - /url: /JUARI-BE-GENTLEMAN-Sleeveless-Multicolour/dp/B0F6YSDVQW/ref=sr_1_28?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-28
+                            - generic [ref=e3188]:
+                              - generic [ref=e3189]: ₹578
+                              - generic [ref=e3190]: ₹578
+                            - generic [ref=e3191]:
+                              - text: (
+                              - generic [ref=e3192]:
+                                - generic [ref=e3193]: ₹192.67
+                                - text: ₹192.67
+                              - text: /count)
+                            - generic [ref=e3194]: "M.R.P: ₹1,599"
+                            - generic [ref=e3195]:
+                              - text: "M.R.P:"
+                              - generic [ref=e3196]:
+                                - generic [ref=e3197]: ₹1,599
+                                - text: ₹1,599
+                          - text: (64% off)
+                        - generic [ref=e3200]:
+                          - generic [ref=e3201]: You pay ₹566.44
+                          - text: with coupon (limited sizes/colours)
+                      - generic [ref=e3204]:
+                        - generic [ref=e3206]: FREE delivery Thu, 2 Jul
+                        - generic [ref=e3208]: Or fastest delivery Tomorrow, 1 Jul
+                      - button "Add to cart" [ref=e3219] [cursor=pointer]
+                - listitem [ref=e3220]:
+                  - generic [ref=e3225]:
+                    - link [ref=e3229] [cursor=pointer]:
+                      - /url: /adidas-Melange-T-Shirt-Shirt-Sleeve/dp/B0DJFDHMFQ/ref=sr_1_29?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-29
+                      - img [ref=e3231]
+                    - generic [ref=e3232]:
+                      - group "colours available" [ref=e3234]:
+                        - list [ref=e3235]:
+                          - generic [ref=e3236]:
+                            - listitem:
+                              - link "Black / Grey Three Mel":
+                                - /url: /adidas-Melange-T-Shirt-Shirt-Sleeve/dp/B0DJFDHMFQ/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-29
+                          - generic [ref=e3239]:
+                            - listitem:
+                              - link "Orbit Grey":
+                                - /url: /adidas-Melange-T-Shirt-Shirt-Sleeve/dp/B0DJFDY1FM/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-29
+                      - generic [ref=e3242]:
+                        - heading "adidas" [level=2] [ref=e3244]
+                        - link "Own The Run Melange T-Shirt" [ref=e3245] [cursor=pointer]:
+                          - /url: /adidas-Melange-T-Shirt-Shirt-Sleeve/dp/B0DJFDHMFQ/ref=sr_1_29?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-29
+                          - heading "Own The Run Melange T-Shirt" [level=2] [ref=e3246]
+                      - generic [ref=e3248]:
+                        - text: "4.7"
+                        - button "4.7 out of 5 stars, rating details" [ref=e3250] [cursor=pointer]:
+                          - generic [ref=e3252]: 4.7 out of 5 stars
+                        - link "25 ratings" [ref=e3254] [cursor=pointer]:
+                          - /url: /adidas-Melange-T-Shirt-Shirt-Sleeve/dp/B0DJFDHMFQ/ref=sr_1_29?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-29#customerReviews
+                          - text: (25)
+                      - generic [ref=e3255]:
+                        - link "Limited time deal" [ref=e3257] [cursor=pointer]:
+                          - /url: /deals
+                          - generic [ref=e3260]: Limited time deal
+                        - generic [ref=e3262]:
+                          - generic [ref=e3263]: Price, product page
+                          - 'link "₹1,959 ( ₹69.10 /gram) M.R.P: ₹3,999 M.R.P: ₹3,999" [ref=e3264] [cursor=pointer]':
+                            - /url: /adidas-Melange-T-Shirt-Shirt-Sleeve/dp/B0DJFDHMFQ/ref=sr_1_29?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-29
+                            - generic [ref=e3265]:
+                              - generic [ref=e3266]: ₹1,959
+                              - generic [ref=e3267]: ₹1,959
+                            - generic [ref=e3268]:
+                              - text: (
+                              - generic [ref=e3269]:
+                                - generic [ref=e3270]: ₹69.10
+                                - text: ₹69.10
+                              - text: /gram)
+                            - generic [ref=e3271]: "M.R.P: ₹3,999"
+                            - generic [ref=e3272]:
+                              - text: "M.R.P:"
+                              - generic [ref=e3273]:
+                                - generic [ref=e3274]: ₹3,999
+                                - text: ₹3,999
+                          - text: (51% off)
+                        - generic [ref=e3278]:
+                          - generic [ref=e3279]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e3280]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e3287]: FREE delivery Mon, 6 Jul
+                      - button "Add to cart" [ref=e3298] [cursor=pointer]
+                - listitem [ref=e3299]:
+                  - generic [ref=e3304]:
+                    - link [ref=e3308] [cursor=pointer]:
+                      - /url: /Flapfit-Loose-Super-Track-Pants/dp/B0FFZL17QH/ref=sr_1_30?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-30
+                      - img [ref=e3310]
+                    - generic [ref=e3311]:
+                      - group "colours available" [ref=e3313]:
+                        - list [ref=e3314]:
+                          - generic [ref=e3315]:
+                            - listitem:
+                              - link "Black":
+                                - /url: /Flapfit-Loose-Super-Track-Pants/dp/B0FFZL17QH/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-30
+                          - generic [ref=e3318]:
+                            - listitem:
+                              - link "Light Grey":
+                                - /url: /Flapfit-Loose-Super-Track-Pants/dp/B0FFZPFY11/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-30
+                          - generic [ref=e3321]:
+                            - listitem:
+                              - link "Navy Blue":
+                                - /url: /Flapfit-Loose-Super-Track-Pants/dp/B0FFZQTWGN/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-30
+                      - generic [ref=e3324]:
+                        - heading "Flapfit" [level=2] [ref=e3326]
+                        - link "Men's Striped Pattern Spandex Track Pant with Full Length Drawstring Closure Type and Loose Fit Jogger Style" [ref=e3327] [cursor=pointer]:
+                          - /url: /Flapfit-Loose-Super-Track-Pants/dp/B0FFZL17QH/ref=sr_1_30?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-30
+                          - heading "Men's Striped Pattern Spandex Track Pant with Full Length Drawstring Closure Type and Loose Fit Jogger Style" [level=2] [ref=e3328]
+                      - generic [ref=e3329]:
+                        - generic [ref=e3330]:
+                          - text: "4.0"
+                          - button "4.0 out of 5 stars, rating details" [ref=e3332] [cursor=pointer]:
+                            - generic [ref=e3334]: 4.0 out of 5 stars
+                          - link "844 ratings" [ref=e3336] [cursor=pointer]:
+                            - /url: /Flapfit-Loose-Super-Track-Pants/dp/B0FFZL17QH/ref=sr_1_30?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-30#customerReviews
+                            - text: (844)
+                        - generic [ref=e3337]: 100+ bought in past month
+                      - generic [ref=e3338]:
+                        - link "Limited time deal" [ref=e3340] [cursor=pointer]:
+                          - /url: /deals
+                          - generic [ref=e3343]: Limited time deal
+                        - generic [ref=e3345]:
+                          - generic [ref=e3346]: Price, product page
+                          - 'link "₹595 M.R.P: ₹1,999 M.R.P: ₹1,999" [ref=e3347] [cursor=pointer]':
+                            - /url: /Flapfit-Loose-Super-Track-Pants/dp/B0FFZL17QH/ref=sr_1_30?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-30
+                            - generic [ref=e3348]:
+                              - generic [ref=e3349]: ₹595
+                              - generic [ref=e3350]: ₹595
+                            - generic [ref=e3351]: "M.R.P: ₹1,999"
+                            - generic [ref=e3352]:
+                              - text: "M.R.P:"
+                              - generic [ref=e3353]:
+                                - generic [ref=e3354]: ₹1,999
+                                - text: ₹1,999
+                          - text: (70% off)
+                        - generic [ref=e3358]:
+                          - generic [ref=e3359]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e3360]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e3363]:
+                        - generic [ref=e3365]: FREE delivery Thu, 2 Jul
+                        - generic [ref=e3367]: Or fastest delivery Tomorrow, 1 Jul
+                      - button "Add to cart" [ref=e3378] [cursor=pointer]
+                - listitem [ref=e3379]:
+                  - generic [ref=e3384]:
+                    - link [ref=e3388] [cursor=pointer]:
+                      - /url: /AUSK-Regular-Printed-Sleeveless-Color-Grey/dp/B0D32QKW25/ref=sr_1_31?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-31
+                      - img [ref=e3390]
+                    - generic [ref=e3391]:
+                      - group "colours available" [ref=e3393]:
+                        - list [ref=e3394]:
+                          - generic [ref=e3395]:
+                            - listitem:
+                              - link "Grey":
+                                - /url: /AUSK-Regular-Printed-Sleeveless-Color-Grey/dp/B0D32QKW25/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-31
+                          - generic [ref=e3398]:
+                            - listitem:
+                              - link "Black":
+                                - /url: /AUSK-Regular-Printed-Sleeveless-Color-Grey/dp/B0D333H6TW/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-31
+                          - generic [ref=e3401]:
+                            - listitem:
+                              - link "Black & Teal":
+                                - /url: /AUSK-Regular-Printed-Sleeveless-Color-Grey/dp/B0FD457FSG/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-31
+                          - generic [ref=e3404]:
+                            - listitem:
+                              - link "Grey & Black":
+                                - /url: /AUSK-Regular-Printed-Sleeveless-Color-Grey/dp/B0FD441FPN/ref=cs_sr_dp_4?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-31
+                          - generic [ref=e3407]:
+                            - listitem:
+                              - link "Grey & Maroon":
+                                - /url: /AUSK-Regular-Printed-Sleeveless-Color-Grey/dp/B0FD43SH7B/ref=cs_sr_dp_5?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-31
+                          - generic [ref=e3410]:
+                            - listitem:
+                              - link "Multicolor3":
+                                - /url: /AUSK-Regular-Printed-Sleeveless-Color-Grey/dp/B0FD419CNQ/ref=cs_sr_dp_6?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-31
+                        - link "+5 other colors/patterns" [ref=e3414] [cursor=pointer]:
+                          - /url: /AUSK-Regular-Printed-Sleeveless-Color-Grey/dp/B0D32QKW25/ref=cs_sr_dp_n?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-31
+                          - text: "+5"
+                      - generic [ref=e3415]:
+                        - heading "AUSK" [level=2] [ref=e3417]
+                        - link "Men Vest || Gym Tshirt for Men || Karma Printed Sleeveless Regular Fit T Shirt for Mens" [ref=e3418] [cursor=pointer]:
+                          - /url: /AUSK-Regular-Printed-Sleeveless-Color-Grey/dp/B0D32QKW25/ref=sr_1_31?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-31
+                          - heading "Men Vest || Gym Tshirt for Men || Karma Printed Sleeveless Regular Fit T Shirt for Mens" [level=2] [ref=e3419]
+                      - generic [ref=e3420]:
+                        - generic [ref=e3421]:
+                          - text: "3.7"
+                          - button "3.7 out of 5 stars, rating details" [ref=e3423] [cursor=pointer]:
+                            - generic [ref=e3425]: 3.7 out of 5 stars
+                          - link "1,042 ratings" [ref=e3427] [cursor=pointer]:
+                            - /url: /AUSK-Regular-Printed-Sleeveless-Color-Grey/dp/B0D32QKW25/ref=sr_1_31?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-31#customerReviews
+                            - text: (1K)
+                        - generic [ref=e3428]: 200+ bought in past month
+                      - generic [ref=e3429]:
+                        - generic [ref=e3431]:
+                          - generic [ref=e3432]: Price, product page
+                          - 'link "₹198 M.R.P: ₹1,499 M.R.P: ₹1,499" [ref=e3433] [cursor=pointer]':
+                            - /url: /AUSK-Regular-Printed-Sleeveless-Color-Grey/dp/B0D32QKW25/ref=sr_1_31?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-31
+                            - generic [ref=e3434]:
+                              - generic [ref=e3435]: ₹198
+                              - generic [ref=e3436]: ₹198
+                            - generic [ref=e3437]: "M.R.P: ₹1,499"
+                            - generic [ref=e3438]:
+                              - text: "M.R.P:"
+                              - generic [ref=e3439]:
+                                - generic [ref=e3440]: ₹1,499
+                                - text: ₹1,499
+                          - text: (87% off)
+                        - generic [ref=e3443]:
+                          - generic [ref=e3444]: You pay ₹194.04
+                          - text: with coupon (limited sizes/colours)
+                      - generic [ref=e3449]: FREE delivery Sun, 5 Jul on first order
+                      - button "Add to cart" [ref=e3460] [cursor=pointer]
+                - listitem [ref=e3461]:
+                  - generic [ref=e3466]:
+                    - link [ref=e3470] [cursor=pointer]:
+                      - /url: /NINQ-Polyester-Short-Running-Pockets/dp/B0CVV3J75V/ref=sr_1_32?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-32
+                      - img [ref=e3472]
+                    - generic [ref=e3473]:
+                      - group "colours available" [ref=e3475]:
+                        - list [ref=e3476]:
+                          - generic [ref=e3477]:
+                            - listitem:
+                              - link "Black Blue":
+                                - /url: /NINQ-Polyester-Short-Running-Pockets/dp/B0CVV3J75V/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-32
+                          - generic [ref=e3480]:
+                            - listitem:
+                              - link "BLACK2":
+                                - /url: /NINQ-Polyester-Short-Running-Pockets/dp/B0D9XZQBV5/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-32
+                          - generic [ref=e3483]:
+                            - listitem:
+                              - link "Black+Grey":
+                                - /url: /NINQ-Polyester-Short-Running-Pockets/dp/B0GFDD1S47/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-32
+                          - generic [ref=e3486]:
+                            - listitem:
+                              - link "Black+Navy":
+                                - /url: /NINQ-Polyester-Short-Running-Pockets/dp/B0GFDXDBTK/ref=cs_sr_dp_4?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-32
+                          - generic [ref=e3489]:
+                            - listitem:
+                              - link "NVY+GRY":
+                                - /url: /NINQ-Polyester-Short-Running-Pockets/dp/B0GFDR439Y/ref=cs_sr_dp_5?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-32
+                          - generic [ref=e3492]:
+                            - listitem:
+                              - link "BLK.TBLU+TBLU.MULTI":
+                                - /url: /NINQ-Polyester-Short-Running-Pockets/dp/B0GRP7M7F4/ref=cs_sr_dp_6?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-32
+                      - generic [ref=e3495]:
+                        - heading "NINQ" [level=2] [ref=e3497]
+                        - link "Mens 2 Pack Polyester Yoga Short Men Summer Running Gym Sports Shorts with Pockets Shorts for Men (in, Alpha, M, Regular, Black)" [ref=e3498] [cursor=pointer]:
+                          - /url: /NINQ-Polyester-Short-Running-Pockets/dp/B0CVV3J75V/ref=sr_1_32?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-32
+                          - heading "Mens 2 Pack Polyester Yoga Short Men Summer Running Gym Sports Shorts with Pockets Shorts for Men (in, Alpha, M, Regular, Black)" [level=2] [ref=e3499]
+                      - generic [ref=e3500]:
+                        - generic [ref=e3501]:
+                          - text: "3.9"
+                          - button "3.9 out of 5 stars, rating details" [ref=e3503] [cursor=pointer]:
+                            - generic [ref=e3505]: 3.9 out of 5 stars
+                          - link "1,700 ratings" [ref=e3507] [cursor=pointer]:
+                            - /url: /NINQ-Polyester-Short-Running-Pockets/dp/B0CVV3J75V/ref=sr_1_32?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-32#customerReviews
+                            - text: (1.7K)
+                        - generic [ref=e3508]: 800+ bought in past month
+                      - generic [ref=e3509]:
+                        - generic [ref=e3511]:
+                          - generic [ref=e3512]: Price, product page
+                          - 'link "₹647 M.R.P: ₹1,499 M.R.P: ₹1,499" [ref=e3513] [cursor=pointer]':
+                            - /url: /NINQ-Polyester-Short-Running-Pockets/dp/B0CVV3J75V/ref=sr_1_32?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-32
+                            - generic [ref=e3514]:
+                              - generic [ref=e3515]: ₹647
+                              - generic [ref=e3516]: ₹647
+                            - generic [ref=e3517]: "M.R.P: ₹1,499"
+                            - generic [ref=e3518]:
+                              - text: "M.R.P:"
+                              - generic [ref=e3519]:
+                                - generic [ref=e3520]: ₹1,499
+                                - text: ₹1,499
+                          - text: (57% off)
+                        - generic [ref=e3523]:
+                          - generic [ref=e3524]: You pay ₹634.06
+                          - text: with coupon (limited sizes/colours)
+                      - generic [ref=e3527]:
+                        - generic [ref=e3529]: FREE delivery Thu, 2 Jul
+                        - generic [ref=e3531]: Or fastest delivery Tomorrow, 1 Jul
+                      - button "Add to cart" [ref=e3542] [cursor=pointer]
+                - listitem [ref=e3543]:
+                  - generic [ref=e3548]:
+                    - link [ref=e3552] [cursor=pointer]:
+                      - /url: /Oversized-Joggers-Elastic-Waistband-Streetwear/dp/B0H35WN8LD/ref=sr_1_33?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-33
+                      - img [ref=e3554]
+                    - generic [ref=e3555]:
+                      - group "colours available" [ref=e3557]:
+                        - list [ref=e3558]:
+                          - generic [ref=e3559]:
+                            - listitem:
+                              - link "Grey":
+                                - /url: /Oversized-Joggers-Elastic-Waistband-Streetwear/dp/B0H35WN8LD/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-33
+                          - generic [ref=e3562]:
+                            - listitem:
+                              - link "Black":
+                                - /url: /Oversized-Joggers-Elastic-Waistband-Streetwear/dp/B0H35YHB8H/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-33
+                          - generic [ref=e3565]:
+                            - listitem:
+                              - link "Navy Blue":
+                                - /url: /Oversized-Joggers-Elastic-Waistband-Streetwear/dp/B0H35YVJW7/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-33
+                      - generic [ref=e3568]:
+                        - heading "DOBAD" [level=2] [ref=e3570]
+                        - link "Men's Baggy Track Pants | Oversized Cotton Joggers with Elastic Waistband, 2 Side Pockets & One Zipper Pocket | Relaxed Fit Streetwear, Gym & Casual Wear" [ref=e3571] [cursor=pointer]:
+                          - /url: /Oversized-Joggers-Elastic-Waistband-Streetwear/dp/B0H35WN8LD/ref=sr_1_33?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-33
+                          - heading "Men's Baggy Track Pants | Oversized Cotton Joggers with Elastic Waistband, 2 Side Pockets & One Zipper Pocket | Relaxed Fit Streetwear, Gym & Casual Wear" [level=2] [ref=e3572]
+                      - generic [ref=e3573]:
+                        - generic [ref=e3574]:
+                          - text: "5.0"
+                          - button "5.0 out of 5 stars, rating details" [ref=e3576] [cursor=pointer]:
+                            - generic [ref=e3578]: 5.0 out of 5 stars
+                          - link "9 ratings" [ref=e3580] [cursor=pointer]:
+                            - /url: /Oversized-Joggers-Elastic-Waistband-Streetwear/dp/B0H35WN8LD/ref=sr_1_33?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-33#customerReviews
+                            - text: (9)
+                        - generic [ref=e3581]: 50+ bought in past month
+                      - generic [ref=e3582]:
+                        - generic [ref=e3584]:
+                          - generic [ref=e3585]: Price, product page
+                          - 'link "₹349 M.R.P: ₹999 M.R.P: ₹999" [ref=e3586] [cursor=pointer]':
+                            - /url: /Oversized-Joggers-Elastic-Waistband-Streetwear/dp/B0H35WN8LD/ref=sr_1_33?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-33
+                            - generic [ref=e3587]:
+                              - generic [ref=e3588]: ₹349
+                              - generic [ref=e3589]: ₹349
+                            - generic [ref=e3590]: "M.R.P: ₹999"
+                            - generic [ref=e3591]:
+                              - text: "M.R.P:"
+                              - generic [ref=e3592]:
+                                - generic [ref=e3593]: ₹999
+                                - text: ₹999
+                          - text: (65% off)
+                        - generic [ref=e3597]:
+                          - generic [ref=e3598]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e3599]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e3606]: FREE delivery Mon, 6 Jul
+                      - button "Add to cart" [ref=e3617] [cursor=pointer]
+                - listitem [ref=e3618]:
+                  - generic [ref=e3623]:
+                    - group "Best sellerin Men's Running Shorts" [ref=e3628]:
+                      - generic "Best seller" [ref=e3630]
+                    - link [ref=e3634] [cursor=pointer]:
+                      - /url: /PROSHARX-Active-Shorts-Tights-Running/dp/B0D4J1P1SN/ref=sr_1_34?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-34
+                      - img [ref=e3636]
+                    - generic [ref=e3637]:
+                      - group "colours available" [ref=e3639]:
+                        - list [ref=e3640]:
+                          - generic [ref=e3641]:
+                            - listitem:
+                              - link "Black":
+                                - /url: /PROSHARX-Active-Shorts-Tights-Running/dp/B0D4J1P1SN/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-34
+                          - generic [ref=e3644]:
+                            - listitem:
+                              - link "Blue":
+                                - /url: /PROSHARX-Active-Shorts-Tights-Running/dp/B0D4HZ42WG/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-34
+                          - generic [ref=e3647]:
+                            - listitem:
+                              - link "Charcoal Grey":
+                                - /url: /PROSHARX-Active-Shorts-Tights-Running/dp/B0D9TVKXR6/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-34
+                          - generic [ref=e3650]:
+                            - listitem:
+                              - link "Grey":
+                                - /url: /PROSHARX-Active-Shorts-Tights-Running/dp/B0D4HZQGM2/ref=cs_sr_dp_4?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-34
+                          - generic [ref=e3653]:
+                            - listitem:
+                              - link "Red":
+                                - /url: /PROSHARX-Active-Shorts-Tights-Running/dp/B0D4J1TZ9B/ref=cs_sr_dp_5?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-34
+                          - generic [ref=e3656]:
+                            - listitem:
+                              - link "White":
+                                - /url: /PROSHARX-Active-Shorts-Tights-Running/dp/B0D4J1B4X9/ref=cs_sr_dp_6?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-34
+                      - generic [ref=e3659]:
+                        - heading "PROSHARX" [level=2] [ref=e3661]
+                        - link "2 in 1 Active Dual Shorts with Inner Tights Layer | Men's Double Layer Short for Running, Gym & Sports" [ref=e3662] [cursor=pointer]:
+                          - /url: /PROSHARX-Active-Shorts-Tights-Running/dp/B0D4J1P1SN/ref=sr_1_34?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-34
+                          - heading "2 in 1 Active Dual Shorts with Inner Tights Layer | Men's Double Layer Short for Running, Gym & Sports" [level=2] [ref=e3663]
+                      - generic [ref=e3664]:
+                        - generic [ref=e3665]:
+                          - text: "3.9"
+                          - button "3.9 out of 5 stars, rating details" [ref=e3667] [cursor=pointer]:
+                            - generic [ref=e3669]: 3.9 out of 5 stars
+                          - link "2,959 ratings" [ref=e3671] [cursor=pointer]:
+                            - /url: /PROSHARX-Active-Shorts-Tights-Running/dp/B0D4J1P1SN/ref=sr_1_34?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-34#customerReviews
+                            - text: (2.9K)
+                        - generic [ref=e3672]: 900+ bought in past month
+                      - generic [ref=e3673]:
+                        - generic [ref=e3675]:
+                          - generic [ref=e3676]: Price, product page
+                          - 'link "₹499 M.R.P: ₹1,999 M.R.P: ₹1,999" [ref=e3677] [cursor=pointer]':
+                            - /url: /PROSHARX-Active-Shorts-Tights-Running/dp/B0D4J1P1SN/ref=sr_1_34?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-34
+                            - generic [ref=e3678]:
+                              - generic [ref=e3679]: ₹499
+                              - generic [ref=e3680]: ₹499
+                            - generic [ref=e3681]: "M.R.P: ₹1,999"
+                            - generic [ref=e3682]:
+                              - text: "M.R.P:"
+                              - generic [ref=e3683]:
+                                - generic [ref=e3684]: ₹1,999
+                                - text: ₹1,999
+                          - text: (75% off)
+                        - generic [ref=e3687]:
+                          - generic [ref=e3688]: You pay ₹489.02
+                          - text: with coupon (limited sizes/colours)
+                      - generic [ref=e3691]:
+                        - generic [ref=e3693]: FREE delivery Thu, 2 Jul
+                        - generic [ref=e3695]: Or fastest delivery Tomorrow, 1 Jul
+                      - button "Add to cart" [ref=e3706] [cursor=pointer]
+                - listitem [ref=e3707]:
+                  - generic [ref=e3712]:
+                    - link [ref=e3716] [cursor=pointer]:
+                      - /url: /JUGULAR-Sleeveless-T-Shirt-Printed-Stylish/dp/B0GFF3HMGV/ref=sr_1_35?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-35
+                      - img [ref=e3718]
+                    - generic [ref=e3719]:
+                      - group "colours available" [ref=e3721]:
+                        - list [ref=e3722]:
+                          - generic [ref=e3723]:
+                            - listitem:
+                              - link "BLACK9":
+                                - /url: /JUGULAR-Sleeveless-T-Shirt-Printed-Stylish/dp/B0GFF3HMGV/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-35
+                          - generic [ref=e3726]:
+                            - listitem:
+                              - link "BLACK 11":
+                                - /url: /JUGULAR-Sleeveless-T-Shirt-Printed-Stylish/dp/B0GFFJ3WSD/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-35
+                          - generic [ref=e3729]:
+                            - listitem:
+                              - link "BLACK 15":
+                                - /url: /JUGULAR-Sleeveless-T-Shirt-Printed-Stylish/dp/B0H5CLX38V/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-35
+                          - generic [ref=e3732]:
+                            - listitem:
+                              - link "BLACK 7":
+                                - /url: /JUGULAR-Sleeveless-T-Shirt-Printed-Stylish/dp/B0G2SF4N2R/ref=cs_sr_dp_4?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-35
+                          - generic [ref=e3735]:
+                            - listitem:
+                              - link "BLACK1":
+                                - /url: /JUGULAR-Sleeveless-T-Shirt-Printed-Stylish/dp/B0FYGD2LRT/ref=cs_sr_dp_5?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-35
+                          - generic [ref=e3738]:
+                            - listitem:
+                              - link "BLACK10":
+                                - /url: /JUGULAR-Sleeveless-T-Shirt-Printed-Stylish/dp/B0GFFB7RB3/ref=cs_sr_dp_6?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-35
+                        - link "+19 other colors/patterns" [ref=e3742] [cursor=pointer]:
+                          - /url: /JUGULAR-Sleeveless-T-Shirt-Printed-Stylish/dp/B0GFF3HMGV/ref=cs_sr_dp_n?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-35
+                          - text: "+19"
+                      - generic [ref=e3743]:
+                        - heading "JUGULAR" [level=2] [ref=e3745]
+                        - link "Tank Tops Sleeveless T-Shirt for Men Gym Wear Vest Printed Stylish Round Neck Running for Sports Workout Fitness & Casual or Beach Wear" [ref=e3746] [cursor=pointer]:
+                          - /url: /JUGULAR-Sleeveless-T-Shirt-Printed-Stylish/dp/B0GFF3HMGV/ref=sr_1_35?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-35
+                          - heading "Tank Tops Sleeveless T-Shirt for Men Gym Wear Vest Printed Stylish Round Neck Running for Sports Workout Fitness & Casual or Beach Wear" [level=2] [ref=e3747]
+                      - generic [ref=e3748]:
+                        - generic [ref=e3749]:
+                          - text: "4.0"
+                          - button "4.0 out of 5 stars, rating details" [ref=e3751] [cursor=pointer]:
+                            - generic [ref=e3753]: 4.0 out of 5 stars
+                          - link "46 ratings" [ref=e3755] [cursor=pointer]:
+                            - /url: /JUGULAR-Sleeveless-T-Shirt-Printed-Stylish/dp/B0GFF3HMGV/ref=sr_1_35?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-35#customerReviews
+                            - text: (46)
+                        - generic [ref=e3756]: 50+ bought in past month
+                      - generic [ref=e3757]:
+                        - link "Ends in 55:38" [ref=e3759] [cursor=pointer]:
+                          - /url: /deals
+                          - generic [ref=e3762]: Ends in 55:38
+                        - generic [ref=e3764]:
+                          - generic [ref=e3765]: Price, product page
+                          - 'link "₹196 M.R.P: ₹888 M.R.P: ₹888" [ref=e3766] [cursor=pointer]':
+                            - /url: /JUGULAR-Sleeveless-T-Shirt-Printed-Stylish/dp/B0GFF3HMGV/ref=sr_1_35?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-35
+                            - generic [ref=e3767]:
+                              - generic [ref=e3768]: ₹196
+                              - generic [ref=e3769]: ₹196
+                            - generic [ref=e3770]: "M.R.P: ₹888"
+                            - generic [ref=e3771]:
+                              - text: "M.R.P:"
+                              - generic [ref=e3772]:
+                                - generic [ref=e3773]: ₹888
+                                - text: ₹888
+                          - text: (78% off)
+                        - generic [ref=e3777]:
+                          - generic [ref=e3778]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e3779]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e3786]: FREE delivery Mon, 6 Jul
+                      - button "Add to cart" [ref=e3797] [cursor=pointer]
+                - listitem [ref=e3798]:
+                  - generic [ref=e3803]:
+                    - link [ref=e3807] [cursor=pointer]:
+                      - /url: /Boldfit-Sleeveless-Breathable-Lightweight-Comfortable/dp/B0C93Q3NJX/ref=sr_1_36?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-36
+                      - img [ref=e3809]
+                    - generic [ref=e3810]:
+                      - group "colours available" [ref=e3812]:
+                        - list [ref=e3813]:
+                          - generic [ref=e3814]:
+                            - listitem:
+                              - link "Black":
+                                - /url: /Boldfit-Sleeveless-Breathable-Lightweight-Comfortable/dp/B0C93Q3NJX/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-36
+                          - generic [ref=e3817]:
+                            - listitem:
+                              - link "Black Pack of 2":
+                                - /url: /Boldfit-Sleeveless-Breathable-Lightweight-Comfortable/dp/B0F1N8JWLY/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-36
+                          - generic [ref=e3820]:
+                            - listitem:
+                              - link "Charcoal":
+                                - /url: /Boldfit-Sleeveless-Breathable-Lightweight-Comfortable/dp/B0GWN3K2DD/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-36
+                          - generic [ref=e3823]:
+                            - listitem:
+                              - link "Navy":
+                                - /url: /Boldfit-Sleeveless-Breathable-Lightweight-Comfortable/dp/B0GWMX735V/ref=cs_sr_dp_4?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-36
+                          - generic [ref=e3826]:
+                            - listitem:
+                              - link "White":
+                                - /url: /Boldfit-Sleeveless-Breathable-Lightweight-Comfortable/dp/B0GZZW47ZR/ref=cs_sr_dp_5?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-36
+                      - generic [ref=e3829]:
+                        - heading "Boldfit" [level=2] [ref=e3831]
+                        - link "Sleeveless Tshirts for Men Cotton Gym Vest Tank Top Men Quick Dry Workout Sando for Man Stretchable Mens Baniyan Innerwear Vest for Running, Training, Yoga, Everyday Wear Comfort Fit Tshirt" [ref=e3832] [cursor=pointer]:
+                          - /url: /Boldfit-Sleeveless-Breathable-Lightweight-Comfortable/dp/B0C93Q3NJX/ref=sr_1_36?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-36
+                          - heading "Sleeveless Tshirts for Men Cotton Gym Vest Tank Top Men Quick Dry Workout Sando for Man Stretchable Mens Baniyan Innerwear Vest for Running, Training, Yoga, Everyday Wear Comfort Fit Tshirt" [level=2] [ref=e3833]
+                      - generic [ref=e3834]:
+                        - generic [ref=e3835]:
+                          - text: "4.1"
+                          - button "4.1 out of 5 stars, rating details" [ref=e3837] [cursor=pointer]:
+                            - generic [ref=e3839]: 4.1 out of 5 stars
+                          - link "1,835 ratings" [ref=e3841] [cursor=pointer]:
+                            - /url: /Boldfit-Sleeveless-Breathable-Lightweight-Comfortable/dp/B0C93Q3NJX/ref=sr_1_36?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-36#customerReviews
+                            - text: (1.8K)
+                        - generic [ref=e3842]: 900+ bought in past month
+                      - generic [ref=e3843]:
+                        - generic [ref=e3845]:
+                          - generic [ref=e3846]: Price, product page
+                          - 'link "₹249 M.R.P: ₹599 M.R.P: ₹599" [ref=e3847] [cursor=pointer]':
+                            - /url: /Boldfit-Sleeveless-Breathable-Lightweight-Comfortable/dp/B0C93Q3NJX/ref=sr_1_36?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-36
+                            - generic [ref=e3848]:
+                              - generic [ref=e3849]: ₹249
+                              - generic [ref=e3850]: ₹249
+                            - generic [ref=e3851]: "M.R.P: ₹599"
+                            - generic [ref=e3852]:
+                              - text: "M.R.P:"
+                              - generic [ref=e3853]:
+                                - generic [ref=e3854]: ₹599
+                                - text: ₹599
+                          - text: (58% off)
+                        - generic [ref=e3858]:
+                          - generic [ref=e3859]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e3860]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e3863]:
+                        - generic [ref=e3865]: FREE delivery Thu, 2 Jul on first order
+                        - generic [ref=e3867]: Or fastest delivery Tomorrow 8 am - 12 pm
+                      - button "Add to cart" [ref=e3878] [cursor=pointer]
+                - listitem [ref=e3879]:
+                  - generic [ref=e3884]:
+                    - link [ref=e3888] [cursor=pointer]:
+                      - /url: /Kvetoo-Breathable-Workout-Athletic-Training/dp/B0GTTLTN6C/ref=sr_1_37?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-37
+                      - img [ref=e3890]
+                    - generic [ref=e3891]:
+                      - group "colours available" [ref=e3893]:
+                        - list [ref=e3894]:
+                          - generic [ref=e3895]:
+                            - listitem:
+                              - link "Black Reflector":
+                                - /url: /Kvetoo-Breathable-Workout-Athletic-Training/dp/B0GTTLTN6C/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-37
+                          - generic [ref=e3898]:
+                            - listitem:
+                              - link "Black":
+                                - /url: /Kvetoo-Breathable-Workout-Athletic-Training/dp/B0GTTJNX63/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-37
+                          - generic [ref=e3901]:
+                            - listitem:
+                              - link "Grey":
+                                - /url: /Kvetoo-Breathable-Workout-Athletic-Training/dp/B0GTTG5QCB/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-37
+                          - generic [ref=e3904]:
+                            - listitem:
+                              - link "Navy":
+                                - /url: /Kvetoo-Breathable-Workout-Athletic-Training/dp/B0GTTBQNG1/ref=cs_sr_dp_4?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-37
+                          - generic [ref=e3907]:
+                            - listitem:
+                              - link "Navy Reflector":
+                                - /url: /Kvetoo-Breathable-Workout-Athletic-Training/dp/B0GTTCYQY1/ref=cs_sr_dp_5?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-37
+                          - generic [ref=e3910]:
+                            - listitem:
+                              - link "Onion":
+                                - /url: /Kvetoo-Breathable-Workout-Athletic-Training/dp/B0GTTVX58Q/ref=cs_sr_dp_6?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-37
+                        - link "+4 other colors/patterns" [ref=e3914] [cursor=pointer]:
+                          - /url: /Kvetoo-Breathable-Workout-Athletic-Training/dp/B0GTTLTN6C/ref=cs_sr_dp_n?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-37
+                          - text: "+4"
+                      - generic [ref=e3915]:
+                        - heading "Kvetoo" [level=2] [ref=e3917]
+                        - link "Mens Dry Fit Gym T Shirt Quick Dry Sweat Proof Breathable Workout Tee Muscle Fit Athletic Sports T Shirt for Gym Running Training" [ref=e3918] [cursor=pointer]:
+                          - /url: /Kvetoo-Breathable-Workout-Athletic-Training/dp/B0GTTLTN6C/ref=sr_1_37?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-37
+                          - heading "Mens Dry Fit Gym T Shirt Quick Dry Sweat Proof Breathable Workout Tee Muscle Fit Athletic Sports T Shirt for Gym Running Training" [level=2] [ref=e3919]
+                      - generic [ref=e3920]:
+                        - generic [ref=e3921]:
+                          - text: "4.0"
+                          - button "4.0 out of 5 stars, rating details" [ref=e3923] [cursor=pointer]:
+                            - generic [ref=e3925]: 4.0 out of 5 stars
+                          - link "51 ratings" [ref=e3927] [cursor=pointer]:
+                            - /url: /Kvetoo-Breathable-Workout-Athletic-Training/dp/B0GTTLTN6C/ref=sr_1_37?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-37#customerReviews
+                            - text: (51)
+                        - generic [ref=e3928]: 100+ bought in past month
+                      - generic [ref=e3929]:
+                        - generic [ref=e3931]:
+                          - generic [ref=e3932]: Price, product page
+                          - 'link "₹379 M.R.P: ₹1,699 M.R.P: ₹1,699" [ref=e3933] [cursor=pointer]':
+                            - /url: /Kvetoo-Breathable-Workout-Athletic-Training/dp/B0GTTLTN6C/ref=sr_1_37?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-37
+                            - generic [ref=e3934]:
+                              - generic [ref=e3935]: ₹379
+                              - generic [ref=e3936]: ₹379
+                            - generic [ref=e3937]: "M.R.P: ₹1,699"
+                            - generic [ref=e3938]:
+                              - text: "M.R.P:"
+                              - generic [ref=e3939]:
+                                - generic [ref=e3940]: ₹1,699
+                                - text: ₹1,699
+                          - text: (78% off)
+                        - generic [ref=e3944]:
+                          - generic [ref=e3945]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e3946]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e3949]:
+                        - generic [ref=e3951]: FREE delivery Thu, 2 Jul on first order
+                        - generic [ref=e3953]: Or fastest delivery Tomorrow, 1 Jul
+                      - button "Add to cart" [ref=e3964] [cursor=pointer]
+                - listitem [ref=e3965]:
+                  - generic [ref=e3970]:
+                    - link [ref=e3974] [cursor=pointer]:
+                      - /url: /BLUE-STAR-SHARK-Lightweight-Activewear/dp/B0D636Q743/ref=sr_1_38?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-38
+                      - img [ref=e3976]
+                    - generic [ref=e3977]:
+                      - group "colours available" [ref=e3979]:
+                        - list [ref=e3980]:
+                          - generic [ref=e3981]:
+                            - listitem:
+                              - link "Blue And Airforce":
+                                - /url: /BLUE-STAR-SHARK-Lightweight-Activewear/dp/B0D636Q743/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-38
+                          - generic [ref=e3984]:
+                            - listitem:
+                              - link "Airforce And Airforce":
+                                - /url: /BLUE-STAR-SHARK-Lightweight-Activewear/dp/B0D63918XY/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-38
+                          - generic [ref=e3987]:
+                            - listitem:
+                              - link "Airforce And Black":
+                                - /url: /BLUE-STAR-SHARK-Lightweight-Activewear/dp/B0D636MR1G/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-38
+                          - generic [ref=e3990]:
+                            - listitem:
+                              - link "Airforce And Red":
+                                - /url: /BLUE-STAR-SHARK-Lightweight-Activewear/dp/B0D6385MD3/ref=cs_sr_dp_4?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-38
+                          - generic [ref=e3993]:
+                            - listitem:
+                              - link "Black And Black":
+                                - /url: /BLUE-STAR-SHARK-Lightweight-Activewear/dp/B0D6391BG3/ref=cs_sr_dp_5?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-38
+                          - generic [ref=e3996]:
+                            - listitem:
+                              - link "Black And Grey":
+                                - /url: /BLUE-STAR-SHARK-Lightweight-Activewear/dp/B0D637DYX5/ref=cs_sr_dp_6?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-38
+                        - link "+13 other colors/patterns" [ref=e4000] [cursor=pointer]:
+                          - /url: /BLUE-STAR-SHARK-Lightweight-Activewear/dp/B0D636Q743/ref=cs_sr_dp_n?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-38
+                          - text: "+13"
+                      - generic [ref=e4001]:
+                        - heading "BLUE STAR SHARK" [level=2] [ref=e4003]
+                        - link "Athletic Sports Shorts for Men with Zip Pockets and Elastic Waistband Quick Dry Lightweight Activewear Combo - Pack of 2" [ref=e4004] [cursor=pointer]:
+                          - /url: /BLUE-STAR-SHARK-Lightweight-Activewear/dp/B0D636Q743/ref=sr_1_38?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-38
+                          - heading "Athletic Sports Shorts for Men with Zip Pockets and Elastic Waistband Quick Dry Lightweight Activewear Combo - Pack of 2" [level=2] [ref=e4005]
+                      - generic [ref=e4006]:
+                        - generic [ref=e4007]:
+                          - text: "4.0"
+                          - button "4.0 out of 5 stars, rating details" [ref=e4009] [cursor=pointer]:
+                            - generic [ref=e4011]: 4.0 out of 5 stars
+                          - link "1,316 ratings" [ref=e4013] [cursor=pointer]:
+                            - /url: /BLUE-STAR-SHARK-Lightweight-Activewear/dp/B0D636Q743/ref=sr_1_38?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-38#customerReviews
+                            - text: (1.3K)
+                        - generic [ref=e4014]: 200+ bought in past month
+                      - generic [ref=e4015]:
+                        - generic [ref=e4017]:
+                          - generic [ref=e4018]: Price, product page
+                          - 'link "₹399 M.R.P: ₹999 M.R.P: ₹999" [ref=e4019] [cursor=pointer]':
+                            - /url: /BLUE-STAR-SHARK-Lightweight-Activewear/dp/B0D636Q743/ref=sr_1_38?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-38
+                            - generic [ref=e4020]:
+                              - generic [ref=e4021]: ₹399
+                              - generic [ref=e4022]: ₹399
+                            - generic [ref=e4023]: "M.R.P: ₹999"
+                            - generic [ref=e4024]:
+                              - text: "M.R.P:"
+                              - generic [ref=e4025]:
+                                - generic [ref=e4026]: ₹999
+                                - text: ₹999
+                          - text: (60% off)
+                        - generic [ref=e4030]:
+                          - generic [ref=e4031]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e4032]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e4037]: FREE delivery Thu, 2 Jul on first order
+                      - button "Add to cart" [ref=e4048] [cursor=pointer]
+                - listitem [ref=e4049]:
+                  - generic [ref=e4054]:
+                    - link [ref=e4058] [cursor=pointer]:
+                      - /url: /NAVII-CLOTHING-Pockets-Elastic-Standard/dp/B0GVMZM9PD/ref=sr_1_39?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-39
+                      - img [ref=e4060]
+                    - generic [ref=e4061]:
+                      - group "colours available" [ref=e4063]:
+                        - list [ref=e4064]:
+                          - generic [ref=e4065]:
+                            - listitem:
+                              - link "Light Grey":
+                                - /url: /NAVII-CLOTHING-Pockets-Elastic-Standard/dp/B0GVMZM9PD/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-39
+                          - generic [ref=e4068]:
+                            - listitem:
+                              - link "Black":
+                                - /url: /NAVII-CLOTHING-Pockets-Elastic-Standard/dp/B0GTM9J551/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-39
+                          - generic [ref=e4071]:
+                            - listitem:
+                              - link "Denim":
+                                - /url: /NAVII-CLOTHING-Pockets-Elastic-Standard/dp/B0H21R2R21/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-39
+                          - generic [ref=e4074]:
+                            - listitem:
+                              - link "Navy Blue":
+                                - /url: /NAVII-CLOTHING-Pockets-Elastic-Standard/dp/B0GVMYZWJ7/ref=cs_sr_dp_4?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-39
+                          - generic [ref=e4077]:
+                            - listitem:
+                              - link "Oliv":
+                                - /url: /NAVII-CLOTHING-Pockets-Elastic-Standard/dp/B0H25WK59Q/ref=cs_sr_dp_5?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-39
+                          - generic [ref=e4080]:
+                            - listitem:
+                              - link "Dark grey":
+                                - /url: /NAVII-CLOTHING-Pockets-Elastic-Standard/dp/B0GVMTKZDJ/ref=cs_sr_dp_6?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-39
+                        - link "+1 other color/pattern" [ref=e4084] [cursor=pointer]:
+                          - /url: /NAVII-CLOTHING-Pockets-Elastic-Standard/dp/B0GVMZM9PD/ref=cs_sr_dp_n?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-39
+                          - text: "+1"
+                      - generic [ref=e4085]:
+                        - heading "NAVII CLOTHING" [level=2] [ref=e4087]
+                        - link "Pure Cotton Men's Baggy Lower | Lower for Man Loose Fit with Pockets & Elastic Waist I Baggy fit Lowers for Gym, Jogging & Casual Wear" [ref=e4088] [cursor=pointer]:
+                          - /url: /NAVII-CLOTHING-Pockets-Elastic-Standard/dp/B0GVMZM9PD/ref=sr_1_39?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-39
+                          - heading "Pure Cotton Men's Baggy Lower | Lower for Man Loose Fit with Pockets & Elastic Waist I Baggy fit Lowers for Gym, Jogging & Casual Wear" [level=2] [ref=e4089]
+                      - generic [ref=e4090]:
+                        - generic [ref=e4091]:
+                          - text: "3.6"
+                          - button "3.6 out of 5 stars, rating details" [ref=e4093] [cursor=pointer]:
+                            - generic [ref=e4095]: 3.6 out of 5 stars
+                          - link "74 ratings" [ref=e4097] [cursor=pointer]:
+                            - /url: /NAVII-CLOTHING-Pockets-Elastic-Standard/dp/B0GVMZM9PD/ref=sr_1_39?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-39#customerReviews
+                            - text: (74)
+                        - generic [ref=e4098]: 200+ bought in past month
+                      - generic [ref=e4099]:
+                        - link "Limited time deal" [ref=e4101] [cursor=pointer]:
+                          - /url: /deals
+                          - generic [ref=e4104]: Limited time deal
+                        - generic [ref=e4106]:
+                          - generic [ref=e4107]: Price, product page
+                          - 'link "₹331 M.R.P: ₹1,299 M.R.P: ₹1,299" [ref=e4108] [cursor=pointer]':
+                            - /url: /NAVII-CLOTHING-Pockets-Elastic-Standard/dp/B0GVMZM9PD/ref=sr_1_39?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-39
+                            - generic [ref=e4109]:
+                              - generic [ref=e4110]: ₹331
+                              - generic [ref=e4111]: ₹331
+                            - generic [ref=e4112]: "M.R.P: ₹1,299"
+                            - generic [ref=e4113]:
+                              - text: "M.R.P:"
+                              - generic [ref=e4114]:
+                                - generic [ref=e4115]: ₹1,299
+                                - text: ₹1,299
+                          - text: (75% off)
+                        - generic [ref=e4119]:
+                          - generic [ref=e4120]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e4121]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e4128]: FREE delivery Sun, 5 Jul
+                      - link "See options" [ref=e4135] [cursor=pointer]:
+                        - /url: /NAVII-CLOTHING-Pockets-Elastic-Standard/dp/B0GVMZM9PD/ref=sr_1_39_so_PANTS?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-39
+                - listitem [ref=e4136]:
+                  - generic [ref=e4141]:
+                    - link [ref=e4145] [cursor=pointer]:
+                      - /url: /NINQ-Polyester-Sleeve-Compression-T-Shirt/dp/B0DWJP543G/ref=sr_1_40?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-40
+                      - img [ref=e4147]
+                    - generic [ref=e4148]:
+                      - group "colours available" [ref=e4150]:
+                        - list [ref=e4151]:
+                          - generic [ref=e4152]:
+                            - listitem:
+                              - link "Dark Black":
+                                - /url: /NINQ-Polyester-Sleeve-Compression-T-Shirt/dp/B0DWJP543G/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-40
+                          - generic [ref=e4155]:
+                            - listitem:
+                              - link "Beige":
+                                - /url: /NINQ-Polyester-Sleeve-Compression-T-Shirt/dp/B0GMQ7VCNH/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-40
+                          - generic [ref=e4158]:
+                            - listitem:
+                              - link "Black":
+                                - /url: /NINQ-Polyester-Sleeve-Compression-T-Shirt/dp/B0H6TY9SFM/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-40
+                          - generic [ref=e4161]:
+                            - listitem:
+                              - link "Black1":
+                                - /url: /NINQ-Polyester-Sleeve-Compression-T-Shirt/dp/B0FWY56RL1/ref=cs_sr_dp_4?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-40
+                          - generic [ref=e4164]:
+                            - listitem:
+                              - link "Blue":
+                                - /url: /NINQ-Polyester-Sleeve-Compression-T-Shirt/dp/B0GMQC5HV7/ref=cs_sr_dp_5?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-40
+                          - generic [ref=e4167]:
+                            - listitem:
+                              - link "Green":
+                                - /url: /NINQ-Polyester-Sleeve-Compression-T-Shirt/dp/B0GMPV3Y8W/ref=cs_sr_dp_6?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-40
+                        - link "+5 other colors/patterns" [ref=e4171] [cursor=pointer]:
+                          - /url: /NINQ-Polyester-Sleeve-Compression-T-Shirt/dp/B0DWJP543G/ref=cs_sr_dp_n?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-40
+                          - text: "+5"
+                      - generic [ref=e4172]:
+                        - heading "NINQ" [level=2] [ref=e4174]
+                        - link "Half Sleeve Compression T-Shirt - Men's Athletic & Sports Tights for Fitness" [ref=e4175] [cursor=pointer]:
+                          - /url: /NINQ-Polyester-Sleeve-Compression-T-Shirt/dp/B0DWJP543G/ref=sr_1_40?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-40
+                          - heading "Half Sleeve Compression T-Shirt - Men's Athletic & Sports Tights for Fitness" [level=2] [ref=e4176]
+                      - generic [ref=e4177]:
+                        - generic [ref=e4178]:
+                          - text: "4.1"
+                          - button "4.1 out of 5 stars, rating details" [ref=e4180] [cursor=pointer]:
+                            - generic [ref=e4182]: 4.1 out of 5 stars
+                          - link "698 ratings" [ref=e4184] [cursor=pointer]:
+                            - /url: /NINQ-Polyester-Sleeve-Compression-T-Shirt/dp/B0DWJP543G/ref=sr_1_40?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-40#customerReviews
+                            - text: (698)
+                        - generic [ref=e4185]: 300+ bought in past month
+                      - generic [ref=e4186]:
+                        - generic [ref=e4188]:
+                          - generic [ref=e4189]: Price, product page
+                          - 'link "₹369 M.R.P: ₹749 M.R.P: ₹749" [ref=e4190] [cursor=pointer]':
+                            - /url: /NINQ-Polyester-Sleeve-Compression-T-Shirt/dp/B0DWJP543G/ref=sr_1_40?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-40
+                            - generic [ref=e4191]:
+                              - generic [ref=e4192]: ₹369
+                              - generic [ref=e4193]: ₹369
+                            - generic [ref=e4194]: "M.R.P: ₹749"
+                            - generic [ref=e4195]:
+                              - text: "M.R.P:"
+                              - generic [ref=e4196]:
+                                - generic [ref=e4197]: ₹749
+                                - text: ₹749
+                          - text: (51% off)
+                        - generic [ref=e4200]:
+                          - generic [ref=e4201]: You pay ₹361.62
+                          - text: with coupon (limited sizes/colours)
+                      - generic [ref=e4204]:
+                        - generic [ref=e4206]: FREE delivery Thu, 2 Jul on first order
+                        - generic [ref=e4208]: Or fastest delivery Tomorrow, 1 Jul
+                      - button "Add to cart" [ref=e4219] [cursor=pointer]
+                - listitem [ref=e4220]:
+                  - generic [ref=e4225]:
+                    - link [ref=e4229] [cursor=pointer]:
+                      - /url: /LEOTUDE-Cottonblend-Shoulder-Oversized-FS49_Brown_NEWYORKK_P_Brown_XL/dp/B0FK5GC8XD/ref=sr_1_41?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-41
+                      - img [ref=e4231]
+                    - generic [ref=e4232]:
+                      - group "colours available" [ref=e4234]:
+                        - list [ref=e4235]:
+                          - generic [ref=e4236]:
+                            - listitem:
+                              - link "Browon":
+                                - /url: /LEOTUDE-Cottonblend-Shoulder-Oversized-FS49_Brown_NEWYORKK_P_Brown_XL/dp/B0FK5GC8XD/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-41
+                          - generic [ref=e4239]:
+                            - listitem:
+                              - link "Black":
+                                - /url: /LEOTUDE-Cottonblend-Shoulder-Oversized-FS49_Brown_NEWYORKK_P_Brown_XL/dp/B0DTK393WH/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-41
+                          - generic [ref=e4242]:
+                            - listitem:
+                              - link "Multicolor 6":
+                                - /url: /LEOTUDE-Cottonblend-Shoulder-Oversized-FS49_Brown_NEWYORKK_P_Brown_XL/dp/B0GTTSGVJ1/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-41
+                          - generic [ref=e4245]:
+                            - listitem:
+                              - link "Multicolor 7":
+                                - /url: /LEOTUDE-Cottonblend-Shoulder-Oversized-FS49_Brown_NEWYORKK_P_Brown_XL/dp/B0GTTN66MY/ref=cs_sr_dp_4?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-41
+                          - generic [ref=e4248]:
+                            - listitem:
+                              - link "Multicolour1":
+                                - /url: /LEOTUDE-Cottonblend-Shoulder-Oversized-FS49_Brown_NEWYORKK_P_Brown_XL/dp/B0FN8C3V7B/ref=cs_sr_dp_5?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-41
+                          - generic [ref=e4251]:
+                            - listitem:
+                              - link "Multicolour2":
+                                - /url: /LEOTUDE-Cottonblend-Shoulder-Oversized-FS49_Brown_NEWYORKK_P_Brown_XL/dp/B0FN889V6Z/ref=cs_sr_dp_6?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-41
+                        - link "+2 other colors/patterns" [ref=e4255] [cursor=pointer]:
+                          - /url: /LEOTUDE-Cottonblend-Shoulder-Oversized-FS49_Brown_NEWYORKK_P_Brown_XL/dp/B0FK5GC8XD/ref=cs_sr_dp_n?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-41
+                          - text: "+2"
+                      - generic [ref=e4256]:
+                        - heading "LEOTUDE" [level=2] [ref=e4258]
+                        - link "Casual Half Sleeve Cottonblend Printed Round Neck Drop Shoulder Oversized Tshirt for Man (Color Brown)" [ref=e4259] [cursor=pointer]:
+                          - /url: /LEOTUDE-Cottonblend-Shoulder-Oversized-FS49_Brown_NEWYORKK_P_Brown_XL/dp/B0FK5GC8XD/ref=sr_1_41?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-41
+                          - heading "Casual Half Sleeve Cottonblend Printed Round Neck Drop Shoulder Oversized Tshirt for Man (Color Brown)" [level=2] [ref=e4260]
+                      - generic [ref=e4261]:
+                        - generic [ref=e4262]:
+                          - text: "3.9"
+                          - button "3.9 out of 5 stars, rating details" [ref=e4264] [cursor=pointer]:
+                            - generic [ref=e4266]: 3.9 out of 5 stars
+                          - link "496 ratings" [ref=e4268] [cursor=pointer]:
+                            - /url: /LEOTUDE-Cottonblend-Shoulder-Oversized-FS49_Brown_NEWYORKK_P_Brown_XL/dp/B0FK5GC8XD/ref=sr_1_41?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-41#customerReviews
+                            - text: (496)
+                        - generic [ref=e4269]: 50+ bought in past month
+                      - generic [ref=e4270]:
+                        - link "Ends in 50:38" [ref=e4272] [cursor=pointer]:
+                          - /url: /deals
+                          - generic [ref=e4275]: Ends in 50:38
+                        - generic [ref=e4277]:
+                          - generic [ref=e4278]: Price, product page
+                          - 'link "₹298 M.R.P: ₹1,099 M.R.P: ₹1,099" [ref=e4279] [cursor=pointer]':
+                            - /url: /LEOTUDE-Cottonblend-Shoulder-Oversized-FS49_Brown_NEWYORKK_P_Brown_XL/dp/B0FK5GC8XD/ref=sr_1_41?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-41
+                            - generic [ref=e4280]:
+                              - generic [ref=e4281]: ₹298
+                              - generic [ref=e4282]: ₹298
+                            - generic [ref=e4283]: "M.R.P: ₹1,099"
+                            - generic [ref=e4284]:
+                              - text: "M.R.P:"
+                              - generic [ref=e4285]:
+                                - generic [ref=e4286]: ₹1,099
+                                - text: ₹1,099
+                          - text: (73% off)
+                        - generic [ref=e4290]:
+                          - generic [ref=e4291]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e4292]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e4295]:
+                        - generic [ref=e4297]: FREE delivery Thu, 2 Jul on first order
+                        - generic [ref=e4299]: Or fastest delivery Tomorrow, 1 Jul
+                      - button "Add to cart" [ref=e4310] [cursor=pointer]
+                - listitem [ref=e4311]:
+                  - generic [ref=e4316]:
+                    - link [ref=e4320] [cursor=pointer]:
+                      - /url: /Adidas-Fitted-T-Shirt-IC7430_White-Black/dp/B0BJ9KQ8SD/ref=sr_1_42?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-42
+                      - img [ref=e4322]
+                    - generic [ref=e4323]:
+                      - group "colours available" [ref=e4325]:
+                        - list [ref=e4326]:
+                          - generic [ref=e4327]:
+                            - listitem:
+                              - link "WHITE/BLACK":
+                                - /url: /Adidas-Fitted-T-Shirt-IC7430_White-Black/dp/B0BJ9KQ8SD/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-42
+                          - generic [ref=e4330]:
+                            - listitem:
+                              - link "Black":
+                                - /url: /Adidas-Fitted-T-Shirt-IC7430_White-Black/dp/B0BNM1DY62/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-42
+                          - generic [ref=e4333]:
+                            - listitem:
+                              - link "Green":
+                                - /url: /Adidas-Fitted-T-Shirt-IC7430_White-Black/dp/B0CZ4HFY7V/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-42
+                          - generic [ref=e4336]:
+                            - listitem:
+                              - link "Black / Grey Five / Black":
+                                - /url: /Adidas-Fitted-T-Shirt-IC7430_White-Black/dp/B0BQW3HYZK/ref=cs_sr_dp_4?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-42
+                          - generic [ref=e4339]:
+                            - listitem:
+                              - link "PREBLU/BLACK":
+                                - /url: /Adidas-Fitted-T-Shirt-IC7430_White-Black/dp/B0BJ9HNDQJ/ref=cs_sr_dp_5?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-42
+                          - generic [ref=e4342]:
+                            - listitem:
+                              - link "Medium Grey Heather / White / Black":
+                                - /url: /Adidas-Fitted-T-Shirt-IC7430_White-Black/dp/B0BQW6NLCM/ref=cs_sr_dp_6?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-42
+                        - link "+1 other color/pattern" [ref=e4346] [cursor=pointer]:
+                          - /url: /Adidas-Fitted-T-Shirt-IC7430_White-Black/dp/B0BJ9KQ8SD/ref=cs_sr_dp_n?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-42
+                          - text: "+1"
+                      - generic [ref=e4347]:
+                        - heading "adidas" [level=2] [ref=e4349]
+                        - link "Men Polyester Geometric Regular Fit T-Shirt" [ref=e4350] [cursor=pointer]:
+                          - /url: /Adidas-Fitted-T-Shirt-IC7430_White-Black/dp/B0BJ9KQ8SD/ref=sr_1_42?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-42
+                          - heading "Men Polyester Geometric Regular Fit T-Shirt" [level=2] [ref=e4351]
+                      - generic [ref=e4353]:
+                        - text: "4.3"
+                        - button "4.3 out of 5 stars, rating details" [ref=e4355] [cursor=pointer]:
+                          - generic [ref=e4357]: 4.3 out of 5 stars
+                        - link "557 ratings" [ref=e4359] [cursor=pointer]:
+                          - /url: /Adidas-Fitted-T-Shirt-IC7430_White-Black/dp/B0BJ9KQ8SD/ref=sr_1_42?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-42#customerReviews
+                          - text: (557)
+                      - generic [ref=e4360]:
+                        - generic [ref=e4362]:
+                          - generic [ref=e4363]: Price, product page
+                          - 'link "₹1,189 M.R.P: ₹1,799 M.R.P: ₹1,799" [ref=e4364] [cursor=pointer]':
+                            - /url: /Adidas-Fitted-T-Shirt-IC7430_White-Black/dp/B0BJ9KQ8SD/ref=sr_1_42?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-42
+                            - generic [ref=e4365]:
+                              - generic [ref=e4366]: ₹1,189
+                              - generic [ref=e4367]: ₹1,189
+                            - generic [ref=e4368]: "M.R.P: ₹1,799"
+                            - generic [ref=e4369]:
+                              - text: "M.R.P:"
+                              - generic [ref=e4370]:
+                                - generic [ref=e4371]: ₹1,799
+                                - text: ₹1,799
+                          - text: (34% off)
+                        - generic [ref=e4375]:
+                          - generic [ref=e4376]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e4377]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e4380]:
+                        - generic [ref=e4382]: FREE delivery Thu, 2 Jul
+                        - generic [ref=e4384]: Or fastest delivery Tomorrow, 1 Jul
+                      - button "Add to cart" [ref=e4395] [cursor=pointer]
+                - listitem [ref=e4396]:
+                  - generic [ref=e4401]:
+                    - link [ref=e4405] [cursor=pointer]:
+                      - /url: /CHKOKKO-Sportswear-Training-Activities-NavyBlue/dp/B083M2S18S/ref=sr_1_43?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-43
+                      - img [ref=e4407]
+                    - generic [ref=e4408]:
+                      - group "colours available" [ref=e4410]:
+                        - list [ref=e4411]:
+                          - generic [ref=e4412]:
+                            - listitem:
+                              - link "NAVY BLUE..":
+                                - /url: /CHKOKKO-Sportswear-Training-Activities-NavyBlue/dp/B083M2S18S/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-43
+                          - generic [ref=e4415]:
+                            - listitem:
+                              - link "BLACK.":
+                                - /url: /CHKOKKO-Sportswear-Training-Activities-NavyBlue/dp/B083M3D4H2/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-43
+                          - generic [ref=e4418]:
+                            - listitem:
+                              - link "BROWN103":
+                                - /url: /CHKOKKO-Sportswear-Training-Activities-NavyBlue/dp/B0GNS8LMD5/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-43
+                          - generic [ref=e4421]:
+                            - listitem:
+                              - link "Beige103":
+                                - /url: /CHKOKKO-Sportswear-Training-Activities-NavyBlue/dp/B0DQVCSW8C/ref=cs_sr_dp_4?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-43
+                          - generic [ref=e4424]:
+                            - listitem:
+                              - link "Black Bottlegreen":
+                                - /url: /CHKOKKO-Sportswear-Training-Activities-NavyBlue/dp/B0D6Z5PFRG/ref=cs_sr_dp_5?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-43
+                          - generic [ref=e4427]:
+                            - listitem:
+                              - link "Bottle Green":
+                                - /url: /CHKOKKO-Sportswear-Training-Activities-NavyBlue/dp/B08HPN17L7/ref=cs_sr_dp_6?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-43
+                        - link "+9 other colors/patterns" [ref=e4431] [cursor=pointer]:
+                          - /url: /CHKOKKO-Sportswear-Training-Activities-NavyBlue/dp/B083M2S18S/ref=cs_sr_dp_n?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-43
+                          - text: "+9"
+                      - generic [ref=e4432]:
+                        - heading "CHKOKKO" [level=2] [ref=e4434]
+                        - link "Gym T Shirts for Men Workout Activewear Solid Quick Dry Sports Tshirt for man Breathable Lightweight Half Sleeve Regular Fit Round Neck Running Boys T Shirt" [ref=e4435] [cursor=pointer]:
+                          - /url: /CHKOKKO-Sportswear-Training-Activities-NavyBlue/dp/B083M2S18S/ref=sr_1_43?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-43
+                          - heading "Gym T Shirts for Men Workout Activewear Solid Quick Dry Sports Tshirt for man Breathable Lightweight Half Sleeve Regular Fit Round Neck Running Boys T Shirt" [level=2] [ref=e4436]
+                      - generic [ref=e4437]:
+                        - generic [ref=e4438]:
+                          - text: "4.0"
+                          - button "4.0 out of 5 stars, rating details" [ref=e4440] [cursor=pointer]:
+                            - generic [ref=e4442]: 4.0 out of 5 stars
+                          - link "4,593 ratings" [ref=e4444] [cursor=pointer]:
+                            - /url: /CHKOKKO-Sportswear-Training-Activities-NavyBlue/dp/B083M2S18S/ref=sr_1_43?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-43#customerReviews
+                            - text: (4.5K)
+                        - generic [ref=e4445]: 50+ bought in past month
+                      - generic [ref=e4446]:
+                        - generic [ref=e4448]:
+                          - generic [ref=e4449]: Price, product page
+                          - 'link "₹348 M.R.P: ₹1,660 M.R.P: ₹1,660" [ref=e4450] [cursor=pointer]':
+                            - /url: /CHKOKKO-Sportswear-Training-Activities-NavyBlue/dp/B083M2S18S/ref=sr_1_43?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-43
+                            - generic [ref=e4451]:
+                              - generic [ref=e4452]: ₹348
+                              - generic [ref=e4453]: ₹348
+                            - generic [ref=e4454]: "M.R.P: ₹1,660"
+                            - generic [ref=e4455]:
+                              - text: "M.R.P:"
+                              - generic [ref=e4456]:
+                                - generic [ref=e4457]: ₹1,660
+                                - text: ₹1,660
+                          - text: (79% off)
+                        - generic [ref=e4460]:
+                          - generic [ref=e4461]: You pay ₹313.20
+                          - text: with coupon (limited sizes/colours)
+                      - generic [ref=e4464]:
+                        - generic [ref=e4466]: FREE delivery Thu, 2 Jul on first order
+                        - generic [ref=e4468]: Or fastest delivery Tomorrow, 1 Jul
+                      - button "Add to cart" [ref=e4479] [cursor=pointer]
+                - listitem [ref=e4480]:
+                  - generic [ref=e4485]:
+                    - group "Best sellerin Men's Boxing Clothing" [ref=e4490]:
+                      - generic "Best seller" [ref=e4492]
+                    - link [ref=e4496] [cursor=pointer]:
+                      - /url: /NETCLICK-Sleeveless-Polycotton-T-Shirt-Running/dp/B0DJGM78D2/ref=sr_1_44?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-44
+                      - img [ref=e4498]
+                    - generic [ref=e4499]:
+                      - group "colours available" [ref=e4501]:
+                        - list [ref=e4502]:
+                          - generic [ref=e4503]:
+                            - listitem:
+                              - link "Sea Green":
+                                - /url: /NETCLICK-Sleeveless-Polycotton-T-Shirt-Running/dp/B0DJGM78D2/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-44
+                          - generic [ref=e4506]:
+                            - listitem:
+                              - link "Black":
+                                - /url: /NETCLICK-Sleeveless-Polycotton-T-Shirt-Running/dp/B0DJGKYSRQ/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-44
+                          - generic [ref=e4509]:
+                            - listitem:
+                              - link "Sky Blue":
+                                - /url: /NETCLICK-Sleeveless-Polycotton-T-Shirt-Running/dp/B0DJGM5387/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-44
+                      - generic [ref=e4512]:
+                        - heading "NETCLICK" [level=2] [ref=e4514]
+                        - link "Mens Waffle Tank Tops Sleeveless Round Neck Polycotton T-Shirt for Gym, Running and Outdoor" [ref=e4515] [cursor=pointer]:
+                          - /url: /NETCLICK-Sleeveless-Polycotton-T-Shirt-Running/dp/B0DJGM78D2/ref=sr_1_44?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-44
+                          - heading "Mens Waffle Tank Tops Sleeveless Round Neck Polycotton T-Shirt for Gym, Running and Outdoor" [level=2] [ref=e4516]
+                      - generic [ref=e4518]:
+                        - text: "3.8"
+                        - button "3.8 out of 5 stars, rating details" [ref=e4520] [cursor=pointer]:
+                          - generic [ref=e4522]: 3.8 out of 5 stars
+                        - link "999 ratings" [ref=e4524] [cursor=pointer]:
+                          - /url: /NETCLICK-Sleeveless-Polycotton-T-Shirt-Running/dp/B0DJGM78D2/ref=sr_1_44?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-44#customerReviews
+                          - text: (999)
+                      - generic [ref=e4525]:
+                        - generic [ref=e4527]:
+                          - generic [ref=e4528]: Price, product page
+                          - 'link "₹294.99 M.R.P: ₹999 M.R.P: ₹999" [ref=e4529] [cursor=pointer]':
+                            - /url: /NETCLICK-Sleeveless-Polycotton-T-Shirt-Running/dp/B0DJGM78D2/ref=sr_1_44?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-44
+                            - generic [ref=e4530]:
+                              - generic [ref=e4531]: ₹294.99
+                              - generic [ref=e4532]:
+                                - text: ₹
+                                - generic [ref=e4533]:
+                                  - text: "294"
+                                  - generic [ref=e4534]: .
+                                - text: "99"
+                            - generic [ref=e4535]: "M.R.P: ₹999"
+                            - generic [ref=e4536]:
+                              - text: "M.R.P:"
+                              - generic [ref=e4537]:
+                                - generic [ref=e4538]: ₹999
+                                - text: ₹999
+                          - text: (70% off)
+                        - generic [ref=e4541]:
+                          - generic [ref=e4542]: You pay ₹289.09
+                          - text: with coupon (limited sizes/colours)
+                      - generic [ref=e4547]: FREE delivery Thu, 2 Jul on first order
+                      - button "Add to cart" [ref=e4558] [cursor=pointer]
+                - listitem [ref=e4559]:
+                  - generic [ref=e4564]:
+                    - link [ref=e4568] [cursor=pointer]:
+                      - /url: /CHKOKKO-Workout-Activewear-Breathable-Lightweight/dp/B083M3D4H2/ref=sr_1_45?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-45
+                      - img [ref=e4570]
+                    - generic [ref=e4571]:
+                      - group "colours available" [ref=e4573]:
+                        - list [ref=e4574]:
+                          - generic [ref=e4575]:
+                            - listitem:
+                              - link "BLACK.":
+                                - /url: /CHKOKKO-Workout-Activewear-Breathable-Lightweight/dp/B083M3D4H2/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-45
+                          - generic [ref=e4578]:
+                            - listitem:
+                              - link "BROWN103":
+                                - /url: /CHKOKKO-Workout-Activewear-Breathable-Lightweight/dp/B0GNS8LMD5/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-45
+                          - generic [ref=e4581]:
+                            - listitem:
+                              - link "Beige103":
+                                - /url: /CHKOKKO-Workout-Activewear-Breathable-Lightweight/dp/B0DQVCSW8C/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-45
+                          - generic [ref=e4584]:
+                            - listitem:
+                              - link "Black Bottlegreen":
+                                - /url: /CHKOKKO-Workout-Activewear-Breathable-Lightweight/dp/B0D6Z5PFRG/ref=cs_sr_dp_4?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-45
+                          - generic [ref=e4587]:
+                            - listitem:
+                              - link "Bottle Green":
+                                - /url: /CHKOKKO-Workout-Activewear-Breathable-Lightweight/dp/B08HPN17L7/ref=cs_sr_dp_5?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-45
+                          - generic [ref=e4590]:
+                            - listitem:
+                              - link "Indigo":
+                                - /url: /CHKOKKO-Workout-Activewear-Breathable-Lightweight/dp/B081JMTB2P/ref=cs_sr_dp_6?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-45
+                        - link "+9 other colors/patterns" [ref=e4594] [cursor=pointer]:
+                          - /url: /CHKOKKO-Workout-Activewear-Breathable-Lightweight/dp/B083M3D4H2/ref=cs_sr_dp_n?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-45
+                          - text: "+9"
+                      - generic [ref=e4595]:
+                        - heading "CHKOKKO" [level=2] [ref=e4597]
+                        - link "Gym T Shirts for Men Workout Activewear Solid Quick Dry Sports Tshirt for man Breathable Lightweight Half Sleeve Regular Fit Round Neck Running Boys T Shirt" [ref=e4598] [cursor=pointer]:
+                          - /url: /CHKOKKO-Workout-Activewear-Breathable-Lightweight/dp/B083M3D4H2/ref=sr_1_45?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-45
+                          - heading "Gym T Shirts for Men Workout Activewear Solid Quick Dry Sports Tshirt for man Breathable Lightweight Half Sleeve Regular Fit Round Neck Running Boys T Shirt" [level=2] [ref=e4599]
+                      - generic [ref=e4600]:
+                        - generic [ref=e4601]:
+                          - text: "4.0"
+                          - button "4.0 out of 5 stars, rating details" [ref=e4603] [cursor=pointer]:
+                            - generic [ref=e4605]: 4.0 out of 5 stars
+                          - link "4,593 ratings" [ref=e4607] [cursor=pointer]:
+                            - /url: /CHKOKKO-Workout-Activewear-Breathable-Lightweight/dp/B083M3D4H2/ref=sr_1_45?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-45#customerReviews
+                            - text: (4.5K)
+                        - generic [ref=e4608]: 100+ bought in past month
+                      - generic [ref=e4609]:
+                        - generic [ref=e4611]:
+                          - generic [ref=e4612]: Price, product page
+                          - 'link "₹348 M.R.P: ₹1,660 M.R.P: ₹1,660" [ref=e4613] [cursor=pointer]':
+                            - /url: /CHKOKKO-Workout-Activewear-Breathable-Lightweight/dp/B083M3D4H2/ref=sr_1_45?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-45
+                            - generic [ref=e4614]:
+                              - generic [ref=e4615]: ₹348
+                              - generic [ref=e4616]: ₹348
+                            - generic [ref=e4617]: "M.R.P: ₹1,660"
+                            - generic [ref=e4618]:
+                              - text: "M.R.P:"
+                              - generic [ref=e4619]:
+                                - generic [ref=e4620]: ₹1,660
+                                - text: ₹1,660
+                          - text: (79% off)
+                        - generic [ref=e4623]:
+                          - generic [ref=e4624]: You pay ₹313.20
+                          - text: with coupon (limited sizes/colours)
+                      - generic [ref=e4627]:
+                        - generic [ref=e4629]: FREE delivery Thu, 2 Jul on first order
+                        - generic [ref=e4631]: Or fastest delivery Tomorrow, 1 Jul
+                      - button "Add to cart" [ref=e4642] [cursor=pointer]
+                - listitem [ref=e4643]:
+                  - generic [ref=e4648]:
+                    - group "Best sellerin Men's Base Layers Shirts" [ref=e4653]:
+                      - generic "Best seller" [ref=e4655]
+                    - link [ref=e4659] [cursor=pointer]:
+                      - /url: /ATICX-Polyester-Half-Closure-Compression-Flextshirtlongsleejeblac-XL/dp/B08SC33VTQ/ref=sr_1_46?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-46
+                      - img [ref=e4661]
+                    - generic [ref=e4662]:
+                      - group "colours available" [ref=e4664]:
+                        - list [ref=e4665]:
+                          - generic [ref=e4666]:
+                            - listitem:
+                              - link "Jet Black":
+                                - /url: /ATICX-Polyester-Half-Closure-Compression-Flextshirtlongsleejeblac-XL/dp/B08SC33VTQ/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-46
+                          - generic [ref=e4669]:
+                            - listitem:
+                              - link "Cloud Grey":
+                                - /url: /ATICX-Polyester-Half-Closure-Compression-Flextshirtlongsleejeblac-XL/dp/B0CRVWXY9K/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-46
+                          - generic [ref=e4672]:
+                            - listitem:
+                              - link "Dark Matter Black":
+                                - /url: /ATICX-Polyester-Half-Closure-Compression-Flextshirtlongsleejeblac-XL/dp/B0DMXKZGD5/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-46
+                          - generic [ref=e4675]:
+                            - listitem:
+                              - link "Jet Black & Cloud Grey":
+                                - /url: /ATICX-Polyester-Half-Closure-Compression-Flextshirtlongsleejeblac-XL/dp/B0FYKH296Q/ref=cs_sr_dp_4?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-46
+                          - generic [ref=e4678]:
+                            - listitem:
+                              - link "Mulberry Wine Black":
+                                - /url: /ATICX-Polyester-Half-Closure-Compression-Flextshirtlongsleejeblac-XL/dp/B0DMXG1FJ6/ref=cs_sr_dp_5?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-46
+                          - generic [ref=e4681]:
+                            - listitem:
+                              - link "Raisin Wine":
+                                - /url: /ATICX-Polyester-Half-Closure-Compression-Flextshirtlongsleejeblac-XL/dp/B0DMXNHGFZ/ref=cs_sr_dp_6?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-46
+                        - link "+34 other colors/patterns" [ref=e4685] [cursor=pointer]:
+                          - /url: /ATICX-Polyester-Half-Closure-Compression-Flextshirtlongsleejeblac-XL/dp/B08SC33VTQ/ref=cs_sr_dp_n?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-46
+                          - text: "+34"
+                      - generic [ref=e4686]:
+                        - heading "ATICX" [level=2] [ref=e4688]
+                        - link "Polyester Full Sleeve Compression High Turtle Neck Sports Jersey T Shirt for Men - Quick Dry Fit Gym Workout Top for Running, Swimming, Training, Cycling, Football, Badminton" [ref=e4689] [cursor=pointer]:
+                          - /url: /ATICX-Polyester-Half-Closure-Compression-Flextshirtlongsleejeblac-XL/dp/B08SC33VTQ/ref=sr_1_46?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-46
+                          - heading "Polyester Full Sleeve Compression High Turtle Neck Sports Jersey T Shirt for Men - Quick Dry Fit Gym Workout Top for Running, Swimming, Training, Cycling, Football, Badminton" [level=2] [ref=e4690]
+                      - generic [ref=e4691]:
+                        - generic [ref=e4692]:
+                          - text: "4.1"
+                          - button "4.1 out of 5 stars, rating details" [ref=e4694] [cursor=pointer]:
+                            - generic [ref=e4696]: 4.1 out of 5 stars
+                          - link "1,349 ratings" [ref=e4698] [cursor=pointer]:
+                            - /url: /ATICX-Polyester-Half-Closure-Compression-Flextshirtlongsleejeblac-XL/dp/B08SC33VTQ/ref=sr_1_46?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-46#customerReviews
+                            - text: (1.3K)
+                        - generic [ref=e4699]: 100+ bought in past month
+                      - generic [ref=e4700]:
+                        - link "Limited time deal" [ref=e4702] [cursor=pointer]:
+                          - /url: /deals
+                          - generic [ref=e4705]: Limited time deal
+                        - generic [ref=e4707]:
+                          - generic [ref=e4708]: Price, product page
+                          - 'link "₹489 M.R.P: ₹1,299 M.R.P: ₹1,299" [ref=e4709] [cursor=pointer]':
+                            - /url: /ATICX-Polyester-Half-Closure-Compression-Flextshirtlongsleejeblac-XL/dp/B08SC33VTQ/ref=sr_1_46?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-46
+                            - generic [ref=e4710]:
+                              - generic [ref=e4711]: ₹489
+                              - generic [ref=e4712]: ₹489
+                            - generic [ref=e4713]: "M.R.P: ₹1,299"
+                            - generic [ref=e4714]:
+                              - text: "M.R.P:"
+                              - generic [ref=e4715]:
+                                - generic [ref=e4716]: ₹1,299
+                                - text: ₹1,299
+                          - text: (62% off)
+                        - generic [ref=e4719]:
+                          - generic [ref=e4720]: You pay ₹479.22
+                          - text: with coupon (limited sizes/colours)
+                      - generic [ref=e4723]:
+                        - generic [ref=e4725]: FREE delivery Thu, 2 Jul on first order
+                        - generic [ref=e4727]: Or fastest delivery Tomorrow, 1 Jul
+                      - button "Add to cart" [ref=e4738] [cursor=pointer]
+                - listitem [ref=e4739]:
+                  - generic [ref=e4744]:
+                    - link [ref=e4748] [cursor=pointer]:
+                      - /url: /Ameena-Store-Joggers-Pockets-Regular/dp/B0FRRSXDX5/ref=sr_1_47?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-47
+                      - img [ref=e4750]
+                    - generic [ref=e4751]:
+                      - group "colours available" [ref=e4753]:
+                        - list [ref=e4754]:
+                          - generic [ref=e4755]:
+                            - listitem:
+                              - link "BLUE":
+                                - /url: /Ameena-Store-Joggers-Pockets-Regular/dp/B0FRRSXDX5/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-47
+                          - generic [ref=e4758]:
+                            - listitem:
+                              - link "BLACK":
+                                - /url: /Ameena-Store-Joggers-Pockets-Regular/dp/B0FRRSL6LJ/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-47
+                          - generic [ref=e4761]:
+                            - listitem:
+                              - link "GREY":
+                                - /url: /Ameena-Store-Joggers-Pockets-Regular/dp/B0FRRP98T6/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-47
+                      - generic [ref=e4764]:
+                        - heading "Ameena Store" [level=2] [ref=e4766]
+                        - link "Men's Teri Cotton Blend Track Pants, Mid Rise Joggers with Pockets, Regular Fit Side Piping Lower Gym Sports Workout Running Track Pants Plus Size (S to 6XL)" [ref=e4767] [cursor=pointer]:
+                          - /url: /Ameena-Store-Joggers-Pockets-Regular/dp/B0FRRSXDX5/ref=sr_1_47?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-47
+                          - heading "Men's Teri Cotton Blend Track Pants, Mid Rise Joggers with Pockets, Regular Fit Side Piping Lower Gym Sports Workout Running Track Pants Plus Size (S to 6XL)" [level=2] [ref=e4768]
+                      - generic [ref=e4770]:
+                        - text: "3.9"
+                        - button "3.9 out of 5 stars, rating details" [ref=e4772] [cursor=pointer]:
+                          - generic [ref=e4774]: 3.9 out of 5 stars
+                        - link "89 ratings" [ref=e4776] [cursor=pointer]:
+                          - /url: /Ameena-Store-Joggers-Pockets-Regular/dp/B0FRRSXDX5/ref=sr_1_47?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-47#customerReviews
+                          - text: (89)
+                      - generic [ref=e4777]:
+                        - link "Limited time deal" [ref=e4779] [cursor=pointer]:
+                          - /url: /deals
+                          - generic [ref=e4782]: Limited time deal
+                        - generic [ref=e4784]:
+                          - generic [ref=e4785]: Price, product page
+                          - 'link "₹436 M.R.P: ₹1,299 M.R.P: ₹1,299" [ref=e4786] [cursor=pointer]':
+                            - /url: /Ameena-Store-Joggers-Pockets-Regular/dp/B0FRRSXDX5/ref=sr_1_47?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-47
+                            - generic [ref=e4787]:
+                              - generic [ref=e4788]: ₹436
+                              - generic [ref=e4789]: ₹436
+                            - generic [ref=e4790]: "M.R.P: ₹1,299"
+                            - generic [ref=e4791]:
+                              - text: "M.R.P:"
+                              - generic [ref=e4792]:
+                                - generic [ref=e4793]: ₹1,299
+                                - text: ₹1,299
+                          - text: (66% off)
+                        - generic [ref=e4796]:
+                          - generic [ref=e4797]: You pay ₹427.28
+                          - text: with coupon (limited sizes/colours)
+                      - generic [ref=e4804]: FREE delivery Sun, 5 Jul
+                      - link "See options" [ref=e4811] [cursor=pointer]:
+                        - /url: /Ameena-Store-Joggers-Pockets-Regular/dp/B0FRRSXDX5/ref=sr_1_47_so_PANTS?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-47
+                - listitem [ref=e4812]:
+                  - generic [ref=e4817]:
+                    - link [ref=e4821] [cursor=pointer]:
+                      - /url: /Pepe-Jeans-Athleisure-Cotton-Stretch/dp/B0C3DBY5WV/ref=sr_1_48?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-48
+                      - img [ref=e4823]
+                    - generic [ref=e4824]:
+                      - group "colours available" [ref=e4826]:
+                        - list [ref=e4827]:
+                          - generic [ref=e4828]:
+                            - listitem:
+                              - link "NAVY":
+                                - /url: /Pepe-Jeans-Athleisure-Cotton-Stretch/dp/B0C3DBY5WV/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-48
+                          - generic [ref=e4831]:
+                            - listitem:
+                              - link "BLACK":
+                                - /url: /Pepe-Jeans-Athleisure-Cotton-Stretch/dp/B0C3D9ZTGD/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-48
+                          - generic [ref=e4834]:
+                            - listitem:
+                              - link "BLACK MELANGE":
+                                - /url: /Pepe-Jeans-Athleisure-Cotton-Stretch/dp/B0C3DCKWHX/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-48
+                          - generic [ref=e4837]:
+                            - listitem:
+                              - link "BLUE MELANGE":
+                                - /url: /Pepe-Jeans-Athleisure-Cotton-Stretch/dp/B0C3DBB42D/ref=cs_sr_dp_4?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-48
+                      - generic [ref=e4840]:
+                        - heading "Pepe Jeans" [level=2] [ref=e4842]
+                        - link "Men's Regular Fit Mid Rise Track Pant" [ref=e4843] [cursor=pointer]:
+                          - /url: /Pepe-Jeans-Athleisure-Cotton-Stretch/dp/B0C3DBY5WV/ref=sr_1_48?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-48
+                          - heading "Men's Regular Fit Mid Rise Track Pant" [level=2] [ref=e4844]
+                      - generic [ref=e4846]:
+                        - text: "3.9"
+                        - button "3.9 out of 5 stars, rating details" [ref=e4848] [cursor=pointer]:
+                          - generic [ref=e4850]: 3.9 out of 5 stars
+                        - link "3,804 ratings" [ref=e4852] [cursor=pointer]:
+                          - /url: /Pepe-Jeans-Athleisure-Cotton-Stretch/dp/B0C3DBY5WV/ref=sr_1_48?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-48#customerReviews
+                          - text: (3.8K)
+                      - generic [ref=e4853]:
+                        - generic [ref=e4855]:
+                          - generic [ref=e4856]: Price, product page
+                          - 'link "₹699 M.R.P: ₹1,399 M.R.P: ₹1,399" [ref=e4857] [cursor=pointer]':
+                            - /url: /Pepe-Jeans-Athleisure-Cotton-Stretch/dp/B0C3DBY5WV/ref=sr_1_48?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-48
+                            - generic [ref=e4858]:
+                              - generic [ref=e4859]: ₹699
+                              - generic [ref=e4860]: ₹699
+                            - generic [ref=e4861]: "M.R.P: ₹1,399"
+                            - generic [ref=e4862]:
+                              - text: "M.R.P:"
+                              - generic [ref=e4863]:
+                                - generic [ref=e4864]: ₹1,399
+                                - text: ₹1,399
+                          - text: (50% off)
+                        - generic [ref=e4868]:
+                          - generic [ref=e4869]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e4870]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e4873]:
+                        - generic [ref=e4875]: FREE delivery Thu, 2 Jul
+                        - generic [ref=e4877]: Or fastest delivery Tomorrow 8 am - 12 pm
+                      - button "Add to cart" [ref=e4888] [cursor=pointer]
+                - listitem [ref=e4889]:
+                  - generic [ref=e4894]:
+                    - link [ref=e4898] [cursor=pointer]:
+                      - /url: /PROSHARX-Athletic-Anti-Wicking-Lightweight-Running/dp/B0DY3Z85LD/ref=sr_1_49?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-49
+                      - img [ref=e4900]
+                    - generic [ref=e4901]:
+                      - group "colours available" [ref=e4903]:
+                        - list [ref=e4904]:
+                          - generic [ref=e4905]:
+                            - listitem:
+                              - link "Black":
+                                - /url: /PROSHARX-Athletic-Anti-Wicking-Lightweight-Running/dp/B0DY3Z85LD/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-49
+                          - generic [ref=e4908]:
+                            - listitem:
+                              - link "Dark Grey":
+                                - /url: /PROSHARX-Athletic-Anti-Wicking-Lightweight-Running/dp/B0DY481FRB/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-49
+                          - generic [ref=e4911]:
+                            - listitem:
+                              - link "Light Grey":
+                                - /url: /PROSHARX-Athletic-Anti-Wicking-Lightweight-Running/dp/B0DY4JS2S5/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-49
+                          - generic [ref=e4914]:
+                            - listitem:
+                              - link "white":
+                                - /url: /PROSHARX-Athletic-Anti-Wicking-Lightweight-Running/dp/B0DY4163PT/ref=cs_sr_dp_4?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-49
+                      - generic [ref=e4917]:
+                        - heading "PROSHARX" [level=2] [ref=e4919]
+                        - link "Men’s Shorts with Quick Dry Tech | Athletic Anti-Wicking Lightweight Shorts for Sports, Running & Gym" [ref=e4920] [cursor=pointer]:
+                          - /url: /PROSHARX-Athletic-Anti-Wicking-Lightweight-Running/dp/B0DY3Z85LD/ref=sr_1_49?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-49
+                          - heading "Men’s Shorts with Quick Dry Tech | Athletic Anti-Wicking Lightweight Shorts for Sports, Running & Gym" [level=2] [ref=e4921]
+                      - generic [ref=e4922]:
+                        - generic [ref=e4923]:
+                          - text: "3.6"
+                          - button "3.6 out of 5 stars, rating details" [ref=e4925] [cursor=pointer]:
+                            - generic [ref=e4927]: 3.6 out of 5 stars
+                          - link "880 ratings" [ref=e4929] [cursor=pointer]:
+                            - /url: /PROSHARX-Athletic-Anti-Wicking-Lightweight-Running/dp/B0DY3Z85LD/ref=sr_1_49?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-49#customerReviews
+                            - text: (880)
+                        - generic [ref=e4930]: 50+ bought in past month
+                      - generic [ref=e4931]:
+                        - generic [ref=e4933]:
+                          - generic [ref=e4934]: Price, product page
+                          - 'link "₹391 M.R.P: ₹1,999 M.R.P: ₹1,999" [ref=e4935] [cursor=pointer]':
+                            - /url: /PROSHARX-Athletic-Anti-Wicking-Lightweight-Running/dp/B0DY3Z85LD/ref=sr_1_49?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-49
+                            - generic [ref=e4936]:
+                              - generic [ref=e4937]: ₹391
+                              - generic [ref=e4938]: ₹391
+                            - generic [ref=e4939]: "M.R.P: ₹1,999"
+                            - generic [ref=e4940]:
+                              - text: "M.R.P:"
+                              - generic [ref=e4941]:
+                                - generic [ref=e4942]: ₹1,999
+                                - text: ₹1,999
+                          - text: (80% off)
+                        - generic [ref=e4945]:
+                          - generic [ref=e4946]: You pay ₹383.18
+                          - text: with coupon (limited sizes/colours)
+                      - generic [ref=e4949]:
+                        - generic [ref=e4951]: FREE delivery Thu, 2 Jul on first order
+                        - generic [ref=e4953]: Or fastest delivery Tomorrow, 1 Jul
+                      - button "Add to cart" [ref=e4964] [cursor=pointer]
+                - listitem [ref=e4965]:
+                  - generic [ref=e4970]:
+                    - link [ref=e4974] [cursor=pointer]:
+                      - /url: /Boldfit-Quick-Dry-Anti-Odor-Lightweight-Breathable/dp/B0CVX9VNVB/ref=sr_1_50?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-50
+                      - img [ref=e4976]
+                    - generic [ref=e4977]:
+                      - group "colours available" [ref=e4979]:
+                        - list [ref=e4980]:
+                          - generic [ref=e4981]:
+                            - listitem:
+                              - link "Black":
+                                - /url: /Boldfit-Quick-Dry-Anti-Odor-Lightweight-Breathable/dp/B0CVX9VNVB/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-50
+                          - generic [ref=e4984]:
+                            - listitem:
+                              - link "Mint":
+                                - /url: /Boldfit-Quick-Dry-Anti-Odor-Lightweight-Breathable/dp/B0CVXG15LQ/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-50
+                          - generic [ref=e4987]:
+                            - listitem:
+                              - link "Navy":
+                                - /url: /Boldfit-Quick-Dry-Anti-Odor-Lightweight-Breathable/dp/B0D3591VP9/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-50
+                          - generic [ref=e4990]:
+                            - listitem:
+                              - link "Grey":
+                                - /url: /Boldfit-Quick-Dry-Anti-Odor-Lightweight-Breathable/dp/B0CVXLMVXX/ref=cs_sr_dp_4?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-50
+                          - generic [ref=e4993]:
+                            - listitem:
+                              - link "Green":
+                                - /url: /Boldfit-Quick-Dry-Anti-Odor-Lightweight-Breathable/dp/B0CVX63K41/ref=cs_sr_dp_5?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-50
+                      - generic [ref=e4996]:
+                        - heading "Boldfit" [level=2] [ref=e4998]
+                        - link "Gym T Shirts for Men Workout Breathable T Shirt for Man Active Wear Sports Tshirt for Men Lightweight Gym Tshirts for Man Dry Fit Running T Shirts for Boys Regular Fit Sports Tshirts" [ref=e4999] [cursor=pointer]:
+                          - /url: /Boldfit-Quick-Dry-Anti-Odor-Lightweight-Breathable/dp/B0CVX9VNVB/ref=sr_1_50?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-50
+                          - heading "Gym T Shirts for Men Workout Breathable T Shirt for Man Active Wear Sports Tshirt for Men Lightweight Gym Tshirts for Man Dry Fit Running T Shirts for Boys Regular Fit Sports Tshirts" [level=2] [ref=e5000]
+                      - generic [ref=e5001]:
+                        - generic [ref=e5002]:
+                          - text: "4.1"
+                          - button "4.1 out of 5 stars, rating details" [ref=e5004] [cursor=pointer]:
+                            - generic [ref=e5006]: 4.1 out of 5 stars
+                          - link "1,259 ratings" [ref=e5008] [cursor=pointer]:
+                            - /url: /Boldfit-Quick-Dry-Anti-Odor-Lightweight-Breathable/dp/B0CVX9VNVB/ref=sr_1_50?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-50#customerReviews
+                            - text: (1.2K)
+                        - generic [ref=e5009]: 100+ bought in past month
+                      - generic [ref=e5010]:
+                        - generic [ref=e5012]:
+                          - generic [ref=e5013]: Price, product page
+                          - 'link "₹399 M.R.P: ₹999 M.R.P: ₹999" [ref=e5014] [cursor=pointer]':
+                            - /url: /Boldfit-Quick-Dry-Anti-Odor-Lightweight-Breathable/dp/B0CVX9VNVB/ref=sr_1_50?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-50
+                            - generic [ref=e5015]:
+                              - generic [ref=e5016]: ₹399
+                              - generic [ref=e5017]: ₹399
+                            - generic [ref=e5018]: "M.R.P: ₹999"
+                            - generic [ref=e5019]:
+                              - text: "M.R.P:"
+                              - generic [ref=e5020]:
+                                - generic [ref=e5021]: ₹999
+                                - text: ₹999
+                          - text: (60% off)
+                        - generic [ref=e5025]:
+                          - generic [ref=e5026]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e5027]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e5030]:
+                        - generic [ref=e5032]: FREE delivery Thu, 2 Jul on first order
+                        - generic [ref=e5034]: Or fastest delivery Tomorrow, 1 Jul
+                      - button "Add to cart" [ref=e5045] [cursor=pointer]
+                - listitem [ref=e5046]:
+                  - generic [ref=e5051]:
+                    - group "Best sellerin Men's Activewear Vests" [ref=e5056]:
+                      - generic "Best seller" [ref=e5058]
+                    - link [ref=e5062] [cursor=pointer]:
+                      - /url: /JUARI-BE-GENTLEMAN-Mens-Sleeveless/dp/B0FB917FZZ/ref=sr_1_51?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-51
+                      - img [ref=e5064]
+                    - generic [ref=e5065]:
+                      - group "colours available" [ref=e5067]:
+                        - list [ref=e5068]:
+                          - generic [ref=e5069]:
+                            - listitem:
+                              - link "SLRIB-BLK-NEVR-T":
+                                - /url: /JUARI-BE-GENTLEMAN-Mens-Sleeveless/dp/B0FB917FZZ/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-51
+                          - generic [ref=e5072]:
+                            - listitem:
+                              - link "NVY-1967":
+                                - /url: /JUARI-BE-GENTLEMAN-Mens-Sleeveless/dp/B0G2JGSSN7/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-51
+                          - generic [ref=e5075]:
+                            - listitem:
+                              - link "SLRIB-BLK-1967":
+                                - /url: /JUARI-BE-GENTLEMAN-Mens-Sleeveless/dp/B0G2JJP1XP/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-51
+                          - generic [ref=e5078]:
+                            - listitem:
+                              - link "SLRIB-BLK-BROKLYN":
+                                - /url: /JUARI-BE-GENTLEMAN-Mens-Sleeveless/dp/B0FB92DKWC/ref=cs_sr_dp_4?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-51
+                          - generic [ref=e5081]:
+                            - listitem:
+                              - link "SLRIB-MRON-BROKLYN":
+                                - /url: /JUARI-BE-GENTLEMAN-Mens-Sleeveless/dp/B0FB8Z15F9/ref=cs_sr_dp_5?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-51
+                          - generic [ref=e5084]:
+                            - listitem:
+                              - link "SLRIB-MRON-NEVER-T":
+                                - /url: /JUARI-BE-GENTLEMAN-Mens-Sleeveless/dp/B0FB91DLJP/ref=cs_sr_dp_6?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-51
+                        - link "+2 other colors/patterns" [ref=e5088] [cursor=pointer]:
+                          - /url: /JUARI-BE-GENTLEMAN-Mens-Sleeveless/dp/B0FB917FZZ/ref=cs_sr_dp_n?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-51
+                          - text: "+2"
+                      - generic [ref=e5089]:
+                        - heading "JUARI BE A GENTLEMAN" [level=2] [ref=e5091]
+                        - link "Men's Sleeveless Tank Top Premium Cotton Blend Muscle Fit Gym Vest | Casual Summer Workout Shirt | Breathable & Lightweight Fitness Wear for Bodybuilding, Running & Daily Use" [ref=e5092] [cursor=pointer]:
+                          - /url: /JUARI-BE-GENTLEMAN-Mens-Sleeveless/dp/B0FB917FZZ/ref=sr_1_51?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-51
+                          - heading "Men's Sleeveless Tank Top Premium Cotton Blend Muscle Fit Gym Vest | Casual Summer Workout Shirt | Breathable & Lightweight Fitness Wear for Bodybuilding, Running & Daily Use" [level=2] [ref=e5093]
+                      - generic [ref=e5094]:
+                        - generic [ref=e5095]:
+                          - text: "4.0"
+                          - button "4.0 out of 5 stars, rating details" [ref=e5097] [cursor=pointer]:
+                            - generic [ref=e5099]: 4.0 out of 5 stars
+                          - link "569 ratings" [ref=e5101] [cursor=pointer]:
+                            - /url: /JUARI-BE-GENTLEMAN-Mens-Sleeveless/dp/B0FB917FZZ/ref=sr_1_51?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-51#customerReviews
+                            - text: (569)
+                        - generic [ref=e5102]: 200+ bought in past month
+                      - generic [ref=e5103]:
+                        - link "Limited time deal" [ref=e5105] [cursor=pointer]:
+                          - /url: /deals
+                          - generic [ref=e5108]: Limited time deal
+                        - generic [ref=e5110]:
+                          - generic [ref=e5111]: Price, product page
+                          - 'link "₹298.99 M.R.P: ₹999 M.R.P: ₹999" [ref=e5112] [cursor=pointer]':
+                            - /url: /JUARI-BE-GENTLEMAN-Mens-Sleeveless/dp/B0FB917FZZ/ref=sr_1_51?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-51
+                            - generic [ref=e5113]:
+                              - generic [ref=e5114]: ₹298.99
+                              - generic [ref=e5115]:
+                                - text: ₹
+                                - generic [ref=e5116]:
+                                  - text: "298"
+                                  - generic [ref=e5117]: .
+                                - text: "99"
+                            - generic [ref=e5118]: "M.R.P: ₹999"
+                            - generic [ref=e5119]:
+                              - text: "M.R.P:"
+                              - generic [ref=e5120]:
+                                - generic [ref=e5121]: ₹999
+                                - text: ₹999
+                          - text: (70% off)
+                        - generic [ref=e5124]:
+                          - generic [ref=e5125]: You pay ₹293.01
+                          - text: with coupon (limited sizes/colours)
+                      - generic [ref=e5128]:
+                        - generic [ref=e5130]: FREE delivery Thu, 2 Jul on first order
+                        - generic [ref=e5132]: Or fastest delivery Tomorrow, 1 Jul
+                      - button "Add to cart" [ref=e5143] [cursor=pointer]
+                - listitem [ref=e5144]:
+                  - generic [ref=e5149]:
+                    - link [ref=e5153] [cursor=pointer]:
+                      - /url: /RynoGear-Regular-Super-Stretchable-Track/dp/B0CQ4ZQ184/ref=sr_1_52?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-52
+                      - img [ref=e5155]
+                    - generic [ref=e5156]:
+                      - group "colours available" [ref=e5158]:
+                        - list [ref=e5159]:
+                          - generic [ref=e5160]:
+                            - listitem:
+                              - link "Black":
+                                - /url: /RynoGear-Regular-Super-Stretchable-Track/dp/B0CQ4ZQ184/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-52
+                          - generic [ref=e5163]:
+                            - listitem:
+                              - link "Air Force":
+                                - /url: /RynoGear-Regular-Super-Stretchable-Track/dp/B0CQ514GCY/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-52
+                          - generic [ref=e5166]:
+                            - listitem:
+                              - link "Dark Grey":
+                                - /url: /RynoGear-Regular-Super-Stretchable-Track/dp/B0CQ511NK5/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-52
+                          - generic [ref=e5169]:
+                            - listitem:
+                              - link "Light Grey":
+                                - /url: /RynoGear-Regular-Super-Stretchable-Track/dp/B0CQ4ZX9V3/ref=cs_sr_dp_4?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-52
+                          - generic [ref=e5172]:
+                            - listitem:
+                              - link "Navy Blue":
+                                - /url: /RynoGear-Regular-Super-Stretchable-Track/dp/B0CQ516JQR/ref=cs_sr_dp_5?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-52
+                      - generic [ref=e5175]:
+                        - heading "RynoGear" [level=2] [ref=e5177]
+                        - link "Regular Fit Super Stretchable Track Pant for Men" [ref=e5178] [cursor=pointer]:
+                          - /url: /RynoGear-Regular-Super-Stretchable-Track/dp/B0CQ4ZQ184/ref=sr_1_52?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-52
+                          - heading "Regular Fit Super Stretchable Track Pant for Men" [level=2] [ref=e5179]
+                      - generic [ref=e5180]:
+                        - generic [ref=e5181]:
+                          - text: "4.0"
+                          - button "4.0 out of 5 stars, rating details" [ref=e5183] [cursor=pointer]:
+                            - generic [ref=e5185]: 4.0 out of 5 stars
+                          - link "4,758 ratings" [ref=e5187] [cursor=pointer]:
+                            - /url: /RynoGear-Regular-Super-Stretchable-Track/dp/B0CQ4ZQ184/ref=sr_1_52?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-52#customerReviews
+                            - text: (4.7K)
+                        - generic [ref=e5188]: 500+ bought in past month
+                      - generic [ref=e5189]:
+                        - generic [ref=e5191]:
+                          - generic [ref=e5192]: Price, product page
+                          - 'link "₹549 M.R.P: ₹999 M.R.P: ₹999" [ref=e5193] [cursor=pointer]':
+                            - /url: /RynoGear-Regular-Super-Stretchable-Track/dp/B0CQ4ZQ184/ref=sr_1_52?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-52
+                            - generic [ref=e5194]:
+                              - generic [ref=e5195]: ₹549
+                              - generic [ref=e5196]: ₹549
+                            - generic [ref=e5197]: "M.R.P: ₹999"
+                            - generic [ref=e5198]:
+                              - text: "M.R.P:"
+                              - generic [ref=e5199]:
+                                - generic [ref=e5200]: ₹999
+                                - text: ₹999
+                          - text: (45% off)
+                        - generic [ref=e5204]:
+                          - generic [ref=e5205]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e5206]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e5209]:
+                        - generic [ref=e5211]: FREE delivery Thu, 2 Jul
+                        - generic [ref=e5213]: Or fastest delivery Tomorrow, 1 Jul
+                      - button "Add to cart" [ref=e5224] [cursor=pointer]
+                - listitem [ref=e5225]:
+                  - generic [ref=e5230]:
+                    - link [ref=e5234] [cursor=pointer]:
+                      - /url: /Boldfit-Mens-Gym-Shorts-BFTBM7004TBlackXXL_Black_2XL/dp/B0D83VVZDJ/ref=sr_1_53?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-53
+                      - img [ref=e5236]
+                    - generic [ref=e5237]:
+                      - group "colours available" [ref=e5239]:
+                        - list [ref=e5240]:
+                          - generic [ref=e5241]:
+                            - listitem:
+                              - link "Black":
+                                - /url: /Boldfit-Mens-Gym-Shorts-BFTBM7004TBlackXXL_Black_2XL/dp/B0D83VVZDJ/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-53
+                          - generic [ref=e5244]:
+                            - listitem:
+                              - link "Black Pack of 2":
+                                - /url: /Boldfit-Mens-Gym-Shorts-BFTBM7004TBlackXXL_Black_2XL/dp/B0FR9G3LXQ/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-53
+                      - generic [ref=e5247]:
+                        - heading "Boldfit" [level=2] [ref=e5249]
+                        - link "Shorts for Men Training Gym Shorts for Men Workout Lightweight Running Short for Man Badminton Short for Boys Breathable Gym Wear for Boys Half Pant for Running, Cycling, Workout, Pickleball" [ref=e5250] [cursor=pointer]:
+                          - /url: /Boldfit-Mens-Gym-Shorts-BFTBM7004TBlackXXL_Black_2XL/dp/B0D83VVZDJ/ref=sr_1_53?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-53
+                          - heading "Shorts for Men Training Gym Shorts for Men Workout Lightweight Running Short for Man Badminton Short for Boys Breathable Gym Wear for Boys Half Pant for Running, Cycling, Workout, Pickleball" [level=2] [ref=e5251]
+                      - generic [ref=e5252]:
+                        - generic [ref=e5253]:
+                          - text: "4.1"
+                          - button "4.1 out of 5 stars, rating details" [ref=e5255] [cursor=pointer]:
+                            - generic [ref=e5257]: 4.1 out of 5 stars
+                          - link "1,354 ratings" [ref=e5259] [cursor=pointer]:
+                            - /url: /Boldfit-Mens-Gym-Shorts-BFTBM7004TBlackXXL_Black_2XL/dp/B0D83VVZDJ/ref=sr_1_53?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-53#customerReviews
+                            - text: (1.3K)
+                        - generic [ref=e5260]: 700+ bought in past month
+                      - generic [ref=e5261]:
+                        - generic [ref=e5263]:
+                          - generic [ref=e5264]: Price, product page
+                          - 'link "₹449 M.R.P: ₹999 M.R.P: ₹999" [ref=e5265] [cursor=pointer]':
+                            - /url: /Boldfit-Mens-Gym-Shorts-BFTBM7004TBlackXXL_Black_2XL/dp/B0D83VVZDJ/ref=sr_1_53?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-53
+                            - generic [ref=e5266]:
+                              - generic [ref=e5267]: ₹449
+                              - generic [ref=e5268]: ₹449
+                            - generic [ref=e5269]: "M.R.P: ₹999"
+                            - generic [ref=e5270]:
+                              - text: "M.R.P:"
+                              - generic [ref=e5271]:
+                                - generic [ref=e5272]: ₹999
+                                - text: ₹999
+                          - text: (55% off)
+                        - generic [ref=e5276]:
+                          - generic [ref=e5277]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e5278]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e5281]:
+                        - generic [ref=e5283]: FREE delivery Sat, 4 Jul on first order
+                        - generic [ref=e5285]: Or fastest delivery Tomorrow 8 am - 12 pm
+                      - button "Add to cart" [ref=e5296] [cursor=pointer]
+                - listitem [ref=e5297]:
+                  - generic [ref=e5302]:
+                    - link [ref=e5306] [cursor=pointer]:
+                      - /url: /Symbol-Premium-Regular-Stretch-SPA-M-A25-TSH-301_Black/dp/B0FHH36PJL/ref=sr_1_54?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-54
+                      - img [ref=e5308]
+                    - generic [ref=e5309]:
+                      - group "colours available" [ref=e5311]:
+                        - list [ref=e5312]:
+                          - generic [ref=e5313]:
+                            - listitem:
+                              - link "Grey/Black":
+                                - /url: /Symbol-Premium-Regular-Stretch-SPA-M-A25-TSH-301_Black/dp/B0FHH36PJL/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-54
+                          - generic [ref=e5316]:
+                            - listitem:
+                              - link "Black":
+                                - /url: /Symbol-Premium-Regular-Stretch-SPA-M-A25-TSH-301_Black/dp/B0FHH3MMJB/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-54
+                          - generic [ref=e5319]:
+                            - listitem:
+                              - link "Black/Grey":
+                                - /url: /Symbol-Premium-Regular-Stretch-SPA-M-A25-TSH-301_Black/dp/B0FHH3YTMB/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-54
+                          - generic [ref=e5322]:
+                            - listitem:
+                              - link "Dark Grey":
+                                - /url: /Symbol-Premium-Regular-Stretch-SPA-M-A25-TSH-301_Black/dp/B0FHH3D7QJ/ref=cs_sr_dp_4?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-54
+                          - generic [ref=e5325]:
+                            - listitem:
+                              - link "Neon Green":
+                                - /url: /Symbol-Premium-Regular-Stretch-SPA-M-A25-TSH-301_Black/dp/B0FY5Z25RL/ref=cs_sr_dp_5?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-54
+                          - generic [ref=e5328]:
+                            - listitem:
+                              - link "Neon/White":
+                                - /url: /Symbol-Premium-Regular-Stretch-SPA-M-A25-TSH-301_Black/dp/B0FY61Z8JX/ref=cs_sr_dp_6?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-54
+                        - link "+5 other colors/patterns" [ref=e5332] [cursor=pointer]:
+                          - /url: /Symbol-Premium-Regular-Stretch-SPA-M-A25-TSH-301_Black/dp/B0FHH36PJL/ref=cs_sr_dp_n?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-54
+                          - text: "+5"
+                      - generic [ref=e5333]:
+                        - heading "Symbol Premium" [level=2] [ref=e5335]
+                        - link "Men's Solid Regular Fit Sports Stretch T-Shirt | Round Neck | Raglan Sleeve | Moisture-Wicking | Activewear | Running | Gym | Plain (Available in Plus Sizes)" [ref=e5336] [cursor=pointer]:
+                          - /url: /Symbol-Premium-Regular-Stretch-SPA-M-A25-TSH-301_Black/dp/B0FHH36PJL/ref=sr_1_54?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-54
+                          - heading "Men's Solid Regular Fit Sports Stretch T-Shirt | Round Neck | Raglan Sleeve | Moisture-Wicking | Activewear | Running | Gym | Plain (Available in Plus Sizes)" [level=2] [ref=e5337]
+                      - generic [ref=e5339]:
+                        - text: "4.3"
+                        - button "4.3 out of 5 stars, rating details" [ref=e5341] [cursor=pointer]:
+                          - generic [ref=e5343]: 4.3 out of 5 stars
+                        - link "152 ratings" [ref=e5345] [cursor=pointer]:
+                          - /url: /Symbol-Premium-Regular-Stretch-SPA-M-A25-TSH-301_Black/dp/B0FHH36PJL/ref=sr_1_54?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-54#customerReviews
+                          - text: (152)
+                      - generic [ref=e5346]:
+                        - generic [ref=e5348]:
+                          - generic [ref=e5349]: Price, product page
+                          - 'link "₹599 M.R.P: ₹1,199 M.R.P: ₹1,199" [ref=e5350] [cursor=pointer]':
+                            - /url: /Symbol-Premium-Regular-Stretch-SPA-M-A25-TSH-301_Black/dp/B0FHH36PJL/ref=sr_1_54?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-54
+                            - generic [ref=e5351]:
+                              - generic [ref=e5352]: ₹599
+                              - generic [ref=e5353]: ₹599
+                            - generic [ref=e5354]: "M.R.P: ₹1,199"
+                            - generic [ref=e5355]:
+                              - text: "M.R.P:"
+                              - generic [ref=e5356]:
+                                - generic [ref=e5357]: ₹1,199
+                                - text: ₹1,199
+                          - text: (50% off)
+                        - generic [ref=e5361]:
+                          - generic [ref=e5362]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e5363]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e5366]:
+                        - generic [ref=e5368]: FREE delivery Thu, 2 Jul
+                        - generic [ref=e5370]: Or fastest delivery Tomorrow, 1 Jul
+                      - button "Add to cart" [ref=e5381] [cursor=pointer]
+                - listitem [ref=e5382]:
+                  - generic [ref=e5387]:
+                    - link [ref=e5391] [cursor=pointer]:
+                      - /url: /Ameena-Store-Running-Training-Regular/dp/B0FRZ96KPK/ref=sr_1_55?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-55
+                      - img [ref=e5393]
+                    - generic [ref=e5394]:
+                      - group "colours available" [ref=e5396]:
+                        - list [ref=e5397]:
+                          - generic [ref=e5398]:
+                            - listitem:
+                              - link "GREY":
+                                - /url: /Ameena-Store-Running-Training-Regular/dp/B0FRZ96KPK/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-55
+                          - generic [ref=e5401]:
+                            - listitem:
+                              - link "BLACK":
+                                - /url: /Ameena-Store-Running-Training-Regular/dp/B0FRZ71NSQ/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-55
+                          - generic [ref=e5404]:
+                            - listitem:
+                              - link "Red":
+                                - /url: /Ameena-Store-Running-Training-Regular/dp/B0GSMS2V59/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-55
+                          - generic [ref=e5407]:
+                            - listitem:
+                              - link "WHITE":
+                                - /url: /Ameena-Store-Running-Training-Regular/dp/B0FRZ7J2LL/ref=cs_sr_dp_4?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-55
+                          - generic [ref=e5410]:
+                            - listitem:
+                              - link "BLUE":
+                                - /url: /Ameena-Store-Running-Training-Regular/dp/B0FRZ9G4V4/ref=cs_sr_dp_5?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-55
+                      - generic [ref=e5413]:
+                        - heading "Ameena Store" [level=2] [ref=e5415]
+                        - link "Men’s 2 in 1 Active Dual Shorts with Inner Tights | Double Layer Gym Shorts | Running, Training & Sports Shorts with Pocket Plus Size (S to 6XL)" [ref=e5416] [cursor=pointer]:
+                          - /url: /Ameena-Store-Running-Training-Regular/dp/B0FRZ96KPK/ref=sr_1_55?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-55
+                          - heading "Men’s 2 in 1 Active Dual Shorts with Inner Tights | Double Layer Gym Shorts | Running, Training & Sports Shorts with Pocket Plus Size (S to 6XL)" [level=2] [ref=e5417]
+                      - generic [ref=e5418]:
+                        - generic [ref=e5419]:
+                          - text: "3.8"
+                          - button "3.8 out of 5 stars, rating details" [ref=e5421] [cursor=pointer]:
+                            - generic [ref=e5423]: 3.8 out of 5 stars
+                          - link "105 ratings" [ref=e5425] [cursor=pointer]:
+                            - /url: /Ameena-Store-Running-Training-Regular/dp/B0FRZ96KPK/ref=sr_1_55?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-55#customerReviews
+                            - text: (105)
+                        - generic [ref=e5426]: 100+ bought in past month
+                      - generic [ref=e5427]:
+                        - link "Limited time deal" [ref=e5429] [cursor=pointer]:
+                          - /url: /deals
+                          - generic [ref=e5432]: Limited time deal
+                        - generic [ref=e5434]:
+                          - generic [ref=e5435]: Price, product page
+                          - 'link "₹444 M.R.P: ₹999 M.R.P: ₹999" [ref=e5436] [cursor=pointer]':
+                            - /url: /Ameena-Store-Running-Training-Regular/dp/B0FRZ96KPK/ref=sr_1_55?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-55
+                            - generic [ref=e5437]:
+                              - generic [ref=e5438]: ₹444
+                              - generic [ref=e5439]: ₹444
+                            - generic [ref=e5440]: "M.R.P: ₹999"
+                            - generic [ref=e5441]:
+                              - text: "M.R.P:"
+                              - generic [ref=e5442]:
+                                - generic [ref=e5443]: ₹999
+                                - text: ₹999
+                          - text: (56% off)
+                        - generic [ref=e5446]:
+                          - generic [ref=e5447]: You pay ₹435.12
+                          - text: with coupon (limited sizes/colours)
+                      - generic [ref=e5454]: FREE delivery Sun, 5 Jul
+                      - link "See options" [ref=e5461] [cursor=pointer]:
+                        - /url: /Ameena-Store-Running-Training-Regular/dp/B0FRZ96KPK/ref=sr_1_55_so_SHORTS?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-55
+                - listitem [ref=e5462]:
+                  - generic [ref=e5467]:
+                    - link [ref=e5471] [cursor=pointer]:
+                      - /url: /BULLAR-Polyester-Compression-T-Shirt-Athletic/dp/B0GNMZPWP7/ref=sr_1_56?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-56
+                      - img [ref=e5473]
+                    - generic [ref=e5474]:
+                      - group "colours available" [ref=e5476]:
+                        - list [ref=e5477]:
+                          - generic [ref=e5478]:
+                            - listitem:
+                              - link "Black":
+                                - /url: /BULLAR-Polyester-Compression-T-Shirt-Athletic/dp/B0GNMZPWP7/ref=cs_sr_dp_1?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-56
+                          - generic [ref=e5481]:
+                            - listitem:
+                              - link "Black/White":
+                                - /url: /BULLAR-Polyester-Compression-T-Shirt-Athletic/dp/B0G7WTP52P/ref=cs_sr_dp_2?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-56
+                          - generic [ref=e5484]:
+                            - listitem:
+                              - link "White":
+                                - /url: /BULLAR-Polyester-Compression-T-Shirt-Athletic/dp/B0G7XLZV6V/ref=cs_sr_dp_3?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-56
+                          - generic [ref=e5487]:
+                            - listitem:
+                              - link "Blue":
+                                - /url: /BULLAR-Polyester-Compression-T-Shirt-Athletic/dp/B0GF7SSFGB/ref=cs_sr_dp_4?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-56
+                      - generic [ref=e5490]:
+                        - heading "BULLAR" [level=2] [ref=e5492]
+                        - link "Men's Polyester Blend Compression T-Shirt, Half Sleeve Athletic Sports Tight, Crew Neck, Slim Fit Tshirt for Fitness and Workout" [ref=e5493] [cursor=pointer]:
+                          - /url: /BULLAR-Polyester-Compression-T-Shirt-Athletic/dp/B0GNMZPWP7/ref=sr_1_56?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-56
+                          - heading "Men's Polyester Blend Compression T-Shirt, Half Sleeve Athletic Sports Tight, Crew Neck, Slim Fit Tshirt for Fitness and Workout" [level=2] [ref=e5494]
+                      - generic [ref=e5495]:
+                        - generic [ref=e5496]:
+                          - text: "3.9"
+                          - button "3.9 out of 5 stars, rating details" [ref=e5498] [cursor=pointer]:
+                            - generic [ref=e5500]: 3.9 out of 5 stars
+                          - link "149 ratings" [ref=e5502] [cursor=pointer]:
+                            - /url: /BULLAR-Polyester-Compression-T-Shirt-Athletic/dp/B0GNMZPWP7/ref=sr_1_56?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-56#customerReviews
+                            - text: (149)
+                        - generic [ref=e5503]: 100+ bought in past month
+                      - generic [ref=e5504]:
+                        - link "Limited time deal" [ref=e5506] [cursor=pointer]:
+                          - /url: /deals
+                          - generic [ref=e5509]: Limited time deal
+                        - generic [ref=e5511]:
+                          - generic [ref=e5512]: Price, product page
+                          - 'link "₹379 M.R.P: ₹999 M.R.P: ₹999" [ref=e5513] [cursor=pointer]':
+                            - /url: /BULLAR-Polyester-Compression-T-Shirt-Athletic/dp/B0GNMZPWP7/ref=sr_1_56?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-56
+                            - generic [ref=e5514]:
+                              - generic [ref=e5515]: ₹379
+                              - generic [ref=e5516]: ₹379
+                            - generic [ref=e5517]: "M.R.P: ₹999"
+                            - generic [ref=e5518]:
+                              - text: "M.R.P:"
+                              - generic [ref=e5519]:
+                                - generic [ref=e5520]: ₹999
+                                - text: ₹999
+                          - text: (62% off)
+                        - generic [ref=e5523]:
+                          - generic [ref=e5524]: You pay ₹371.42
+                          - text: with coupon (limited sizes/colours)
+                      - generic [ref=e5529]: FREE delivery Sat, 11 Jul on first order
+                      - link "See options" [ref=e5536] [cursor=pointer]:
+                        - /url: /BULLAR-Polyester-Compression-T-Shirt-Athletic/dp/B0GNMZPWP7/ref=sr_1_56_so_SHIRT?crid=NKNQ018KCWAW&dib=eyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI&dib_tag=se&keywords=gym+clothes+men&qid=1782840509&sprefix=%2Caps%2C249&sr=8-56
+                - listitem [ref=e5537]:
+                  - generic [ref=e5544]:
+                    - link [ref=e5548] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYnRmOjMwMTAyNTY2MzgxMDUzMjo6MDo6&url=%2FAmeena-Store-Running-Training-Regular%2Fdp%2FB0FRZ7QM9K%2Fref%3Dsr_1_57_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-57-spons%26aref%3DmpP3KoSlfw%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=mpP3KoSlfw&sp_cr=ZAZ
+                      - img [ref=e5550]
+                    - generic [ref=e5551]:
+                      - group "colours available" [ref=e5553]:
+                        - list
+                        - link "+4 other colors/patterns" [ref=e5555] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYnRmOjMwMTAyNTY2MzgxMDUzMjo6MDo6&url=%2FAmeena-Store-Running-Training-Regular%2Fdp%2FB0FRZ7QM9K%2Fref%3Dsr_1_57_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-57-spons%26aref%3DmpP3KoSlfw%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=mpP3KoSlfw&sp_cr=ZAZ
+                      - generic [ref=e5556]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e5559] [cursor=pointer]:
+                          - generic [ref=e5560]: Sponsored
+                        - heading "Ameena Store" [level=2] [ref=e5563]
+                        - link "Sponsored Ad - Men’s 2 in 1 Active Dual Shorts with Inner Tights | Double Layer Gym Shorts | Running, Training & Sports Shorts with Pocket Plus Size (S to 6XL)" [ref=e5564] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYnRmOjMwMTAyNTY2MzgxMDUzMjo6MDo6&url=%2FAmeena-Store-Running-Training-Regular%2Fdp%2FB0FRZ7QM9K%2Fref%3Dsr_1_57_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-57-spons%26aref%3DmpP3KoSlfw%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=mpP3KoSlfw&sp_cr=ZAZ
+                          - heading "Sponsored Ad - Men’s 2 in 1 Active Dual Shorts with Inner Tights | Double Layer Gym Shorts | Running, Training & Sports Shorts with Pocket Plus Size (S to 6XL)" [level=2] [ref=e5565]: Men’s 2 in 1 Active Dual Shorts with Inner Tights | Double Layer Gym Shorts | Running, Training & Sports Shorts with Pocket Plus Size (S to 6XL)
+                      - generic [ref=e5567]:
+                        - text: "3.8"
+                        - button "3.8 out of 5 stars, rating details" [ref=e5569] [cursor=pointer]:
+                          - generic [ref=e5571]: 3.8 out of 5 stars
+                        - link "105 ratings" [ref=e5573] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYnRmOjMwMTAyNTY2MzgxMDUzMjo6MDo6&url=%2FAmeena-Store-Running-Training-Regular%2Fdp%2FB0FRZ7QM9K%2Fref%3Dsr_1_57_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-57-spons%26aref%3DmpP3KoSlfw%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=mpP3KoSlfw&sp_cr=ZAZ#customerReviews
+                          - text: (105)
+                      - generic [ref=e5574]:
+                        - generic [ref=e5576]:
+                          - generic [ref=e5577]: Price, product page
+                          - 'link "₹441 M.R.P: ₹999 M.R.P: ₹999" [ref=e5578] [cursor=pointer]':
+                            - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYnRmOjMwMTAyNTY2MzgxMDUzMjo6MDo6&url=%2FAmeena-Store-Running-Training-Regular%2Fdp%2FB0FRZ7QM9K%2Fref%3Dsr_1_57_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-57-spons%26aref%3DmpP3KoSlfw%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=mpP3KoSlfw&sp_cr=ZAZ
+                            - generic [ref=e5579]:
+                              - generic [ref=e5580]: ₹441
+                              - generic [ref=e5581]: ₹441
+                            - generic [ref=e5582]: "M.R.P: ₹999"
+                            - generic [ref=e5583]:
+                              - text: "M.R.P:"
+                              - generic [ref=e5584]:
+                                - generic [ref=e5585]: ₹999
+                                - text: ₹999
+                          - text: (56% off)
+                        - generic [ref=e5588]:
+                          - generic [ref=e5589]: You pay ₹432.18
+                          - text: with coupon (limited sizes/colours)
+                      - generic [ref=e5596]: FREE delivery Sun, 5 Jul
+                      - link "See options" [ref=e5603] [cursor=pointer]:
+                        - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYnRmOjMwMTAyNTY2MzgxMDUzMjo6MDo6&url=%2FAmeena-Store-Running-Training-Regular%2Fdp%2FB0FRZ7QM9K%2Fref%3Dsr_1_57_so_SHORTS%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-57-spons%26aref%3DmpP3KoSlfw%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=mpP3KoSlfw&sp_cr=ZAZ
+                - listitem [ref=e5604]:
+                  - generic [ref=e5611]:
+                    - group "Best sellerin Men's Activewear Vests" [ref=e5616]:
+                      - generic "Best seller" [ref=e5618]
+                    - link [ref=e5622] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYnRmOjMwMTEyNTU1NTYzMDIzMjo6MDo6&url=%2FJUARI-BE-GENTLEMAN-Mens-Sleeveless%2Fdp%2FB0FB8XVZ8Q%2Fref%3Dsr_1_58_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-58-spons%26aref%3DHQZkEIOzmO%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=HQZkEIOzmO&sp_cr=ZAZ
+                      - img [ref=e5624]
+                    - generic [ref=e5625]:
+                      - group "colours available" [ref=e5627]:
+                        - list
+                        - link "+7 other colors/patterns" [ref=e5629] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYnRmOjMwMTEyNTU1NTYzMDIzMjo6MDo6&url=%2FJUARI-BE-GENTLEMAN-Mens-Sleeveless%2Fdp%2FB0FB8XVZ8Q%2Fref%3Dsr_1_58_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-58-spons%26aref%3DHQZkEIOzmO%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=HQZkEIOzmO&sp_cr=ZAZ
+                      - generic [ref=e5630]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e5633] [cursor=pointer]:
+                          - generic [ref=e5634]: Sponsored
+                        - heading "JUARI BE A GENTLEMAN" [level=2] [ref=e5637]
+                        - link "Sponsored Ad - Men's Sleeveless Tank Top Premium Cotton Blend Muscle Fit Gym Vest | Casual Summer Workout Shirt | Breathable & Lightweight Fitness Wear for Bodybuilding, Running & Daily Use" [ref=e5638] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYnRmOjMwMTEyNTU1NTYzMDIzMjo6MDo6&url=%2FJUARI-BE-GENTLEMAN-Mens-Sleeveless%2Fdp%2FB0FB8XVZ8Q%2Fref%3Dsr_1_58_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-58-spons%26aref%3DHQZkEIOzmO%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=HQZkEIOzmO&sp_cr=ZAZ
+                          - heading "Sponsored Ad - Men's Sleeveless Tank Top Premium Cotton Blend Muscle Fit Gym Vest | Casual Summer Workout Shirt | Breathable & Lightweight Fitness Wear for Bodybuilding, Running & Daily Use" [level=2] [ref=e5639]: Men's Sleeveless Tank Top Premium Cotton Blend Muscle Fit Gym Vest | Casual Summer Workout Shirt | Breathable & Lightweight Fitness Wear for Bodybuilding, Running & Daily Use
+                      - generic [ref=e5640]:
+                        - generic [ref=e5641]:
+                          - text: "4.0"
+                          - button "4.0 out of 5 stars, rating details" [ref=e5643] [cursor=pointer]:
+                            - generic [ref=e5645]: 4.0 out of 5 stars
+                          - link "569 ratings" [ref=e5647] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYnRmOjMwMTEyNTU1NTYzMDIzMjo6MDo6&url=%2FJUARI-BE-GENTLEMAN-Mens-Sleeveless%2Fdp%2FB0FB8XVZ8Q%2Fref%3Dsr_1_58_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-58-spons%26aref%3DHQZkEIOzmO%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=HQZkEIOzmO&sp_cr=ZAZ#customerReviews
+                            - text: (569)
+                        - generic [ref=e5648]: 700+ bought in past month
+                      - generic [ref=e5649]:
+                        - generic [ref=e5651]:
+                          - generic [ref=e5652]: Price, product page
+                          - 'link "₹298.99 M.R.P: ₹999 M.R.P: ₹999" [ref=e5653] [cursor=pointer]':
+                            - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYnRmOjMwMTEyNTU1NTYzMDIzMjo6MDo6&url=%2FJUARI-BE-GENTLEMAN-Mens-Sleeveless%2Fdp%2FB0FB8XVZ8Q%2Fref%3Dsr_1_58_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-58-spons%26aref%3DHQZkEIOzmO%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=HQZkEIOzmO&sp_cr=ZAZ
+                            - generic [ref=e5654]:
+                              - generic [ref=e5655]: ₹298.99
+                              - generic [ref=e5656]:
+                                - text: ₹
+                                - generic [ref=e5657]:
+                                  - text: "298"
+                                  - generic [ref=e5658]: .
+                                - text: "99"
+                            - generic [ref=e5659]: "M.R.P: ₹999"
+                            - generic [ref=e5660]:
+                              - text: "M.R.P:"
+                              - generic [ref=e5661]:
+                                - generic [ref=e5662]: ₹999
+                                - text: ₹999
+                          - text: (70% off)
+                        - generic [ref=e5665]:
+                          - generic [ref=e5666]: You pay ₹293.01
+                          - text: with coupon (limited sizes/colours)
+                      - generic [ref=e5669]:
+                        - generic [ref=e5671]: FREE delivery Thu, 2 Jul on first order
+                        - generic [ref=e5673]: Or fastest delivery Tomorrow, 1 Jul
+                      - button "Add to cart" [ref=e5684] [cursor=pointer]
+                - listitem [ref=e5685]:
+                  - generic [ref=e5692]:
+                    - link [ref=e5696] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYnRmOjMwMTExMjcxNjkwMzAzMjo6MDo6&url=%2FPinkmint-Cotton-Running-Pockets-Available%2Fdp%2FB0H2PRMX7L%2Fref%3Dsr_1_59_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-59-spons%26aref%3DDNOaASj8CF%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=DNOaASj8CF&sp_cr=ZAZ
+                      - img [ref=e5698]
+                    - generic [ref=e5699]:
+                      - group "colours available" [ref=e5701]:
+                        - list
+                        - link "+9 other colors/patterns" [ref=e5703] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYnRmOjMwMTExMjcxNjkwMzAzMjo6MDo6&url=%2FPinkmint-Cotton-Running-Pockets-Available%2Fdp%2FB0H2PRMX7L%2Fref%3Dsr_1_59_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-59-spons%26aref%3DDNOaASj8CF%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=DNOaASj8CF&sp_cr=ZAZ
+                      - generic [ref=e5704]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e5707] [cursor=pointer]:
+                          - generic [ref=e5708]: Sponsored
+                        - heading "Pinkmint" [level=2] [ref=e5711]
+                        - link "Sponsored Ad - Mens Cotton Lycra Yoga Short Men Summer Running Gym Sports Shorts with Pockets Shorts for Men (Available in Plus Size)" [ref=e5712] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYnRmOjMwMTExMjcxNjkwMzAzMjo6MDo6&url=%2FPinkmint-Cotton-Running-Pockets-Available%2Fdp%2FB0H2PRMX7L%2Fref%3Dsr_1_59_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-59-spons%26aref%3DDNOaASj8CF%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=DNOaASj8CF&sp_cr=ZAZ
+                          - heading "Sponsored Ad - Mens Cotton Lycra Yoga Short Men Summer Running Gym Sports Shorts with Pockets Shorts for Men (Available in Plus Size)" [level=2] [ref=e5713]: Mens Cotton Lycra Yoga Short Men Summer Running Gym Sports Shorts with Pockets Shorts for Men (Available in Plus Size)
+                      - generic [ref=e5715]:
+                        - text: "4.7"
+                        - button "4.7 out of 5 stars, rating details" [ref=e5717] [cursor=pointer]:
+                          - generic [ref=e5719]: 4.7 out of 5 stars
+                        - link "20 ratings" [ref=e5721] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYnRmOjMwMTExMjcxNjkwMzAzMjo6MDo6&url=%2FPinkmint-Cotton-Running-Pockets-Available%2Fdp%2FB0H2PRMX7L%2Fref%3Dsr_1_59_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-59-spons%26aref%3DDNOaASj8CF%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=DNOaASj8CF&sp_cr=ZAZ#customerReviews
+                          - text: (20)
+                      - generic [ref=e5722]:
+                        - generic [ref=e5724]:
+                          - generic [ref=e5725]: Price, product page
+                          - 'link "₹949 ( ₹316.33 /count) M.R.P: ₹1,999 M.R.P: ₹1,999" [ref=e5726] [cursor=pointer]':
+                            - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYnRmOjMwMTExMjcxNjkwMzAzMjo6MDo6&url=%2FPinkmint-Cotton-Running-Pockets-Available%2Fdp%2FB0H2PRMX7L%2Fref%3Dsr_1_59_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-59-spons%26aref%3DDNOaASj8CF%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=DNOaASj8CF&sp_cr=ZAZ
+                            - generic [ref=e5727]:
+                              - generic [ref=e5728]: ₹949
+                              - generic [ref=e5729]: ₹949
+                            - generic [ref=e5730]:
+                              - text: (
+                              - generic [ref=e5731]:
+                                - generic [ref=e5732]: ₹316.33
+                                - text: ₹316.33
+                              - text: /count)
+                            - generic [ref=e5733]: "M.R.P: ₹1,999"
+                            - generic [ref=e5734]:
+                              - text: "M.R.P:"
+                              - generic [ref=e5735]:
+                                - generic [ref=e5736]: ₹1,999
+                                - text: ₹1,999
+                          - text: (53% off)
+                        - generic [ref=e5740]:
+                          - generic [ref=e5741]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e5742]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e5747]: FREE delivery Fri, 3 Jul
+                      - button "Add to cart" [ref=e5758] [cursor=pointer]
+                - listitem [ref=e5759]:
+                  - generic [ref=e5766]:
+                    - link [ref=e5770] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYnRmOjMwMDg0OTQzNzAzOTQzMjo6MDo6&url=%2FPeppyzone-Lightweight-Breathable-Training-Activewear%2Fdp%2FB0G2CCF6XF%2Fref%3Dsr_1_60_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-60-spons%26aref%3D6lFEJSVuRJ%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=6lFEJSVuRJ&sp_cr=ZAZ
+                      - img [ref=e5772]
+                    - generic [ref=e5773]:
+                      - group "colours available" [ref=e5775]:
+                        - list
+                        - link "+3 other colors/patterns" [ref=e5777] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYnRmOjMwMDg0OTQzNzAzOTQzMjo6MDo6&url=%2FPeppyzone-Lightweight-Breathable-Training-Activewear%2Fdp%2FB0G2CCF6XF%2Fref%3Dsr_1_60_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-60-spons%26aref%3D6lFEJSVuRJ%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=6lFEJSVuRJ&sp_cr=ZAZ
+                      - generic [ref=e5778]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e5781] [cursor=pointer]:
+                          - generic [ref=e5782]: Sponsored
+                        - heading "Peppyzone" [level=2] [ref=e5785]
+                        - link "Sponsored Ad - Quick Dry Sports T Shirt for Men | Lightweight Breathable Gym T-Shirt | Regular Fit Workout Tee for Running, Training & Everyday Activewear" [ref=e5786] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYnRmOjMwMDg0OTQzNzAzOTQzMjo6MDo6&url=%2FPeppyzone-Lightweight-Breathable-Training-Activewear%2Fdp%2FB0G2CCF6XF%2Fref%3Dsr_1_60_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-60-spons%26aref%3D6lFEJSVuRJ%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=6lFEJSVuRJ&sp_cr=ZAZ
+                          - heading "Sponsored Ad - Quick Dry Sports T Shirt for Men | Lightweight Breathable Gym T-Shirt | Regular Fit Workout Tee for Running, Training & Everyday Activewear" [level=2] [ref=e5787]: Quick Dry Sports T Shirt for Men | Lightweight Breathable Gym T-Shirt | Regular Fit Workout Tee for Running, Training & Everyday Activewear
+                      - generic [ref=e5788]:
+                        - generic [ref=e5789]:
+                          - text: "3.7"
+                          - button "3.7 out of 5 stars, rating details" [ref=e5791] [cursor=pointer]:
+                            - generic [ref=e5793]: 3.7 out of 5 stars
+                          - link "92 ratings" [ref=e5795] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYnRmOjMwMDg0OTQzNzAzOTQzMjo6MDo6&url=%2FPeppyzone-Lightweight-Breathable-Training-Activewear%2Fdp%2FB0G2CCF6XF%2Fref%3Dsr_1_60_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-60-spons%26aref%3D6lFEJSVuRJ%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=6lFEJSVuRJ&sp_cr=ZAZ#customerReviews
+                            - text: (92)
+                        - generic [ref=e5796]: 50+ bought in past month
+                      - generic [ref=e5797]:
+                        - generic [ref=e5799]:
+                          - generic [ref=e5800]: Price, product page
+                          - 'link "₹330 M.R.P: ₹1,299 M.R.P: ₹1,299" [ref=e5801] [cursor=pointer]':
+                            - /url: /sspa/click?ie=UTF8&spc=MToxNDkyMTg5NDkwNzQxOTE4OjE3ODI4NDA1MDk6c3BfYnRmOjMwMDg0OTQzNzAzOTQzMjo6MDo6&url=%2FPeppyzone-Lightweight-Breathable-Training-Activewear%2Fdp%2FB0G2CCF6XF%2Fref%3Dsr_1_60_sspa%3Fcrid%3DNKNQ018KCWAW%26dib%3DeyJ2IjoiMSJ9.XVDt7arzz5yWTeskCGMDsLQ9Q8yqv15Vk95kLT1zao4CKJ4qeCNbMNM0riwb1s4V6_6pDNsPDtJCY7RpC0wNSEkHvSKuwhf2PsMz74iuKjtJlLI4RF1hPipAtILQn7fVKX3zz5qeU3BhCuSPtrXFY77qvGuPXdlZBd8sngGaT8DJd9pYzIA_K7eIJIXhJrPUN_AkzW3tZnulm6uYROrYkoP16Y-GMOipLVhvDS5dU2ak8yUHMQ0sGJgUuzyvyns69tk6bZ_zG8QzlXhRd-ZMNkzKm29tyA9ZQPhCFcG34e0.oCIDPIgqdL2wnUgfLIFQXQOKZTDuoSDYSzycQHLxjUI%26dib_tag%3Dse%26keywords%3Dgym%2Bclothes%2Bmen%26qid%3D1782840509%26sprefix%3D%252Caps%252C249%26sr%3D8-60-spons%26aref%3D6lFEJSVuRJ%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=6lFEJSVuRJ&sp_cr=ZAZ
+                            - generic [ref=e5802]:
+                              - generic [ref=e5803]: ₹330
+                              - generic [ref=e5804]: ₹330
+                            - generic [ref=e5805]: "M.R.P: ₹1,299"
+                            - generic [ref=e5806]:
+                              - text: "M.R.P:"
+                              - generic [ref=e5807]:
+                                - generic [ref=e5808]: ₹1,299
+                                - text: ₹1,299
+                          - text: (75% off)
+                        - generic [ref=e5812]:
+                          - generic [ref=e5813]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e5814]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e5821]: FREE delivery Sun, 5 Jul
+                      - button "Add to cart" [ref=e5832] [cursor=pointer]
+          - generic [ref=e5836]:
+            - generic [ref=e5841]:
+              - heading "Today's deals" [level=2] [ref=e5843]
+              - button "View Sponsored information or leave ad feedback" [ref=e5846] [cursor=pointer]: Sponsored
+            - region "Today's deals" [ref=e5848]:
+              - list [ref=e5854]:
+                - listitem "1 of 5" [ref=e5855]:
+                  - generic [ref=e5861]:
+                    - link [ref=e5865] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo2OTMzODU1NTY2NTU0Mjc2OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljX2J0ZjozMDA3MzUzOTU5NTAzMzI6OjA6Og&url=%2FSymbol-Premium-Regular-SPA-M-A25-TSH-300_Dark-Grey_3XL%2Fdp%2FB0FHH2ZBPY%2Fref%3Dsxbs_pa_sp_search_thematic_btf_sspa%3Fcontent-id%3Damzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%253Aamzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB0FHH2ZBPY%26pd_rd_r%3D6335d255-4c4d-48f4-95ef-c24b0a204892%26pd_rd_w%3D3aDGG%26pd_rd_wg%3DLJrbj%26pf_rd_p%3Dd911582d-fc21-451b-a048-c8a163f39206%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-1-2907eac4-8056-42c7-8014-fdf7bd4c5395-spons%26aref%3DdhGYK1Pxgq%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm%26psc%3D1&aref=dhGYK1Pxgq&sp_cr=ZAZ
+                      - img [ref=e5867]
+                    - generic [ref=e5868]:
+                      - group "colours available" [ref=e5870]:
+                        - list
+                        - link "+10 other colors/patterns" [ref=e5872] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo2OTMzODU1NTY2NTU0Mjc2OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljX2J0ZjozMDA3MzUzOTU5NTAzMzI6OjA6Og&url=%2FSymbol-Premium-Regular-SPA-M-A25-TSH-300_Dark-Grey_3XL%2Fdp%2FB0FHH2ZBPY%2Fref%3Dsxbs_pa_sp_search_thematic_btf_sspa%3Fcontent-id%3Damzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%253Aamzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB0FHH2ZBPY%26pd_rd_r%3D6335d255-4c4d-48f4-95ef-c24b0a204892%26pd_rd_w%3D3aDGG%26pd_rd_wg%3DLJrbj%26pf_rd_p%3Dd911582d-fc21-451b-a048-c8a163f39206%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-1-2907eac4-8056-42c7-8014-fdf7bd4c5395-spons%26aref%3DdhGYK1Pxgq%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm%26psc%3D1&aref=dhGYK1Pxgq&sp_cr=ZAZ
+                      - generic [ref=e5873]:
+                        - heading "Symbol Premium" [level=2] [ref=e5875]
+                        - link "Sponsored Ad - Men's Solid Regular Fit Sports Stretch T-Shirt | Round Neck | Raglan Sleeve | Moisture-Wicking | Activewear | Running | Gym | Plain (Available in Plus Sizes)" [ref=e5876] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo2OTMzODU1NTY2NTU0Mjc2OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljX2J0ZjozMDA3MzUzOTU5NTAzMzI6OjA6Og&url=%2FSymbol-Premium-Regular-SPA-M-A25-TSH-300_Dark-Grey_3XL%2Fdp%2FB0FHH2ZBPY%2Fref%3Dsxbs_pa_sp_search_thematic_btf_sspa%3Fcontent-id%3Damzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%253Aamzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB0FHH2ZBPY%26pd_rd_r%3D6335d255-4c4d-48f4-95ef-c24b0a204892%26pd_rd_w%3D3aDGG%26pd_rd_wg%3DLJrbj%26pf_rd_p%3Dd911582d-fc21-451b-a048-c8a163f39206%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-1-2907eac4-8056-42c7-8014-fdf7bd4c5395-spons%26aref%3DdhGYK1Pxgq%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm%26psc%3D1&aref=dhGYK1Pxgq&sp_cr=ZAZ
+                          - heading "Sponsored Ad - Men's Solid Regular Fit Sports Stretch T-Shirt | Round Neck | Raglan Sleeve | Moisture-Wicking | Activewear | Running | Gym | Plain (Available in Plus Sizes)" [level=2] [ref=e5877]: Men's Solid Regular Fit Sports Stretch T-Shirt | Round Neck | Raglan Sleeve | Moisture-Wicking | Activewear | Running | Gym | Plain (Available in Plus Sizes)
+                      - generic [ref=e5879]:
+                        - text: "4.3"
+                        - button "4.3 out of 5 stars, rating details" [ref=e5881] [cursor=pointer]:
+                          - generic [ref=e5883]: 4.3 out of 5 stars
+                        - link "152 ratings" [ref=e5885] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo2OTMzODU1NTY2NTU0Mjc2OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljX2J0ZjozMDA3MzUzOTU5NTAzMzI6OjA6Og&url=%2FSymbol-Premium-Regular-SPA-M-A25-TSH-300_Dark-Grey_3XL%2Fdp%2FB0FHH2ZBPY%2Fref%3Dsxbs_pa_sp_search_thematic_btf_sspa%3Fcontent-id%3Damzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%253Aamzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB0FHH2ZBPY%26pd_rd_r%3D6335d255-4c4d-48f4-95ef-c24b0a204892%26pd_rd_w%3D3aDGG%26pd_rd_wg%3DLJrbj%26pf_rd_p%3Dd911582d-fc21-451b-a048-c8a163f39206%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-1-2907eac4-8056-42c7-8014-fdf7bd4c5395-spons%26aref%3DdhGYK1Pxgq%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm%26psc%3D1&aref=dhGYK1Pxgq&sp_cr=ZAZ#customerReviews
+                          - text: (152)
+                      - generic [ref=e5886]:
+                        - link "Limited time deal" [ref=e5888] [cursor=pointer]:
+                          - /url: /deals
+                          - generic [ref=e5891]: Limited time deal
+                        - generic [ref=e5893]:
+                          - generic [ref=e5894]: Price, product page
+                          - 'link "₹699 M.R.P: ₹1,299 M.R.P: ₹1,299" [ref=e5895] [cursor=pointer]':
+                            - /url: /sspa/click?ie=UTF8&spc=MTo2OTMzODU1NTY2NTU0Mjc2OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljX2J0ZjozMDA3MzUzOTU5NTAzMzI6OjA6Og&url=%2FSymbol-Premium-Regular-SPA-M-A25-TSH-300_Dark-Grey_3XL%2Fdp%2FB0FHH2ZBPY%2Fref%3Dsxbs_pa_sp_search_thematic_btf_sspa%3Fcontent-id%3Damzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%253Aamzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB0FHH2ZBPY%26pd_rd_r%3D6335d255-4c4d-48f4-95ef-c24b0a204892%26pd_rd_w%3D3aDGG%26pd_rd_wg%3DLJrbj%26pf_rd_p%3Dd911582d-fc21-451b-a048-c8a163f39206%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-1-2907eac4-8056-42c7-8014-fdf7bd4c5395-spons%26aref%3DdhGYK1Pxgq%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm%26psc%3D1&aref=dhGYK1Pxgq&sp_cr=ZAZ
+                            - generic [ref=e5896]:
+                              - generic [ref=e5897]: ₹699
+                              - generic [ref=e5898]: ₹699
+                            - generic [ref=e5899]: "M.R.P: ₹1,299"
+                            - generic [ref=e5900]:
+                              - text: "M.R.P:"
+                              - generic [ref=e5901]:
+                                - generic [ref=e5902]: ₹1,299
+                                - text: ₹1,299
+                          - text: (46% off)
+                        - generic [ref=e5906]:
+                          - generic [ref=e5907]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e5908]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e5911]:
+                        - generic [ref=e5913]: FREE delivery Thu, 2 Jul
+                        - generic [ref=e5915]: Or fastest delivery Tomorrow, 1 Jul
+                      - button "Add to cart" [ref=e5926] [cursor=pointer]
+                - listitem "2 of 5" [ref=e5927]:
+                  - generic [ref=e5933]:
+                    - link [ref=e5937] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo2OTMzODU1NTY2NTU0Mjc2OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljX2J0ZjozMDAzNjcwNTM1MzM5MzI6OjE6Og&url=%2FATICX-Polyester-Actiwear-Technology-Musteebriblack-03%2Fdp%2FB08XMJBMN6%2Fref%3Dsxbs_pa_sp_search_thematic_btf_sspa%3Fcontent-id%3Damzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%253Aamzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB08XMJBMN6%26pd_rd_r%3D6335d255-4c4d-48f4-95ef-c24b0a204892%26pd_rd_w%3D3aDGG%26pd_rd_wg%3DLJrbj%26pf_rd_p%3Dd911582d-fc21-451b-a048-c8a163f39206%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-2-2907eac4-8056-42c7-8014-fdf7bd4c5395-spons%26aref%3DnvH8GzkOGC%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm%26psc%3D1&aref=nvH8GzkOGC&sp_cr=ZAZ
+                      - img [ref=e5939]
+                    - generic [ref=e5940]:
+                      - group "colours available" [ref=e5942]:
+                        - list
+                        - link "+39 other colors/patterns" [ref=e5944] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo2OTMzODU1NTY2NTU0Mjc2OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljX2J0ZjozMDAzNjcwNTM1MzM5MzI6OjE6Og&url=%2FATICX-Polyester-Actiwear-Technology-Musteebriblack-03%2Fdp%2FB08XMJBMN6%2Fref%3Dsxbs_pa_sp_search_thematic_btf_sspa%3Fcontent-id%3Damzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%253Aamzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB08XMJBMN6%26pd_rd_r%3D6335d255-4c4d-48f4-95ef-c24b0a204892%26pd_rd_w%3D3aDGG%26pd_rd_wg%3DLJrbj%26pf_rd_p%3Dd911582d-fc21-451b-a048-c8a163f39206%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-2-2907eac4-8056-42c7-8014-fdf7bd4c5395-spons%26aref%3DnvH8GzkOGC%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm%26psc%3D1&aref=nvH8GzkOGC&sp_cr=ZAZ
+                      - generic [ref=e5945]:
+                        - heading "ATICX" [level=2] [ref=e5947]
+                        - link "Sponsored Ad - Men's Polyester Sports Sleeveless T Shirt - Gym Vest, Workout Sando, Training Tank Top, Cut Sleeves Quick Dry Tee for Running, Swimming, Badminton, Fitness & Sports" [ref=e5948] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo2OTMzODU1NTY2NTU0Mjc2OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljX2J0ZjozMDAzNjcwNTM1MzM5MzI6OjE6Og&url=%2FATICX-Polyester-Actiwear-Technology-Musteebriblack-03%2Fdp%2FB08XMJBMN6%2Fref%3Dsxbs_pa_sp_search_thematic_btf_sspa%3Fcontent-id%3Damzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%253Aamzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB08XMJBMN6%26pd_rd_r%3D6335d255-4c4d-48f4-95ef-c24b0a204892%26pd_rd_w%3D3aDGG%26pd_rd_wg%3DLJrbj%26pf_rd_p%3Dd911582d-fc21-451b-a048-c8a163f39206%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-2-2907eac4-8056-42c7-8014-fdf7bd4c5395-spons%26aref%3DnvH8GzkOGC%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm%26psc%3D1&aref=nvH8GzkOGC&sp_cr=ZAZ
+                          - heading "Sponsored Ad - Men's Polyester Sports Sleeveless T Shirt - Gym Vest, Workout Sando, Training Tank Top, Cut Sleeves Quick Dry Tee for Running, Swimming, Badminton, Fitness & Sports" [level=2] [ref=e5949]: Men's Polyester Sports Sleeveless T Shirt - Gym Vest, Workout Sando, Training Tank Top, Cut Sleeves Quick Dry Tee for Running, Swimming, Badminton, Fitness & Sports
+                      - generic [ref=e5950]:
+                        - generic [ref=e5951]:
+                          - text: "4.2"
+                          - button "4.2 out of 5 stars, rating details" [ref=e5953] [cursor=pointer]:
+                            - generic [ref=e5955]: 4.2 out of 5 stars
+                          - link "1,766 ratings" [ref=e5957] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MTo2OTMzODU1NTY2NTU0Mjc2OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljX2J0ZjozMDAzNjcwNTM1MzM5MzI6OjE6Og&url=%2FATICX-Polyester-Actiwear-Technology-Musteebriblack-03%2Fdp%2FB08XMJBMN6%2Fref%3Dsxbs_pa_sp_search_thematic_btf_sspa%3Fcontent-id%3Damzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%253Aamzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB08XMJBMN6%26pd_rd_r%3D6335d255-4c4d-48f4-95ef-c24b0a204892%26pd_rd_w%3D3aDGG%26pd_rd_wg%3DLJrbj%26pf_rd_p%3Dd911582d-fc21-451b-a048-c8a163f39206%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-2-2907eac4-8056-42c7-8014-fdf7bd4c5395-spons%26aref%3DnvH8GzkOGC%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm%26psc%3D1&aref=nvH8GzkOGC&sp_cr=ZAZ#customerReviews
+                            - text: (1.7K)
+                        - generic [ref=e5958]: 100+ bought in past month
+                      - generic [ref=e5959]:
+                        - link "Limited time deal" [ref=e5961] [cursor=pointer]:
+                          - /url: /deals
+                          - generic [ref=e5964]: Limited time deal
+                        - generic [ref=e5966]:
+                          - generic [ref=e5967]: Price, product page
+                          - 'link "₹299 M.R.P: ₹849 M.R.P: ₹849" [ref=e5968] [cursor=pointer]':
+                            - /url: /sspa/click?ie=UTF8&spc=MTo2OTMzODU1NTY2NTU0Mjc2OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljX2J0ZjozMDAzNjcwNTM1MzM5MzI6OjE6Og&url=%2FATICX-Polyester-Actiwear-Technology-Musteebriblack-03%2Fdp%2FB08XMJBMN6%2Fref%3Dsxbs_pa_sp_search_thematic_btf_sspa%3Fcontent-id%3Damzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%253Aamzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB08XMJBMN6%26pd_rd_r%3D6335d255-4c4d-48f4-95ef-c24b0a204892%26pd_rd_w%3D3aDGG%26pd_rd_wg%3DLJrbj%26pf_rd_p%3Dd911582d-fc21-451b-a048-c8a163f39206%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-2-2907eac4-8056-42c7-8014-fdf7bd4c5395-spons%26aref%3DnvH8GzkOGC%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm%26psc%3D1&aref=nvH8GzkOGC&sp_cr=ZAZ
+                            - generic [ref=e5969]:
+                              - generic [ref=e5970]: ₹299
+                              - generic [ref=e5971]: ₹299
+                            - generic [ref=e5972]: "M.R.P: ₹849"
+                            - generic [ref=e5973]:
+                              - text: "M.R.P:"
+                              - generic [ref=e5974]:
+                                - generic [ref=e5975]: ₹849
+                                - text: ₹849
+                          - text: (65% off)
+                        - generic [ref=e5978]:
+                          - generic [ref=e5979]: You pay ₹293.02
+                          - text: with coupon (limited sizes/colours)
+                      - generic [ref=e5982]:
+                        - generic [ref=e5984]: FREE delivery Thu, 2 Jul on first order
+                        - generic [ref=e5986]: Or fastest delivery Tomorrow, 1 Jul
+                      - button "Add to cart" [ref=e5997] [cursor=pointer]
+                - listitem "3 of 5" [ref=e5998]:
+                  - generic [ref=e6004]:
+                    - link [ref=e6008] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo2OTMzODU1NTY2NTU0Mjc2OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljX2J0ZjozMDA0ODE0MDI3Mzc5MzI6OjI6Og&url=%2FAmazon-Brand-Regular-T-Shirt-A23-SYA-TSH-01_White%2Fdp%2FB0C94DX3RN%2Fref%3Dsxbs_pa_sp_search_thematic_btf_sspa%3Fcontent-id%3Damzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%253Aamzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB0C94DX3RN%26pd_rd_r%3D6335d255-4c4d-48f4-95ef-c24b0a204892%26pd_rd_w%3D3aDGG%26pd_rd_wg%3DLJrbj%26pf_rd_p%3Dd911582d-fc21-451b-a048-c8a163f39206%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-3-2907eac4-8056-42c7-8014-fdf7bd4c5395-spons%26aref%3DMEJbkubAQg%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm%26psc%3D1&aref=MEJbkubAQg&sp_cr=ZAZ
+                      - img [ref=e6010]
+                    - generic [ref=e6011]:
+                      - group "colours available" [ref=e6013]:
+                        - list
+                        - link "+31 other colors/patterns" [ref=e6015] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo2OTMzODU1NTY2NTU0Mjc2OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljX2J0ZjozMDA0ODE0MDI3Mzc5MzI6OjI6Og&url=%2FAmazon-Brand-Regular-T-Shirt-A23-SYA-TSH-01_White%2Fdp%2FB0C94DX3RN%2Fref%3Dsxbs_pa_sp_search_thematic_btf_sspa%3Fcontent-id%3Damzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%253Aamzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB0C94DX3RN%26pd_rd_r%3D6335d255-4c4d-48f4-95ef-c24b0a204892%26pd_rd_w%3D3aDGG%26pd_rd_wg%3DLJrbj%26pf_rd_p%3Dd911582d-fc21-451b-a048-c8a163f39206%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-3-2907eac4-8056-42c7-8014-fdf7bd4c5395-spons%26aref%3DMEJbkubAQg%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm%26psc%3D1&aref=MEJbkubAQg&sp_cr=ZAZ
+                      - generic [ref=e6016]:
+                        - heading "Amazon Brand - Symbol" [level=2] [ref=e6018]
+                        - link "Sponsored Ad - Men's Polyester Color Block Active Regular Fit Sports | Round Neck | Sleeveless T-Shirt" [ref=e6019] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo2OTMzODU1NTY2NTU0Mjc2OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljX2J0ZjozMDA0ODE0MDI3Mzc5MzI6OjI6Og&url=%2FAmazon-Brand-Regular-T-Shirt-A23-SYA-TSH-01_White%2Fdp%2FB0C94DX3RN%2Fref%3Dsxbs_pa_sp_search_thematic_btf_sspa%3Fcontent-id%3Damzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%253Aamzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB0C94DX3RN%26pd_rd_r%3D6335d255-4c4d-48f4-95ef-c24b0a204892%26pd_rd_w%3D3aDGG%26pd_rd_wg%3DLJrbj%26pf_rd_p%3Dd911582d-fc21-451b-a048-c8a163f39206%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-3-2907eac4-8056-42c7-8014-fdf7bd4c5395-spons%26aref%3DMEJbkubAQg%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm%26psc%3D1&aref=MEJbkubAQg&sp_cr=ZAZ
+                          - heading "Sponsored Ad - Men's Polyester Color Block Active Regular Fit Sports | Round Neck | Sleeveless T-Shirt" [level=2] [ref=e6020]: Men's Polyester Color Block Active Regular Fit Sports | Round Neck | Sleeveless T-Shirt
+                      - generic [ref=e6022]:
+                        - text: "4.1"
+                        - button "4.1 out of 5 stars, rating details" [ref=e6024] [cursor=pointer]:
+                          - generic [ref=e6026]: 4.1 out of 5 stars
+                        - link "3,575 ratings" [ref=e6028] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo2OTMzODU1NTY2NTU0Mjc2OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljX2J0ZjozMDA0ODE0MDI3Mzc5MzI6OjI6Og&url=%2FAmazon-Brand-Regular-T-Shirt-A23-SYA-TSH-01_White%2Fdp%2FB0C94DX3RN%2Fref%3Dsxbs_pa_sp_search_thematic_btf_sspa%3Fcontent-id%3Damzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%253Aamzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB0C94DX3RN%26pd_rd_r%3D6335d255-4c4d-48f4-95ef-c24b0a204892%26pd_rd_w%3D3aDGG%26pd_rd_wg%3DLJrbj%26pf_rd_p%3Dd911582d-fc21-451b-a048-c8a163f39206%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-3-2907eac4-8056-42c7-8014-fdf7bd4c5395-spons%26aref%3DMEJbkubAQg%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm%26psc%3D1&aref=MEJbkubAQg&sp_cr=ZAZ#customerReviews
+                          - text: (3.5K)
+                      - generic [ref=e6029]:
+                        - link "Limited time deal" [ref=e6031] [cursor=pointer]:
+                          - /url: /deals
+                          - generic [ref=e6034]: Limited time deal
+                        - generic [ref=e6036]:
+                          - generic [ref=e6037]: Price, product page
+                          - 'link "₹349 M.R.P: ₹699 M.R.P: ₹699" [ref=e6038] [cursor=pointer]':
+                            - /url: /sspa/click?ie=UTF8&spc=MTo2OTMzODU1NTY2NTU0Mjc2OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljX2J0ZjozMDA0ODE0MDI3Mzc5MzI6OjI6Og&url=%2FAmazon-Brand-Regular-T-Shirt-A23-SYA-TSH-01_White%2Fdp%2FB0C94DX3RN%2Fref%3Dsxbs_pa_sp_search_thematic_btf_sspa%3Fcontent-id%3Damzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%253Aamzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB0C94DX3RN%26pd_rd_r%3D6335d255-4c4d-48f4-95ef-c24b0a204892%26pd_rd_w%3D3aDGG%26pd_rd_wg%3DLJrbj%26pf_rd_p%3Dd911582d-fc21-451b-a048-c8a163f39206%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-3-2907eac4-8056-42c7-8014-fdf7bd4c5395-spons%26aref%3DMEJbkubAQg%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm%26psc%3D1&aref=MEJbkubAQg&sp_cr=ZAZ
+                            - generic [ref=e6039]:
+                              - generic [ref=e6040]: ₹349
+                              - generic [ref=e6041]: ₹349
+                            - generic [ref=e6042]: "M.R.P: ₹699"
+                            - generic [ref=e6043]:
+                              - text: "M.R.P:"
+                              - generic [ref=e6044]:
+                                - generic [ref=e6045]: ₹699
+                                - text: ₹699
+                          - text: (50% off)
+                        - generic [ref=e6049]:
+                          - generic [ref=e6050]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e6051]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e6054]:
+                        - generic [ref=e6056]: FREE delivery Thu, 2 Jul on first order
+                        - generic [ref=e6058]: Or fastest delivery Tomorrow, 1 Jul
+                      - button "Add to cart" [ref=e6069] [cursor=pointer]
+                - listitem "4 of 5" [ref=e6070]:
+                  - generic [ref=e6076]:
+                    - link [ref=e6080] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo2OTMzODU1NTY2NTU0Mjc2OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljX2J0ZjozMDA1ODc0MTc4NTU1MzI6OjM6Og&url=%2FAlan-Jones-Clothing-Oversized-Purple_M%2Fdp%2FB0F6VQSYFT%2Fref%3Dsxbs_pa_sp_search_thematic_btf_sspa%3Fcontent-id%3Damzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%253Aamzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB0F6VQSYFT%26pd_rd_r%3D6335d255-4c4d-48f4-95ef-c24b0a204892%26pd_rd_w%3D3aDGG%26pd_rd_wg%3DLJrbj%26pf_rd_p%3Dd911582d-fc21-451b-a048-c8a163f39206%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-4-2907eac4-8056-42c7-8014-fdf7bd4c5395-spons%26aref%3Dbu89kvj6Qu%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm%26psc%3D1&aref=bu89kvj6Qu&sp_cr=ZAZ
+                      - img [ref=e6082]
+                    - generic [ref=e6083]:
+                      - group "colours available" [ref=e6085]:
+                        - list
+                        - link "+9 other colors/patterns" [ref=e6087] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo2OTMzODU1NTY2NTU0Mjc2OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljX2J0ZjozMDA1ODc0MTc4NTU1MzI6OjM6Og&url=%2FAlan-Jones-Clothing-Oversized-Purple_M%2Fdp%2FB0F6VQSYFT%2Fref%3Dsxbs_pa_sp_search_thematic_btf_sspa%3Fcontent-id%3Damzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%253Aamzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB0F6VQSYFT%26pd_rd_r%3D6335d255-4c4d-48f4-95ef-c24b0a204892%26pd_rd_w%3D3aDGG%26pd_rd_wg%3DLJrbj%26pf_rd_p%3Dd911582d-fc21-451b-a048-c8a163f39206%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-4-2907eac4-8056-42c7-8014-fdf7bd4c5395-spons%26aref%3Dbu89kvj6Qu%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm%26psc%3D1&aref=bu89kvj6Qu&sp_cr=ZAZ
+                      - generic [ref=e6088]:
+                        - heading "Alan Jones Clothing" [level=2] [ref=e6090]
+                        - link "Sponsored Ad - Men's Oversized Solid T-Shirt | Premium Heavy Fabric | Crew Neck Casual Wear" [ref=e6091] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo2OTMzODU1NTY2NTU0Mjc2OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljX2J0ZjozMDA1ODc0MTc4NTU1MzI6OjM6Og&url=%2FAlan-Jones-Clothing-Oversized-Purple_M%2Fdp%2FB0F6VQSYFT%2Fref%3Dsxbs_pa_sp_search_thematic_btf_sspa%3Fcontent-id%3Damzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%253Aamzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB0F6VQSYFT%26pd_rd_r%3D6335d255-4c4d-48f4-95ef-c24b0a204892%26pd_rd_w%3D3aDGG%26pd_rd_wg%3DLJrbj%26pf_rd_p%3Dd911582d-fc21-451b-a048-c8a163f39206%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-4-2907eac4-8056-42c7-8014-fdf7bd4c5395-spons%26aref%3Dbu89kvj6Qu%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm%26psc%3D1&aref=bu89kvj6Qu&sp_cr=ZAZ
+                          - heading "Sponsored Ad - Men's Oversized Solid T-Shirt | Premium Heavy Fabric | Crew Neck Casual Wear" [level=2] [ref=e6092]: Men's Oversized Solid T-Shirt | Premium Heavy Fabric | Crew Neck Casual Wear
+                      - generic [ref=e6094]:
+                        - text: "4.1"
+                        - button "4.1 out of 5 stars, rating details" [ref=e6096] [cursor=pointer]:
+                          - generic [ref=e6098]: 4.1 out of 5 stars
+                        - link "168 ratings" [ref=e6100] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo2OTMzODU1NTY2NTU0Mjc2OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljX2J0ZjozMDA1ODc0MTc4NTU1MzI6OjM6Og&url=%2FAlan-Jones-Clothing-Oversized-Purple_M%2Fdp%2FB0F6VQSYFT%2Fref%3Dsxbs_pa_sp_search_thematic_btf_sspa%3Fcontent-id%3Damzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%253Aamzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB0F6VQSYFT%26pd_rd_r%3D6335d255-4c4d-48f4-95ef-c24b0a204892%26pd_rd_w%3D3aDGG%26pd_rd_wg%3DLJrbj%26pf_rd_p%3Dd911582d-fc21-451b-a048-c8a163f39206%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-4-2907eac4-8056-42c7-8014-fdf7bd4c5395-spons%26aref%3Dbu89kvj6Qu%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm%26psc%3D1&aref=bu89kvj6Qu&sp_cr=ZAZ#customerReviews
+                          - text: (168)
+                      - generic [ref=e6101]:
+                        - link "Ends in 50:38" [ref=e6103] [cursor=pointer]:
+                          - /url: /deals
+                          - generic [ref=e6106]: Ends in 50:38
+                        - generic [ref=e6108]:
+                          - generic [ref=e6109]: Price, product page
+                          - 'link "₹428 M.R.P: ₹1,299 M.R.P: ₹1,299" [ref=e6110] [cursor=pointer]':
+                            - /url: /sspa/click?ie=UTF8&spc=MTo2OTMzODU1NTY2NTU0Mjc2OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljX2J0ZjozMDA1ODc0MTc4NTU1MzI6OjM6Og&url=%2FAlan-Jones-Clothing-Oversized-Purple_M%2Fdp%2FB0F6VQSYFT%2Fref%3Dsxbs_pa_sp_search_thematic_btf_sspa%3Fcontent-id%3Damzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%253Aamzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB0F6VQSYFT%26pd_rd_r%3D6335d255-4c4d-48f4-95ef-c24b0a204892%26pd_rd_w%3D3aDGG%26pd_rd_wg%3DLJrbj%26pf_rd_p%3Dd911582d-fc21-451b-a048-c8a163f39206%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-4-2907eac4-8056-42c7-8014-fdf7bd4c5395-spons%26aref%3Dbu89kvj6Qu%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm%26psc%3D1&aref=bu89kvj6Qu&sp_cr=ZAZ
+                            - generic [ref=e6111]:
+                              - generic [ref=e6112]: ₹428
+                              - generic [ref=e6113]: ₹428
+                            - generic [ref=e6114]: "M.R.P: ₹1,299"
+                            - generic [ref=e6115]:
+                              - text: "M.R.P:"
+                              - generic [ref=e6116]:
+                                - generic [ref=e6117]: ₹1,299
+                                - text: ₹1,299
+                          - text: (67% off)
+                        - generic [ref=e6120]:
+                          - generic [ref=e6121]: You pay ₹406.60
+                          - text: with coupon (limited sizes/colours)
+                      - generic [ref=e6124]:
+                        - generic [ref=e6126]: FREE delivery Thu, 2 Jul on first order
+                        - generic [ref=e6128]: Or fastest delivery Tomorrow, 1 Jul
+                      - button "Add to cart" [ref=e6139] [cursor=pointer]
+                - listitem "5 of 5" [ref=e6140]:
+                  - generic [ref=e6146]:
+                    - link [ref=e6150] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo2OTMzODU1NTY2NTU0Mjc2OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljX2J0ZjozMDA0ODEzNzk3Njc1MzI6OjQ6Og&url=%2FAmazon-Brand-Symbol-T-Shirt-AW17-SYSP-03B_Small_Viridian%2Fdp%2FB072N81GZM%2Fref%3Dsxbs_pa_sp_search_thematic_btf_sspa%3Fcontent-id%3Damzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%253Aamzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB072N81GZM%26pd_rd_r%3D6335d255-4c4d-48f4-95ef-c24b0a204892%26pd_rd_w%3D3aDGG%26pd_rd_wg%3DLJrbj%26pf_rd_p%3Dd911582d-fc21-451b-a048-c8a163f39206%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-5-2907eac4-8056-42c7-8014-fdf7bd4c5395-spons%26aref%3DNIFTC0NUEy%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm%26psc%3D1&aref=NIFTC0NUEy&sp_cr=ZAZ
+                      - img [ref=e6152]
+                    - generic [ref=e6153]:
+                      - group "colours available" [ref=e6155]:
+                        - list
+                        - link "+5 other colors/patterns" [ref=e6157] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo2OTMzODU1NTY2NTU0Mjc2OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljX2J0ZjozMDA0ODEzNzk3Njc1MzI6OjQ6Og&url=%2FAmazon-Brand-Symbol-T-Shirt-AW17-SYSP-03B_Small_Viridian%2Fdp%2FB072N81GZM%2Fref%3Dsxbs_pa_sp_search_thematic_btf_sspa%3Fcontent-id%3Damzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%253Aamzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB072N81GZM%26pd_rd_r%3D6335d255-4c4d-48f4-95ef-c24b0a204892%26pd_rd_w%3D3aDGG%26pd_rd_wg%3DLJrbj%26pf_rd_p%3Dd911582d-fc21-451b-a048-c8a163f39206%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-5-2907eac4-8056-42c7-8014-fdf7bd4c5395-spons%26aref%3DNIFTC0NUEy%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm%26psc%3D1&aref=NIFTC0NUEy&sp_cr=ZAZ
+                      - generic [ref=e6158]:
+                        - heading "Amazon Brand - Symbol" [level=2] [ref=e6160]
+                        - link "Sponsored Ad - Men's Color Block Active Regular Fit Sports T-Shirt | Round Neck | Half Sleeve (Available in Plus Sizes)" [ref=e6161] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo2OTMzODU1NTY2NTU0Mjc2OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljX2J0ZjozMDA0ODEzNzk3Njc1MzI6OjQ6Og&url=%2FAmazon-Brand-Symbol-T-Shirt-AW17-SYSP-03B_Small_Viridian%2Fdp%2FB072N81GZM%2Fref%3Dsxbs_pa_sp_search_thematic_btf_sspa%3Fcontent-id%3Damzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%253Aamzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB072N81GZM%26pd_rd_r%3D6335d255-4c4d-48f4-95ef-c24b0a204892%26pd_rd_w%3D3aDGG%26pd_rd_wg%3DLJrbj%26pf_rd_p%3Dd911582d-fc21-451b-a048-c8a163f39206%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-5-2907eac4-8056-42c7-8014-fdf7bd4c5395-spons%26aref%3DNIFTC0NUEy%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm%26psc%3D1&aref=NIFTC0NUEy&sp_cr=ZAZ
+                          - heading "Sponsored Ad - Men's Color Block Active Regular Fit Sports T-Shirt | Round Neck | Half Sleeve (Available in Plus Sizes)" [level=2] [ref=e6162]: Men's Color Block Active Regular Fit Sports T-Shirt | Round Neck | Half Sleeve (Available in Plus Sizes)
+                      - generic [ref=e6164]:
+                        - text: "4.0"
+                        - button "4.0 out of 5 stars, rating details" [ref=e6166] [cursor=pointer]:
+                          - generic [ref=e6168]: 4.0 out of 5 stars
+                        - link "2,612 ratings" [ref=e6170] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo2OTMzODU1NTY2NTU0Mjc2OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljX2J0ZjozMDA0ODEzNzk3Njc1MzI6OjQ6Og&url=%2FAmazon-Brand-Symbol-T-Shirt-AW17-SYSP-03B_Small_Viridian%2Fdp%2FB072N81GZM%2Fref%3Dsxbs_pa_sp_search_thematic_btf_sspa%3Fcontent-id%3Damzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%253Aamzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB072N81GZM%26pd_rd_r%3D6335d255-4c4d-48f4-95ef-c24b0a204892%26pd_rd_w%3D3aDGG%26pd_rd_wg%3DLJrbj%26pf_rd_p%3Dd911582d-fc21-451b-a048-c8a163f39206%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-5-2907eac4-8056-42c7-8014-fdf7bd4c5395-spons%26aref%3DNIFTC0NUEy%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm%26psc%3D1&aref=NIFTC0NUEy&sp_cr=ZAZ#customerReviews
+                          - text: (2.6K)
+                      - generic [ref=e6171]:
+                        - link "Limited time deal" [ref=e6173] [cursor=pointer]:
+                          - /url: /deals
+                          - generic [ref=e6176]: Limited time deal
+                        - generic [ref=e6178]:
+                          - generic [ref=e6179]: Price, product page
+                          - 'link "₹349 M.R.P: ₹799 M.R.P: ₹799" [ref=e6180] [cursor=pointer]':
+                            - /url: /sspa/click?ie=UTF8&spc=MTo2OTMzODU1NTY2NTU0Mjc2OjE3ODI4NDA1MDk6c3Bfc2VhcmNoX3RoZW1hdGljX2J0ZjozMDA0ODEzNzk3Njc1MzI6OjQ6Og&url=%2FAmazon-Brand-Symbol-T-Shirt-AW17-SYSP-03B_Small_Viridian%2Fdp%2FB072N81GZM%2Fref%3Dsxbs_pa_sp_search_thematic_btf_sspa%3Fcontent-id%3Damzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%253Aamzn1.sym.d911582d-fc21-451b-a048-c8a163f39206%26crid%3DNKNQ018KCWAW%26cv_ct_cx%3Dgym%2Bclothes%2Bmen%26keywords%3Dgym%2Bclothes%2Bmen%26pd_rd_i%3DB072N81GZM%26pd_rd_r%3D6335d255-4c4d-48f4-95ef-c24b0a204892%26pd_rd_w%3D3aDGG%26pd_rd_wg%3DLJrbj%26pf_rd_p%3Dd911582d-fc21-451b-a048-c8a163f39206%26pf_rd_r%3DZEYRGQX06YTD7Y7G5MNJ%26qid%3D1782840509%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3D%252Caps%252C249%26sr%3D1-5-2907eac4-8056-42c7-8014-fdf7bd4c5395-spons%26aref%3DNIFTC0NUEy%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm%26psc%3D1&aref=NIFTC0NUEy&sp_cr=ZAZ
+                            - generic [ref=e6181]:
+                              - generic [ref=e6182]: ₹349
+                              - generic [ref=e6183]: ₹349
+                            - generic [ref=e6184]: "M.R.P: ₹799"
+                            - generic [ref=e6185]:
+                              - text: "M.R.P:"
+                              - generic [ref=e6186]:
+                                - generic [ref=e6187]: ₹799
+                                - text: ₹799
+                          - text: (56% off)
+                        - generic [ref=e6191]:
+                          - generic [ref=e6192]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e6193]: Up to 5% back with Amazon Pay IC...
+                      - generic [ref=e6196]:
+                        - generic [ref=e6198]: FREE delivery Thu, 2 Jul on first order
+                        - generic [ref=e6200]: Or fastest delivery Tomorrow, 1 Jul
+                      - button "Add to cart" [ref=e6211] [cursor=pointer]
+          - generic [ref=e6217]:
+            - generic "Related searches in gym clothes men" [ref=e6218]:
+              - heading "Related searches" [level=2] [ref=e6221]
+            - list [ref=e6223]:
+              - generic [ref=e6224]:
+                - listitem [ref=e6225]:
+                  - link "gym clothes" [ref=e6227] [cursor=pointer]:
+                    - /url: /s?k=gym+clothes&ref=rsl_sug_0_0&pd_rd_w=MlD05&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=LJrbj&pd_rd_r=6335d255-4c4d-48f4-95ef-c24b0a204892&qid=1782840509
+                    - generic [ref=e6232]: gym clothes
+                - listitem [ref=e6233]:
+                  - link "gym for men workout clothes" [ref=e6235] [cursor=pointer]:
+                    - /url: /s?k=gym+for+men+workout+clothes&ref=rsl_sug_0_3&pd_rd_w=MlD05&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=LJrbj&pd_rd_r=6335d255-4c4d-48f4-95ef-c24b0a204892&qid=1782840509
+                    - generic [ref=e6240]: gym for men workout clothes
+              - generic [ref=e6241]:
+                - listitem [ref=e6242]:
+                  - link "gym shoes" [ref=e6244] [cursor=pointer]:
+                    - /url: /s?k=gym+shoes&ref=rsl_sug_0_1&pd_rd_w=MlD05&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=LJrbj&pd_rd_r=6335d255-4c4d-48f4-95ef-c24b0a204892&qid=1782840509
+                    - generic [ref=e6249]: gym shoes
+                - listitem [ref=e6250]:
+                  - link "gym accessories" [ref=e6252] [cursor=pointer]:
+                    - /url: /s?k=gym+accessories&ref=rsl_sug_0_4&pd_rd_w=MlD05&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=LJrbj&pd_rd_r=6335d255-4c4d-48f4-95ef-c24b0a204892&qid=1782840509
+                    - generic [ref=e6257]: gym accessories
+              - generic [ref=e6258]:
+                - listitem [ref=e6259]:
+                  - link "gym shorts men" [ref=e6261] [cursor=pointer]:
+                    - /url: /s?k=gym+shorts+men&ref=rsl_sug_0_2&pd_rd_w=MlD05&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=LJrbj&pd_rd_r=6335d255-4c4d-48f4-95ef-c24b0a204892&qid=1782840509
+                    - generic [ref=e6266]: gym shorts men
+                - listitem [ref=e6267]:
+                  - link "gym vest men" [ref=e6269] [cursor=pointer]:
+                    - /url: /s?k=gym+vest+men&ref=rsl_sug_0_5&pd_rd_w=MlD05&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=LJrbj&pd_rd_r=6335d255-4c4d-48f4-95ef-c24b0a204892&qid=1782840509
+                    - generic [ref=e6274]: gym vest men
+          - navigation "pagination" [ref=e6277]:
+            - list [ref=e6279]:
+              - listitem [ref=e6280]:
+                - button "Previous" [disabled] [ref=e6282]:
+                  - img [ref=e6283]
+                  - text: Previous
+              - listitem [ref=e6285]:
+                - button "Page 1" [ref=e6287]: "1"
+              - listitem [ref=e6288]:
+                - button "Go to page 2" [ref=e6290] [cursor=pointer]: "2"
+              - listitem [ref=e6291]:
+                - button "Go to page 3" [ref=e6293] [cursor=pointer]: "3"
+              - button [disabled] [ref=e6294]:
+                - img [ref=e6295]: ...
+              - button "7" [disabled] [ref=e6297]
+              - listitem [ref=e6298]:
+                - button "Go to next page, page 2" [ref=e6300] [cursor=pointer]:
+                  - text: Next
+                  - img [ref=e6301]
+          - generic [ref=e6305]:
+            - separator [ref=e6306]
+            - generic [ref=e6307]:
+              - heading "Brands related to your search" [ref=e6308]
+              - button "Leave feedback on Sponsored ad" [ref=e6313] [cursor=pointer]: Sponsored
+              - generic [ref=e6317]:
+                - generic [ref=e6319]:
+                  - generic:
+                    - generic:
+                      - link:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/JO03Iui-TI8Y9gNYbFfIECIAAAGfGZNEvAoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICCeOspo/clv1c_ek-wBPHXLUbXDkeL8b_5szKJo0EWufIdyhVJFpl8Doo-cPTiTv1ZzbLJkCq8sS9Pu9X63a7XkPLNoWhiafvoZCP9aIXOGjEuOmCTFnANY7MuqpX6bPBwj-Yk-U-chjIy93i670XqBQ6K7L08C9h0lxLsElSp98xqlNpQjzSpbJo9AYMdX8a72pqJ5ALEp3R09rlf2fh7CgjquXA_9UvL72BzUZc_Aosi8TJEuhudXd49sAb4RFQRlLyUHkguMPbVnlGYWgGRgawJC2dGizJ-XqYBUHFi7vAeoxN71rjd8lJYCuAxncW9vtXT605EnajLx1z6CyXi1W-aXj35EXGWKzxEsgcx2My4jrXn8wfyom4lcxOH1Kgkx55NSaApgArJMOTL-ToD6toRGeaizF8s3LY9XyDLSxju0qYe7wSYAT0Agnfu6Ues8JTthbHL8g3AM9S_RBMyXQAFzkyVOnWm7vnU6gmw9DejzMkvuEUNfb-78zWhGXnibhDgIQQQlpf5bg6nXE3mBB7NQCCSf1AcaHYRtTfH2xN2InLWtLztHr4H8l8AsUqF8sqTA6Og22tZ8xWjmKBEX0inqMhLBor9rSEvQOE94CZyIKy9jgTQ89G4Ad-59JSaMx2oZRF5NASmV6RZxzGYSC4f0Ndulm5r4oCBJRG1lvGEafWRHMcV3P8OQxJy_oS8x7PHTc7B1lecpEVkb-9obZZtYNApzYhLReTM6T12COgG3TsgmXfpJg_WaZUhC3rnfBPFS9tdulq4y9KEQUiqkr8D-jXHIN9apnjLsTrhoUtLJgn-PsrBgl9GdGRb4Of3Gt9lv4V1PKRVmzrj32ddMKFq3kmbLc_XQoxnKCsdOIfBQL93_zOzqub6CsvYAfAlWVmrwHDmiuwg7-9JZG5Gcq5xYmkN5YDj8F3JtWIMtSNuGytg5rwDoZWOYYwlxltHbhKdVW_HD1sBEHOxMemSeC6onWsBVEULqsOrVRMQdHpkdDdviWoVOXlpCdjRi11VhCGH5MLyMENcEr9vanYcmkSN83nCLswibRG64ZxYplzVOSXBVT-9ivD1quFu-_ZjpfNhGLe0wex0cSJnCpiUXrpeJ5jRkoP3Zo8AGBO83QOTfeQMcP5i6ZjXAf7ryn3Nds_Dh707ss3386AQ3kvmympwykOeByOl7OWK4BxiVOYQd7wKYxRn9Sb2Pw_H9X_-C43FlfS3BllCMxZ-isCMljdNQ8ZCWTT1BblLW_-XEQObBOqPf23bmum1W4-4EYP_18OyO4I6-vqh4vbVS1MYzOwGMP3v2QRUG6Et_5_eJ17JDICqhvWjGhaOPLczMZ1QRl1ld2W6brBdE1YHQds8Cd_sSsxlpLup3Zf3imHqxr_nbcB2OAgPcxFdtfSGmRN3Z8-Ii0TjEq0Xl5aqOlY3Nv1x3Q9Z4c2-n4UhkCcUZqV8li9eEyZAZD91f_l3IhAsd4_9tX1coxunet6kmTMDpeZuCiCK0Aq-irO36lfx9PbWk_pxfUwLivcw37eZdqTpizfFZaaQOlko6cX0zdSdayJc5DNAzOSfcvewBt19O9kerzQ78MUI454IVFHPtIIN4TJtco3U3BpkhnFxOom6PWzp2kuvoMGT9tMdyiYJIWEU_PjrXO3MVY0SyuDmbolcqQlSlYm1eg9YE6_br00YV8uFzK4TMB_SRwj5EZw-5tfFCcM_48N1Q509YCAZzFrzJ9IT4ruXrw/https://www.amazon.in/stores/page/B5C807DC-0B2F-41AC-B13E-C2FB9787601C/?_encoding=UTF8&store_ref=SB_A01694731XRC2CT36064E-A07497563UW8CCS5NWS2Z&pd_rd_plhdr=t&aaxitk=4858c1d0ed5e60e9561e203017d22ead&hsa_cr_id=0&lp_asins=B0D83VVZDJ%2CB0DXKJKTWH%2CB0D6BRWN8F&lp_query=gym%20clothes%20men&lp_slot=desktop-hsa-3psl&aref=Aoo2PiqrWy&ref_=sbx_be_s_3psl_mbd_mb0_bkgd&pd_rd_w=yw6vF&content-id=amzn1.sym.302b41b4-ce85-4496-a41e-0894a8c89391%3Aamzn1.sym.302b41b4-ce85-4496-a41e-0894a8c89391&pf_rd_p=302b41b4-ce85-4496-a41e-0894a8c89391&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=pkyU8&pd_rd_r=f297ef24-e1b1-4895-8713-48f21c0d046a
+                      - link "Boldfit" [ref=e6320] [cursor=pointer]:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/JO03Iui-TI8Y9gNYbFfIECIAAAGfGZNEvAoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICCeOspo/clv1c_ek-wBPHXLUbXDkeL8b_5szKJo0EWufIdyhVJFpl8Doo-cPTiTv1ZzbLJkCq8sS9Pu9X63a7XkPLNoWhiafvoZCP9aIXOGjEuOmCTFnANY7MuqpX6bPBwj-Yk-U-chjIy93i670XqBQ6K7L08C9h0lxLsElSp98xqlNpQjzSpbJo9AYMdX8a72pqJ5ALEp3R09rlf2fh7CgjquXA_9UvL72BzUZc_Aosi8TJEuhudXd49sAb4RFQRlLyUHkguMPbVnlGYWgGRgawJC2dGizJ-XqYBUHFi7vAeoxN71rjd8lJYCuAxncW9vtXT605EnajLx1z6CyXi1W-aXj35EXGWKzxEsgcx2My4jrXn8wfyom4lcxOH1Kgkx55NSaApgArJMOTL-ToD6toRGeaizF8s3LY9XyDLSxju0qYe7wSYAT0Agnfu6Ues8JTthbHL8g3AM9S_RBMyXQAFzkyVOnWm7vnU6gmw9DejzMkvuEUNfb-78zWhGXnibhDgIQQQlpf5bg6nXE3mBB7NQCCSf1AcaHYRtTfH2xN2InLWtLztHr4H8l8AsUqF8sqTA6Og22tZ8xWjmKBEX0inqMhLBor9rSEvQOE94CZyIKy9jgTQ89G4Ad-59JSaMx2oZRF5NASmV6RZxzGYSC4f0Ndulm5r4oCBJRG1lvGEafWRHMcV3P8OQxJy_oS8x7PHTc7B1lecpEVkb-9obZZtYNApzYhLReTM6T12COgG3TsgmXfpJg_WaZUhC3rnfBPFS9tdulq4y9KEQUiqkr8D-jXHIN9apnjLsTrhoUtLJgn-PsrBgl9GdGRb4Of3Gt9lv4V1PKRVmzrj32ddMKFq3kmbLc_XQoxnKCsdOIfBQL93_zOzqub6CsvYAfAlWVmrwHDmiuwg7-9JZG5Gcq5xYmkN5YDj8F3JtWIMtSNuGytg5rwDoZWOYYwlxltHbhKdVW_HD1sBEHOxMemSeC6onWsBVEULqsOrVRMQdHpkdDdviWoVOXlpCdjRi11VhCGH5MLyMENcEr9vanYcmkSN83nCLswibRG64ZxYplzVOSXBVT-9ivD1quFu-_ZjpfNhGLe0wex0cSJnCpiUXrpeJ5jRkoP3Zo8AGBO83QOTfeQMcP5i6ZjXAf7ryn3Nds_Dh707ss3386AQ3kvmympwykOeByOl7OWK4BxiVOYQd7wKYxRn9Sb2Pw_H9X_-C43FlfS3BllCMxZ-isCMljdNQ8ZCWTT1BblLW_-XEQObBOqPf23bmum1W4-4EYP_18OyO4I6-vqh4vbVS1MYzOwGMP3v2QRUG6Et_5_eJ17JDICqhvWjGhaOPLczMZ1QRl1ld2W6brBdE1YHQds8Cd_sSsxlpLup3Zf3imHqxr_nbcB2OAgPcxFdtfSGmRN3Z8-Ii0TjEq0Xl5aqOlY3Nv1x3Q9Z4c2-n4UhkCcUZqV8li9eEyZAZD91f_l3IhAsd4_9tX1coxunet6kmTMDpeZuCiCK0Aq-irO36lfx9PbWk_pxfUwLivcw37eZdqTpizfFZaaQOlko6cX0zdSdayJc5DNAzOSfcvewBt19O9kerzQ78MUI454IVFHPtIIN4TJtco3U3BpkhnFxOom6PWzp2kuvoMGT9tMdyiYJIWEU_PjrXO3MVY0SyuDmbolcqQlSlYm1eg9YE6_br00YV8uFzK4TMB_SRwj5EZw-5tfFCcM_48N1Q509YCAZzFrzJ9IT4ruXrw/https://www.amazon.in/stores/page/B5C807DC-0B2F-41AC-B13E-C2FB9787601C/?_encoding=UTF8&store_ref=SB_A01694731XRC2CT36064E-A07497563UW8CCS5NWS2Z&pd_rd_plhdr=t&aaxitk=4858c1d0ed5e60e9561e203017d22ead&hsa_cr_id=0&lp_asins=B0D83VVZDJ%2CB0DXKJKTWH%2CB0D6BRWN8F&lp_query=gym%20clothes%20men&lp_slot=desktop-hsa-3psl&aref=Aoo2PiqrWy&ref_=sbx_be_s_3psl_mbd_mb0_ls&pd_rd_w=yw6vF&content-id=amzn1.sym.302b41b4-ce85-4496-a41e-0894a8c89391%3Aamzn1.sym.302b41b4-ce85-4496-a41e-0894a8c89391&pf_rd_p=302b41b4-ce85-4496-a41e-0894a8c89391&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=pkyU8&pd_rd_r=f297ef24-e1b1-4895-8713-48f21c0d046a
+                        - img "Boldfit" [ref=e6321]
+                      - generic [ref=e6323]:
+                        - generic [ref=e6324]:
+                          - link [ref=e6325] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JO03Iui-TI8Y9gNYbFfIECIAAAGfGZNEvAoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICCeOspo/clv1c_ek-wBPHXLUbXDkeL8b_5szKJo0EWufIdyhVJFpl8Doo-cPTiTv1ZzbLJkCq8sS9Pu9X63a7XkPLNoWhiafvoZCP9aIXOGjEuOmCTFnANY7MuqpX6bPBwj-Yk-U-chjIy93i670XqBQ6K7L08C9h0lxLsElSp98xqlNpQjzSpbJo9AYMdX8a72pqJ5ALEp3R09rlf2fh7CgjquXA_9UvL72BzUZc_Aosi8TJEuhudXd49sAb4RFQRlLyUHkguMPbVnlGYWgGRgawJC2dGizJ-XqYBUHFi7vAeoxN71rjd8lJYCuAxncW9vtXT605EnajLx1z6CyXi1W-aXj35EXGWKzxEsgcx2My4jrXn8wfyom4lcxOH1Kgkx55NSaApgArJMOTL-ToD6toRGeaizF8s3LY9XyDLSxju0qYe7wSYAT0Agnfu6Ues8JTthbHL8g3AM9S_RBMyXQAFzkyVOnWm7vnU6gmw9DejzMkvuEUNfb-78zWhGXnibhDgIQQQlpf5bg6nXE3mBB7NQCCSf1AcaHYRtTfH2xN2InLWtLztHr4H8l8AsUqF8sqTA6Og22tZ8xWjmKBEX0inqMhLBor9rSEvQOE94CZyIKy9jgTQ89G4Ad-59JSaMx2oZRF5NASmV6RZxzGYSC4f0Ndulm5r4oCBJRG1lvGEafWRHMcV3P8OQxJy_oS8x7PHTc7B1lecpEVkb-9obZZtYNApzYhLReTM6T12COgG3TsgmXfpJg_WaZUhC3rnfBPFS9tdulq4y9KEQUiqkr8D-jXHIN9apnjLsTrhoUtLJgn-PsrBgl9GdGRb4Of3Gt9lv4V1PKRVmzrj32ddMKFq3kmbLc_XQoxnKCsdOIfBQL93_zOzqub6CsvYAfAlWVmrwHDmiuwg7-9JZG5Gcq5xYmkN5YDj8F3JtWIMtSNuGytg5rwDoZWOYYwlxltHbhKdVW_HD1sBEHOxMemSeC6onWsBVEULqsOrVRMQdHpkdDdviWoVOXlpCdjRi11VhCGH5MLyMENcEr9vanYcmkSN83nCLswibRG64ZxYplzVOSXBVT-9ivD1quFu-_ZjpfNhGLe0wex0cSJnCpiUXrpeJ5jRkoP3Zo8AGBO83QOTfeQMcP5i6ZjXAf7ryn3Nds_Dh707ss3386AQ3kvmympwykOeByOl7OWK4BxiVOYQd7wKYxRn9Sb2Pw_H9X_-C43FlfS3BllCMxZ-isCMljdNQ8ZCWTT1BblLW_-XEQObBOqPf23bmum1W4-4EYP_18OyO4I6-vqh4vbVS1MYzOwGMP3v2QRUG6Et_5_eJ17JDICqhvWjGhaOPLczMZ1QRl1ld2W6brBdE1YHQds8Cd_sSsxlpLup3Zf3imHqxr_nbcB2OAgPcxFdtfSGmRN3Z8-Ii0TjEq0Xl5aqOlY3Nv1x3Q9Z4c2-n4UhkCcUZqV8li9eEyZAZD91f_l3IhAsd4_9tX1coxunet6kmTMDpeZuCiCK0Aq-irO36lfx9PbWk_pxfUwLivcw37eZdqTpizfFZaaQOlko6cX0zdSdayJc5DNAzOSfcvewBt19O9kerzQ78MUI454IVFHPtIIN4TJtco3U3BpkhnFxOom6PWzp2kuvoMGT9tMdyiYJIWEU_PjrXO3MVY0SyuDmbolcqQlSlYm1eg9YE6_br00YV8uFzK4TMB_SRwj5EZw-5tfFCcM_48N1Q509YCAZzFrzJ9IT4ruXrw/https://www.amazon.in/stores/page/B5C807DC-0B2F-41AC-B13E-C2FB9787601C/?_encoding=UTF8&store_ref=SB_A01694731XRC2CT36064E-A07497563UW8CCS5NWS2Z&pd_rd_plhdr=t&aaxitk=4858c1d0ed5e60e9561e203017d22ead&hsa_cr_id=0&lp_asins=B0D83VVZDJ%2CB0DXKJKTWH%2CB0D6BRWN8F&lp_query=gym%20clothes%20men&lp_slot=desktop-hsa-3psl&aref=Aoo2PiqrWy&ref_=sbx_be_s_3psl_mbd_mb0_bkgd&pd_rd_w=yw6vF&content-id=amzn1.sym.302b41b4-ce85-4496-a41e-0894a8c89391%3Aamzn1.sym.302b41b4-ce85-4496-a41e-0894a8c89391&pf_rd_p=302b41b4-ce85-4496-a41e-0894a8c89391&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=pkyU8&pd_rd_r=f297ef24-e1b1-4895-8713-48f21c0d046a
+                          - link "Boldfit" [ref=e6326] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JO03Iui-TI8Y9gNYbFfIECIAAAGfGZNEvAoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICCeOspo/clv1c_ek-wBPHXLUbXDkeL8b_5szKJo0EWufIdyhVJFpl8Doo-cPTiTv1ZzbLJkCq8sS9Pu9X63a7XkPLNoWhiafvoZCP9aIXOGjEuOmCTFnANY7MuqpX6bPBwj-Yk-U-chjIy93i670XqBQ6K7L08C9h0lxLsElSp98xqlNpQjzSpbJo9AYMdX8a72pqJ5ALEp3R09rlf2fh7CgjquXA_9UvL72BzUZc_Aosi8TJEuhudXd49sAb4RFQRlLyUHkguMPbVnlGYWgGRgawJC2dGizJ-XqYBUHFi7vAeoxN71rjd8lJYCuAxncW9vtXT605EnajLx1z6CyXi1W-aXj35EXGWKzxEsgcx2My4jrXn8wfyom4lcxOH1Kgkx55NSaApgArJMOTL-ToD6toRGeaizF8s3LY9XyDLSxju0qYe7wSYAT0Agnfu6Ues8JTthbHL8g3AM9S_RBMyXQAFzkyVOnWm7vnU6gmw9DejzMkvuEUNfb-78zWhGXnibhDgIQQQlpf5bg6nXE3mBB7NQCCSf1AcaHYRtTfH2xN2InLWtLztHr4H8l8AsUqF8sqTA6Og22tZ8xWjmKBEX0inqMhLBor9rSEvQOE94CZyIKy9jgTQ89G4Ad-59JSaMx2oZRF5NASmV6RZxzGYSC4f0Ndulm5r4oCBJRG1lvGEafWRHMcV3P8OQxJy_oS8x7PHTc7B1lecpEVkb-9obZZtYNApzYhLReTM6T12COgG3TsgmXfpJg_WaZUhC3rnfBPFS9tdulq4y9KEQUiqkr8D-jXHIN9apnjLsTrhoUtLJgn-PsrBgl9GdGRb4Of3Gt9lv4V1PKRVmzrj32ddMKFq3kmbLc_XQoxnKCsdOIfBQL93_zOzqub6CsvYAfAlWVmrwHDmiuwg7-9JZG5Gcq5xYmkN5YDj8F3JtWIMtSNuGytg5rwDoZWOYYwlxltHbhKdVW_HD1sBEHOxMemSeC6onWsBVEULqsOrVRMQdHpkdDdviWoVOXlpCdjRi11VhCGH5MLyMENcEr9vanYcmkSN83nCLswibRG64ZxYplzVOSXBVT-9ivD1quFu-_ZjpfNhGLe0wex0cSJnCpiUXrpeJ5jRkoP3Zo8AGBO83QOTfeQMcP5i6ZjXAf7ryn3Nds_Dh707ss3386AQ3kvmympwykOeByOl7OWK4BxiVOYQd7wKYxRn9Sb2Pw_H9X_-C43FlfS3BllCMxZ-isCMljdNQ8ZCWTT1BblLW_-XEQObBOqPf23bmum1W4-4EYP_18OyO4I6-vqh4vbVS1MYzOwGMP3v2QRUG6Et_5_eJ17JDICqhvWjGhaOPLczMZ1QRl1ld2W6brBdE1YHQds8Cd_sSsxlpLup3Zf3imHqxr_nbcB2OAgPcxFdtfSGmRN3Z8-Ii0TjEq0Xl5aqOlY3Nv1x3Q9Z4c2-n4UhkCcUZqV8li9eEyZAZD91f_l3IhAsd4_9tX1coxunet6kmTMDpeZuCiCK0Aq-irO36lfx9PbWk_pxfUwLivcw37eZdqTpizfFZaaQOlko6cX0zdSdayJc5DNAzOSfcvewBt19O9kerzQ78MUI454IVFHPtIIN4TJtco3U3BpkhnFxOom6PWzp2kuvoMGT9tMdyiYJIWEU_PjrXO3MVY0SyuDmbolcqQlSlYm1eg9YE6_br00YV8uFzK4TMB_SRwj5EZw-5tfFCcM_48N1Q509YCAZzFrzJ9IT4ruXrw/https://www.amazon.in/stores/page/B5C807DC-0B2F-41AC-B13E-C2FB9787601C/?_encoding=UTF8&store_ref=SB_A01694731XRC2CT36064E-A07497563UW8CCS5NWS2Z&pd_rd_plhdr=t&aaxitk=4858c1d0ed5e60e9561e203017d22ead&hsa_cr_id=0&lp_asins=B0D83VVZDJ%2CB0DXKJKTWH%2CB0D6BRWN8F&lp_query=gym%20clothes%20men&lp_slot=desktop-hsa-3psl&aref=Aoo2PiqrWy&ref_=sbx_be_s_3psl_mbd_mb0_logo&pd_rd_w=yw6vF&content-id=amzn1.sym.302b41b4-ce85-4496-a41e-0894a8c89391%3Aamzn1.sym.302b41b4-ce85-4496-a41e-0894a8c89391&pf_rd_p=302b41b4-ce85-4496-a41e-0894a8c89391&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=pkyU8&pd_rd_r=f297ef24-e1b1-4895-8713-48f21c0d046a
+                            - img "Boldfit" [ref=e6328]
+                        - generic [ref=e6329]:
+                          - link [ref=e6330] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JO03Iui-TI8Y9gNYbFfIECIAAAGfGZNEvAoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICCeOspo/clv1c_ek-wBPHXLUbXDkeL8b_5szKJo0EWufIdyhVJFpl8Doo-cPTiTv1ZzbLJkCq8sS9Pu9X63a7XkPLNoWhiafvoZCP9aIXOGjEuOmCTFnANY7MuqpX6bPBwj-Yk-U-chjIy93i670XqBQ6K7L08C9h0lxLsElSp98xqlNpQjzSpbJo9AYMdX8a72pqJ5ALEp3R09rlf2fh7CgjquXA_9UvL72BzUZc_Aosi8TJEuhudXd49sAb4RFQRlLyUHkguMPbVnlGYWgGRgawJC2dGizJ-XqYBUHFi7vAeoxN71rjd8lJYCuAxncW9vtXT605EnajLx1z6CyXi1W-aXj35EXGWKzxEsgcx2My4jrXn8wfyom4lcxOH1Kgkx55NSaApgArJMOTL-ToD6toRGeaizF8s3LY9XyDLSxju0qYe7wSYAT0Agnfu6Ues8JTthbHL8g3AM9S_RBMyXQAFzkyVOnWm7vnU6gmw9DejzMkvuEUNfb-78zWhGXnibhDgIQQQlpf5bg6nXE3mBB7NQCCSf1AcaHYRtTfH2xN2InLWtLztHr4H8l8AsUqF8sqTA6Og22tZ8xWjmKBEX0inqMhLBor9rSEvQOE94CZyIKy9jgTQ89G4Ad-59JSaMx2oZRF5NASmV6RZxzGYSC4f0Ndulm5r4oCBJRG1lvGEafWRHMcV3P8OQxJy_oS8x7PHTc7B1lecpEVkb-9obZZtYNApzYhLReTM6T12COgG3TsgmXfpJg_WaZUhC3rnfBPFS9tdulq4y9KEQUiqkr8D-jXHIN9apnjLsTrhoUtLJgn-PsrBgl9GdGRb4Of3Gt9lv4V1PKRVmzrj32ddMKFq3kmbLc_XQoxnKCsdOIfBQL93_zOzqub6CsvYAfAlWVmrwHDmiuwg7-9JZG5Gcq5xYmkN5YDj8F3JtWIMtSNuGytg5rwDoZWOYYwlxltHbhKdVW_HD1sBEHOxMemSeC6onWsBVEULqsOrVRMQdHpkdDdviWoVOXlpCdjRi11VhCGH5MLyMENcEr9vanYcmkSN83nCLswibRG64ZxYplzVOSXBVT-9ivD1quFu-_ZjpfNhGLe0wex0cSJnCpiUXrpeJ5jRkoP3Zo8AGBO83QOTfeQMcP5i6ZjXAf7ryn3Nds_Dh707ss3386AQ3kvmympwykOeByOl7OWK4BxiVOYQd7wKYxRn9Sb2Pw_H9X_-C43FlfS3BllCMxZ-isCMljdNQ8ZCWTT1BblLW_-XEQObBOqPf23bmum1W4-4EYP_18OyO4I6-vqh4vbVS1MYzOwGMP3v2QRUG6Et_5_eJ17JDICqhvWjGhaOPLczMZ1QRl1ld2W6brBdE1YHQds8Cd_sSsxlpLup3Zf3imHqxr_nbcB2OAgPcxFdtfSGmRN3Z8-Ii0TjEq0Xl5aqOlY3Nv1x3Q9Z4c2-n4UhkCcUZqV8li9eEyZAZD91f_l3IhAsd4_9tX1coxunet6kmTMDpeZuCiCK0Aq-irO36lfx9PbWk_pxfUwLivcw37eZdqTpizfFZaaQOlko6cX0zdSdayJc5DNAzOSfcvewBt19O9kerzQ78MUI454IVFHPtIIN4TJtco3U3BpkhnFxOom6PWzp2kuvoMGT9tMdyiYJIWEU_PjrXO3MVY0SyuDmbolcqQlSlYm1eg9YE6_br00YV8uFzK4TMB_SRwj5EZw-5tfFCcM_48N1Q509YCAZzFrzJ9IT4ruXrw/https://www.amazon.in/stores/page/B5C807DC-0B2F-41AC-B13E-C2FB9787601C/?_encoding=UTF8&store_ref=SB_A01694731XRC2CT36064E-A07497563UW8CCS5NWS2Z&pd_rd_plhdr=t&aaxitk=4858c1d0ed5e60e9561e203017d22ead&hsa_cr_id=0&lp_asins=B0D83VVZDJ%2CB0DXKJKTWH%2CB0D6BRWN8F&lp_query=gym%20clothes%20men&lp_slot=desktop-hsa-3psl&aref=Aoo2PiqrWy&ref_=sbx_be_s_3psl_mbd_mb0_bkgd&pd_rd_w=yw6vF&content-id=amzn1.sym.302b41b4-ce85-4496-a41e-0894a8c89391%3Aamzn1.sym.302b41b4-ce85-4496-a41e-0894a8c89391&pf_rd_p=302b41b4-ce85-4496-a41e-0894a8c89391&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=pkyU8&pd_rd_r=f297ef24-e1b1-4895-8713-48f21c0d046a
+                          - link "Your Activewear Gym Shorts For Daily Use" [ref=e6331] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JO03Iui-TI8Y9gNYbFfIECIAAAGfGZNEvAoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICCeOspo/clv1c_ek-wBPHXLUbXDkeL8b_5szKJo0EWufIdyhVJFpl8Doo-cPTiTv1ZzbLJkCq8sS9Pu9X63a7XkPLNoWhiafvoZCP9aIXOGjEuOmCTFnANY7MuqpX6bPBwj-Yk-U-chjIy93i670XqBQ6K7L08C9h0lxLsElSp98xqlNpQjzSpbJo9AYMdX8a72pqJ5ALEp3R09rlf2fh7CgjquXA_9UvL72BzUZc_Aosi8TJEuhudXd49sAb4RFQRlLyUHkguMPbVnlGYWgGRgawJC2dGizJ-XqYBUHFi7vAeoxN71rjd8lJYCuAxncW9vtXT605EnajLx1z6CyXi1W-aXj35EXGWKzxEsgcx2My4jrXn8wfyom4lcxOH1Kgkx55NSaApgArJMOTL-ToD6toRGeaizF8s3LY9XyDLSxju0qYe7wSYAT0Agnfu6Ues8JTthbHL8g3AM9S_RBMyXQAFzkyVOnWm7vnU6gmw9DejzMkvuEUNfb-78zWhGXnibhDgIQQQlpf5bg6nXE3mBB7NQCCSf1AcaHYRtTfH2xN2InLWtLztHr4H8l8AsUqF8sqTA6Og22tZ8xWjmKBEX0inqMhLBor9rSEvQOE94CZyIKy9jgTQ89G4Ad-59JSaMx2oZRF5NASmV6RZxzGYSC4f0Ndulm5r4oCBJRG1lvGEafWRHMcV3P8OQxJy_oS8x7PHTc7B1lecpEVkb-9obZZtYNApzYhLReTM6T12COgG3TsgmXfpJg_WaZUhC3rnfBPFS9tdulq4y9KEQUiqkr8D-jXHIN9apnjLsTrhoUtLJgn-PsrBgl9GdGRb4Of3Gt9lv4V1PKRVmzrj32ddMKFq3kmbLc_XQoxnKCsdOIfBQL93_zOzqub6CsvYAfAlWVmrwHDmiuwg7-9JZG5Gcq5xYmkN5YDj8F3JtWIMtSNuGytg5rwDoZWOYYwlxltHbhKdVW_HD1sBEHOxMemSeC6onWsBVEULqsOrVRMQdHpkdDdviWoVOXlpCdjRi11VhCGH5MLyMENcEr9vanYcmkSN83nCLswibRG64ZxYplzVOSXBVT-9ivD1quFu-_ZjpfNhGLe0wex0cSJnCpiUXrpeJ5jRkoP3Zo8AGBO83QOTfeQMcP5i6ZjXAf7ryn3Nds_Dh707ss3386AQ3kvmympwykOeByOl7OWK4BxiVOYQd7wKYxRn9Sb2Pw_H9X_-C43FlfS3BllCMxZ-isCMljdNQ8ZCWTT1BblLW_-XEQObBOqPf23bmum1W4-4EYP_18OyO4I6-vqh4vbVS1MYzOwGMP3v2QRUG6Et_5_eJ17JDICqhvWjGhaOPLczMZ1QRl1ld2W6brBdE1YHQds8Cd_sSsxlpLup3Zf3imHqxr_nbcB2OAgPcxFdtfSGmRN3Z8-Ii0TjEq0Xl5aqOlY3Nv1x3Q9Z4c2-n4UhkCcUZqV8li9eEyZAZD91f_l3IhAsd4_9tX1coxunet6kmTMDpeZuCiCK0Aq-irO36lfx9PbWk_pxfUwLivcw37eZdqTpizfFZaaQOlko6cX0zdSdayJc5DNAzOSfcvewBt19O9kerzQ78MUI454IVFHPtIIN4TJtco3U3BpkhnFxOom6PWzp2kuvoMGT9tMdyiYJIWEU_PjrXO3MVY0SyuDmbolcqQlSlYm1eg9YE6_br00YV8uFzK4TMB_SRwj5EZw-5tfFCcM_48N1Q509YCAZzFrzJ9IT4ruXrw/https://www.amazon.in/stores/page/B5C807DC-0B2F-41AC-B13E-C2FB9787601C/?_encoding=UTF8&store_ref=SB_A01694731XRC2CT36064E-A07497563UW8CCS5NWS2Z&pd_rd_plhdr=t&aaxitk=4858c1d0ed5e60e9561e203017d22ead&hsa_cr_id=0&lp_asins=B0D83VVZDJ%2CB0DXKJKTWH%2CB0D6BRWN8F&lp_query=gym%20clothes%20men&lp_slot=desktop-hsa-3psl&aref=Aoo2PiqrWy&ref_=sbx_be_s_3psl_mbd_mb0_hl&pd_rd_w=yw6vF&content-id=amzn1.sym.302b41b4-ce85-4496-a41e-0894a8c89391%3Aamzn1.sym.302b41b4-ce85-4496-a41e-0894a8c89391&pf_rd_p=302b41b4-ce85-4496-a41e-0894a8c89391&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=pkyU8&pd_rd_r=f297ef24-e1b1-4895-8713-48f21c0d046a
+                            - generic [ref=e6333]:
+                              - generic [ref=e6334]: Your Activewear Gym Shorts For Daily Use
+                              - generic [ref=e6335]: Your Activewear Gym Shorts For Daily Use
+                - generic [ref=e6337]:
+                  - generic:
+                    - generic:
+                      - link:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/JEcutiJFzWMxpuZxYVaxFdUAAAGfGZNEvQoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICD-gySO/clv1c_ek-ABAfWUsbaHX0mJtZrB16WdF1FLvuYAj7DpC_B2lrDjpxHc0lMmAIp5UXw-WkfDUVuilaBWuSvjfFF-16EsMDUz2-MShnwvps3Lgjo7ci1yCGo6W29Ds2icpl3qkh9jxyTZ_kuKat9qpfzQB_nycH9gtD49tXshvSw12drD4UNShslbqEo0hDn8i9AyuX1cSnAyiVe3gHH2sKBrURgEibKiXrf1Z_TtkeCOBWbho6sqDumQh3lYamdo8f3_UT3G4lL-vCc6-W3wBw9l9hRsJ4e-YP0HBx_fh4iFYq4ECiJ4GE6wfW2ynRbh2rbH3QG5Cj2vgeGo7F-lpLvvJChADpoNzQQzdyF0P6jXG-bD7vo8KXjrA17wzSPVVWUO_vhtSJdA2pxZEhWtlWTwbRUlI-mLUdVWAl1dzicZkRfDGDcAiDNHUPIVITiE_-xRF8hVvB2pXPCtmx_5uPJXbVPGiik0GsEj5VGZRfXgSMJxLAs8zLObmFDuBBYMX9KD_bNZslR1OhwFwxxBVenRJ-JzYOqCkmzirjLT60qdkcLCOVgG73KZvXMHVQo3Qyz_pu457vlVeAEO48QkTEJ6XtDTa5Y5snchSpRo4e1jqYkA5GW_sHqI8Yjjxw4ZCZ05EbcVyiXfwHcal7Ikyz3XdPPwWxif06BNLAWrMupTbiGF598NVZGj9AOvUgLZQ_OCHK7MJSqfGOijit27AtZr9Bdcp479aquEZyYdrblwkh_d3dznaS838oWhAUGnq5D5hiKXJWgpBIENoTF9DtKaai5P3n4Brrj9AysUSjPWjPFWU-rIlzpmCnUadCIsR9fJOZdHZTRmxA46EEvZ419dflbVwptcdwljBQYKlKKfohzkKQuMBQ2dschc3kfWxFkBQ7R4YmxNxUoRFRFw5WRyRCWxnfuQd9Q4efxdwGuecQ7ABZYVsMAjKS1ND9d0ErnbH3nxMmUm9AcVfWn86kbSeEJUJTKlNSc_I5BtJ9er5_NucUsW7I3t_8SiEJ2Jvw6SzjiVvPWS6n8r3P2Gl5uc5xtjbNUBdUaFXKiKVOKLO8s52S_kXLEWpPXcbvATtYJMCy3Kk7U_Hw6K_WZO7_8f-nl6GNIYPUHr5O2LJFz-VUFgOY9anMJZSMB6urTxk0b_IlZ9VlmhKFohnUSGb3DDZWe0oNqR0g8lV4Vei7KIjGIkcABGZFY40V0FWG5DLNye9NScZ0RYNUdCYrPovMjGO6m7Qu-c4RQ0W_RAgVna5kNkjmhCqZdRVOzc1gvGdjRVAeUP1HmtplYLxfZOGQ2x8IwmRHUtrXhTGgfzuV9zYbijUHQaGP0JLwaYhzJo5amV6_vWCECpO4UpuwIdjGIOqmoDRj0x7O3-1DucfaBb2AWJMvqQYLppdi6ZZfzurgajDXNwX4KlsIKCCWaPX0l3i83tkgWpjuAJ-NjUwW6JVgSnxZBL5Dl1ILJaPzRgBRUzr_a7XNMZE_qGAbHZebPtMmH6MJI6H5CgJgu8N13OY7RMrzFV87Akf8WT_9a4beHFtdEKAB_1z_3dVwdxfgN6C0p-sGZjjJBrq7WqDKjw_qvBUhHRBMnR6Qpsuhvk_pbI3Lf5kABlMK7_qCt7FQ4mmg4OfvTd6KSQ7JvDk_fKeHJGCuD_sFsvDTOBnsEFlR_WM9RZbq8PinyeerMJQLnFw/https://www.amazon.in/stores/page/0C1F706F-E343-4797-AAA8-3C12706662B0/?_encoding=UTF8&store_ref=SB_A07437082MRY70GXRFAYX-A025531211CPT2YMJO45U&pd_rd_plhdr=t&aaxitk=95d53c9326673bdbf28690d42a01b33e&hsa_cr_id=0&lp_asins=B0B7MN5TPJ%2CB08HPN17L7&lp_query=gym%20clothes%20men&lp_slot=desktop-hsa-3psl&aref=YUHGKNeuNR&ref_=sbx_be_s_3psl_mbd_mb1_bkgd&pd_rd_w=yw6vF&content-id=amzn1.sym.302b41b4-ce85-4496-a41e-0894a8c89391%3Aamzn1.sym.302b41b4-ce85-4496-a41e-0894a8c89391&pf_rd_p=302b41b4-ce85-4496-a41e-0894a8c89391&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=pkyU8&pd_rd_r=f297ef24-e1b1-4895-8713-48f21c0d046a
+                      - link "CHKOKKO" [ref=e6338] [cursor=pointer]:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/JEcutiJFzWMxpuZxYVaxFdUAAAGfGZNEvQoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICD-gySO/clv1c_ek-ABAfWUsbaHX0mJtZrB16WdF1FLvuYAj7DpC_B2lrDjpxHc0lMmAIp5UXw-WkfDUVuilaBWuSvjfFF-16EsMDUz2-MShnwvps3Lgjo7ci1yCGo6W29Ds2icpl3qkh9jxyTZ_kuKat9qpfzQB_nycH9gtD49tXshvSw12drD4UNShslbqEo0hDn8i9AyuX1cSnAyiVe3gHH2sKBrURgEibKiXrf1Z_TtkeCOBWbho6sqDumQh3lYamdo8f3_UT3G4lL-vCc6-W3wBw9l9hRsJ4e-YP0HBx_fh4iFYq4ECiJ4GE6wfW2ynRbh2rbH3QG5Cj2vgeGo7F-lpLvvJChADpoNzQQzdyF0P6jXG-bD7vo8KXjrA17wzSPVVWUO_vhtSJdA2pxZEhWtlWTwbRUlI-mLUdVWAl1dzicZkRfDGDcAiDNHUPIVITiE_-xRF8hVvB2pXPCtmx_5uPJXbVPGiik0GsEj5VGZRfXgSMJxLAs8zLObmFDuBBYMX9KD_bNZslR1OhwFwxxBVenRJ-JzYOqCkmzirjLT60qdkcLCOVgG73KZvXMHVQo3Qyz_pu457vlVeAEO48QkTEJ6XtDTa5Y5snchSpRo4e1jqYkA5GW_sHqI8Yjjxw4ZCZ05EbcVyiXfwHcal7Ikyz3XdPPwWxif06BNLAWrMupTbiGF598NVZGj9AOvUgLZQ_OCHK7MJSqfGOijit27AtZr9Bdcp479aquEZyYdrblwkh_d3dznaS838oWhAUGnq5D5hiKXJWgpBIENoTF9DtKaai5P3n4Brrj9AysUSjPWjPFWU-rIlzpmCnUadCIsR9fJOZdHZTRmxA46EEvZ419dflbVwptcdwljBQYKlKKfohzkKQuMBQ2dschc3kfWxFkBQ7R4YmxNxUoRFRFw5WRyRCWxnfuQd9Q4efxdwGuecQ7ABZYVsMAjKS1ND9d0ErnbH3nxMmUm9AcVfWn86kbSeEJUJTKlNSc_I5BtJ9er5_NucUsW7I3t_8SiEJ2Jvw6SzjiVvPWS6n8r3P2Gl5uc5xtjbNUBdUaFXKiKVOKLO8s52S_kXLEWpPXcbvATtYJMCy3Kk7U_Hw6K_WZO7_8f-nl6GNIYPUHr5O2LJFz-VUFgOY9anMJZSMB6urTxk0b_IlZ9VlmhKFohnUSGb3DDZWe0oNqR0g8lV4Vei7KIjGIkcABGZFY40V0FWG5DLNye9NScZ0RYNUdCYrPovMjGO6m7Qu-c4RQ0W_RAgVna5kNkjmhCqZdRVOzc1gvGdjRVAeUP1HmtplYLxfZOGQ2x8IwmRHUtrXhTGgfzuV9zYbijUHQaGP0JLwaYhzJo5amV6_vWCECpO4UpuwIdjGIOqmoDRj0x7O3-1DucfaBb2AWJMvqQYLppdi6ZZfzurgajDXNwX4KlsIKCCWaPX0l3i83tkgWpjuAJ-NjUwW6JVgSnxZBL5Dl1ILJaPzRgBRUzr_a7XNMZE_qGAbHZebPtMmH6MJI6H5CgJgu8N13OY7RMrzFV87Akf8WT_9a4beHFtdEKAB_1z_3dVwdxfgN6C0p-sGZjjJBrq7WqDKjw_qvBUhHRBMnR6Qpsuhvk_pbI3Lf5kABlMK7_qCt7FQ4mmg4OfvTd6KSQ7JvDk_fKeHJGCuD_sFsvDTOBnsEFlR_WM9RZbq8PinyeerMJQLnFw/https://www.amazon.in/stores/page/0C1F706F-E343-4797-AAA8-3C12706662B0/?_encoding=UTF8&store_ref=SB_A07437082MRY70GXRFAYX-A025531211CPT2YMJO45U&pd_rd_plhdr=t&aaxitk=95d53c9326673bdbf28690d42a01b33e&hsa_cr_id=0&lp_asins=B0B7MN5TPJ%2CB08HPN17L7&lp_query=gym%20clothes%20men&lp_slot=desktop-hsa-3psl&aref=YUHGKNeuNR&ref_=sbx_be_s_3psl_mbd_mb1_ls&pd_rd_w=yw6vF&content-id=amzn1.sym.302b41b4-ce85-4496-a41e-0894a8c89391%3Aamzn1.sym.302b41b4-ce85-4496-a41e-0894a8c89391&pf_rd_p=302b41b4-ce85-4496-a41e-0894a8c89391&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=pkyU8&pd_rd_r=f297ef24-e1b1-4895-8713-48f21c0d046a
+                        - img "CHKOKKO" [ref=e6339]
+                      - generic [ref=e6341]:
+                        - generic [ref=e6342]:
+                          - link [ref=e6343] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JEcutiJFzWMxpuZxYVaxFdUAAAGfGZNEvQoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICD-gySO/clv1c_ek-ABAfWUsbaHX0mJtZrB16WdF1FLvuYAj7DpC_B2lrDjpxHc0lMmAIp5UXw-WkfDUVuilaBWuSvjfFF-16EsMDUz2-MShnwvps3Lgjo7ci1yCGo6W29Ds2icpl3qkh9jxyTZ_kuKat9qpfzQB_nycH9gtD49tXshvSw12drD4UNShslbqEo0hDn8i9AyuX1cSnAyiVe3gHH2sKBrURgEibKiXrf1Z_TtkeCOBWbho6sqDumQh3lYamdo8f3_UT3G4lL-vCc6-W3wBw9l9hRsJ4e-YP0HBx_fh4iFYq4ECiJ4GE6wfW2ynRbh2rbH3QG5Cj2vgeGo7F-lpLvvJChADpoNzQQzdyF0P6jXG-bD7vo8KXjrA17wzSPVVWUO_vhtSJdA2pxZEhWtlWTwbRUlI-mLUdVWAl1dzicZkRfDGDcAiDNHUPIVITiE_-xRF8hVvB2pXPCtmx_5uPJXbVPGiik0GsEj5VGZRfXgSMJxLAs8zLObmFDuBBYMX9KD_bNZslR1OhwFwxxBVenRJ-JzYOqCkmzirjLT60qdkcLCOVgG73KZvXMHVQo3Qyz_pu457vlVeAEO48QkTEJ6XtDTa5Y5snchSpRo4e1jqYkA5GW_sHqI8Yjjxw4ZCZ05EbcVyiXfwHcal7Ikyz3XdPPwWxif06BNLAWrMupTbiGF598NVZGj9AOvUgLZQ_OCHK7MJSqfGOijit27AtZr9Bdcp479aquEZyYdrblwkh_d3dznaS838oWhAUGnq5D5hiKXJWgpBIENoTF9DtKaai5P3n4Brrj9AysUSjPWjPFWU-rIlzpmCnUadCIsR9fJOZdHZTRmxA46EEvZ419dflbVwptcdwljBQYKlKKfohzkKQuMBQ2dschc3kfWxFkBQ7R4YmxNxUoRFRFw5WRyRCWxnfuQd9Q4efxdwGuecQ7ABZYVsMAjKS1ND9d0ErnbH3nxMmUm9AcVfWn86kbSeEJUJTKlNSc_I5BtJ9er5_NucUsW7I3t_8SiEJ2Jvw6SzjiVvPWS6n8r3P2Gl5uc5xtjbNUBdUaFXKiKVOKLO8s52S_kXLEWpPXcbvATtYJMCy3Kk7U_Hw6K_WZO7_8f-nl6GNIYPUHr5O2LJFz-VUFgOY9anMJZSMB6urTxk0b_IlZ9VlmhKFohnUSGb3DDZWe0oNqR0g8lV4Vei7KIjGIkcABGZFY40V0FWG5DLNye9NScZ0RYNUdCYrPovMjGO6m7Qu-c4RQ0W_RAgVna5kNkjmhCqZdRVOzc1gvGdjRVAeUP1HmtplYLxfZOGQ2x8IwmRHUtrXhTGgfzuV9zYbijUHQaGP0JLwaYhzJo5amV6_vWCECpO4UpuwIdjGIOqmoDRj0x7O3-1DucfaBb2AWJMvqQYLppdi6ZZfzurgajDXNwX4KlsIKCCWaPX0l3i83tkgWpjuAJ-NjUwW6JVgSnxZBL5Dl1ILJaPzRgBRUzr_a7XNMZE_qGAbHZebPtMmH6MJI6H5CgJgu8N13OY7RMrzFV87Akf8WT_9a4beHFtdEKAB_1z_3dVwdxfgN6C0p-sGZjjJBrq7WqDKjw_qvBUhHRBMnR6Qpsuhvk_pbI3Lf5kABlMK7_qCt7FQ4mmg4OfvTd6KSQ7JvDk_fKeHJGCuD_sFsvDTOBnsEFlR_WM9RZbq8PinyeerMJQLnFw/https://www.amazon.in/stores/page/0C1F706F-E343-4797-AAA8-3C12706662B0/?_encoding=UTF8&store_ref=SB_A07437082MRY70GXRFAYX-A025531211CPT2YMJO45U&pd_rd_plhdr=t&aaxitk=95d53c9326673bdbf28690d42a01b33e&hsa_cr_id=0&lp_asins=B0B7MN5TPJ%2CB08HPN17L7&lp_query=gym%20clothes%20men&lp_slot=desktop-hsa-3psl&aref=YUHGKNeuNR&ref_=sbx_be_s_3psl_mbd_mb1_bkgd&pd_rd_w=yw6vF&content-id=amzn1.sym.302b41b4-ce85-4496-a41e-0894a8c89391%3Aamzn1.sym.302b41b4-ce85-4496-a41e-0894a8c89391&pf_rd_p=302b41b4-ce85-4496-a41e-0894a8c89391&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=pkyU8&pd_rd_r=f297ef24-e1b1-4895-8713-48f21c0d046a
+                          - link "CHKOKKO" [ref=e6344] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JEcutiJFzWMxpuZxYVaxFdUAAAGfGZNEvQoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICD-gySO/clv1c_ek-ABAfWUsbaHX0mJtZrB16WdF1FLvuYAj7DpC_B2lrDjpxHc0lMmAIp5UXw-WkfDUVuilaBWuSvjfFF-16EsMDUz2-MShnwvps3Lgjo7ci1yCGo6W29Ds2icpl3qkh9jxyTZ_kuKat9qpfzQB_nycH9gtD49tXshvSw12drD4UNShslbqEo0hDn8i9AyuX1cSnAyiVe3gHH2sKBrURgEibKiXrf1Z_TtkeCOBWbho6sqDumQh3lYamdo8f3_UT3G4lL-vCc6-W3wBw9l9hRsJ4e-YP0HBx_fh4iFYq4ECiJ4GE6wfW2ynRbh2rbH3QG5Cj2vgeGo7F-lpLvvJChADpoNzQQzdyF0P6jXG-bD7vo8KXjrA17wzSPVVWUO_vhtSJdA2pxZEhWtlWTwbRUlI-mLUdVWAl1dzicZkRfDGDcAiDNHUPIVITiE_-xRF8hVvB2pXPCtmx_5uPJXbVPGiik0GsEj5VGZRfXgSMJxLAs8zLObmFDuBBYMX9KD_bNZslR1OhwFwxxBVenRJ-JzYOqCkmzirjLT60qdkcLCOVgG73KZvXMHVQo3Qyz_pu457vlVeAEO48QkTEJ6XtDTa5Y5snchSpRo4e1jqYkA5GW_sHqI8Yjjxw4ZCZ05EbcVyiXfwHcal7Ikyz3XdPPwWxif06BNLAWrMupTbiGF598NVZGj9AOvUgLZQ_OCHK7MJSqfGOijit27AtZr9Bdcp479aquEZyYdrblwkh_d3dznaS838oWhAUGnq5D5hiKXJWgpBIENoTF9DtKaai5P3n4Brrj9AysUSjPWjPFWU-rIlzpmCnUadCIsR9fJOZdHZTRmxA46EEvZ419dflbVwptcdwljBQYKlKKfohzkKQuMBQ2dschc3kfWxFkBQ7R4YmxNxUoRFRFw5WRyRCWxnfuQd9Q4efxdwGuecQ7ABZYVsMAjKS1ND9d0ErnbH3nxMmUm9AcVfWn86kbSeEJUJTKlNSc_I5BtJ9er5_NucUsW7I3t_8SiEJ2Jvw6SzjiVvPWS6n8r3P2Gl5uc5xtjbNUBdUaFXKiKVOKLO8s52S_kXLEWpPXcbvATtYJMCy3Kk7U_Hw6K_WZO7_8f-nl6GNIYPUHr5O2LJFz-VUFgOY9anMJZSMB6urTxk0b_IlZ9VlmhKFohnUSGb3DDZWe0oNqR0g8lV4Vei7KIjGIkcABGZFY40V0FWG5DLNye9NScZ0RYNUdCYrPovMjGO6m7Qu-c4RQ0W_RAgVna5kNkjmhCqZdRVOzc1gvGdjRVAeUP1HmtplYLxfZOGQ2x8IwmRHUtrXhTGgfzuV9zYbijUHQaGP0JLwaYhzJo5amV6_vWCECpO4UpuwIdjGIOqmoDRj0x7O3-1DucfaBb2AWJMvqQYLppdi6ZZfzurgajDXNwX4KlsIKCCWaPX0l3i83tkgWpjuAJ-NjUwW6JVgSnxZBL5Dl1ILJaPzRgBRUzr_a7XNMZE_qGAbHZebPtMmH6MJI6H5CgJgu8N13OY7RMrzFV87Akf8WT_9a4beHFtdEKAB_1z_3dVwdxfgN6C0p-sGZjjJBrq7WqDKjw_qvBUhHRBMnR6Qpsuhvk_pbI3Lf5kABlMK7_qCt7FQ4mmg4OfvTd6KSQ7JvDk_fKeHJGCuD_sFsvDTOBnsEFlR_WM9RZbq8PinyeerMJQLnFw/https://www.amazon.in/stores/page/0C1F706F-E343-4797-AAA8-3C12706662B0/?_encoding=UTF8&store_ref=SB_A07437082MRY70GXRFAYX-A025531211CPT2YMJO45U&pd_rd_plhdr=t&aaxitk=95d53c9326673bdbf28690d42a01b33e&hsa_cr_id=0&lp_asins=B0B7MN5TPJ%2CB08HPN17L7&lp_query=gym%20clothes%20men&lp_slot=desktop-hsa-3psl&aref=YUHGKNeuNR&ref_=sbx_be_s_3psl_mbd_mb1_logo&pd_rd_w=yw6vF&content-id=amzn1.sym.302b41b4-ce85-4496-a41e-0894a8c89391%3Aamzn1.sym.302b41b4-ce85-4496-a41e-0894a8c89391&pf_rd_p=302b41b4-ce85-4496-a41e-0894a8c89391&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=pkyU8&pd_rd_r=f297ef24-e1b1-4895-8713-48f21c0d046a
+                            - img "CHKOKKO" [ref=e6346]
+                        - generic [ref=e6347]:
+                          - link [ref=e6348] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JEcutiJFzWMxpuZxYVaxFdUAAAGfGZNEvQoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICD-gySO/clv1c_ek-ABAfWUsbaHX0mJtZrB16WdF1FLvuYAj7DpC_B2lrDjpxHc0lMmAIp5UXw-WkfDUVuilaBWuSvjfFF-16EsMDUz2-MShnwvps3Lgjo7ci1yCGo6W29Ds2icpl3qkh9jxyTZ_kuKat9qpfzQB_nycH9gtD49tXshvSw12drD4UNShslbqEo0hDn8i9AyuX1cSnAyiVe3gHH2sKBrURgEibKiXrf1Z_TtkeCOBWbho6sqDumQh3lYamdo8f3_UT3G4lL-vCc6-W3wBw9l9hRsJ4e-YP0HBx_fh4iFYq4ECiJ4GE6wfW2ynRbh2rbH3QG5Cj2vgeGo7F-lpLvvJChADpoNzQQzdyF0P6jXG-bD7vo8KXjrA17wzSPVVWUO_vhtSJdA2pxZEhWtlWTwbRUlI-mLUdVWAl1dzicZkRfDGDcAiDNHUPIVITiE_-xRF8hVvB2pXPCtmx_5uPJXbVPGiik0GsEj5VGZRfXgSMJxLAs8zLObmFDuBBYMX9KD_bNZslR1OhwFwxxBVenRJ-JzYOqCkmzirjLT60qdkcLCOVgG73KZvXMHVQo3Qyz_pu457vlVeAEO48QkTEJ6XtDTa5Y5snchSpRo4e1jqYkA5GW_sHqI8Yjjxw4ZCZ05EbcVyiXfwHcal7Ikyz3XdPPwWxif06BNLAWrMupTbiGF598NVZGj9AOvUgLZQ_OCHK7MJSqfGOijit27AtZr9Bdcp479aquEZyYdrblwkh_d3dznaS838oWhAUGnq5D5hiKXJWgpBIENoTF9DtKaai5P3n4Brrj9AysUSjPWjPFWU-rIlzpmCnUadCIsR9fJOZdHZTRmxA46EEvZ419dflbVwptcdwljBQYKlKKfohzkKQuMBQ2dschc3kfWxFkBQ7R4YmxNxUoRFRFw5WRyRCWxnfuQd9Q4efxdwGuecQ7ABZYVsMAjKS1ND9d0ErnbH3nxMmUm9AcVfWn86kbSeEJUJTKlNSc_I5BtJ9er5_NucUsW7I3t_8SiEJ2Jvw6SzjiVvPWS6n8r3P2Gl5uc5xtjbNUBdUaFXKiKVOKLO8s52S_kXLEWpPXcbvATtYJMCy3Kk7U_Hw6K_WZO7_8f-nl6GNIYPUHr5O2LJFz-VUFgOY9anMJZSMB6urTxk0b_IlZ9VlmhKFohnUSGb3DDZWe0oNqR0g8lV4Vei7KIjGIkcABGZFY40V0FWG5DLNye9NScZ0RYNUdCYrPovMjGO6m7Qu-c4RQ0W_RAgVna5kNkjmhCqZdRVOzc1gvGdjRVAeUP1HmtplYLxfZOGQ2x8IwmRHUtrXhTGgfzuV9zYbijUHQaGP0JLwaYhzJo5amV6_vWCECpO4UpuwIdjGIOqmoDRj0x7O3-1DucfaBb2AWJMvqQYLppdi6ZZfzurgajDXNwX4KlsIKCCWaPX0l3i83tkgWpjuAJ-NjUwW6JVgSnxZBL5Dl1ILJaPzRgBRUzr_a7XNMZE_qGAbHZebPtMmH6MJI6H5CgJgu8N13OY7RMrzFV87Akf8WT_9a4beHFtdEKAB_1z_3dVwdxfgN6C0p-sGZjjJBrq7WqDKjw_qvBUhHRBMnR6Qpsuhvk_pbI3Lf5kABlMK7_qCt7FQ4mmg4OfvTd6KSQ7JvDk_fKeHJGCuD_sFsvDTOBnsEFlR_WM9RZbq8PinyeerMJQLnFw/https://www.amazon.in/stores/page/0C1F706F-E343-4797-AAA8-3C12706662B0/?_encoding=UTF8&store_ref=SB_A07437082MRY70GXRFAYX-A025531211CPT2YMJO45U&pd_rd_plhdr=t&aaxitk=95d53c9326673bdbf28690d42a01b33e&hsa_cr_id=0&lp_asins=B0B7MN5TPJ%2CB08HPN17L7&lp_query=gym%20clothes%20men&lp_slot=desktop-hsa-3psl&aref=YUHGKNeuNR&ref_=sbx_be_s_3psl_mbd_mb1_bkgd&pd_rd_w=yw6vF&content-id=amzn1.sym.302b41b4-ce85-4496-a41e-0894a8c89391%3Aamzn1.sym.302b41b4-ce85-4496-a41e-0894a8c89391&pf_rd_p=302b41b4-ce85-4496-a41e-0894a8c89391&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=pkyU8&pd_rd_r=f297ef24-e1b1-4895-8713-48f21c0d046a
+                          - link "CHKOKKO Men Gym Sports Tshirt" [ref=e6349] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JEcutiJFzWMxpuZxYVaxFdUAAAGfGZNEvQoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICD-gySO/clv1c_ek-ABAfWUsbaHX0mJtZrB16WdF1FLvuYAj7DpC_B2lrDjpxHc0lMmAIp5UXw-WkfDUVuilaBWuSvjfFF-16EsMDUz2-MShnwvps3Lgjo7ci1yCGo6W29Ds2icpl3qkh9jxyTZ_kuKat9qpfzQB_nycH9gtD49tXshvSw12drD4UNShslbqEo0hDn8i9AyuX1cSnAyiVe3gHH2sKBrURgEibKiXrf1Z_TtkeCOBWbho6sqDumQh3lYamdo8f3_UT3G4lL-vCc6-W3wBw9l9hRsJ4e-YP0HBx_fh4iFYq4ECiJ4GE6wfW2ynRbh2rbH3QG5Cj2vgeGo7F-lpLvvJChADpoNzQQzdyF0P6jXG-bD7vo8KXjrA17wzSPVVWUO_vhtSJdA2pxZEhWtlWTwbRUlI-mLUdVWAl1dzicZkRfDGDcAiDNHUPIVITiE_-xRF8hVvB2pXPCtmx_5uPJXbVPGiik0GsEj5VGZRfXgSMJxLAs8zLObmFDuBBYMX9KD_bNZslR1OhwFwxxBVenRJ-JzYOqCkmzirjLT60qdkcLCOVgG73KZvXMHVQo3Qyz_pu457vlVeAEO48QkTEJ6XtDTa5Y5snchSpRo4e1jqYkA5GW_sHqI8Yjjxw4ZCZ05EbcVyiXfwHcal7Ikyz3XdPPwWxif06BNLAWrMupTbiGF598NVZGj9AOvUgLZQ_OCHK7MJSqfGOijit27AtZr9Bdcp479aquEZyYdrblwkh_d3dznaS838oWhAUGnq5D5hiKXJWgpBIENoTF9DtKaai5P3n4Brrj9AysUSjPWjPFWU-rIlzpmCnUadCIsR9fJOZdHZTRmxA46EEvZ419dflbVwptcdwljBQYKlKKfohzkKQuMBQ2dschc3kfWxFkBQ7R4YmxNxUoRFRFw5WRyRCWxnfuQd9Q4efxdwGuecQ7ABZYVsMAjKS1ND9d0ErnbH3nxMmUm9AcVfWn86kbSeEJUJTKlNSc_I5BtJ9er5_NucUsW7I3t_8SiEJ2Jvw6SzjiVvPWS6n8r3P2Gl5uc5xtjbNUBdUaFXKiKVOKLO8s52S_kXLEWpPXcbvATtYJMCy3Kk7U_Hw6K_WZO7_8f-nl6GNIYPUHr5O2LJFz-VUFgOY9anMJZSMB6urTxk0b_IlZ9VlmhKFohnUSGb3DDZWe0oNqR0g8lV4Vei7KIjGIkcABGZFY40V0FWG5DLNye9NScZ0RYNUdCYrPovMjGO6m7Qu-c4RQ0W_RAgVna5kNkjmhCqZdRVOzc1gvGdjRVAeUP1HmtplYLxfZOGQ2x8IwmRHUtrXhTGgfzuV9zYbijUHQaGP0JLwaYhzJo5amV6_vWCECpO4UpuwIdjGIOqmoDRj0x7O3-1DucfaBb2AWJMvqQYLppdi6ZZfzurgajDXNwX4KlsIKCCWaPX0l3i83tkgWpjuAJ-NjUwW6JVgSnxZBL5Dl1ILJaPzRgBRUzr_a7XNMZE_qGAbHZebPtMmH6MJI6H5CgJgu8N13OY7RMrzFV87Akf8WT_9a4beHFtdEKAB_1z_3dVwdxfgN6C0p-sGZjjJBrq7WqDKjw_qvBUhHRBMnR6Qpsuhvk_pbI3Lf5kABlMK7_qCt7FQ4mmg4OfvTd6KSQ7JvDk_fKeHJGCuD_sFsvDTOBnsEFlR_WM9RZbq8PinyeerMJQLnFw/https://www.amazon.in/stores/page/0C1F706F-E343-4797-AAA8-3C12706662B0/?_encoding=UTF8&store_ref=SB_A07437082MRY70GXRFAYX-A025531211CPT2YMJO45U&pd_rd_plhdr=t&aaxitk=95d53c9326673bdbf28690d42a01b33e&hsa_cr_id=0&lp_asins=B0B7MN5TPJ%2CB08HPN17L7&lp_query=gym%20clothes%20men&lp_slot=desktop-hsa-3psl&aref=YUHGKNeuNR&ref_=sbx_be_s_3psl_mbd_mb1_hl&pd_rd_w=yw6vF&content-id=amzn1.sym.302b41b4-ce85-4496-a41e-0894a8c89391%3Aamzn1.sym.302b41b4-ce85-4496-a41e-0894a8c89391&pf_rd_p=302b41b4-ce85-4496-a41e-0894a8c89391&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=pkyU8&pd_rd_r=f297ef24-e1b1-4895-8713-48f21c0d046a
+                            - generic [ref=e6351]:
+                              - generic [ref=e6352]: CHKOKKO Men Gym Sports Tshirt
+                              - generic [ref=e6353]: CHKOKKO Men Gym Sports Tshirt
+                - generic [ref=e6355]:
+                  - generic:
+                    - generic:
+                      - link:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/JImpnXgLWP0a9i6gsRZXFq0AAAGfGZNEvQoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICBaeEO7/clv1c_ek-wBIH3FcbSznwnEL8Zs2PkkBKfGpJXNQ0e5Ennl4mgiM7WK3nCJEHb0z6Fvwtne-wBVl9_aCjoQpmss5FVnS312X1Qfejp1bgHjyxhRdUF7V3XcmBSbsfx6_-0xjKyWZtTCtf38gOZzv1AhR4P7QZZR12emoVqkMK4zjXSFMY9WmUOCLR-ownODpOJVh6rtq9FHPezFwGwDTQ9UwjF-Mw-t1syfGqSlhB-0KP8lcXN8uplSRHFZ75d6dkIZZz2-HiysTbIrPej9Rf-48LXcY4KvbPw6iz93k6rtWu4yEIXuwoywRk2qthiZExAuSg8ADaywIBq0-26PsFauGAF_D4glUcynoYEWtcVLl5DLOPqiz0HPQoT433qvkFkMvUIOfbGjtNOzEOCeHm2D9gtGCJaXMN0mFbSpRipCS63UF-iOTrb6xl8IG4zuSRdHyn3JoJfjIkUi3a1zu3eoM-t8j4nt0hjvU0-sC80oFwfiFWLyL9paFQoaWvDcuPOIPh43cDZaru8ksY4LN1t7CVHcujia4C-uDJ6IpwiCgzWzBjXPR2pzvYSdtYwOd81aIEmdRPxjj61bhW8xUczNhoJt9UnSQztM6OjOB8wzEGKZHLxyIjJDeuPd3mE1ybc0E8de0_28yPvQ-KQmxKF0mdFnUPWggCHk1oR7N69Ad8Izn_EuLtMKCatmArKPjBxJgfX2iMZ21ecncxqeX2LzrLNRH7yUNQSxrg-qNJrTQgzaG_99pJbD6H7HMDmpqDANBa2aNZAN0qBhHthKioBOC0sGGKmdQ4zC8krp-4bTsJO_BRNJtEThbKkDV7vbxpa5bYfiJx3-WGnkbykRqqMuoIVUUqnsHeKbj7pOvP_vTW8QfJi_zDT5DFFoii5M0x8GOB360Idk-m6M65FDM7hOhIfkpbUE3eVFE_wzXoan4eBCDn73OptiMlhyOqd_JeQ66vuDaNkFHLlAaC1mtP6IYAGSPEHOaXDy5chi5HaT80yLjRIEnN_aTBhAuaEU9k2YjsFr8RfcIPHf9rdqC6JdsenhdQqwcdHV7qZsP0FxIel8OALFyPUHa4hzJDLGy1gUBwkjVB7d4N2C6c7xcYDVGUIPucgfHZrYhbG_EYnXdz7bdR67JPcd1m7jvDkE0A5fnwh-8qjdtbBjXBNb0OJDpIOMs1lAvYmr2uz5ZG96pBCAf6YqHOUOreWsA6rvC25JfYNkpDd8ycJS_1XRfcMeAG1XXRR-n67Iap7828vayXrvNfqgVQaZdg56YpDxicjFt_9RC0TKTij2m4rpKoO6-BSadmUA9lzzB46UDpy2-T8bmABsqGQtEl5J1gfmWTKzasH3lcBdExlIw5hEk5JzoikLmER-oMh0Qc2WbtRm5U2zgcpn0IhlnBpTmT9Pq8jrPc6-bQC4mywfALKT8CEAqalt9qYNBwMWPfUy6qjtxsq_xw5M1fu5cLem4YR3l_iNDQmC7Nfox_Ag2_eRie9iH5MLDUiNtWk9GGrT3FfaFC9rGym4AjU18lIwaB7BOsdjGiUE0suMenrW9A9jix1dC5IartgowCt6fUVqGd_SX_SkqG5ufuHmomqkvZHqNza8-sEg6c2N5l6xcztK-dyp1PrsnTJkwAqzNJPCstGt3YFj6eRpgA5IBAZCaFVbU1x3Ase1b6uZh_A7uDciRlyRElSOF1g-AQJH5Y/https://www.amazon.in/stores/page/B05822E3-D521-48BE-9E3C-F15319852C6D/?_encoding=UTF8&store_ref=SB_A02882961Z9B3X8ITQW39-A08284681TDB6TFEUZVQM&pd_rd_plhdr=t&aaxitk=6b5ad4812f2dd6dc9fa89a728e9fce15&hsa_cr_id=0&lp_asins=B0BT1VYCHD&lp_query=gym%20clothes%20men&lp_slot=desktop-hsa-3psl&aref=Qc6v8bk6n8&ref_=sbx_be_s_3psl_mbd_mb2_bkgd&pd_rd_w=yw6vF&content-id=amzn1.sym.302b41b4-ce85-4496-a41e-0894a8c89391%3Aamzn1.sym.302b41b4-ce85-4496-a41e-0894a8c89391&pf_rd_p=302b41b4-ce85-4496-a41e-0894a8c89391&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=pkyU8&pd_rd_r=f297ef24-e1b1-4895-8713-48f21c0d046a
+                      - link "U.S. Polo Assn." [ref=e6356] [cursor=pointer]:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/JImpnXgLWP0a9i6gsRZXFq0AAAGfGZNEvQoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICBaeEO7/clv1c_ek-wBIH3FcbSznwnEL8Zs2PkkBKfGpJXNQ0e5Ennl4mgiM7WK3nCJEHb0z6Fvwtne-wBVl9_aCjoQpmss5FVnS312X1Qfejp1bgHjyxhRdUF7V3XcmBSbsfx6_-0xjKyWZtTCtf38gOZzv1AhR4P7QZZR12emoVqkMK4zjXSFMY9WmUOCLR-ownODpOJVh6rtq9FHPezFwGwDTQ9UwjF-Mw-t1syfGqSlhB-0KP8lcXN8uplSRHFZ75d6dkIZZz2-HiysTbIrPej9Rf-48LXcY4KvbPw6iz93k6rtWu4yEIXuwoywRk2qthiZExAuSg8ADaywIBq0-26PsFauGAF_D4glUcynoYEWtcVLl5DLOPqiz0HPQoT433qvkFkMvUIOfbGjtNOzEOCeHm2D9gtGCJaXMN0mFbSpRipCS63UF-iOTrb6xl8IG4zuSRdHyn3JoJfjIkUi3a1zu3eoM-t8j4nt0hjvU0-sC80oFwfiFWLyL9paFQoaWvDcuPOIPh43cDZaru8ksY4LN1t7CVHcujia4C-uDJ6IpwiCgzWzBjXPR2pzvYSdtYwOd81aIEmdRPxjj61bhW8xUczNhoJt9UnSQztM6OjOB8wzEGKZHLxyIjJDeuPd3mE1ybc0E8de0_28yPvQ-KQmxKF0mdFnUPWggCHk1oR7N69Ad8Izn_EuLtMKCatmArKPjBxJgfX2iMZ21ecncxqeX2LzrLNRH7yUNQSxrg-qNJrTQgzaG_99pJbD6H7HMDmpqDANBa2aNZAN0qBhHthKioBOC0sGGKmdQ4zC8krp-4bTsJO_BRNJtEThbKkDV7vbxpa5bYfiJx3-WGnkbykRqqMuoIVUUqnsHeKbj7pOvP_vTW8QfJi_zDT5DFFoii5M0x8GOB360Idk-m6M65FDM7hOhIfkpbUE3eVFE_wzXoan4eBCDn73OptiMlhyOqd_JeQ66vuDaNkFHLlAaC1mtP6IYAGSPEHOaXDy5chi5HaT80yLjRIEnN_aTBhAuaEU9k2YjsFr8RfcIPHf9rdqC6JdsenhdQqwcdHV7qZsP0FxIel8OALFyPUHa4hzJDLGy1gUBwkjVB7d4N2C6c7xcYDVGUIPucgfHZrYhbG_EYnXdz7bdR67JPcd1m7jvDkE0A5fnwh-8qjdtbBjXBNb0OJDpIOMs1lAvYmr2uz5ZG96pBCAf6YqHOUOreWsA6rvC25JfYNkpDd8ycJS_1XRfcMeAG1XXRR-n67Iap7828vayXrvNfqgVQaZdg56YpDxicjFt_9RC0TKTij2m4rpKoO6-BSadmUA9lzzB46UDpy2-T8bmABsqGQtEl5J1gfmWTKzasH3lcBdExlIw5hEk5JzoikLmER-oMh0Qc2WbtRm5U2zgcpn0IhlnBpTmT9Pq8jrPc6-bQC4mywfALKT8CEAqalt9qYNBwMWPfUy6qjtxsq_xw5M1fu5cLem4YR3l_iNDQmC7Nfox_Ag2_eRie9iH5MLDUiNtWk9GGrT3FfaFC9rGym4AjU18lIwaB7BOsdjGiUE0suMenrW9A9jix1dC5IartgowCt6fUVqGd_SX_SkqG5ufuHmomqkvZHqNza8-sEg6c2N5l6xcztK-dyp1PrsnTJkwAqzNJPCstGt3YFj6eRpgA5IBAZCaFVbU1x3Ase1b6uZh_A7uDciRlyRElSOF1g-AQJH5Y/https://www.amazon.in/stores/page/B05822E3-D521-48BE-9E3C-F15319852C6D/?_encoding=UTF8&store_ref=SB_A02882961Z9B3X8ITQW39-A08284681TDB6TFEUZVQM&pd_rd_plhdr=t&aaxitk=6b5ad4812f2dd6dc9fa89a728e9fce15&hsa_cr_id=0&lp_asins=B0BT1VYCHD&lp_query=gym%20clothes%20men&lp_slot=desktop-hsa-3psl&aref=Qc6v8bk6n8&ref_=sbx_be_s_3psl_mbd_mb2_ls&pd_rd_w=yw6vF&content-id=amzn1.sym.302b41b4-ce85-4496-a41e-0894a8c89391%3Aamzn1.sym.302b41b4-ce85-4496-a41e-0894a8c89391&pf_rd_p=302b41b4-ce85-4496-a41e-0894a8c89391&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=pkyU8&pd_rd_r=f297ef24-e1b1-4895-8713-48f21c0d046a
+                        - img "U.S. Polo Assn." [ref=e6357]
+                      - generic [ref=e6359]:
+                        - generic [ref=e6360]:
+                          - link [ref=e6361] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JImpnXgLWP0a9i6gsRZXFq0AAAGfGZNEvQoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICBaeEO7/clv1c_ek-wBIH3FcbSznwnEL8Zs2PkkBKfGpJXNQ0e5Ennl4mgiM7WK3nCJEHb0z6Fvwtne-wBVl9_aCjoQpmss5FVnS312X1Qfejp1bgHjyxhRdUF7V3XcmBSbsfx6_-0xjKyWZtTCtf38gOZzv1AhR4P7QZZR12emoVqkMK4zjXSFMY9WmUOCLR-ownODpOJVh6rtq9FHPezFwGwDTQ9UwjF-Mw-t1syfGqSlhB-0KP8lcXN8uplSRHFZ75d6dkIZZz2-HiysTbIrPej9Rf-48LXcY4KvbPw6iz93k6rtWu4yEIXuwoywRk2qthiZExAuSg8ADaywIBq0-26PsFauGAF_D4glUcynoYEWtcVLl5DLOPqiz0HPQoT433qvkFkMvUIOfbGjtNOzEOCeHm2D9gtGCJaXMN0mFbSpRipCS63UF-iOTrb6xl8IG4zuSRdHyn3JoJfjIkUi3a1zu3eoM-t8j4nt0hjvU0-sC80oFwfiFWLyL9paFQoaWvDcuPOIPh43cDZaru8ksY4LN1t7CVHcujia4C-uDJ6IpwiCgzWzBjXPR2pzvYSdtYwOd81aIEmdRPxjj61bhW8xUczNhoJt9UnSQztM6OjOB8wzEGKZHLxyIjJDeuPd3mE1ybc0E8de0_28yPvQ-KQmxKF0mdFnUPWggCHk1oR7N69Ad8Izn_EuLtMKCatmArKPjBxJgfX2iMZ21ecncxqeX2LzrLNRH7yUNQSxrg-qNJrTQgzaG_99pJbD6H7HMDmpqDANBa2aNZAN0qBhHthKioBOC0sGGKmdQ4zC8krp-4bTsJO_BRNJtEThbKkDV7vbxpa5bYfiJx3-WGnkbykRqqMuoIVUUqnsHeKbj7pOvP_vTW8QfJi_zDT5DFFoii5M0x8GOB360Idk-m6M65FDM7hOhIfkpbUE3eVFE_wzXoan4eBCDn73OptiMlhyOqd_JeQ66vuDaNkFHLlAaC1mtP6IYAGSPEHOaXDy5chi5HaT80yLjRIEnN_aTBhAuaEU9k2YjsFr8RfcIPHf9rdqC6JdsenhdQqwcdHV7qZsP0FxIel8OALFyPUHa4hzJDLGy1gUBwkjVB7d4N2C6c7xcYDVGUIPucgfHZrYhbG_EYnXdz7bdR67JPcd1m7jvDkE0A5fnwh-8qjdtbBjXBNb0OJDpIOMs1lAvYmr2uz5ZG96pBCAf6YqHOUOreWsA6rvC25JfYNkpDd8ycJS_1XRfcMeAG1XXRR-n67Iap7828vayXrvNfqgVQaZdg56YpDxicjFt_9RC0TKTij2m4rpKoO6-BSadmUA9lzzB46UDpy2-T8bmABsqGQtEl5J1gfmWTKzasH3lcBdExlIw5hEk5JzoikLmER-oMh0Qc2WbtRm5U2zgcpn0IhlnBpTmT9Pq8jrPc6-bQC4mywfALKT8CEAqalt9qYNBwMWPfUy6qjtxsq_xw5M1fu5cLem4YR3l_iNDQmC7Nfox_Ag2_eRie9iH5MLDUiNtWk9GGrT3FfaFC9rGym4AjU18lIwaB7BOsdjGiUE0suMenrW9A9jix1dC5IartgowCt6fUVqGd_SX_SkqG5ufuHmomqkvZHqNza8-sEg6c2N5l6xcztK-dyp1PrsnTJkwAqzNJPCstGt3YFj6eRpgA5IBAZCaFVbU1x3Ase1b6uZh_A7uDciRlyRElSOF1g-AQJH5Y/https://www.amazon.in/stores/page/B05822E3-D521-48BE-9E3C-F15319852C6D/?_encoding=UTF8&store_ref=SB_A02882961Z9B3X8ITQW39-A08284681TDB6TFEUZVQM&pd_rd_plhdr=t&aaxitk=6b5ad4812f2dd6dc9fa89a728e9fce15&hsa_cr_id=0&lp_asins=B0BT1VYCHD&lp_query=gym%20clothes%20men&lp_slot=desktop-hsa-3psl&aref=Qc6v8bk6n8&ref_=sbx_be_s_3psl_mbd_mb2_bkgd&pd_rd_w=yw6vF&content-id=amzn1.sym.302b41b4-ce85-4496-a41e-0894a8c89391%3Aamzn1.sym.302b41b4-ce85-4496-a41e-0894a8c89391&pf_rd_p=302b41b4-ce85-4496-a41e-0894a8c89391&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=pkyU8&pd_rd_r=f297ef24-e1b1-4895-8713-48f21c0d046a
+                          - link "U.S. Polo Assn." [ref=e6362] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JImpnXgLWP0a9i6gsRZXFq0AAAGfGZNEvQoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICBaeEO7/clv1c_ek-wBIH3FcbSznwnEL8Zs2PkkBKfGpJXNQ0e5Ennl4mgiM7WK3nCJEHb0z6Fvwtne-wBVl9_aCjoQpmss5FVnS312X1Qfejp1bgHjyxhRdUF7V3XcmBSbsfx6_-0xjKyWZtTCtf38gOZzv1AhR4P7QZZR12emoVqkMK4zjXSFMY9WmUOCLR-ownODpOJVh6rtq9FHPezFwGwDTQ9UwjF-Mw-t1syfGqSlhB-0KP8lcXN8uplSRHFZ75d6dkIZZz2-HiysTbIrPej9Rf-48LXcY4KvbPw6iz93k6rtWu4yEIXuwoywRk2qthiZExAuSg8ADaywIBq0-26PsFauGAF_D4glUcynoYEWtcVLl5DLOPqiz0HPQoT433qvkFkMvUIOfbGjtNOzEOCeHm2D9gtGCJaXMN0mFbSpRipCS63UF-iOTrb6xl8IG4zuSRdHyn3JoJfjIkUi3a1zu3eoM-t8j4nt0hjvU0-sC80oFwfiFWLyL9paFQoaWvDcuPOIPh43cDZaru8ksY4LN1t7CVHcujia4C-uDJ6IpwiCgzWzBjXPR2pzvYSdtYwOd81aIEmdRPxjj61bhW8xUczNhoJt9UnSQztM6OjOB8wzEGKZHLxyIjJDeuPd3mE1ybc0E8de0_28yPvQ-KQmxKF0mdFnUPWggCHk1oR7N69Ad8Izn_EuLtMKCatmArKPjBxJgfX2iMZ21ecncxqeX2LzrLNRH7yUNQSxrg-qNJrTQgzaG_99pJbD6H7HMDmpqDANBa2aNZAN0qBhHthKioBOC0sGGKmdQ4zC8krp-4bTsJO_BRNJtEThbKkDV7vbxpa5bYfiJx3-WGnkbykRqqMuoIVUUqnsHeKbj7pOvP_vTW8QfJi_zDT5DFFoii5M0x8GOB360Idk-m6M65FDM7hOhIfkpbUE3eVFE_wzXoan4eBCDn73OptiMlhyOqd_JeQ66vuDaNkFHLlAaC1mtP6IYAGSPEHOaXDy5chi5HaT80yLjRIEnN_aTBhAuaEU9k2YjsFr8RfcIPHf9rdqC6JdsenhdQqwcdHV7qZsP0FxIel8OALFyPUHa4hzJDLGy1gUBwkjVB7d4N2C6c7xcYDVGUIPucgfHZrYhbG_EYnXdz7bdR67JPcd1m7jvDkE0A5fnwh-8qjdtbBjXBNb0OJDpIOMs1lAvYmr2uz5ZG96pBCAf6YqHOUOreWsA6rvC25JfYNkpDd8ycJS_1XRfcMeAG1XXRR-n67Iap7828vayXrvNfqgVQaZdg56YpDxicjFt_9RC0TKTij2m4rpKoO6-BSadmUA9lzzB46UDpy2-T8bmABsqGQtEl5J1gfmWTKzasH3lcBdExlIw5hEk5JzoikLmER-oMh0Qc2WbtRm5U2zgcpn0IhlnBpTmT9Pq8jrPc6-bQC4mywfALKT8CEAqalt9qYNBwMWPfUy6qjtxsq_xw5M1fu5cLem4YR3l_iNDQmC7Nfox_Ag2_eRie9iH5MLDUiNtWk9GGrT3FfaFC9rGym4AjU18lIwaB7BOsdjGiUE0suMenrW9A9jix1dC5IartgowCt6fUVqGd_SX_SkqG5ufuHmomqkvZHqNza8-sEg6c2N5l6xcztK-dyp1PrsnTJkwAqzNJPCstGt3YFj6eRpgA5IBAZCaFVbU1x3Ase1b6uZh_A7uDciRlyRElSOF1g-AQJH5Y/https://www.amazon.in/stores/page/B05822E3-D521-48BE-9E3C-F15319852C6D/?_encoding=UTF8&store_ref=SB_A02882961Z9B3X8ITQW39-A08284681TDB6TFEUZVQM&pd_rd_plhdr=t&aaxitk=6b5ad4812f2dd6dc9fa89a728e9fce15&hsa_cr_id=0&lp_asins=B0BT1VYCHD&lp_query=gym%20clothes%20men&lp_slot=desktop-hsa-3psl&aref=Qc6v8bk6n8&ref_=sbx_be_s_3psl_mbd_mb2_logo&pd_rd_w=yw6vF&content-id=amzn1.sym.302b41b4-ce85-4496-a41e-0894a8c89391%3Aamzn1.sym.302b41b4-ce85-4496-a41e-0894a8c89391&pf_rd_p=302b41b4-ce85-4496-a41e-0894a8c89391&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=pkyU8&pd_rd_r=f297ef24-e1b1-4895-8713-48f21c0d046a
+                            - img "U.S. Polo Assn." [ref=e6364]
+                        - generic [ref=e6365]:
+                          - link [ref=e6366] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JImpnXgLWP0a9i6gsRZXFq0AAAGfGZNEvQoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICBaeEO7/clv1c_ek-wBIH3FcbSznwnEL8Zs2PkkBKfGpJXNQ0e5Ennl4mgiM7WK3nCJEHb0z6Fvwtne-wBVl9_aCjoQpmss5FVnS312X1Qfejp1bgHjyxhRdUF7V3XcmBSbsfx6_-0xjKyWZtTCtf38gOZzv1AhR4P7QZZR12emoVqkMK4zjXSFMY9WmUOCLR-ownODpOJVh6rtq9FHPezFwGwDTQ9UwjF-Mw-t1syfGqSlhB-0KP8lcXN8uplSRHFZ75d6dkIZZz2-HiysTbIrPej9Rf-48LXcY4KvbPw6iz93k6rtWu4yEIXuwoywRk2qthiZExAuSg8ADaywIBq0-26PsFauGAF_D4glUcynoYEWtcVLl5DLOPqiz0HPQoT433qvkFkMvUIOfbGjtNOzEOCeHm2D9gtGCJaXMN0mFbSpRipCS63UF-iOTrb6xl8IG4zuSRdHyn3JoJfjIkUi3a1zu3eoM-t8j4nt0hjvU0-sC80oFwfiFWLyL9paFQoaWvDcuPOIPh43cDZaru8ksY4LN1t7CVHcujia4C-uDJ6IpwiCgzWzBjXPR2pzvYSdtYwOd81aIEmdRPxjj61bhW8xUczNhoJt9UnSQztM6OjOB8wzEGKZHLxyIjJDeuPd3mE1ybc0E8de0_28yPvQ-KQmxKF0mdFnUPWggCHk1oR7N69Ad8Izn_EuLtMKCatmArKPjBxJgfX2iMZ21ecncxqeX2LzrLNRH7yUNQSxrg-qNJrTQgzaG_99pJbD6H7HMDmpqDANBa2aNZAN0qBhHthKioBOC0sGGKmdQ4zC8krp-4bTsJO_BRNJtEThbKkDV7vbxpa5bYfiJx3-WGnkbykRqqMuoIVUUqnsHeKbj7pOvP_vTW8QfJi_zDT5DFFoii5M0x8GOB360Idk-m6M65FDM7hOhIfkpbUE3eVFE_wzXoan4eBCDn73OptiMlhyOqd_JeQ66vuDaNkFHLlAaC1mtP6IYAGSPEHOaXDy5chi5HaT80yLjRIEnN_aTBhAuaEU9k2YjsFr8RfcIPHf9rdqC6JdsenhdQqwcdHV7qZsP0FxIel8OALFyPUHa4hzJDLGy1gUBwkjVB7d4N2C6c7xcYDVGUIPucgfHZrYhbG_EYnXdz7bdR67JPcd1m7jvDkE0A5fnwh-8qjdtbBjXBNb0OJDpIOMs1lAvYmr2uz5ZG96pBCAf6YqHOUOreWsA6rvC25JfYNkpDd8ycJS_1XRfcMeAG1XXRR-n67Iap7828vayXrvNfqgVQaZdg56YpDxicjFt_9RC0TKTij2m4rpKoO6-BSadmUA9lzzB46UDpy2-T8bmABsqGQtEl5J1gfmWTKzasH3lcBdExlIw5hEk5JzoikLmER-oMh0Qc2WbtRm5U2zgcpn0IhlnBpTmT9Pq8jrPc6-bQC4mywfALKT8CEAqalt9qYNBwMWPfUy6qjtxsq_xw5M1fu5cLem4YR3l_iNDQmC7Nfox_Ag2_eRie9iH5MLDUiNtWk9GGrT3FfaFC9rGym4AjU18lIwaB7BOsdjGiUE0suMenrW9A9jix1dC5IartgowCt6fUVqGd_SX_SkqG5ufuHmomqkvZHqNza8-sEg6c2N5l6xcztK-dyp1PrsnTJkwAqzNJPCstGt3YFj6eRpgA5IBAZCaFVbU1x3Ase1b6uZh_A7uDciRlyRElSOF1g-AQJH5Y/https://www.amazon.in/stores/page/B05822E3-D521-48BE-9E3C-F15319852C6D/?_encoding=UTF8&store_ref=SB_A02882961Z9B3X8ITQW39-A08284681TDB6TFEUZVQM&pd_rd_plhdr=t&aaxitk=6b5ad4812f2dd6dc9fa89a728e9fce15&hsa_cr_id=0&lp_asins=B0BT1VYCHD&lp_query=gym%20clothes%20men&lp_slot=desktop-hsa-3psl&aref=Qc6v8bk6n8&ref_=sbx_be_s_3psl_mbd_mb2_bkgd&pd_rd_w=yw6vF&content-id=amzn1.sym.302b41b4-ce85-4496-a41e-0894a8c89391%3Aamzn1.sym.302b41b4-ce85-4496-a41e-0894a8c89391&pf_rd_p=302b41b4-ce85-4496-a41e-0894a8c89391&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=pkyU8&pd_rd_r=f297ef24-e1b1-4895-8713-48f21c0d046a
+                          - 'link "Classic Style, Modern Edge: US Polo Assn. Vests" [ref=e6367] [cursor=pointer]':
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JImpnXgLWP0a9i6gsRZXFq0AAAGfGZNEvQoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICBaeEO7/clv1c_ek-wBIH3FcbSznwnEL8Zs2PkkBKfGpJXNQ0e5Ennl4mgiM7WK3nCJEHb0z6Fvwtne-wBVl9_aCjoQpmss5FVnS312X1Qfejp1bgHjyxhRdUF7V3XcmBSbsfx6_-0xjKyWZtTCtf38gOZzv1AhR4P7QZZR12emoVqkMK4zjXSFMY9WmUOCLR-ownODpOJVh6rtq9FHPezFwGwDTQ9UwjF-Mw-t1syfGqSlhB-0KP8lcXN8uplSRHFZ75d6dkIZZz2-HiysTbIrPej9Rf-48LXcY4KvbPw6iz93k6rtWu4yEIXuwoywRk2qthiZExAuSg8ADaywIBq0-26PsFauGAF_D4glUcynoYEWtcVLl5DLOPqiz0HPQoT433qvkFkMvUIOfbGjtNOzEOCeHm2D9gtGCJaXMN0mFbSpRipCS63UF-iOTrb6xl8IG4zuSRdHyn3JoJfjIkUi3a1zu3eoM-t8j4nt0hjvU0-sC80oFwfiFWLyL9paFQoaWvDcuPOIPh43cDZaru8ksY4LN1t7CVHcujia4C-uDJ6IpwiCgzWzBjXPR2pzvYSdtYwOd81aIEmdRPxjj61bhW8xUczNhoJt9UnSQztM6OjOB8wzEGKZHLxyIjJDeuPd3mE1ybc0E8de0_28yPvQ-KQmxKF0mdFnUPWggCHk1oR7N69Ad8Izn_EuLtMKCatmArKPjBxJgfX2iMZ21ecncxqeX2LzrLNRH7yUNQSxrg-qNJrTQgzaG_99pJbD6H7HMDmpqDANBa2aNZAN0qBhHthKioBOC0sGGKmdQ4zC8krp-4bTsJO_BRNJtEThbKkDV7vbxpa5bYfiJx3-WGnkbykRqqMuoIVUUqnsHeKbj7pOvP_vTW8QfJi_zDT5DFFoii5M0x8GOB360Idk-m6M65FDM7hOhIfkpbUE3eVFE_wzXoan4eBCDn73OptiMlhyOqd_JeQ66vuDaNkFHLlAaC1mtP6IYAGSPEHOaXDy5chi5HaT80yLjRIEnN_aTBhAuaEU9k2YjsFr8RfcIPHf9rdqC6JdsenhdQqwcdHV7qZsP0FxIel8OALFyPUHa4hzJDLGy1gUBwkjVB7d4N2C6c7xcYDVGUIPucgfHZrYhbG_EYnXdz7bdR67JPcd1m7jvDkE0A5fnwh-8qjdtbBjXBNb0OJDpIOMs1lAvYmr2uz5ZG96pBCAf6YqHOUOreWsA6rvC25JfYNkpDd8ycJS_1XRfcMeAG1XXRR-n67Iap7828vayXrvNfqgVQaZdg56YpDxicjFt_9RC0TKTij2m4rpKoO6-BSadmUA9lzzB46UDpy2-T8bmABsqGQtEl5J1gfmWTKzasH3lcBdExlIw5hEk5JzoikLmER-oMh0Qc2WbtRm5U2zgcpn0IhlnBpTmT9Pq8jrPc6-bQC4mywfALKT8CEAqalt9qYNBwMWPfUy6qjtxsq_xw5M1fu5cLem4YR3l_iNDQmC7Nfox_Ag2_eRie9iH5MLDUiNtWk9GGrT3FfaFC9rGym4AjU18lIwaB7BOsdjGiUE0suMenrW9A9jix1dC5IartgowCt6fUVqGd_SX_SkqG5ufuHmomqkvZHqNza8-sEg6c2N5l6xcztK-dyp1PrsnTJkwAqzNJPCstGt3YFj6eRpgA5IBAZCaFVbU1x3Ase1b6uZh_A7uDciRlyRElSOF1g-AQJH5Y/https://www.amazon.in/stores/page/B05822E3-D521-48BE-9E3C-F15319852C6D/?_encoding=UTF8&store_ref=SB_A02882961Z9B3X8ITQW39-A08284681TDB6TFEUZVQM&pd_rd_plhdr=t&aaxitk=6b5ad4812f2dd6dc9fa89a728e9fce15&hsa_cr_id=0&lp_asins=B0BT1VYCHD&lp_query=gym%20clothes%20men&lp_slot=desktop-hsa-3psl&aref=Qc6v8bk6n8&ref_=sbx_be_s_3psl_mbd_mb2_hl&pd_rd_w=yw6vF&content-id=amzn1.sym.302b41b4-ce85-4496-a41e-0894a8c89391%3Aamzn1.sym.302b41b4-ce85-4496-a41e-0894a8c89391&pf_rd_p=302b41b4-ce85-4496-a41e-0894a8c89391&pf_rd_r=ZEYRGQX06YTD7Y7G5MNJ&pd_rd_wg=pkyU8&pd_rd_r=f297ef24-e1b1-4895-8713-48f21c0d046a
+                            - generic [ref=e6369]:
+                              - generic [ref=e6370]: "Classic Style, Modern Edge: US Polo Assn. Vests"
+                              - generic [ref=e6371]: "Classic Style, Modern Edge: US Polo Assn. Vests"
+          - generic [ref=e6377]:
+            - heading "Need help?" [level=2] [ref=e6380]
+            - generic [ref=e6381]:
+              - link "Visit the help section" [ref=e6382] [cursor=pointer]:
+                - /url: /gp/help/customer/display.html?nodeId=201889520
+              - text: or
+              - link "contact us" [ref=e6383] [cursor=pointer]:
+                - /url: /gp/help/customer/contact-us
+          - generic [ref=e6386]:
+            - iframe [ref=e6387]:
+              - generic [ref=f1e4]:
+                - generic [ref=f1e5]: "Click to navigate to product detail page Sponsored Ad. Product image. Branded image. SWAGR 12 Pairs Solid Cotton Ankle Length Socks for Men Women, Pack of 12., Assorted. Price: ₹168.98."
+                - generic [ref=f1e8]:
+                  - img "Brand logo" [ref=f1e13]
+                  - img "Product image" [ref=f1e18]
+                - link "Click to navigate to product detail page" [ref=f1e22] [cursor=pointer]:
+                  - /url: https://aax-eu-zaz.amazon.in/x/c/RHR0ysAFRY0HVncXM5d9J6EAAAGfGZNEnAoAAAH_AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICBWFmsu/clv1c_ek-ggwfWLcTCTRHeOZ4ZvhfJarHDM08TlGyra5Jx3tE8RzpVMQNHUj-76pCybZ3HlNwcck-EiB0e314cnEq41qoJ4UiF6omLL3nljLm5XMfmahOKg5VGm7Kp43PeIhM1wd7I205-stLCHU-Z-ZhL_sP5iJ2flQHkh5FCCletuiZGGooTNqrlLgiqF3FPoRUzBARiffd6geEsZ4Us4ghg2As8zV44i56smrr_tILFNiUt4WeUIbHFYEtuGGt_s7RTzalrTtEjWD8XY_GNur-1HVs1XQsJKEwo83kjSizBNyVn3EmjEKmy-zLv5UKEoRXOoPcdIuvB-_tH7EhUNnVNo5pSqkZFmxUWcXE9LJlElR8onksdhloiK3Bt8-d9DUnJR0dQJk2Y2IgcKauS2OYQVIkShn7Y-Ocia_vwDe8IWgiz8VfOPGOFjPmsn3DiTagirhMUH1CFMaUcWN3rHkf1dEcmcBDz2OrIdlfkxNEch4f5jh6-6xmhbOubG8eUw5KI6FuPF8yfXKB6G8AhdD1q7H1we1Ls10GE-TBgMWjbVG3A1h_Gd3ttl9SFj7aAncRdK6wP5J-vL-T39zY-fHbd8qTKZ5B5p9Fgj_N3Y9RPmjgciD2jPgfMZLGXiQzJk_aZ5Y244owG0eslpu8G7XkovoNr34vw-qTHBHERKVxYvleuLaCchzbee4AthjbEYghXcgKFEAVcx3f4vo8fwumOGgzsmFcDzZypiIrCf7G73ffYje6hb-25iIl_DocPC7wj9Vs3LYr9JpCWQWyyyFAnCHFhdj_-Z8DJocfF3xMZ23TWLJR1Y-4Wx-6k6c03_Xp4CTYnDQ5fwDHweGBFyVm-YC080daAAQJghX-9GcttmNydwwn4k_Fo8EcCDshPy_Zb0QT44ccH-L5LrE_2ZTO095tqiKXzG5iQUGDcohAkn_8AyDbpqq98vhWrdAEzO-yj3PYiv6uDEKi86N14JA6ob5Vy9vug7SPDNUzT1THvqFe6ZpuUrb_NLf7GkD4a4GhimhilpXssFgpEnUVn/http://www.amazon.in/dp/B0DC14CYKR/ref=syn_sd_onsite_desktop_0?ie=UTF8&psc=1&pd_rd_plhdr=t&aref=ZSUXyDc11u
+            - button "Leave feedback on Sponsored advertisement" [ref=e6389] [cursor=pointer]:
+              - generic [ref=e6390]: Sponsored
+        - link "Go back to filtering menu" [ref=e6392] [cursor=pointer]:
+          - /url: "#s-skipLinkTargetForFilterOptions"
+      - dialog "Filters" [ref=e6393]:
+        - generic [ref=e6394]:
+          - link "Skip to main search results" [ref=e6395] [cursor=pointer]:
+            - /url: "#s-skipLinkTargetForMainSearchResults"
+          - generic [ref=e6397]:
+            - generic [ref=e6401]:
+              - group [ref=e6402]:
+                - heading "Popular Shopping Ideas" [level=2] [ref=e6403]
+                - list [ref=e6404]:
+                  - listitem [ref=e6405]:
+                    - link "Pants" [ref=e6407] [cursor=pointer]:
+                      - /url: /s?k=gym+pants+men&ref=sr_nr_p_rag_integrated_qb_0
+                  - listitem [ref=e6408]:
+                    - link "Hoodies" [ref=e6410] [cursor=pointer]:
+                      - /url: /s?k=gym+hoodies+for+men&ref=sr_nr_p_rag_integrated_qb_1
+                  - listitem [ref=e6411]:
+                    - link "Lowers" [ref=e6413] [cursor=pointer]:
+                      - /url: /s?k=gym+lowers+for+men&ref=sr_nr_p_rag_integrated_qb_2
+                  - listitem [ref=e6414]:
+                    - link "Track Suit" [ref=e6416] [cursor=pointer]:
+                      - /url: /s?k=gym+track+suit+men&ref=sr_nr_p_rag_integrated_qb_3
+                  - listitem [ref=e6417]:
+                    - button "See more" [ref=e6420] [cursor=pointer]: See more
+              - separator [ref=e6422]
+              - group "Delivery Day" [ref=e6423]:
+                - heading "Delivery Day" [level=2] [ref=e6424]
+                - list "Delivery Day" [ref=e6425]:
+                  - listitem "Popular Shopping Ideas" [ref=e6426]:
+                    - link "Apply the filter Get It by Tomorrow to narrow results" [ref=e6428] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_90%3A6741118031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=6741116031&sprefix=%2Caps%2C249&ref=sr_nr_p_90_1&ds=v1%3AAN50sxL5GypuzkuqCqG5B4ZnmIXzVsXMlkG7KLGkQiY
+                      - checkbox [ref=e6431]
+                      - text: Get It by Tomorrow
+                  - listitem "Popular Shopping Ideas" [ref=e6433]:
+                    - link "Apply the filter Get It in 2 Days to narrow results" [ref=e6435] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_90%3A20912642031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=6741116031&sprefix=%2Caps%2C249&ref=sr_nr_p_90_2&ds=v1%3A957%2BRgs%2BUriwSxcO9bIsGQqRuxNha8DMrSRU4MpF3lE
+                      - checkbox [ref=e6438]
+                      - text: Get It in 2 Days
+                - heading "Eligible for Free Shipping" [level=2] [ref=e6440]
+                - list "Eligible for Free Shipping" [ref=e6441]:
+                  - listitem "Popular Shopping Ideas" [ref=e6442]:
+                    - link "Apply the filter Free Shipping to narrow results" [ref=e6444] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_free_shipping_eligible%3A205563695031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=205563694031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_free_shipping_eligible_1&ds=v1%3AdUnduy1LXNsnvSJuACJkclUKu4XEHAmvPLvabAL4CZc
+                      - checkbox [ref=e6447]
+                      - text: Free Shipping
+                      - generic [ref=e6449]: Get FREE Shipping on eligible orders shipped by Amazon
+              - group "Brands" [ref=e6450]:
+                - heading "Brands" [level=2] [ref=e6451]
+                - list "Brands" [ref=e6452]:
+                  - listitem "Popular Shopping Ideas" [ref=e6453]:
+                    - link "Apply the filter Boldfit to narrow results" [ref=e6455] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_123%3A482721&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=91049095031&sprefix=%2Caps%2C249&ref=sr_nr_p_123_1&ds=v1%3AVysYCLTZvV8qQTPrbaJZqs2WvFIsO9kPxvEmlnDrLpk
+                      - checkbox [ref=e6458]
+                      - text: Boldfit
+                  - listitem "Popular Shopping Ideas" [ref=e6460]:
+                    - link "Apply the filter JUARI BE A GENTLEMAN to narrow results" [ref=e6462] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_123%3A457609&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=91049095031&sprefix=%2Caps%2C249&ref=sr_nr_p_123_2&ds=v1%3A1OrvErRglY6fxzgj6jjnDdCPqjlqmwDesMwGDSt7tDY
+                      - checkbox [ref=e6465]
+                      - text: JUARI BE A GENTLEMAN
+                  - listitem "Popular Shopping Ideas" [ref=e6467]:
+                    - link "Apply the filter AUSK to narrow results" [ref=e6469] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_123%3A1243201&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=91049095031&sprefix=%2Caps%2C249&ref=sr_nr_p_123_3&ds=v1%3AU6B4%2F22JENV0KTckpovFZBoWDbq28XeWYq1VqytLejE
+                      - checkbox [ref=e6472]
+                      - text: AUSK
+                  - listitem "Popular Shopping Ideas" [ref=e6474]:
+                    - link "Apply the filter ATICX to narrow results" [ref=e6476] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_123%3A934246&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=91049095031&sprefix=%2Caps%2C249&ref=sr_nr_p_123_4&ds=v1%3A9bkMLdB7FgpF8IyAZbHLvYmGa69xYz98SUJeqa4f5Dc
+                      - checkbox [ref=e6479]
+                      - text: ATICX
+                  - listitem "Popular Shopping Ideas" [ref=e6481]:
+                    - link "Apply the filter CHKOKKO to narrow results" [ref=e6483] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_123%3A110684&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=91049095031&sprefix=%2Caps%2C249&ref=sr_nr_p_123_5&ds=v1%3AOV%2BMiKYlA1PYzQHEOaxBHmkE4xVXLhLSwG1mpUTnpkM
+                      - checkbox [ref=e6486]
+                      - text: CHKOKKO
+                  - listitem "Popular Shopping Ideas" [ref=e6488]:
+                    - link "Apply the filter NINQ to narrow results" [ref=e6490] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_123%3A4940041&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=91049095031&sprefix=%2Caps%2C249&ref=sr_nr_p_123_6&ds=v1%3AnVTI9anioRs9pf8XSCwWKQ%2FEoocjHQDgWaCvxn38tww
+                      - checkbox [ref=e6493]
+                      - text: NINQ
+                  - listitem "Popular Shopping Ideas" [ref=e6495]:
+                    - link "Apply the filter FTX to narrow results" [ref=e6497] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_123%3A369214&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=91049095031&sprefix=%2Caps%2C249&ref=sr_nr_p_123_7&ds=v1%3AEfA2ekYL7HrtfCwaSDQ9nYsiApV7qyW6yqGoOF1mTC0
+                      - checkbox [ref=e6500]
+                      - text: FTX
+                  - listitem [ref=e6502]:
+                    - button "See more, Brands" [ref=e6505] [cursor=pointer]: See more
+              - group "Men's Size" [ref=e6507]:
+                - heading "Men's Size" [level=2] [ref=e6508]
+                - list "Men's Size" [ref=e6509]:
+                  - listitem [ref=e6510]:
+                    - generic:
+                      - link "Apply the filter 2XS to narrow results":
+                        - /url: /s?k=gym+clothes+men&rh=p_n_pt_nav_size_men_international_size%3A1975391031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=1974882031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_pt_nav_size_men_international_size_1&ds=v1%3AzA4psS5oALwOAEArFeE5cR3CufUPaM%2BFVZSOauDO4pg
+                        - button "2XS" [ref=e6513] [cursor=pointer]
+                  - listitem [ref=e6514]:
+                    - generic:
+                      - link "Apply the filter XS to narrow results":
+                        - /url: /s?k=gym+clothes+men&rh=p_n_pt_nav_size_men_international_size%3A1975392031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=1974882031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_pt_nav_size_men_international_size_2&ds=v1%3ARo9Bk%2B3GQBNrC%2FFmipX2v%2BWxA1yw9bDALR6UPSf8KUc
+                        - button "XS" [ref=e6517] [cursor=pointer]
+                  - listitem [ref=e6518]:
+                    - generic:
+                      - link "Apply the filter S to narrow results":
+                        - /url: /s?k=gym+clothes+men&rh=p_n_pt_nav_size_men_international_size%3A1975393031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=1974882031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_pt_nav_size_men_international_size_3&ds=v1%3AcRTzmyl9MyJ0AffizLoROXKHN%2FyOofuhvmiraRNX4FQ
+                        - button "S" [ref=e6521] [cursor=pointer]
+                  - listitem [ref=e6522]:
+                    - generic:
+                      - link "Apply the filter M to narrow results":
+                        - /url: /s?k=gym+clothes+men&rh=p_n_pt_nav_size_men_international_size%3A1975394031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=1974882031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_pt_nav_size_men_international_size_4&ds=v1%3A9862edNcMjmAvNl9akVtv1YKGy8OzeVfXDCB3bEDzIM
+                        - button "M" [ref=e6525] [cursor=pointer]
+                  - listitem [ref=e6526]:
+                    - generic:
+                      - link "Apply the filter L to narrow results":
+                        - /url: /s?k=gym+clothes+men&rh=p_n_pt_nav_size_men_international_size%3A1975395031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=1974882031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_pt_nav_size_men_international_size_5&ds=v1%3AOH9TYCQ9V0DO91%2BWt37wuZ3bjrriOxx5kIxVzWh39r4
+                        - button "L" [ref=e6529] [cursor=pointer]
+                  - listitem [ref=e6530]:
+                    - generic:
+                      - link "Apply the filter XL to narrow results":
+                        - /url: /s?k=gym+clothes+men&rh=p_n_pt_nav_size_men_international_size%3A1975396031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=1974882031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_pt_nav_size_men_international_size_6&ds=v1%3A5I8Hn%2FMFYDi5M7IOCaJhdWw9%2Bodn%2F1LBCiQjuexK2As
+                        - button "XL" [ref=e6533] [cursor=pointer]
+                  - listitem [ref=e6534]:
+                    - generic:
+                      - link "Apply the filter 2XL to narrow results":
+                        - /url: /s?k=gym+clothes+men&rh=p_n_pt_nav_size_men_international_size%3A1975397031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=1974882031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_pt_nav_size_men_international_size_7&ds=v1%3AF5%2Br%2B3z6kB817sYagdoU60pTp41pDNH1bzIBwRcJd9o
+                        - button "2XL" [ref=e6537] [cursor=pointer]
+                  - listitem [ref=e6538]:
+                    - generic:
+                      - link "Apply the filter 3XL to narrow results":
+                        - /url: /s?k=gym+clothes+men&rh=p_n_pt_nav_size_men_international_size%3A1975398031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=1974882031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_pt_nav_size_men_international_size_8&ds=v1%3A6i6FUORafCeam1qfYa1%2FxxN2KYlKfwsGR0e8ZGRqrko
+                        - button "3XL" [ref=e6541] [cursor=pointer]
+                  - listitem [ref=e6542]:
+                    - generic:
+                      - link "Apply the filter 4XL to narrow results":
+                        - /url: /s?k=gym+clothes+men&rh=p_n_pt_nav_size_men_international_size%3A1975399031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=1974882031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_pt_nav_size_men_international_size_9&ds=v1%3AFmgNiFFUyzmwq9HigPvFzjVX7ZdUG5VSG9QzQGhT%2BDY
+                        - button "4XL" [ref=e6545] [cursor=pointer]
+                  - listitem [ref=e6546]:
+                    - generic:
+                      - link "Apply the filter 5XL to narrow results":
+                        - /url: /s?k=gym+clothes+men&rh=p_n_pt_nav_size_men_international_size%3A1975400031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=1974882031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_pt_nav_size_men_international_size_10&ds=v1%3APKMP1%2FAsZTcL0kslEnz0tHZe3HzU%2FZwYtY1JT24BOfg
+                        - button "5XL" [ref=e6549] [cursor=pointer]
+                  - listitem [ref=e6550]:
+                    - generic:
+                      - link "Apply the filter 6XL to narrow results":
+                        - /url: /s?k=gym+clothes+men&rh=p_n_pt_nav_size_men_international_size%3A22308293031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=1974882031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_pt_nav_size_men_international_size_11&ds=v1%3Aqhbkmp6FY1c3XUkM6g8a%2FPOwHQKvNjziM1B8iGBTLIk
+                        - button "6XL" [ref=e6553] [cursor=pointer]
+                  - listitem [ref=e6554]:
+                    - generic:
+                      - link "Apply the filter 7XL to narrow results":
+                        - /url: /s?k=gym+clothes+men&rh=p_n_pt_nav_size_men_international_size%3A22308294031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=1974882031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_pt_nav_size_men_international_size_12&ds=v1%3A3sXCWMX7%2B2ESwDilcD2gk3PcxCbQ415gzykj4GmkNuY
+                        - button "7XL" [ref=e6557] [cursor=pointer]
+                  - listitem [ref=e6558]:
+                    - generic:
+                      - link "Apply the filter 8XL to narrow results":
+                        - /url: /s?k=gym+clothes+men&rh=p_n_pt_nav_size_men_international_size%3A22308295031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=1974882031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_pt_nav_size_men_international_size_13&ds=v1%3AcAak7GBmW5Mj0dobXL9UJhoeOtjDrZILB0rBED2AUHs
+                        - button "8XL" [ref=e6561] [cursor=pointer]
+                  - listitem [ref=e6562]:
+                    - generic:
+                      - link "Apply the filter 9XL to narrow results":
+                        - /url: /s?k=gym+clothes+men&rh=p_n_pt_nav_size_men_international_size%3A100572758031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=1974882031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_pt_nav_size_men_international_size_14&ds=v1%3A8hqUg5dHrVVYvEtjy8plVMmBuj2Q4DnuZBJGOdhKVME
+                        - button "9XL" [ref=e6565] [cursor=pointer]
+                  - listitem [ref=e6566]:
+                    - generic:
+                      - link "Apply the filter Free Size to narrow results":
+                        - /url: /s?k=gym+clothes+men&rh=p_n_pt_nav_size_men_international_size%3A5229828031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=1974882031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_pt_nav_size_men_international_size_15&ds=v1%3AWOOWFGCvI27jV1cjK%2FA5iAMxYmYlF2vlkQJ5EukUkSc
+                        - button "Free Size" [ref=e6569] [cursor=pointer]
+              - group "Apparel Fashion Brands" [ref=e6570]:
+                - heading "Apparel Fashion Brands" [level=2] [ref=e6571]
+                - list "Apparel Fashion Brands" [ref=e6572]:
+                  - listitem "Popular Shopping Ideas" [ref=e6573]:
+                    - link "Apply the filter Top Brands to narrow results" [ref=e6575] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1004227705091%3A11301357031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=11301356031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1004227705091_1&ds=v1%3A2L8MxECGKjWcshsehVBysetM5ebFG6gaPtxo4OLrhdU
+                      - checkbox [ref=e6578]
+                      - text: Top Brands
+                  - listitem "Popular Shopping Ideas" [ref=e6580]:
+                    - link "Apply the filter Made for Amazon to narrow results" [ref=e6582] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1004227705091%3A14852585031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=11301356031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1004227705091_2&ds=v1%3A12nniy8b4%2FJ8WwACrgVRE7df0H70dfBg4a%2FTd54gc4Y
+                      - checkbox [ref=e6585]
+                      - text: Made for Amazon
+                  - listitem "Popular Shopping Ideas" [ref=e6587]:
+                    - link "Apply the filter Premium Brands to narrow results" [ref=e6589] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1004227705091%3A27064186031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=11301356031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1004227705091_3&ds=v1%3Ak888GSi22wO0VeFFwY3LSXFD%2B8r5Rb6YHgoZnO3jwdc
+                      - checkbox [ref=e6592]
+                      - text: Premium Brands
+              - group "Customer Review" [ref=e6594]:
+                - heading "Customer Review" [level=2] [ref=e6595]
+                - list "Customer Review" [ref=e6596]:
+                  - listitem [ref=e6597]:
+                    - link "Apply the filter 4 Stars & Up to narrow results" [ref=e6600] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_72%3A1318476031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=1318475031&sprefix=%2Caps%2C249&ref=sr_nr_p_72_1&ds=v1%3AcXH4ErRxpm2Vb%2BfHIEIO4Kt5BC4XXMYYLHC43ZFDw1g
+                      - generic [ref=e6602]: 4 Stars
+                      - text: "& Up"
+              - group "Colour" [ref=e6603]:
+                - heading "Colour" [level=2] [ref=e6604]
+                - list "Colour" [ref=e6605]:
+                  - listitem [ref=e6606]:
+                    - generic:
+                      - link "Apply the filter Black to narrow results":
+                        - /url: /s?k=gym+clothes+men&rh=p_n_size_two_browse-vebin%3A1975317031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=1974754031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_size_two_browse-vebin_1&ds=v1%3A5Q%2B6lzRXN5zZMUi0%2B0FpvaxgDsg7e0UPPoT%2FFPd5tyA
+                  - listitem [ref=e6608]:
+                    - generic:
+                      - link "Apply the filter Greys to narrow results":
+                        - /url: /s?k=gym+clothes+men&rh=p_n_size_two_browse-vebin%3A1975322031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=1974754031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_size_two_browse-vebin_2&ds=v1%3AOhDDui%2BjXOwzOi2QNrUVLoJ7Cuac69yypFH2GVfOOZg
+                  - listitem [ref=e6610]:
+                    - generic:
+                      - link "Apply the filter White to narrow results":
+                        - /url: /s?k=gym+clothes+men&rh=p_n_size_two_browse-vebin%3A1975332031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=1974754031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_size_two_browse-vebin_3&ds=v1%3AIkQmRD2x5RvxkG6pquYrisZxkgBmIADtka%2FQBmifpfc
+                  - listitem [ref=e6612]:
+                    - generic:
+                      - link "Apply the filter Browns to narrow results":
+                        - /url: /s?k=gym+clothes+men&rh=p_n_size_two_browse-vebin%3A1975319031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=1974754031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_size_two_browse-vebin_4&ds=v1%3AVsl1X55NtpasA0FLYfPIVYGhEq3wG3eGfGAce5z2eAs
+                  - listitem [ref=e6614]:
+                    - generic:
+                      - link "Apply the filter Beige to narrow results":
+                        - /url: /s?k=gym+clothes+men&rh=p_n_size_two_browse-vebin%3A1975316031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=1974754031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_size_two_browse-vebin_5&ds=v1%3A2txDV8DbvqRT9V36%2Bl4BgUqN%2FK%2FLAZ0kpL5y1OEQ7Zw
+                  - listitem [ref=e6616]:
+                    - generic:
+                      - link "Apply the filter Reds to narrow results":
+                        - /url: /s?k=gym+clothes+men&rh=p_n_size_two_browse-vebin%3A1975329031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=1974754031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_size_two_browse-vebin_6&ds=v1%3AmKn5S0etQg3Oq15%2BStmHhkUnPWwK%2BgZ4sMcDz6m7KzQ
+                  - listitem [ref=e6618]:
+                    - generic:
+                      - link "Apply the filter Pinks to narrow results":
+                        - /url: /s?k=gym+clothes+men&rh=p_n_size_two_browse-vebin%3A1975327031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=1974754031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_size_two_browse-vebin_7&ds=v1%3ATXfQobP4g4l9D%2BCgzeaYNenhUs6oGPdEwafveIsb6eQ
+                  - listitem [ref=e6620]:
+                    - generic:
+                      - link "Apply the filter Oranges to narrow results":
+                        - /url: /s?k=gym+clothes+men&rh=p_n_size_two_browse-vebin%3A1975326031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=1974754031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_size_two_browse-vebin_8&ds=v1%3AAOh8s8OMH4KotZ3d59RS7V40uVIKQjwbh6Iy1oj6BrA
+                  - listitem [ref=e6622]:
+                    - generic:
+                      - link "Apply the filter Yellows to narrow results":
+                        - /url: /s?k=gym+clothes+men&rh=p_n_size_two_browse-vebin%3A1975333031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=1974754031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_size_two_browse-vebin_9&ds=v1%3A2oR7Ba0PHgjLoaeMz2N0hJNsP%2FklB6oymEGJbWfbrFo
+                  - listitem [ref=e6624]:
+                    - generic:
+                      - link "Apply the filter Off-White to narrow results":
+                        - /url: /s?k=gym+clothes+men&rh=p_n_size_two_browse-vebin%3A1975323031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=1974754031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_size_two_browse-vebin_10&ds=v1%3Art4foFQSmQo8eiM7N9J9SMa5yBgHf0rS0OYG1MfEkNU
+                  - listitem [ref=e6626]:
+                    - generic:
+                      - link "Apply the filter Greens to narrow results":
+                        - /url: /s?k=gym+clothes+men&rh=p_n_size_two_browse-vebin%3A1975321031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=1974754031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_size_two_browse-vebin_11&ds=v1%3A4HIEk%2B4AX0fEGfTK18eCHaSFNcld%2B1f1zP2faYAxs14
+                  - listitem [ref=e6628]:
+                    - generic:
+                      - link "Apply the filter Turquoise to narrow results":
+                        - /url: /s?k=gym+clothes+men&rh=p_n_size_two_browse-vebin%3A1975331031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=1974754031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_size_two_browse-vebin_12&ds=v1%3A3kgFcA7SRyOoGnSh0ftCaco1zbN6d7w23BDQuDZdhUI
+                  - listitem [ref=e6630]:
+                    - generic:
+                      - link "Apply the filter Blues to narrow results":
+                        - /url: /s?k=gym+clothes+men&rh=p_n_size_two_browse-vebin%3A1975318031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=1974754031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_size_two_browse-vebin_13&ds=v1%3Ad%2B4BcmjVjeqJ8mmTnu5O%2FvCx0SPe4NJFA99ROQwGYhQ
+                  - listitem [ref=e6632]:
+                    - generic:
+                      - link "Apply the filter Purples to narrow results":
+                        - /url: /s?k=gym+clothes+men&rh=p_n_size_two_browse-vebin%3A1975328031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=1974754031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_size_two_browse-vebin_14&ds=v1%3AP2waSSVzjPoVfx%2FVHN11H%2Fq1sOo0TBKhqhyIUILRzcw
+                  - listitem [ref=e6634]:
+                    - generic:
+                      - link "Apply the filter Golds to narrow results":
+                        - /url: /s?k=gym+clothes+men&rh=p_n_size_two_browse-vebin%3A1975320031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=1974754031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_size_two_browse-vebin_15&ds=v1%3A18kcL7N%2FNAT64LYCkjyJI%2Fqgn%2FwpaNUI8trkU03BWWo
+                  - listitem [ref=e6636]:
+                    - generic:
+                      - link "Apply the filter Silvers to narrow results":
+                        - /url: /s?k=gym+clothes+men&rh=p_n_size_two_browse-vebin%3A1975330031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=1974754031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_size_two_browse-vebin_16&ds=v1%3AevdXCFD6ZjiFja29Jpg3jvXgolMc3i9lZty13q6TpIg
+                  - listitem [ref=e6638]:
+                    - generic:
+                      - link "Apply the filter Multicoloured to narrow results":
+                        - /url: /s?k=gym+clothes+men&rh=p_n_size_two_browse-vebin%3A1975325031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=1974754031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_size_two_browse-vebin_17&ds=v1%3AXD0WVkb42lwnIafHAjxcrP6YNIHPqJtuy0pnM3frxeA
+                  - listitem [ref=e6640]:
+                    - generic:
+                      - link "Apply the filter Transparent to narrow results":
+                        - /url: /s?k=gym+clothes+men&rh=p_n_size_two_browse-vebin%3A4294888031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=1974754031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_size_two_browse-vebin_18&ds=v1%3A19C%2B1KUAhybZ4bafh27VsrBqjBI0MoV225SmCj4zov4
+              - group "Fit Type" [ref=e6642]:
+                - heading "Fit Type" [level=2] [ref=e6643]
+                - list "Fit Type" [ref=e6644]:
+                  - listitem "Popular Shopping Ideas" [ref=e6645]:
+                    - link "Apply the filter Regular to narrow results" [ref=e6647] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1003273535111%3A216449087031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=28207568031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1003273535111_1&ds=v1%3AAGyAIfyo0fnr5iZ%2FkRcRL0C%2BSpoOZa0Fd8XHkeWCF04
+                      - checkbox [ref=e6650]
+                      - text: Regular
+                  - listitem "Popular Shopping Ideas" [ref=e6652]:
+                    - link "Apply the filter Fitted to narrow results" [ref=e6654] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1003273535111%3A28207570031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=28207568031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1003273535111_2&ds=v1%3AvOMqU8ScgkCRYMVlLZAFx8%2Baj6IjBhxr%2BVfVTMYAUl8
+                      - checkbox [ref=e6657]
+                      - text: Fitted
+                  - listitem "Popular Shopping Ideas" [ref=e6659]:
+                    - link "Apply the filter Relaxed to narrow results" [ref=e6661] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1003273535111%3A216449084031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=28207568031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1003273535111_3&ds=v1%3AHB55gp7NpXCOOXao%2Fq8CDT5GPcXGCVScG%2F6cADJL64o
+                      - checkbox [ref=e6664]
+                      - text: Relaxed
+                  - listitem "Popular Shopping Ideas" [ref=e6666]:
+                    - link "Apply the filter Athletic to narrow results" [ref=e6668] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1003273535111%3A216449088031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=28207568031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1003273535111_4&ds=v1%3Az4%2FVFf68pxTC2omvKUR%2FbOHHL60V8esV%2BQgVQDssBxc
+                      - checkbox [ref=e6671]
+                      - text: Athletic
+                  - listitem "Popular Shopping Ideas" [ref=e6673]:
+                    - link "Apply the filter Boxy to narrow results" [ref=e6675] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1003273535111%3A216449083031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=28207568031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1003273535111_5&ds=v1%3AcJL1H%2F%2BKP%2BiGOSDu64XDl0lT1I9z%2B%2Boh%2BSA%2B68KkQNA
+                      - checkbox [ref=e6678]
+                      - text: Boxy
+                  - listitem "Popular Shopping Ideas" [ref=e6680]:
+                    - link "Apply the filter Oversized to narrow results" [ref=e6682] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1003273535111%3A216449086031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=28207568031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1003273535111_6&ds=v1%3A6CzdP%2BuIqVLqY5MbGxwry3duY2DOdKM1NC9Dmuff8mc
+                      - checkbox [ref=e6685]
+                      - text: Oversized
+                  - listitem "Popular Shopping Ideas" [ref=e6687]:
+                    - link "Apply the filter Slim to narrow results" [ref=e6689] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1003273535111%3A216449081031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=28207568031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1003273535111_7&ds=v1%3AUrrOiKSmhZtKTgDBXtqC6Yo2dHoGbYL8BA7EZy%2Fc4Qk
+                      - checkbox [ref=e6692]
+                      - text: Slim
+                  - listitem "Popular Shopping Ideas" [ref=e6694]:
+                    - link "Apply the filter Straight to narrow results" [ref=e6696] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1003273535111%3A213341537031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=28207568031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1003273535111_8&ds=v1%3AE%2BnFCB6%2FY%2FLds7hOBnzCHVVKpOILIIdb9jMTGkIiosM
+                      - checkbox [ref=e6699]
+                      - text: Straight
+              - group [ref=e6701]:
+                - generic [ref=e6702]:
+                  - generic [ref=e6703]: Price
+                  - generic [ref=e6706]:
+                    - generic [ref=e6707]:
+                      - generic [ref=e6708]: ₹78
+                      - generic [ref=e6709]: –
+                      - generic [ref=e6710]: ₹19,500+
+                    - generic [ref=e6712]:
+                      - generic:
+                        - slider "Minimum price": "0"
+                      - generic [ref=e6713]:
+                        - slider "Maximum price": "185"
+                - list [ref=e6714]:
+                  - listitem [ref=e6715]:
+                    - link "Up to ₹300" [ref=e6717] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_36%3A-30000&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=4595083031&sprefix=%2Caps%2C249&ref=sr_nr_p_36_1&ds=v1%3AeQT7%2BzvC0g0bQb6FHROJm3ZeNVf11ysCPX2ecfwUaJ8
+                  - listitem [ref=e6718]:
+                    - link "₹300 - ₹400" [ref=e6720] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_36%3A30000-40000&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=4595083031&sprefix=%2Caps%2C249&ref=sr_nr_p_36_2&ds=v1%3AbO9rRSwNRteblcyIprLlwBfT0vLGcO3DV5Rpipxu%2F9Y
+                  - listitem [ref=e6721]:
+                    - link "₹400 - ₹500" [ref=e6723] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_36%3A40000-50000&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=4595083031&sprefix=%2Caps%2C249&ref=sr_nr_p_36_3&ds=v1%3As51sCN8QCPsHhz2iO6yUhkbMe2PPY5oP1oaRFTFMAxs
+                  - listitem [ref=e6724]:
+                    - link "₹500 - ₹600" [ref=e6726] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_36%3A50000-60000&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=4595083031&sprefix=%2Caps%2C249&ref=sr_nr_p_36_4&ds=v1%3AZC2jfpZNXcznfvjUPArmSCPMFeKOit2k4fgRd%2Bo9gAM
+                  - listitem [ref=e6727]:
+                    - link "Over ₹600" [ref=e6729] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_36%3A60000-&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=4595083031&sprefix=%2Caps%2C249&ref=sr_nr_p_36_5&ds=v1%3AmNwFNXdendJW8C5J%2B%2ByG%2FVUYhBi6Lk%2FsJ1%2F3s%2Fd6o%2BU
+                - heading "Deals & Discounts" [level=2] [ref=e6730]
+                - list "Deals & Discounts" [ref=e6731]:
+                  - listitem [ref=e6732]:
+                    - link "All Discounts" [ref=e6734] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_deal_type%3A26921226031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=26921223031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_deal_type_1&ds=v1%3AVW%2FVHdsusovum%2FqbFoblddG5ufth%2BGnTJND%2BM1V88sU
+                  - listitem [ref=e6735]:
+                    - link "Buy More, Save More" [ref=e6737] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_deal_type%3A210770213031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=26921223031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_deal_type_2&ds=v1%3AqkdyY83uK1KFgxdSHmHSNn96V%2Fj54yOzXU3BzEoX2CE
+                  - listitem [ref=e6738]:
+                    - link "Coupons" [ref=e6740] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_deal_type%3A210770212031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=26921223031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_deal_type_3&ds=v1%3ALVRazhZ6jgyqh6RhUwFXdwkbWWMb3e2NfwicBl%2FZics
+                  - listitem [ref=e6741]:
+                    - link "Today's Deals" [ref=e6743] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_deal_type%3A26921224031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=26921223031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_deal_type_4&ds=v1%3Ayx1f1j96a6JkZagtKvaiRovHpTsDuv19ES8ZU0wq68M
+              - group "Material" [ref=e6744]:
+                - heading "Material" [level=2] [ref=e6745]
+                - list "Material" [ref=e6746]:
+                  - listitem "Popular Shopping Ideas" [ref=e6747]:
+                    - link "Apply the filter Acrylic to narrow results" [ref=e6749] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-101017756111111%3A217626175031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=217626174031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-101017756111111_1&ds=v1%3AZVbCXIKf6cU%2B943rI8biGDKrYNwwyC8rbxjTqtvVfY8
+                      - checkbox [ref=e6752]
+                      - text: Acrylic
+                  - listitem "Popular Shopping Ideas" [ref=e6754]:
+                    - link "Apply the filter Cotton to narrow results" [ref=e6756] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-101017756111111%3A217626206031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=217626174031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-101017756111111_2&ds=v1%3AqC%2F6UFWg8CXmpoGJm1aN4VsfzeoIKQN%2BVBllWHq%2B%2BJk
+                      - checkbox [ref=e6759]
+                      - text: Cotton
+                  - listitem "Popular Shopping Ideas" [ref=e6761]:
+                    - link "Apply the filter Cotton Blend to narrow results" [ref=e6763] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-101017756111111%3A217626192031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=217626174031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-101017756111111_3&ds=v1%3ATCHTWZVgS4SQF8BUvo2x%2BnUtqRfkKVwMt1bKIacUjXg
+                      - checkbox [ref=e6766]
+                      - text: Cotton Blend
+                  - listitem "Popular Shopping Ideas" [ref=e6768]:
+                    - link "Apply the filter Linen to narrow results" [ref=e6770] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-101017756111111%3A217626180031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=217626174031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-101017756111111_4&ds=v1%3A2OtefBnl7zVessGa4BO82ywwLI4kyv90GmKQeCuiqM8
+                      - checkbox [ref=e6773]
+                      - text: Linen
+                  - listitem "Popular Shopping Ideas" [ref=e6775]:
+                    - link "Apply the filter Neoprene to narrow results" [ref=e6777] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-101017756111111%3A217626183031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=217626174031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-101017756111111_5&ds=v1%3AwTsQTkPQzm7O7G%2BMp4w1zv88HKd7cgyE6WPvEbB4dnE
+                      - checkbox [ref=e6780]
+                      - text: Neoprene
+                  - listitem "Popular Shopping Ideas" [ref=e6782]:
+                    - link "Apply the filter Nylon to narrow results" [ref=e6784] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-101017756111111%3A217626188031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=217626174031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-101017756111111_6&ds=v1%3A6qFr4ohC%2B%2Fd20bjqRf5JElIYx95XhFe7WsekL1%2Fuft8
+                      - checkbox [ref=e6787]
+                      - text: Nylon
+                  - listitem "Popular Shopping Ideas" [ref=e6789]:
+                    - link "Apply the filter Nylon Blend to narrow results" [ref=e6791] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-101017756111111%3A217626197031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=217626174031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-101017756111111_7&ds=v1%3AiSnDiMb%2FxmcJq8Jp3UrxbEZoViNyxmfBp3usO79YD2g
+                      - checkbox [ref=e6794]
+                      - text: Nylon Blend
+                  - listitem [ref=e6796]:
+                    - button "See more, Material" [ref=e6799] [cursor=pointer]: See more
+              - group "Discount" [ref=e6801]:
+                - heading "Discount" [level=2] [ref=e6802]
+                - list "Discount" [ref=e6803]:
+                  - listitem [ref=e6804]:
+                    - link "10% Off or more" [ref=e6806] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_pct-off-with-tax%3A2665399031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=2665398031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_pct-off-with-tax_1&ds=v1%3AimDq5GXVyqrANfWPMjP1G9O79J0XBz6SI6SaSjHZnGI
+                  - listitem [ref=e6807]:
+                    - link "25% Off or more" [ref=e6809] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_pct-off-with-tax%3A2665400031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=2665398031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_pct-off-with-tax_2&ds=v1%3AwkOgi7FSZHyZ7K4rGUSlZ3CN4NHl5hRaQ8BNQzTCZqs
+                  - listitem [ref=e6810]:
+                    - link "35% Off or more" [ref=e6812] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_pct-off-with-tax%3A2665402031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=2665398031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_pct-off-with-tax_3&ds=v1%3AAsdJbsq4E7PUq3nwQj10IHIBn6ytKY9mQ%2FWjUeF8VZ4
+                  - listitem [ref=e6813]:
+                    - link "50% Off or more" [ref=e6815] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_pct-off-with-tax%3A2665401031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=2665398031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_pct-off-with-tax_4&ds=v1%3AmO%2Bf2d8kRdR5%2FdaV1c8Lj4Fr0Sn8PAFN%2BAFwpdHHR3A
+                  - listitem [ref=e6816]:
+                    - link "60% Off or more" [ref=e6818] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_pct-off-with-tax%3A27060456031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=2665398031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_pct-off-with-tax_5&ds=v1%3AaMLAqzDPXGr%2F6Xj4EQR4YqVMwYrzPx4ULvaAPThV8cw
+                  - listitem [ref=e6819]:
+                    - link "70% Off or more" [ref=e6821] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_pct-off-with-tax%3A27060457031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=2665398031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_pct-off-with-tax_6&ds=v1%3AaOY9XlvFXfx8rgCBpV4P%2BMmp4cQbvlN7EByjztVFBdY
+              - group "Neckline" [ref=e6822]:
+                - heading "Neckline" [level=2] [ref=e6823]
+                - list "Neckline" [ref=e6824]:
+                  - listitem "Popular Shopping Ideas" [ref=e6825]:
+                    - link "Apply the filter Asymmetric Neck to narrow results" [ref=e6827] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-101017419697111%3A215599163031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=215599140031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-101017419697111_1&ds=v1%3AGaiZFGZkhhWfNRNVzR4U5fk%2F%2FRe%2BcGhlLwQlWMzJBng
+                      - checkbox [ref=e6830]
+                      - text: Asymmetric Neck
+                  - listitem "Popular Shopping Ideas" [ref=e6832]:
+                    - link "Apply the filter Boat Neck to narrow results" [ref=e6834] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-101017419697111%3A215599142031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=215599140031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-101017419697111_2&ds=v1%3A4auHHirwW8xa26DSXOcTu5sV1oOgkU6wLS8LJ4p0wK0
+                      - checkbox [ref=e6837]
+                      - text: Boat Neck
+                  - listitem "Popular Shopping Ideas" [ref=e6839]:
+                    - link "Apply the filter Collared Neck to narrow results" [ref=e6841] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-101017419697111%3A215599161031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=215599140031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-101017419697111_3&ds=v1%3AoKyI8OJzNQ9tOJvvWZjl8id5u9YCjh9m7i7KPjn37rQ
+                      - checkbox [ref=e6844]
+                      - text: Collared Neck
+                  - listitem "Popular Shopping Ideas" [ref=e6846]:
+                    - link "Apply the filter Cowl Neck to narrow results" [ref=e6848] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-101017419697111%3A215599141031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=215599140031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-101017419697111_4&ds=v1%3ABVsqM3fg9v%2BYVHAwmY3G7Eq6vsraSGe4NKyDl3uN7K8
+                      - checkbox [ref=e6851]
+                      - text: Cowl Neck
+                  - listitem "Popular Shopping Ideas" [ref=e6853]:
+                    - link "Apply the filter Crew Neck to narrow results" [ref=e6855] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-101017419697111%3A215599164031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=215599140031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-101017419697111_5&ds=v1%3Ay%2Bga8emwk51KA6gEdWfG5SOMTuP1PuNdqCnvu11Wkj0
+                      - checkbox [ref=e6858]
+                      - text: Crew Neck
+                  - listitem "Popular Shopping Ideas" [ref=e6860]:
+                    - link "Apply the filter Henley Neck to narrow results" [ref=e6862] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-101017419697111%3A215599162031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=215599140031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-101017419697111_6&ds=v1%3AVaYukjP%2FR2jYQiEyyFUpY9VXJ46NgXmcBgKyGXmRsY4
+                      - checkbox [ref=e6865]
+                      - text: Henley Neck
+                  - listitem "Popular Shopping Ideas" [ref=e6867]:
+                    - link "Apply the filter High Neck to narrow results" [ref=e6869] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-101017419697111%3A215599158031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=215599140031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-101017419697111_7&ds=v1%3AotPyyox2lbH6SZeztEG9cmLTEf9a8H3MCpLKpt%2BFYbI
+                      - checkbox [ref=e6872]
+                      - text: High Neck
+                  - listitem [ref=e6874]:
+                    - button "See more, Neckline" [ref=e6877] [cursor=pointer]: See more
+              - group "Pattern" [ref=e6879]:
+                - heading "Pattern" [level=2] [ref=e6880]
+                - list "Pattern" [ref=e6881]:
+                  - listitem "Popular Shopping Ideas" [ref=e6882]:
+                    - link "Apply the filter Animal Print to narrow results" [ref=e6884] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-101017792832111%3A218907337031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=218907330031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-101017792832111_1&ds=v1%3AcRtWRHEPMvriPnkMgvzWmSOPSLytpsOMOJzTx64lxMI
+                      - checkbox [ref=e6887]
+                      - text: Animal Print
+                  - listitem "Popular Shopping Ideas" [ref=e6889]:
+                    - link "Apply the filter Camouflage to narrow results" [ref=e6891] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-101017792832111%3A218907344031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=218907330031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-101017792832111_2&ds=v1%3AITBrgQ3PxfTI6vvgMqXbpwgTRAowcTWxChr2ogWGCEg
+                      - checkbox [ref=e6894]
+                      - text: Camouflage
+                  - listitem "Popular Shopping Ideas" [ref=e6896]:
+                    - link "Apply the filter Cartoon to narrow results" [ref=e6898] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-101017792832111%3A218907343031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=218907330031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-101017792832111_3&ds=v1%3A7Cx54clZy1YNJGzw5FcqhnpwOG%2FxmJ%2FPfMvSl%2FDX254
+                      - checkbox [ref=e6901]
+                      - text: Cartoon
+                  - listitem "Popular Shopping Ideas" [ref=e6903]:
+                    - link "Apply the filter Checkered to narrow results" [ref=e6905] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-101017792832111%3A218907333031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=218907330031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-101017792832111_4&ds=v1%3AvJXIsaqZ7JerhzzqWgwf5ZCITLMtI6N5qjDzEoU14bs
+                      - checkbox [ref=e6908]
+                      - text: Checkered
+                  - listitem "Popular Shopping Ideas" [ref=e6910]:
+                    - link "Apply the filter Floral to narrow results" [ref=e6912] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-101017792832111%3A218907351031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=218907330031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-101017792832111_5&ds=v1%3ADVAox%2FHrD2%2BSa8I1xA8PkpziHeKs6r%2FoQKw1bS62zQ8
+                      - checkbox [ref=e6915]
+                      - text: Floral
+                  - listitem "Popular Shopping Ideas" [ref=e6917]:
+                    - link "Apply the filter Geometric to narrow results" [ref=e6919] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-101017792832111%3A218907334031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=218907330031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-101017792832111_6&ds=v1%3A7aZkyPTsnIU25%2FeLyItJRCU0Lq8%2BQLVfcGLYgd3Mrdo
+                      - checkbox [ref=e6922]
+                      - text: Geometric
+                  - listitem "Popular Shopping Ideas" [ref=e6924]:
+                    - link "Apply the filter Letter Print to narrow results" [ref=e6926] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-101017792832111%3A218907332031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=218907330031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-101017792832111_7&ds=v1%3A9vRR6evRglIBp6pwPfekSE000u6yAu94RZsUo7aGHzQ
+                      - checkbox [ref=e6929]
+                      - text: Letter Print
+                  - listitem [ref=e6931]:
+                    - button "See more, Pattern" [ref=e6934] [cursor=pointer]: See more
+              - group "Pay On Delivery" [ref=e6936]:
+                - heading "Pay On Delivery" [level=2] [ref=e6937]
+                - list "Pay On Delivery" [ref=e6938]:
+                  - listitem "Popular Shopping Ideas" [ref=e6939]:
+                    - link "Apply the filter Eligible for Pay On Delivery to narrow results" [ref=e6941] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_is_cod_eligible%3A4931671031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=4931670031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_is_cod_eligible_1&ds=v1%3AOVnW%2FqZywGHcvtmwpkYSch7XFquNsHppNZa00COZHN4
+                      - checkbox [ref=e6944]
+                      - text: Eligible for Pay On Delivery
+              - group "New Arrivals" [ref=e6946]:
+                - heading "New Arrivals" [level=2] [ref=e6947]
+                - list "New Arrivals" [ref=e6948]:
+                  - listitem [ref=e6949]:
+                    - link "Last 30 days" [ref=e6951] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_date_first_available_absolute%3A1318487031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=1318486031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_date_first_available_absolute_1&ds=v1%3Aoov%2F7dJvFqfLytUPWUwriBG0ozz%2FUUKV9gDY0I%2BTdso
+                  - listitem [ref=e6952]:
+                    - link "Last 90 days" [ref=e6954] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_date_first_available_absolute%3A1318488031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=1318486031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_date_first_available_absolute_2&ds=v1%3Aoa9YSK9Pk5oZJ3qw8B8%2BzGVjcYXrRXrAEa1Md94Y3LM
+              - group "Care Instructions" [ref=e6955]:
+                - heading "Care Instructions" [level=2] [ref=e6956]
+                - list "Care Instructions" [ref=e6957]:
+                  - listitem "Popular Shopping Ideas" [ref=e6958]:
+                    - link "Apply the filter Dry Clean Only to narrow results" [ref=e6960] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-101015182109111%3A93874559031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=93874556031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-101015182109111_1&ds=v1%3Aek6SghxqSRBhjPtfe%2FEGnThCXOQqyQzx8wwNBiVw7P4
+                      - checkbox [ref=e6963]
+                      - text: Dry Clean Only
+                  - listitem "Popular Shopping Ideas" [ref=e6965]:
+                    - link "Apply the filter Hand Wash Only to narrow results" [ref=e6967] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-101015182109111%3A93874558031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=93874556031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-101015182109111_2&ds=v1%3A8CjaroKsuMVL%2BtJU%2B5vveCOx2teS7XRW3hRZ7His%2B3g
+                      - checkbox [ref=e6970]
+                      - text: Hand Wash Only
+                  - listitem "Popular Shopping Ideas" [ref=e6972]:
+                    - link "Apply the filter Machine Wash to narrow results" [ref=e6974] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-101015182109111%3A93874557031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=93874556031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-101015182109111_3&ds=v1%3AZy3E7KdHqfqy4d51UngCA1Vbrtd9U3jLeFlLtoMBc98
+                      - checkbox [ref=e6977]
+                      - text: Machine Wash
+              - group "Special Features" [ref=e6979]:
+                - heading "Special Features" [level=2] [ref=e6980]
+                - list "Special Features" [ref=e6981]:
+                  - listitem "Popular Shopping Ideas" [ref=e6982]:
+                    - link "Apply the filter Lightweight to narrow results" [ref=e6984] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1003497270111%3A48812527031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=48812335031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1003497270111_1&ds=v1%3AP%2FSP2L2rAhHQeL2AvBy2sKDfARJftwfrlRo6N0CEvUs
+                      - checkbox [ref=e6987]
+                      - text: Lightweight
+                  - listitem "Popular Shopping Ideas" [ref=e6989]:
+                    - link "Apply the filter Breathable to narrow results" [ref=e6991] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1003497270111%3A48812528031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=48812335031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1003497270111_2&ds=v1%3AqKjYYj18YMGUvdEC6LJq3j4r%2B4uAKbSLUIWX56wuez4
+                      - checkbox [ref=e6994]
+                      - text: Breathable
+                  - listitem "Popular Shopping Ideas" [ref=e6996]:
+                    - link "Apply the filter Quick Dry to narrow results" [ref=e6998] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1003497270111%3A48812524031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=48812335031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1003497270111_3&ds=v1%3A7%2F8xi62qhUM0fNau9ec6OOpwDOhNpQRBkGPzCXndPCU
+                      - checkbox [ref=e7001]
+                      - text: Quick Dry
+                  - listitem "Popular Shopping Ideas" [ref=e7003]:
+                    - link "Apply the filter Moisture Wicking to narrow results" [ref=e7005] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1003497270111%3A48812531031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=48812335031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1003497270111_4&ds=v1%3AqolamICGfL45adP0WlnPZCPV8si4S2iXvkkLbjJGjPQ
+                      - checkbox [ref=e7008]
+                      - text: Moisture Wicking
+                  - listitem "Popular Shopping Ideas" [ref=e7010]:
+                    - link "Apply the filter Sun Protection to narrow results" [ref=e7012] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1003497270111%3A48812523031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=48812335031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1003497270111_5&ds=v1%3Apd4gCAcaldC8iXRMH7FKLGwM17N3ohjOER%2BeWk6DFgg
+                      - checkbox [ref=e7015]
+                      - text: Sun Protection
+                  - listitem "Popular Shopping Ideas" [ref=e7017]:
+                    - link "Apply the filter Absorbent to narrow results" [ref=e7019] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1003497270111%3A203865310031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=48812335031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1003497270111_6&ds=v1%3AMmZ1m1vjkzVyPr03LPeRk7wtVLWYNGV2xVn%2BwfiAjm0
+                      - checkbox [ref=e7022]
+                      - text: Absorbent
+                  - listitem "Popular Shopping Ideas" [ref=e7024]:
+                    - link "Apply the filter Adjustable to narrow results" [ref=e7026] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1003497270111%3A48812529031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=48812335031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1003497270111_7&ds=v1%3Ap1cuhlQG5emO9Kjan%2FfpffctCMl7ir1JV6tjFIfSy4Q
+                      - checkbox [ref=e7029]
+                      - text: Adjustable
+                  - listitem [ref=e7031]:
+                    - button "See more, Special Features" [ref=e7034] [cursor=pointer]: See more
+              - group "Closure Type" [ref=e7036]:
+                - heading "Closure Type" [level=2] [ref=e7037]
+                - list "Closure Type" [ref=e7038]:
+                  - listitem "Popular Shopping Ideas" [ref=e7039]:
+                    - link "Apply the filter Pull On to narrow results" [ref=e7041] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1003448370111%3A30540778031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=30540768031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1003448370111_1&ds=v1%3Az9%2BbW4AYQN7QN4UGGnxqDm57dEjR60gsEdb86kTlMFY
+                      - checkbox [ref=e7044]
+                      - text: Pull On
+                  - listitem "Popular Shopping Ideas" [ref=e7046]:
+                    - link "Apply the filter Button to narrow results" [ref=e7048] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1003448370111%3A30540769031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=30540768031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1003448370111_2&ds=v1%3AqaydghmpWOwgclXV8%2BsAOHXhGj2f1db%2FB1CJn39GvfI
+                      - checkbox [ref=e7051]
+                      - text: Button
+                  - listitem "Popular Shopping Ideas" [ref=e7053]:
+                    - link "Apply the filter Zipper to narrow results" [ref=e7055] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1003448370111%3A30540775031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=30540768031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1003448370111_3&ds=v1%3AD8OaxFlK2GOeeJo4BnSoed%2B1BQ8Z%2FHEWlfmxn%2BCMg4M
+                      - checkbox [ref=e7058]
+                      - text: Zipper
+                  - listitem "Popular Shopping Ideas" [ref=e7060]:
+                    - link "Apply the filter Snap to narrow results" [ref=e7062] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1003448370111%3A30540776031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=30540768031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1003448370111_4&ds=v1%3Ahkn3%2F7lHinRdqN5%2B2m0imOtqt%2BQfpWKw8hjdX0k1ogQ
+                      - checkbox [ref=e7065]
+                      - text: Snap
+                  - listitem "Popular Shopping Ideas" [ref=e7067]:
+                    - link "Apply the filter Double Ring to narrow results" [ref=e7069] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1003448370111%3A30540772031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=30540768031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1003448370111_5&ds=v1%3AQheL%2FCsNnmNE9ZzY1N3rt%2F0cCrGaGdydiDEkFWvhSDA
+                      - checkbox [ref=e7072]
+                      - text: Double Ring
+                  - listitem "Popular Shopping Ideas" [ref=e7074]:
+                    - link "Apply the filter Drawstring to narrow results" [ref=e7076] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1003448370111%3A30540773031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=30540768031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1003448370111_6&ds=v1%3AIxmkbCQSzHeEJ69zDluMyJvDA2%2F6IDhNJPt%2BKIne2Mw
+                      - checkbox [ref=e7079]
+                      - text: Drawstring
+                  - listitem "Popular Shopping Ideas" [ref=e7081]:
+                    - link "Apply the filter Hook and Loop to narrow results" [ref=e7083] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1003448370111%3A30540774031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=30540768031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1003448370111_7&ds=v1%3AW1LSgvD6MeB1bZEYemfqT8OlcWNQ7qLzt6PXVLRs74g
+                      - checkbox [ref=e7086]
+                      - text: Hook and Loop
+              - group "Availability" [ref=e7088]:
+                - heading "Availability" [level=2] [ref=e7089]
+                - list "Availability" [ref=e7090]:
+                  - listitem "Popular Shopping Ideas" [ref=e7091]:
+                    - link "Apply the filter Include Out of Stock to narrow results" [ref=e7093] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_availability%3A1318485031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=1318483031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_availability_2&ds=v1%3As4fXY%2FDlFPoXr1tMvj2RpB451%2BZq0vsJsaCvYB9Is0I
+                      - checkbox [ref=e7096]
+                      - text: Include Out of Stock
+              - group "Sleeve Length Description" [ref=e7098]:
+                - heading "Sleeve Length Description" [level=2] [ref=e7099]
+                - list "Sleeve Length Description" [ref=e7100]:
+                  - listitem "Popular Shopping Ideas" [ref=e7101]:
+                    - link "Apply the filter Sleeveless to narrow results" [ref=e7103] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-101017421825111%3A215636116031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=215636111031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-101017421825111_1&ds=v1%3Av6y9C%2BIrd7C4Js8VMFga0k4WzC16Xa703a9BTWjjtVk
+                      - checkbox [ref=e7106]
+                      - text: Sleeveless
+                  - listitem "Popular Shopping Ideas" [ref=e7108]:
+                    - link "Apply the filter Short Sleeve to narrow results" [ref=e7110] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-101017421825111%3A215636114031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=215636111031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-101017421825111_2&ds=v1%3Avb1opFCm5vEcdVupQ7Xv%2FwguK5eo87y0D%2FblIphofRY
+                      - checkbox [ref=e7113]
+                      - text: Short Sleeve
+                  - listitem "Popular Shopping Ideas" [ref=e7115]:
+                    - link "Apply the filter Half Sleeve to narrow results" [ref=e7117] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-101017421825111%3A215636112031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=215636111031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-101017421825111_3&ds=v1%3Ar6jJCNs35aG9uEmL4Ese4mGfjNLIa2vzhOOcMtOuj9M
+                      - checkbox [ref=e7120]
+                      - text: Half Sleeve
+                  - listitem "Popular Shopping Ideas" [ref=e7122]:
+                    - link "Apply the filter 3/4 Sleeve to narrow results" [ref=e7124] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-101017421825111%3A215636115031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=215636111031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-101017421825111_4&ds=v1%3ACx5zrBnKVddh9MG4l4SIZ5BjK%2BUvv0SSZ97L9aS7%2Fy8
+                      - checkbox [ref=e7127]
+                      - text: 3/4 Sleeve
+                  - listitem "Popular Shopping Ideas" [ref=e7129]:
+                    - link "Apply the filter Long Sleeve to narrow results" [ref=e7131] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-101017421825111%3A215636113031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=215636111031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-101017421825111_5&ds=v1%3At%2F%2F0bVkot0DG3uUgaGcxYwjrSHcNB%2BITcm%2B1L2MFgrE
+                      - checkbox [ref=e7134]
+                      - text: Long Sleeve
+              - group "Sleeve Cuff Style" [ref=e7136]:
+                - heading "Sleeve Cuff Style" [level=2] [ref=e7137]
+                - list "Sleeve Cuff Style" [ref=e7138]:
+                  - listitem "Popular Shopping Ideas" [ref=e7139]:
+                    - link "Apply the filter Round Cut Cuff to narrow results" [ref=e7141] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-101015176075111%3A93782961031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=93782958031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-101015176075111_1&ds=v1%3AKW9AdjsPyx5A1po%2FDS7mokz%2FCR6RZJ4JcG%2FkCwqTHuc
+                      - checkbox [ref=e7144]
+                      - text: Round Cut Cuff
+                  - listitem "Popular Shopping Ideas" [ref=e7146]:
+                    - link "Apply the filter Ribbed Cuff to narrow results" [ref=e7148] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-101015176075111%3A93782965031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=93782958031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-101015176075111_2&ds=v1%3A8GWpS2OmRqz07TiSdn6hEUYbeS3525HF%2FnLwAmCpeB8
+                      - checkbox [ref=e7151]
+                      - text: Ribbed Cuff
+                  - listitem "Popular Shopping Ideas" [ref=e7153]:
+                    - link "Apply the filter Single Cuff to narrow results" [ref=e7155] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-101015176075111%3A93782960031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=93782958031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-101015176075111_3&ds=v1%3A9jF5tJCPmUP%2FYEwZhe4VPcBVe3BITWoA1qaNfjDi0mI
+                      - checkbox [ref=e7158]
+                      - text: Single Cuff
+                  - listitem "Popular Shopping Ideas" [ref=e7160]:
+                    - link "Apply the filter Angle Cut Cuff to narrow results" [ref=e7162] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-101015176075111%3A93782959031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=93782958031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-101015176075111_4&ds=v1%3AbMZXB4Wj2KPegIe9wdL8O8KQ1RRTR09MmjORvMYDZZ8
+                      - checkbox [ref=e7165]
+                      - text: Angle Cut Cuff
+                  - listitem "Popular Shopping Ideas" [ref=e7167]:
+                    - link "Apply the filter Barrel Cuff to narrow results" [ref=e7169] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-101015176075111%3A93782962031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=93782958031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-101015176075111_5&ds=v1%3A%2BZYSr26u8%2BkdZQtW1DKdUhZJGAGC7OvZbDUvF1whOA8
+                      - checkbox [ref=e7172]
+                      - text: Barrel Cuff
+              - group "Seller" [ref=e7174]:
+                - heading "Seller" [level=2] [ref=e7175]
+                - list "Seller" [ref=e7176]:
+                  - listitem "Popular Shopping Ideas" [ref=e7177]:
+                    - link "Apply the filter Cocoblu Retail to narrow results" [ref=e7179] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_6%3AA1WYWER0W24N8S&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=1318474031&sprefix=%2Caps%2C249&ref=sr_nr_p_6_1&ds=v1%3Au5zd121CDjOhtrYyYjMnLjHGM5lHLtgZGlsjCbHvoPU
+                      - checkbox [ref=e7182]
+                      - text: Cocoblu Retail
+                  - listitem "Popular Shopping Ideas" [ref=e7184]:
+                    - link "Apply the filter TECHNO SPORTSWEAR PRIVATE LIMITED to narrow results" [ref=e7186] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_6%3AA2K7T3XCVOC4AE&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=1318474031&sprefix=%2Caps%2C249&ref=sr_nr_p_6_2&ds=v1%3A5DBkfuSe%2B5WZpvvFEJdS3Q%2FdJH6VzfN7adrLRFnAK1I
+                      - checkbox [ref=e7189]
+                      - text: TECHNO SPORTSWEAR PRIVATE LIMITED
+                  - listitem [ref=e7191]:
+                    - button "See more, Seller" [ref=e7194] [cursor=pointer]: See more
+              - group "Occasion" [ref=e7196]:
+                - heading "Occasion" [level=2] [ref=e7197]
+                - list "Occasion" [ref=e7198]:
+                  - listitem "Popular Shopping Ideas" [ref=e7199]:
+                    - link "Apply the filter New Year to narrow results" [ref=e7201] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1003500754111%3A48812557031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=48812337031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1003500754111_1&ds=v1%3Art%2FgOQdQEE4%2F3EpSUPpKcX0ALElZFv9UJjzlpWSiYAw
+                      - checkbox [ref=e7204]
+                      - text: New Year
+                  - listitem "Popular Shopping Ideas" [ref=e7206]:
+                    - link "Apply the filter Birthday to narrow results" [ref=e7208] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1003500754111%3A48812559031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=48812337031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1003500754111_2&ds=v1%3A7dElLaruQ7k9dSBdFLDCitBihRM0xnSc%2BYKvn1WxSAE
+                      - checkbox [ref=e7211]
+                      - text: Birthday
+                  - listitem "Popular Shopping Ideas" [ref=e7213]:
+                    - link "Apply the filter Valentine's Day to narrow results" [ref=e7215] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1003500754111%3A48812540031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=48812337031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1003500754111_3&ds=v1%3Ag6ullRDXP0oM7X5A%2BiRXWwv6Fr%2FY4BwqhCOsDu2jlfs
+                      - checkbox [ref=e7218]
+                      - text: Valentine's Day
+                  - listitem "Popular Shopping Ideas" [ref=e7220]:
+                    - link "Apply the filter Anniversary to narrow results" [ref=e7222] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1003500754111%3A48812558031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=48812337031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1003500754111_4&ds=v1%3ACcsqV1mxtGx%2F04GMR%2Bt%2FL8fMYLl6aWuuEja1xFaTlh8
+                      - checkbox [ref=e7225]
+                      - text: Anniversary
+                  - listitem "Popular Shopping Ideas" [ref=e7227]:
+                    - link "Apply the filter Baby Shower to narrow results" [ref=e7229] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1003500754111%3A86387821031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=48812337031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1003500754111_5&ds=v1%3ANzRxvppthiPAGPHX9uoRdnoSVkVQavIc5JfjXf39gmw
+                      - checkbox [ref=e7232]
+                      - text: Baby Shower
+                  - listitem "Popular Shopping Ideas" [ref=e7234]:
+                    - link "Apply the filter Bachelor Party to narrow results" [ref=e7236] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1003500754111%3A48812543031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=48812337031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1003500754111_6&ds=v1%3AbMGQ39jjqgJMG5krASmdLFtCY%2BC3GIM9jO4I8wga40A
+                      - checkbox [ref=e7239]
+                      - text: Bachelor Party
+                  - listitem "Popular Shopping Ideas" [ref=e7241]:
+                    - link "Apply the filter Bachelorette Party to narrow results" [ref=e7243] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1003500754111%3A48812551031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=48812337031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1003500754111_7&ds=v1%3ACRAaBd1KbxwDyIlWIWd2T1qtkkj7IpoUeBGR3KYJwT4
+                      - checkbox [ref=e7246]
+                      - text: Bachelorette Party
+                  - listitem [ref=e7248]:
+                    - button "See more, Occasion" [ref=e7251] [cursor=pointer]: See more
+              - group "Pocket Description" [ref=e7253]:
+                - heading "Pocket Description" [level=2] [ref=e7254]
+                - list "Pocket Description" [ref=e7255]:
+                  - listitem "Popular Shopping Ideas" [ref=e7256]:
+                    - link "Apply the filter Kangaroo Pocket to narrow results" [ref=e7258] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1003373046111%3A66052455031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=29590838031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1003373046111_1&ds=v1%3A9K6IjTK3%2Btob%2F6%2FtyAYml4S2lDJj8fPRCK6mw2mGxh8
+                      - checkbox [ref=e7261]
+                      - text: Kangaroo Pocket
+                  - listitem "Popular Shopping Ideas" [ref=e7263]:
+                    - link "Apply the filter Cargo Pocket to narrow results" [ref=e7265] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1003373046111%3A29591648031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=29590838031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1003373046111_2&ds=v1%3Ac7mNN%2FiSLjHj28vSN5%2BGWSzFDHAPiml0t00VKT2d3CE
+                      - checkbox [ref=e7268]
+                      - text: Cargo Pocket
+                  - listitem "Popular Shopping Ideas" [ref=e7270]:
+                    - link "Apply the filter Patch Pocket to narrow results" [ref=e7272] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1003373046111%3A29591650031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=29590838031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1003373046111_3&ds=v1%3Af3By%2BFX7mwYhg1f27UqljJEufskD9pN2AerYysc%2BsaQ
+                      - checkbox [ref=e7275]
+                      - text: Patch Pocket
+                  - listitem "Popular Shopping Ideas" [ref=e7277]:
+                    - link "Apply the filter Coin Pocket to narrow results" [ref=e7279] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1003373046111%3A29591651031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=29590838031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1003373046111_4&ds=v1%3AKBeMvQiW5WL%2FRxACw0gzS7XwtRacQQA2VFYkJJJeUGU
+                      - checkbox [ref=e7282]
+                      - text: Coin Pocket
+                  - listitem "Popular Shopping Ideas" [ref=e7284]:
+                    - link "Apply the filter Flap Pocket to narrow results" [ref=e7286] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1003373046111%3A29591649031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=29590838031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1003373046111_5&ds=v1%3Au4dC8JLs9ff%2FhETD3Cb1sR9d8NvQankDGhSAZDegbK4
+                      - checkbox [ref=e7289]
+                      - text: Flap Pocket
+                  - listitem "Popular Shopping Ideas" [ref=e7291]:
+                    - link "Apply the filter Jetted Pocket to narrow results" [ref=e7293] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1003373046111%3A66052452031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=29590838031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1003373046111_6&ds=v1%3ASkTThdlHcybtX6pPdxHid9LNI9Eh04QoQy%2BphWS2Kpc
+                      - checkbox [ref=e7296]
+                      - text: Jetted Pocket
+                  - listitem "Popular Shopping Ideas" [ref=e7298]:
+                    - link "Apply the filter Round Pocket to narrow results" [ref=e7300] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1003373046111%3A29591647031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=29590838031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1003373046111_7&ds=v1%3AbYGWdfVtaQCds2nOpA86UunZ3MMrRz2r8zeNxJYnJgc
+                      - checkbox [ref=e7303]
+                      - text: Round Pocket
+                  - listitem "Popular Shopping Ideas" [ref=e7305]:
+                    - link "Apply the filter Slant Pocket to narrow results" [ref=e7307] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1003373046111%3A29591646031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=29590838031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1003373046111_8&ds=v1%3Ape7Rtz5J8rSL3HIdVaMEB%2BFtlXrXOe6l72QlLCsFCto
+                      - checkbox [ref=e7310]
+                      - text: Slant Pocket
+                  - listitem "Popular Shopping Ideas" [ref=e7312]:
+                    - link "Apply the filter Slit Pocket to narrow results" [ref=e7314] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1003373046111%3A29591652031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=29590838031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1003373046111_9&ds=v1%3At4kwESpRfwA9twdLQcInWAP4HFpu6tzFJ9GUYRy3VIY
+                      - checkbox [ref=e7317]
+                      - text: Slit Pocket
+                  - listitem "Popular Shopping Ideas" [ref=e7319]:
+                    - link "Apply the filter Straight Pocket to narrow results" [ref=e7321] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1003373046111%3A66052453031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=29590838031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1003373046111_10&ds=v1%3AO%2FlHU9KF9X3P5vDc%2F%2BbH36tOqykalluPhBv6FFItLos
+                      - checkbox [ref=e7324]
+                      - text: Straight Pocket
+                  - listitem "Popular Shopping Ideas" [ref=e7326]:
+                    - link "Apply the filter Welt Pocket to narrow results" [ref=e7328] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-1003373046111%3A66052456031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=29590838031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-1003373046111_11&ds=v1%3AxZKFrZ%2BqskMqa05QkA0Ts64VoMyhn0utJ9sQgTPrtHA
+                      - checkbox [ref=e7331]
+                      - text: Welt Pocket
+              - group "Customizable Products" [ref=e7333]:
+                - heading "Customizable Products" [level=2] [ref=e7334]
+                - list "Customizable Products" [ref=e7335]:
+                  - listitem "Popular Shopping Ideas" [ref=e7336]:
+                    - link "Apply the filter Customizable to narrow results" [ref=e7338] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_customizable_template_name%3A206762212031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=206762211031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_customizable_template_name_1&ds=v1%3AJ%2BZRtR2m378SCZ6E4E7ASkw0GzJWCy2I0ywKl7O5V68
+                      - checkbox [ref=e7341]
+                      - text: Customizable
+              - group "UV Protection" [ref=e7343]:
+                - heading "UV Protection" [level=2] [ref=e7344]
+                - list "UV Protection" [ref=e7345]:
+                  - listitem "Popular Shopping Ideas" [ref=e7346]:
+                    - link "Apply the filter UPF 15 to narrow results" [ref=e7348] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-101017399029111%3A214893148031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=214893141031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-101017399029111_1&ds=v1%3AakxR5DymBC9N2gswW2ROhucM%2Fp531T2Qn%2FSjp6llFTo
+                      - checkbox [ref=e7351]
+                      - text: UPF 15
+                  - listitem "Popular Shopping Ideas" [ref=e7353]:
+                    - link "Apply the filter UPF 25 to narrow results" [ref=e7355] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-101017399029111%3A214893150031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=214893141031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-101017399029111_2&ds=v1%3AlOwD70OWJ02c%2FRKzmMPgxBGTO7BkTpApkBH0kx7EPoc
+                      - checkbox [ref=e7358]
+                      - text: UPF 25
+                  - listitem "Popular Shopping Ideas" [ref=e7360]:
+                    - link "Apply the filter UPF 30 to narrow results" [ref=e7362] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-101017399029111%3A214893149031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=214893141031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-101017399029111_3&ds=v1%3ArzgDdqpnPHW2WWkxaVerzy%2Bj%2B91e4tMdYaLUYnqABbo
+                      - checkbox [ref=e7365]
+                      - text: UPF 30
+                  - listitem "Popular Shopping Ideas" [ref=e7367]:
+                    - link "Apply the filter UPF 50 to narrow results" [ref=e7369] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-101017399029111%3A214893144031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=214893141031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-101017399029111_4&ds=v1%3AP8gMKajPclhljVdHcxaJUTJai2cWJMeBXk6wRcJjiPY
+                      - checkbox [ref=e7372]
+                      - text: UPF 50
+                  - listitem "Popular Shopping Ideas" [ref=e7374]:
+                    - link "Apply the filter UPF 50+ to narrow results" [ref=e7376] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=p_n_g-101017399029111%3A214893143031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=214893141031&sprefix=%2Caps%2C249&ref=sr_nr_p_n_g-101017399029111_5&ds=v1%3AVh0TeK5mCSPYy8Xwvw0AcvDDqUkxLjV5GdIqTdpKSD0
+                      - checkbox [ref=e7379]
+                      - text: UPF 50+
+              - group "Category" [ref=e7381]:
+                - heading "Category" [level=2] [ref=e7382]
+                - list "Category" [ref=e7383]:
+                  - listitem [ref=e7384]:
+                    - link "Men's Clothing" [ref=e7386] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=n%3A1968024031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=3576079031&sprefix=%2Caps%2C249&ref=sr_nr_n_1&ds=v1%3AUXZqszm35E1uJGnRlxu%2FoC%2BJY1pNJRD3GqlyKand%2BAA
+                  - list [ref=e7387]:
+                    - listitem [ref=e7388]:
+                      - link "Men's Activewear T-Shirts" [ref=e7390] [cursor=pointer]:
+                        - /url: /s?k=gym+clothes+men&rh=n%3A1968024031%2Cn%3A25965168031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=3576079031&sprefix=%2Caps%2C249&ref=sr_nr_n_2&ds=v1%3Axd%2FX7aJhjWW7jcfNnrNlqNCJL6AfQ6WWJqSxjkXlLQs
+                    - list
+                    - listitem [ref=e7391]:
+                      - link "Men's Track Pants" [ref=e7393] [cursor=pointer]:
+                        - /url: /s?k=gym+clothes+men&rh=n%3A1968024031%2Cn%3A25965171031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=3576079031&sprefix=%2Caps%2C249&ref=sr_nr_n_3&ds=v1%3AfQOLMzfJKhqfhWlAKcjX6hViGnYwwvNT0%2BCNXx36fFw
+                    - list
+                    - listitem [ref=e7394]:
+                      - link "Men's T-Shirts" [ref=e7396] [cursor=pointer]:
+                        - /url: /s?k=gym+clothes+men&rh=n%3A1968024031%2Cn%3A1968123031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=3576079031&sprefix=%2Caps%2C249&ref=sr_nr_n_4&ds=v1%3ARzKPKk6mzf9sqLgTjWxGthun2POYDTZ0Bh4powVg8jk
+                    - list
+                    - listitem [ref=e7397]:
+                      - link "Men's Sports Shorts" [ref=e7399] [cursor=pointer]:
+                        - /url: /s?k=gym+clothes+men&rh=n%3A1968024031%2Cn%3A1968068031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=3576079031&sprefix=%2Caps%2C249&ref=sr_nr_n_5&ds=v1%3ADVa7c%2F2JvasA5%2FcAF9zX7xjfL93gN7uP8AIMCx4cjxs
+                    - list
+                    - listitem [ref=e7400]:
+                      - link "Men's Activewear Vests" [ref=e7402] [cursor=pointer]:
+                        - /url: /s?k=gym+clothes+men&rh=n%3A1968024031%2Cn%3A25965164031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=3576079031&sprefix=%2Caps%2C249&ref=sr_nr_n_6&ds=v1%3A%2FEvmUrkPSIgiZIE9nMRshxRMH9LJ83TCIQHldJlVVlo
+                    - list
+                    - listitem [ref=e7403]:
+                      - link "Men's Sports Tank Tops" [ref=e7405] [cursor=pointer]:
+                        - /url: /s?k=gym+clothes+men&rh=n%3A1968024031%2Cn%3A1968064031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=3576079031&sprefix=%2Caps%2C249&ref=sr_nr_n_7&ds=v1%3AcrnwU9aNRJIA6N2SfDlY4zbNoehkoTZ64Sn5QnQuCyU
+                    - list
+                  - listitem [ref=e7406]:
+                    - link "Men's Running Shorts" [ref=e7408] [cursor=pointer]:
+                      - /url: /s?k=gym+clothes+men&rh=n%3A3414749031&dc&crid=NKNQ018KCWAW&qid=1782840509&rnid=3576079031&sprefix=%2Caps%2C249&ref=sr_nr_n_8&ds=v1%3AaxEAtClej5j%2Fu0OrNuvlefTfKZPzFxi0QfOYD%2FKWAfw
+                  - list
+            - generic [ref=e7412]:
+              - iframe [ref=e7413]:
+                - generic [ref=f2e4]:
+                  - generic [ref=f2e5]: "Sponsored Ad. Brand logo. Product image. SWAGR 12 Pairs Solid Cotton Ankle Length Socks for Men Women, Pack of 12., Assorted Price: ₹168.98 Shop now"
+                  - link "Click to navigate to product detail page" [ref=f2e8] [cursor=pointer]:
+                    - /url: https://aax-eu-zaz.amazon.in/x/c/RGtZyLBqr4VCi5AAzRAYCLoAAAGfGZNEuQoAAAH_AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICBgLj7C/clv1c_ek-gg4H3LcTCTRHuNa2dgZDarUqyL4jwWNlW_suarcM2RINaB-O-CAqBlX2ak0U73U6UVzWwaZW3f-mowngiNHHLRIlaUrAZ9SsRHjvtvM2Wh5VIXCEEtDf9ylNmcGCSD5nDGpaZi0xzIFtJNOVn7OKz4N6f8lP3xy64D2guSbCkm4FNy-Dsxs3-3JXZYX0fRN3ntGkpFSL-mleoN-vqE0yrnN23VmWouDcaN5TnrcxouvvXrNFBgnYrj_9nPl61xcbdbj109mRPQfsMm9i8VyhtCzpQk_Lii0bdsIgL3BU3h7XKRCY2t42f-LwaAQowTv5UBy95FmPgwH3UGXGF-cajqiWqbjMB_bbRpqdzT_cSaCmophDGD22QqSte9QfYNoSSOQOCeIrdpReEplFhFCAKPw-Cjq7I-0WvHgmn9g3Esn8aW_Q8ZwrQga4meCFEvocrdfEQ1A2ntkCv5WSbTj07juyytfI8omICO4cPrALDtnv8B4aA-8Le6es7IyX4IpcFgL_k1nMiAmbDPLDmj40wW-k0zz1E6Wp-ruKpct97JBSnnlYpkDqvV0_eV3mTkaVnjnb12x4itDR-uX-I9NTB4NzgSjjAOWSzo1MzZDNpPMRbjYJwE50nF3z8FsVONaZEmZThNI1efQG0PhS2Q1H8BKV3Nn0rrwjo5aBxX67a51wEeAjVtsnFrdF4_MKSHC2BP-kI2JjYha8_uEJ7ckzPf85ZcvYEmaq7k3bpytwnDfxzt_RYTJ0relGCOqRNPvMBNbjb3T-B7TXlVF4X6nICyf1waD20pIWIvnSUnjCyge-nFpns_pq9ztuFw1ZfyWBtUZ77_L3R7EPL3ziaAAOHGF6Ud7pA3IjgWQdJZEPY36xdg5XKUcX2SanyFvQyW0mLayhQSXuhRDnJkmAChZ-2xKss5YDa5yNfvVALBo_qndTCp35d1ptjuNi18-t66_Ea_oQ5V00VVdU_Gaid_KRjK1e-m2s4BqHT0PvossLmz1PYrTALoLAmwt2jQZ_3Uqmi5A/http://www.amazon.in/dp/B0DC14CYKR/ref=syn_sd_onsite_desktop_0?ie=UTF8&psc=1&pd_rd_plhdr=t&aref=ZSUXyDc11u
+                  - generic [ref=f2e9]:
+                    - img "Brand logo" [ref=f2e13]
+                    - img "Product image" [ref=f2e17]
+              - button "Leave feedback on Sponsored advertisement" [ref=e7415] [cursor=pointer]:
+                - generic [ref=e7416]: Sponsored
+            - generic [ref=e7421]:
+              - iframe [ref=e7422]:
+                - generic [ref=f3e4]:
+                  - generic [ref=f3e5]: "Sponsored Ad. Brand logo. Product image. SWAGR 12 Pairs Solid Cotton Ankle Length Socks for Men Women, Pack of 12., Assorted Price: ₹168.98 Shop now"
+                  - link "Click to navigate to product detail page" [ref=f3e8] [cursor=pointer]:
+                    - /url: https://aax-eu-zaz.amazon.in/x/c/ROESyC17SXykHzSEvupYU54AAAGfGZNEuQoAAAH_AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICDE3eEg/clv1c_ek-ggwWW7MXCjZBfnZ34IRbJGUz1WF7UxZ8ZRcn_DAD8pVGYJInu8E-IlXvAOJkeXb81I4U0mBwfX95EXjOi1upJ4MiH6pGqoXANPg_DHEo7kCf7pHKSx59u6KkQg94YQYkYHmcly4m6bLyK6gV96SB6INuophW04lRjTjNLCMmrPEBBBVq36kLJZpr4l1lS_1hNoyNaPfRv281NfmIAY__rOG--hsoS_age2oBhKOk1jyJUPzMpJqi0t0VR_e8H2wLMwOWLgGgT7ZbbqHfQghLIMzqf1--G3CqjYIRxmQUF2cfLf_qnH9s_b4ix15lCAyYR6Geve43DqMkWm9uTk6kMA4Q5oDh4gRF2QnzH-0mm7dTbzOHA3SyJW_rJ7YdwTAk2loTm2r0TLGs7aJt0Ub2QM3iHUgXcxicatrFHGD9VMbt0aFslBmlQlN1vHYTbWK2HBySuwvud8optMin0I11Ebp8B1BCcAKl7PLr0bSFupkzgp58zRnutDXJKN0BOI4bFRPf5LpMqxFiv4hG9zGM7eRpSjg8ZM1vHZ9bRtsRRk9uFs75b-o6FAgRpjg-s2WwSDg9i2Sa33rLkgUgXZYIWtDQPSvg-p_XvfVyh5aVgTSnFwsHilku9lqXjAHTrJDxiBSXOkJS01BnyQABilweuHuIpM4wiDOHNICpmYmzMW9ONxGYffN5369oqdyuvPDo8KiEdvwxFoaXjBjrX62NrXyoHabYe3SD0-A7atRSYTw5QxDjSYOee9jHeeFSEMUGQqPwu2gh82EhcAxwHiPhaFsddwCww3ImvAFzOxYYXP3hpwVsR1RcIyJmcX-e-qXUO-AqQSYtdPUQFjF7WCOx0BpXbgGw766fjRo_E6LrZF4hdjyk0o70T8cLQ-tXYuM-3bwedqOL4VuUaCgdMPIMuXrYucY3vGaMuU5SHFTNvLwC_UpoQThQ8Y8ymJ5KyK8d8iAwCWbiJWFsgFxE85vPO7ZCifsMMZPKt2upgRVBRveI8vuzgOl9dw8LUj97ddl-cW3I/http://www.amazon.in/dp/B0DC14CYKR/ref=syn_sd_onsite_desktop_0?ie=UTF8&psc=1&pd_rd_plhdr=t&aref=ZSUXyDc11u
+                  - generic [ref=f3e9]:
+                    - img "Brand logo" [ref=f3e13]
+                    - img "Product image" [ref=f3e17]
+              - button "Leave feedback on Sponsored advertisement" [ref=e7424] [cursor=pointer]:
+                - generic [ref=e7425]: Sponsored
+  - complementary "Your recently viewed items and featured recommendations"
+  - generic [ref=e7427]:
+    - button "Back to top" [ref=e7428] [cursor=pointer]:
+      - generic [ref=e7429]: Back to top
+    - generic [ref=e7430]:
+      - generic [ref=e7431]:
+        - heading "Get to Know Us" [level=6] [ref=e7432]
+        - list [ref=e7433]:
+          - listitem [ref=e7434]:
+            - link "About Amazon" [ref=e7435] [cursor=pointer]:
+              - /url: https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e7436]:
+            - link "Careers" [ref=e7437] [cursor=pointer]:
+              - /url: https://amazon.jobs
+          - listitem [ref=e7438]:
+            - link "Press Releases" [ref=e7439] [cursor=pointer]:
+              - /url: https://press.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e7440]:
+            - link "Amazon Science" [ref=e7441] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=e7443]:
+        - heading "Connect with Us" [level=6] [ref=e7444]
+        - list [ref=e7445]:
+          - listitem [ref=e7446]:
+            - link "Facebook" [ref=e7447] [cursor=pointer]:
+              - /url: https://www.facebook.com/AmazonIN
+          - listitem [ref=e7448]:
+            - link "Twitter" [ref=e7449] [cursor=pointer]:
+              - /url: https://x.com/AmazonIN
+          - listitem [ref=e7450]:
+            - link "Instagram" [ref=e7451] [cursor=pointer]:
+              - /url: https://www.instagram.com/amazondotin
+      - generic [ref=e7453]:
+        - heading "Make Money with Us" [level=6] [ref=e7454]
+        - list [ref=e7455]:
+          - listitem [ref=e7456]:
+            - link "Sell on Amazon" [ref=e7457] [cursor=pointer]:
+              - /url: /b/?node=2838698031&ld=AZINSOANavDesktopFooter_C&ref_=nav_footer_sell_C
+          - listitem [ref=e7458]:
+            - link "Sell under Amazon Accelerator" [ref=e7459] [cursor=pointer]:
+              - /url: https://accelerator.amazon.in/?ref_=map_1_b2b_GW_FT
+          - listitem [ref=e7460]:
+            - link "Protect and Build Your Brand" [ref=e7461] [cursor=pointer]:
+              - /url: https://brandservices.amazon.in/?ref=AOINABRLGNRFOOT&ld=AOINABRLGNRFOOT
+          - listitem [ref=e7462]:
+            - link "Amazon Global Selling" [ref=e7463] [cursor=pointer]:
+              - /url: https://sell.amazon.in/grow-your-business/amazon-global-selling.html?ld=AZIN_Footer_V1&ref=AZIN_Footer_V1
+          - listitem [ref=e7464]:
+            - link "Supply to Amazon" [ref=e7465] [cursor=pointer]:
+              - /url: https://supply.amazon.com/?ref_=footer_sta&lang=en-IN
+          - listitem [ref=e7466]:
+            - link "Become an Affiliate" [ref=e7467] [cursor=pointer]:
+              - /url: https://affiliate-program.amazon.in/?utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW&ref_=footer_assoc
+          - listitem [ref=e7468]:
+            - link "Fulfilment by Amazon" [ref=e7469] [cursor=pointer]:
+              - /url: https://services.amazon.in/services/fulfilment-by-amazon/benefits.html/ref=az_footer_fba?ld=AWRGINFBAfooter
+          - listitem [ref=e7470]:
+            - link "Advertise Your Products" [ref=e7471] [cursor=pointer]:
+              - /url: https://advertising.amazon.in/?ref=Amz.in
+          - listitem [ref=e7472]:
+            - link "Amazon Pay on Merchants" [ref=e7473] [cursor=pointer]:
+              - /url: https://www.amazonpay.in/merchant
+      - generic [ref=e7475]:
+        - heading "Let Us Help You" [level=6] [ref=e7476]
+        - list [ref=e7477]:
+          - listitem [ref=e7478]:
+            - link "Your Account" [ref=e7479] [cursor=pointer]:
+              - /url: /gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=e7480]:
+            - link "Returns Centre" [ref=e7481] [cursor=pointer]:
+              - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=e7482]:
+            - link "Recalls and Product Safety Alerts" [ref=e7483] [cursor=pointer]:
+              - /url: https://www.amazon.in/your-product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=e7484]:
+            - link "100% Purchase Protection" [ref=e7485] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201083470&ref_=footer_swc
+          - listitem [ref=e7486]:
+            - link "Amazon App Download" [ref=e7487] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6967393031&ref_=footer_mobapp
+          - listitem [ref=e7488]:
+            - link "Help" [ref=e7489] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=footer_gw_m_b_he
+    - generic [ref=e7491]:
+      - link "Amazon India Home" [ref=e7494] [cursor=pointer]:
+        - /url: /ref=footer_logo
+      - generic [ref=e7497]:
+        - generic [ref=e7498]:
+          - link "Choose a language for shopping. Current selection is English." [ref=e7499] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=e7501]: English
+          - button "Expand to Change Language or Country" [ref=e7502] [cursor=pointer]
+        - button "Choose a country/region for shopping. The current selection is India." [ref=e7503] [cursor=pointer]:
+          - generic [ref=e7505]: India
+    - generic "More on Amazon" [ref=e7506]:
+      - generic "More on Amazon" [ref=e7507]:
+        - list [ref=e7508]:
+          - listitem [ref=e7509]:
+            - link "AbeBooks Books, art & collectibles" [ref=e7510] [cursor=pointer]:
+              - /url: https://www.abebooks.com/
+              - heading "AbeBooks" [level=5] [ref=e7511]
+              - generic [ref=e7512]:
+                - text: Books, art
+                - text: "& collectibles"
+          - listitem [ref=e7513]
+          - listitem [ref=e7514]:
+            - link "Amazon Web Services Scalable Cloud Computing Services" [ref=e7515] [cursor=pointer]:
+              - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=IN_amazonfooter
+              - heading "Amazon Web Services" [level=5] [ref=e7516]
+              - generic [ref=e7517]:
+                - text: Scalable Cloud
+                - text: Computing Services
+          - listitem [ref=e7518]
+          - listitem [ref=e7519]:
+            - link "Audible Download Audio Books" [ref=e7520] [cursor=pointer]:
+              - /url: https://www.audible.in/
+              - heading "Audible" [level=5] [ref=e7521]
+              - generic [ref=e7522]:
+                - text: Download
+                - text: Audio Books
+          - listitem [ref=e7523]
+          - listitem [ref=e7524]:
+            - link "IMDb Movies, TV & Celebrities" [ref=e7525] [cursor=pointer]:
+              - /url: https://www.imdb.com/
+              - heading "IMDb" [level=5] [ref=e7526]
+              - generic [ref=e7527]:
+                - text: Movies, TV
+                - text: "& Celebrities"
+        - list [ref=e7528]:
+          - listitem [ref=e7529]:
+            - link "Shopbop Designer Fashion Brands" [ref=e7530] [cursor=pointer]:
+              - /url: https://www.shopbop.com/
+              - heading "Shopbop" [level=5] [ref=e7531]
+              - generic [ref=e7532]:
+                - text: Designer
+                - text: Fashion Brands
+          - listitem [ref=e7533]
+          - listitem [ref=e7534]:
+            - link "Amazon Business Everything For Your Business" [ref=e7535] [cursor=pointer]:
+              - /url: /business?ref=footer_aingw
+              - heading "Amazon Business" [level=5] [ref=e7536]
+              - generic [ref=e7537]:
+                - text: Everything For
+                - text: Your Business
+          - listitem [ref=e7538]
+          - listitem [ref=e7539]:
+            - link "Amazon Music Stream millions of songs" [ref=e7540] [cursor=pointer]:
+              - /url: /music/player?ref=footer_apm
+              - heading "Amazon Music" [level=5] [ref=e7541]
+              - generic [ref=e7542]: Stream millions of songs
+          - listitem [ref=e7543]
+          - listitem [ref=e7544]
+    - generic [ref=e7545]:
+      - list [ref=e7546]:
+        - listitem [ref=e7547]:
+          - link "Conditions of Use & Sale" [ref=e7548] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou
+        - listitem [ref=e7549]:
+          - link "Privacy Notice" [ref=e7550] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200534380&ref_=footer_privacy
+        - listitem [ref=e7551]:
+          - link "Interest-Based Ads" [ref=e7552] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=202075050&ref_=footer_iba
+      - generic [ref=e7553]: © 1996-2026, Amazon.com, Inc. or its affiliates
+  - iframe [ref=e7555]:
+    - iframe [ref=f5e2]:
+      - generic [active] [ref=f6e1]:
+        - img [ref=f6e2]
+        - img [ref=f6e3]
+        - img [ref=f6e4]
+        - img [ref=f6e5]
+        - img [ref=f6e6]
+        - img [ref=f6e7]
+        - img [ref=f6e8]
+        - img [ref=f6e9]
+        - img [ref=f6e10]
+        - img [ref=f6e11]
+        - img [ref=f6e12]
+        - img [ref=f6e13]
+        - img [ref=f6e14]
+        - img [ref=f6e15]
+        - img [ref=f6e16]
+        - img [ref=f6e17]
+        - img [ref=f6e18]
+        - img [ref=f6e19]
+        - img [ref=f6e20]
+        - img [ref=f6e21]
+        - img [ref=f6e22]
+        - img [ref=f6e23]
+        - img [ref=f6e24]
+        - img [ref=f6e25]
+        - img [ref=f6e26]
+        - img [ref=f6e27]
+        - img [ref=f6e28]
+        - img [ref=f6e29]
+        - img [ref=f6e30]
+        - img [ref=f6e31]
+        - img [ref=f6e32]
+        - img [ref=f6e33]
+        - img [ref=f6e34]
+        - img [ref=f6e35]
+        - img [ref=f6e36]
+        - img [ref=f6e37]
+        - img [ref=f6e38]
+        - img [ref=f6e39]
+        - img [ref=f6e40]
+```

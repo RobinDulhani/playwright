@@ -1,0 +1,11 @@
+[2026-06-30 17:38:23] [STEP] [AmazonPage] ▶ Navigating to Amazon.in
+[2026-06-30 17:38:27] [INFO] [AmazonPage] ✅ Amazon.in homepage loaded.
+[2026-06-30 17:38:27] [STEP] [AmazonPage] ▶ Searching for: "gym clothes men"
+[2026-06-30 17:38:30] [INFO] [AmazonPage] ✅ Search completed for "gym clothes men".
+[2026-06-30 17:38:30] [STEP] [AmazonPage] ▶ Clicking on the first product in search results
+[2026-06-30 17:38:30] [INFO] [AmazonPage] Search results loaded.
+[2026-06-30 17:38:32] [INFO] [AmazonPage] ✅ First product page opened.
+[2026-06-30 17:38:32] [STEP] [AmazonPage] ▶ Adding product to cart
+[2026-06-30 17:38:37] [INFO] [AmazonPage] ✅ Product added to cart.
+[2026-06-30 17:38:37] [STEP] [AmazonPage] ▶ Verifying cart count is updated
+[2026-06-30 17:38:37] [INFO] [AmazonPage] ✅ Cart count is 1 — cart updated successfully.

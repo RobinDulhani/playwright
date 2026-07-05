@@ -111,7 +111,7 @@ export const ENV_CONFIG: EnvironmentConfig = {
   ENV_NAME: getEnvVar('ENV_NAME', 'development'),
 
   // ─── Application URLs ─────────────────────────────────────────────
-  UI_BASE_URL: getEnvVar('UI_BASE_URL', 'https://clarios--fcsit2.sandbox.my.site.com/nacustomercommunity/s/login/'),
+  UI_BASE_URL: getEnvVar('UI_BASE_URL', ''),
   API_BASE_URL: getEnvVar('API_BASE_URL', 'https://jsonplaceholder.typicode.com'),
 
   // ─── Timeouts (in milliseconds) ───────────────────────────────────

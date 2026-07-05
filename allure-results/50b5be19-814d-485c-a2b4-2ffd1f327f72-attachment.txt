@@ -1,0 +1,5 @@
+[2026-06-30 17:24:57] [STEP] [AmazonPage] ▶ Navigating to Amazon.in
+[2026-06-30 17:25:00] [INFO] [AmazonPage] ✅ Amazon.in homepage loaded.
+[2026-06-30 17:25:00] [STEP] [AmazonPage] ▶ Searching for: "gym clothes men"
+[2026-06-30 17:25:03] [INFO] [AmazonPage] ✅ Search completed for "gym clothes men".
+[2026-06-30 17:25:03] [STEP] [AmazonPage] ▶ Clicking on the first product in search results
